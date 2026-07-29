@@ -41,7 +41,10 @@ button { cursor: pointer; }
 .brand-block strong, .brand-block span { display: block; }
 .brand-block strong { font-size: 16px; letter-spacing: .2px; }
 .brand-block span { color: #9eabc0; font-size: 11px; margin-top: 3px; }
-.primary-nav { display: grid; gap: 5px; margin-top: 22px; }
+.primary-nav { display: grid; gap: 5px; margin-top: 22px; flex: 1 1 auto; min-height: 0; overflow-y: auto; overflow-x: hidden; }
+.primary-nav::-webkit-scrollbar { width: 8px; }
+.primary-nav::-webkit-scrollbar-thumb { background: rgba(255,255,255,.18); border-radius: 6px; }
+.primary-nav::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,.3); }
 .nav-item { border: 0; background: transparent; color: #aeb9ca; padding: 11px 12px; border-radius: 9px; text-align: left; display: flex; gap: 11px; align-items: center; font-size: 13px; }
 .nav-item span { width: 18px; text-align: center; }
 .nav-item:hover, .nav-item.active { background: rgba(255,255,255,.1); color: #fff; }
