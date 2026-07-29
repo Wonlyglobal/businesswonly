@@ -829,11 +829,12 @@ window.__ACQUIRE_DATA__.customers = [];
   const renderDD = () => {
     workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Wonly Acquire OS / 客户背调</div><h1>客户背调工作台</h1><p>已有明确客户，想查它的背景与公开联系方式？在下方直接搜公司名即可秒查库内背调；库里还没有的公司，用“申请背调”提交，由系统每日自动背调后并入线索库。</p></div><div class="top-actions"><span class="demo-badge" id="dd-stamp">读取中…</span></div></header>'+
       '<section class="metrics"><article><span>可即时查询</span><strong id="dd-total">0</strong><small>库内真实公司（每日增长）</small></article><article><span>含公开电话</span><strong id="dd-phone">0</strong><small>可直接拨号 / 发信</small></article><article><span>今日新增</span><strong id="dd-today">0</strong><small>定时任务每日补充</small></article><article><span>数据原则</span><strong>不编造</strong><small>只给公开可查的联系方式</small></article></section>'+
-      '<div style="display:flex;gap:8px;margin:0 0 12px"><button class="scroll-btn dd-tab" id="dd-tab-q" style="font-weight:600">① 即时背调查询</button><button class="scroll-btn dd-tab" id="dd-tab-a">② 申请背调（库中没有的公司）</button></div>'+
+      '<div style="display:flex;gap:8px;margin:0 0 12px;flex-wrap:wrap"><button class="scroll-btn dd-tab" id="dd-tab-q" style="font-weight:600">① 即时背调查询</button><button class="scroll-btn dd-tab" id="dd-tab-a">② 申请背调（库中没有的公司）</button><button class="scroll-btn dd-tab" id="dd-tab-b">③ 我的申请看板</button></div>'+
       '<section class="content-panel" id="dd-panel-q"><div class="filterbar"><label class="search-box" style="flex:1"><span>⌕</span><input id="dd-query" aria-label="搜索公司" placeholder="输入公司名（中/英）、城市或国家，如 Yale、Häfele、AlMoajil、Dubai…"></label></div><div id="dd-results" style="margin-top:6px"><div class="empty-state"><strong>输入公司名开始背调查询</strong><span>可只输入部分名称。查到后展示：背景、经营品牌、规模、进口信号、决策人、公开邮箱/电话与来源链接。</span></div></div></section>'+
       '<section class="content-panel static-hidden" id="dd-panel-a"><p style="color:#556;font-size:13px;margin:0 0 12px">库里暂时没有的公司，填在这里提交。提交内容保存在本页，点“导出申请”交给管理员或由系统每日自动背调后并入线索库（成员申请会打上“成员申请背调”标签）。<b>只会给出公开可查的联系方式，查不到的留空、不编造。</b></p>'+
       '<div class="filterbar" style="flex-wrap:wrap;gap:10px"><label class="search-box" style="flex:2;min-width:220px"><span>🏢</span><input id="dd-f-name" placeholder="公司名 *（必填）"></label><label class="search-box" style="flex:1;min-width:150px"><span>🌐</span><input id="dd-f-country" placeholder="国家 / 城市"></label><label class="search-box" style="flex:2;min-width:200px"><span>✎</span><input id="dd-f-note" placeholder="官网 / 备注（可选）"></label><button class="export-btn" id="dd-add" style="background:#1f3a5f;color:#fff">＋ 加入申请清单</button></div>'+
-      '<div id="dd-req-wrap" style="margin-top:14px"></div></section>';
+      '<div id="dd-req-wrap" style="margin-top:14px"></div></section>'+
+      '<section class="content-panel static-hidden" id="dd-panel-b"><p style="color:#556;font-size:13px;margin:0 0 12px">这里显示<b>你自己提交过的</b>背调申请及其进度（数据存在本浏览器）。状态：<span class="fit-badge fit-0">待提交</span> 已存本地/待进队列 → <span class="fit-badge fit-3">处理中</span> 已进处理队列 → <span class="fit-badge fit-5">已完成</span> 系统已背调、可查联系方式。</p><div id="dd-board"></div></section>';
     const boot = data => {
       const all = Array.isArray(data.leads)?data.leads:[];
       const esc = escContact;
@@ -843,9 +844,27 @@ window.__ACQUIRE_DATA__.customers = [];
       document.getElementById('dd-today').textContent = all.filter(l=>l.addedDate===today).length;
       document.getElementById('dd-stamp').textContent = '库更新 '+today;
       // tabs
-      const tq=document.getElementById('dd-tab-q'), ta=document.getElementById('dd-tab-a'), pq=document.getElementById('dd-panel-q'), pa=document.getElementById('dd-panel-a');
-      const setTab=t=>{const q=t==='q';pq.classList.toggle('static-hidden',!q);pa.classList.toggle('static-hidden',q);tq.style.fontWeight=q?'600':'';ta.style.fontWeight=q?'':'600';tq.style.color=q?'#1f3a5f':'';ta.style.color=q?'':'#1f3a5f';};
-      tq.addEventListener('click',()=>setTab('q')); ta.addEventListener('click',()=>setTab('a')); setTab('q');
+      const tq=document.getElementById('dd-tab-q'), ta=document.getElementById('dd-tab-a'), tb=document.getElementById('dd-tab-b'), pq=document.getElementById('dd-panel-q'), pa=document.getElementById('dd-panel-a'), pb=document.getElementById('dd-panel-b');
+      const setTab=t=>{[['q',pq,tq],['a',pa,ta],['b',pb,tb]].forEach(function(e){var on=e[0]===t; e[1].classList.toggle('static-hidden',!on); e[2].style.fontWeight=on?'600':''; e[2].style.color=on?'#1f3a5f':'';}); if(t==='b') drawBoard();};
+      tq.addEventListener('click',()=>setTab('q')); ta.addEventListener('click',()=>setTab('a')); tb.addEventListener('click',()=>setTab('b'));
+      // shared processing queue (already pushed for the daily/2h task)
+      let ddQueue=[]; fetch('./crawler/dd-requests.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]).then(a=>{ddQueue=Array.isArray(a)?a:[];}).catch(()=>{ddQueue=[];});
+      const normN=s=>String(s||'').toLowerCase().replace(/[^a-z0-9\\u4e00-\\u9fa5]+/g,'').trim();
+      const findLead=nm=>{const k=normN(nm); if(!k) return null; return all.find(l=>{const c=normN(l.company); return c&&(c.includes(k)||k.includes(c));})||null;};
+      const inQueue=nm=>{const k=normN(nm); return ddQueue.find(q=>{const c=normN(q.company); return c&&(c===k||c.includes(k)||k.includes(c));})||null;};
+      const drawBoard=()=>{const reqs=(function(){try{return JSON.parse(localStorage.getItem('wonly_dd_requests')||'[]');}catch(e){return [];}})(); const bd=document.getElementById('dd-board'); if(!bd) return;
+        const rows=reqs.map(r=>{const lead=findLead(r.company); const q=inQueue(r.company); let st,cls;
+          if(lead){st='已完成';cls='fit-5';} else if(q&&q.status==='done'){st='已完成(待同步)';cls='fit-4';} else if(q){st='处理中';cls='fit-3';} else {st='待提交';cls='fit-0';}
+          return {r:r,lead:lead,st:st,cls:cls};});
+        const done=rows.filter(x=>x.lead).length, proc=rows.filter(x=>!x.lead&&x.st.indexOf('处理')>=0).length, wait=rows.length-done-proc;
+        if(!rows.length){bd.innerHTML='<div class="empty-state"><strong>你还没有提交过背调申请</strong><span>到“② 申请背调”提交后，这里会逐条显示进度。</span></div>';return;}
+        bd.innerHTML='<div style="display:flex;gap:22px;margin:0 0 12px;flex-wrap:wrap;align-items:flex-end"><div><span style="font-size:11px;color:#8a94a6">我的申请</span><br><strong style="font-size:20px">'+rows.length+'</strong></div><div><span style="font-size:11px;color:#8a94a6">已完成</span><br><strong style="font-size:20px;color:#178a4c">'+done+'</strong></div><div><span style="font-size:11px;color:#8a94a6">处理中</span><br><strong style="font-size:20px;color:#b8860b">'+proc+'</strong></div><div><span style="font-size:11px;color:#8a94a6">待提交</span><br><strong style="font-size:20px;color:#8a94a6">'+wait+'</strong></div><div style="margin-left:auto"><button class="scroll-btn" id="dd-board-refresh">↻ 刷新进度</button></div></div>'+
+          '<div class="table-wrap"><table><thead><tr><th>公司</th><th>提交日期</th><th>状态</th><th>结果 / 说明</th><th></th></tr></thead><tbody>'+
+          rows.map(x=>'<tr><td><strong>'+esc(x.r.company)+'</strong>'+(x.r.country?'<br><small>'+esc(x.r.country)+'</small>':'')+'</td><td><small>'+esc(x.r.ts||'')+'</small></td><td><span class="fit-badge '+x.cls+'">'+x.st+'</span></td><td><small>'+(x.lead?('📧 '+(x.lead.email?esc(x.lead.email):'未公开')+' ｜ 📞 '+(x.lead.phone?esc(x.lead.phone):'未公开')):(x.st.indexOf('处理')>=0?'系统正在背调，完成后这里出结果':'已存本地，导出提交或等每2小时任务处理'))+'</small></td><td>'+(x.lead?'<button class="scroll-btn dd-view" data-nm="'+esc(x.r.company)+'">查看背调 →</button>':'')+'</td></tr>').join('')+
+          '</tbody></table></div>';
+        const rf=document.getElementById('dd-board-refresh'); rf&&rf.addEventListener('click',()=>{fetch('./crawler/dd-requests.json',{cache:'no-store'}).then(r=>r.ok?r.json():[]).then(a=>{ddQueue=Array.isArray(a)?a:[]; drawBoard();}).catch(()=>drawBoard());});
+        bd.querySelectorAll('.dd-view').forEach(btn=>btn.addEventListener('click',()=>{setTab('q'); const qi=document.getElementById('dd-query'); qi.value=btn.dataset.nm; qi.dispatchEvent(new Event('input'));}));};
+      setTab('q');
       // instant lookup
       const fitStars=fs=>{fs=Number(fs)||0; return fs?('<span class="fit-badge fit-'+fs+'">'+'★'.repeat(fs)+'</span>'):'<span class="fit-badge fit-0">—</span>';};
       const row=(lb,v)=>v?'<div class="dd-field"><span class="dd-label">'+esc(lb)+'</span><span class="dd-val">'+esc(v)+'</span></div>':'';
