@@ -366,7 +366,7 @@ td small { color: var(--muted); font-size: 9.5px; line-height: 1.4; margin-top: 
   <aside class="sidebar">
     <div class="brand-block"><div class="brand-mark">A</div><div><strong>Wonly Acquire OS</strong><span>全球客户情报系统</span></div><button class="nav-collapse-btn" id="nav-collapse-btn" title="收起侧栏" aria-label="收起侧栏">⟨</button></div>
     <nav class="primary-nav" aria-label="主导航">
-      <button class="nav-item active"><span>⌂</span>获客中心</button><button class="nav-item"><span>◎</span>账户雷达</button><button class="nav-item"><span>◇</span>联系人</button><button class="nav-item"><span>✓</span>任务与商机</button><button class="nav-item"><span>▦</span>数据源中心</button><button class="nav-item"><span>◫</span>分析中心</button><button class="nav-item"><span>◧</span>深度抓取</button><button class="nav-item"><span>◈</span>获客方式</button><button class="nav-item"><span>☷</span>客户线索库</button><button class="nav-item"><span>▥</span>市场调研</button>
+      <button class="nav-item active"><span>⌂</span>获客中心</button><button class="nav-item"><span>◎</span>账户雷达</button><button class="nav-item"><span>◇</span>联系人</button><button class="nav-item"><span>✓</span>任务与商机</button><button class="nav-item"><span>▦</span>数据源中心</button><button class="nav-item"><span>◫</span>分析中心</button><button class="nav-item"><span>◧</span>深度抓取</button><button class="nav-item"><span>◈</span>获客方式</button><button class="nav-item"><span>☷</span>客户线索库</button><button class="nav-item"><span>▥</span>市场调研</button><button class="nav-item"><span>🔍</span>客户背调</button>
     </nav>
     <div class="sidebar-foot"><div class="sync-status"><span class="status-dot"></span>8个渠道正常同步</div><div class="user-row"><span class="avatar">陈</span><div><strong>陈睿</strong><small>北美品牌客户组</small></div></div><button class="logout-link" onclick="window.__wonlyLogout&&window.__wonlyLogout()">⎋ 退出登录</button></div>
   </aside>
@@ -823,6 +823,64 @@ window.__ACQUIRE_DATA__.customers = [];
     if(window.__MARKET_CACHE__){ boot(window.__MARKET_CACHE__); }
     else { fetch('./crawler/market.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject(new Error('no_market'))).then(d=>{window.__MARKET_CACHE__=d; boot(d);}).catch(()=>{ document.getElementById('mkt-stamp').textContent='尚未生成'; document.getElementById('mkt-detail').innerHTML='<div class="empty-state"><strong>尚未生成市场调研</strong><span>数据文件 crawler/market.json 未找到。</span></div>'; }); }
   };
+  const renderDD = () => {
+    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Wonly Acquire OS / 客户背调</div><h1>客户背调工作台</h1><p>已有明确客户，想查它的背景与公开联系方式？在下方直接搜公司名即可秒查库内背调；库里还没有的公司，用“申请背调”提交，由系统每日自动背调后并入线索库。</p></div><div class="top-actions"><span class="demo-badge" id="dd-stamp">读取中…</span></div></header>'+
+      '<section class="metrics"><article><span>可即时查询</span><strong id="dd-total">0</strong><small>库内真实公司（每日增长）</small></article><article><span>含公开电话</span><strong id="dd-phone">0</strong><small>可直接拨号 / 发信</small></article><article><span>今日新增</span><strong id="dd-today">0</strong><small>定时任务每日补充</small></article><article><span>数据原则</span><strong>不编造</strong><small>只给公开可查的联系方式</small></article></section>'+
+      '<div style="display:flex;gap:8px;margin:0 0 12px"><button class="scroll-btn dd-tab" id="dd-tab-q" style="font-weight:600">① 即时背调查询</button><button class="scroll-btn dd-tab" id="dd-tab-a">② 申请背调（库中没有的公司）</button></div>'+
+      '<section class="content-panel" id="dd-panel-q"><div class="filterbar"><label class="search-box" style="flex:1"><span>⌕</span><input id="dd-query" aria-label="搜索公司" placeholder="输入公司名（中/英）、城市或国家，如 Yale、Häfele、AlMoajil、Dubai…"></label></div><div id="dd-results" style="margin-top:6px"><div class="empty-state"><strong>输入公司名开始背调查询</strong><span>可只输入部分名称。查到后展示：背景、经营品牌、规模、进口信号、决策人、公开邮箱/电话与来源链接。</span></div></div></section>'+
+      '<section class="content-panel static-hidden" id="dd-panel-a"><p style="color:#556;font-size:13px;margin:0 0 12px">库里暂时没有的公司，填在这里提交。提交内容保存在本页，点“导出申请”交给管理员或由系统每日自动背调后并入线索库（成员申请会打上“成员申请背调”标签）。<b>只会给出公开可查的联系方式，查不到的留空、不编造。</b></p>'+
+      '<div class="filterbar" style="flex-wrap:wrap;gap:10px"><label class="search-box" style="flex:2;min-width:220px"><span>🏢</span><input id="dd-f-name" placeholder="公司名 *（必填）"></label><label class="search-box" style="flex:1;min-width:150px"><span>🌐</span><input id="dd-f-country" placeholder="国家 / 城市"></label><label class="search-box" style="flex:2;min-width:200px"><span>✎</span><input id="dd-f-note" placeholder="官网 / 备注（可选）"></label><button class="export-btn" id="dd-add" style="background:#1f3a5f;color:#fff">＋ 加入申请清单</button></div>'+
+      '<div id="dd-req-wrap" style="margin-top:14px"></div></section>';
+    const boot = data => {
+      const all = Array.isArray(data.leads)?data.leads:[];
+      const esc = escContact;
+      document.getElementById('dd-total').textContent = all.length;
+      document.getElementById('dd-phone').textContent = all.filter(l=>l.phone).length;
+      const today = String(data.generatedAt||'');
+      document.getElementById('dd-today').textContent = all.filter(l=>l.addedDate===today).length;
+      document.getElementById('dd-stamp').textContent = '库更新 '+today;
+      // tabs
+      const tq=document.getElementById('dd-tab-q'), ta=document.getElementById('dd-tab-a'), pq=document.getElementById('dd-panel-q'), pa=document.getElementById('dd-panel-a');
+      const setTab=t=>{const q=t==='q';pq.classList.toggle('static-hidden',!q);pa.classList.toggle('static-hidden',q);tq.style.fontWeight=q?'600':'';ta.style.fontWeight=q?'':'600';tq.style.color=q?'#1f3a5f':'';ta.style.color=q?'':'#1f3a5f';};
+      tq.addEventListener('click',()=>setTab('q')); ta.addEventListener('click',()=>setTab('a')); setTab('q');
+      // instant lookup
+      const fitStars=fs=>{fs=Number(fs)||0; return fs?('<span class="fit-badge fit-'+fs+'">'+'★'.repeat(fs)+'</span>'):'<span class="fit-badge fit-0">—</span>';};
+      const row=(lb,v)=>v?'<div class="dd-field"><span class="dd-label">'+esc(lb)+'</span><span class="dd-val">'+esc(v)+'</span></div>':'';
+      const card=l=>'<div class="content-panel" style="margin:0 0 12px;border:1px solid #e6ebf3">'+
+        '<div style="display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:wrap"><div><h3 style="margin:0 0 3px">'+fitStars(l.fitScore)+' '+esc(l.company)+'</h3><small style="color:#667">'+esc(window.countryLabel(l.country))+' · '+esc(l.region||'')+(l.city?' · '+esc(l.city):'')+' · <span class="channel-pill">'+esc(l.categoryName||'')+'</span>'+(l.addedDate?' · 新增 '+esc(l.addedDate):'')+'</small></div><div style="text-align:right">'+(l.website?'<a class="scroll-btn" href="'+esc(l.website)+'" target="_blank" rel="noopener noreferrer">官网 ↗</a> ':'')+(l.sourceUrl||l.contactSource?'<a class="scroll-btn" href="'+esc(l.contactSource&&/^https?:/.test(l.contactSource)?l.contactSource:l.sourceUrl)+'" target="_blank" rel="noopener noreferrer">来源 ↗</a>':'')+'</div></div>'+
+        '<div style="display:flex;gap:14px;flex-wrap:wrap;margin:10px 0;padding:10px;background:#f6f8fc;border-radius:8px">'+
+          '<div><div style="font-size:11px;color:#8a94a6">公开邮箱</div><strong>'+(l.email?'<a href="mailto:'+esc(l.email)+'">'+esc(l.email)+'</a>':'<span style="color:#b00">未公开</span>')+'</strong></div>'+
+          '<div><div style="font-size:11px;color:#8a94a6">公开电话</div><strong>'+(l.phone?'<a href="tel:'+esc(String(l.phone).replace(/[^+\\d]/g,''))+'">'+esc(l.phone)+'</a>':'<span style="color:#b00">未公开</span>')+'</strong></div>'+
+          '<div><div style="font-size:11px;color:#8a94a6">可信度</div><strong>'+(l.confidence==='high'?'高（官网核实）':'中（目录）')+'</strong></div>'+
+        '</div>'+
+        row('主营 / 采购重点',l.productFocus)+row('经营品牌 / 竞品',l.brandsCarried)+row('规模',l.scale)+row('项目 / 客户',l.projects)+row('进口信号',l.importSignal)+row('决策人',l.decisionContact)+row('▶ 切入角度',l.angle)+row('⚠ 风险',l.risk)+row('契合理由',l.fitReason)+
+      '</div>';
+      const results=document.getElementById('dd-results'), qIn=document.getElementById('dd-query');
+      const doSearch=()=>{const q=qIn.value.trim().toLowerCase(); if(!q){results.innerHTML='<div class="empty-state"><strong>输入公司名开始背调查询</strong><span>可只输入部分名称。</span></div>';return;}
+        const hits=all.filter(l=>[l.company,l.city,l.countryName,l.brandsCarried].join(' ').toLowerCase().includes(q)).sort((a,b)=>(Number(b.fitScore)||0)-(Number(a.fitScore)||0)).slice(0,30);
+        if(!hits.length){results.innerHTML='<div class="empty-state" style="border:1px dashed #cbd5e6"><strong>库中暂未收录“'+esc(qIn.value.trim())+'”</strong><span>请切到“② 申请背调”提交，由系统每日自动背调后并入。</span><button class="export-btn" id="dd-goreq" style="margin-top:12px;background:#1f3a5f;color:#fff">去申请背调 →</button></div>'; const g=document.getElementById('dd-goreq'); g&&g.addEventListener('click',()=>{setTab('a'); document.getElementById('dd-f-name').value=qIn.value.trim();}); return;}
+        results.innerHTML='<div style="color:#556;font-size:13px;margin:2px 0 10px">找到 <b>'+hits.length+'</b> 家匹配（最多显示 30，按契合度排序）</div>'+hits.map(card).join('');};
+      let t=null; qIn.addEventListener('input',()=>{clearTimeout(t);t=setTimeout(doSearch,160);}); qIn.focus();
+      // request queue (localStorage)
+      const KEY='wonly_dd_requests';
+      const getReq=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'[]');}catch(e){return [];}};
+      const setReq=a=>{try{localStorage.setItem(KEY,JSON.stringify(a));}catch(e){}};
+      const drawReq=()=>{const a=getReq(); const w=document.getElementById('dd-req-wrap');
+        if(!a.length){w.innerHTML='<div class="empty-state"><strong>暂无待背调申请</strong><span>在上方填写公司名后点“加入申请清单”。</span></div>';return;}
+        w.innerHTML='<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px"><b>待背调申请（'+a.length+'）</b><div style="display:flex;gap:8px"><button class="scroll-btn" id="dd-copy">复制清单</button><button class="scroll-btn" id="dd-export">导出申请(JSON)</button><button class="scroll-btn" id="dd-clear" style="color:#b00">清空</button></div></div>'+
+          '<div class="table-wrap"><table><thead><tr><th>#</th><th>公司名</th><th>国家/城市</th><th>官网/备注</th><th></th></tr></thead><tbody>'+a.map((r,i)=>'<tr><td>'+(i+1)+'</td><td><strong>'+esc(r.company)+'</strong></td><td>'+esc(r.country||'')+'</td><td><small>'+esc(r.note||'')+'</small></td><td><button class="scroll-btn dd-del" data-i="'+i+'" style="color:#b00">删</button></td></tr>').join('')+'</tbody></table></div>';
+        w.querySelectorAll('.dd-del').forEach(b=>b.addEventListener('click',()=>{const a2=getReq();a2.splice(Number(b.dataset.i),1);setReq(a2);drawReq();}));
+        document.getElementById('dd-clear').addEventListener('click',()=>{if(confirm('清空全部待背调申请？')){setReq([]);drawReq();}});
+        document.getElementById('dd-copy').addEventListener('click',()=>{const txt=getReq().map((r,i)=>(i+1)+'. '+r.company+(r.country?' | '+r.country:'')+(r.note?' | '+r.note:'')).join('\\n'); navigator.clipboard&&navigator.clipboard.writeText(txt); const bb=document.getElementById('dd-copy'); bb.textContent='已复制✓'; setTimeout(()=>bb.textContent='复制清单',1500);});
+        document.getElementById('dd-export').addEventListener('click',()=>{const blob=new Blob([JSON.stringify(getReq(),null,1)],{type:'application/json'});const url=URL.createObjectURL(blob);const el=document.createElement('a');el.href=url;el.download='dd-requests.json';document.body.appendChild(el);el.click();el.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);});
+      };
+      const addBtn=document.getElementById('dd-add');
+      addBtn.addEventListener('click',()=>{const nm=document.getElementById('dd-f-name').value.trim(); if(!nm){document.getElementById('dd-f-name').focus();return;} const a=getReq(); a.push({company:nm,country:document.getElementById('dd-f-country').value.trim(),note:document.getElementById('dd-f-note').value.trim(),ts:new Date().toISOString().slice(0,10)}); setReq(a); document.getElementById('dd-f-name').value='';document.getElementById('dd-f-country').value='';document.getElementById('dd-f-note').value=''; drawReq(); document.getElementById('dd-f-name').focus();});
+      drawReq();
+    };
+    if(window.__LEADS_CACHE__){ boot(window.__LEADS_CACHE__); }
+    else { fetch('./crawler/leads.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(d=>{window.__LEADS_CACHE__=d; boot(d);}).catch(()=>{ const st=document.getElementById('dd-stamp'); if(st) st.textContent='尚未生成'; }); }
+  };
   const render = (i) => {
     if (i === 0) { location.reload(); return; }
     if (i === 1) { renderRadar(); return; }
@@ -834,6 +892,7 @@ window.__ACQUIRE_DATA__.customers = [];
     if (i === 7) { renderMethods(); return; }
     if (i === 8) { renderLeads(); return; }
     if (i === 9) { renderMarket(); return; }
+    if (i === 10) { renderDD(); return; }
     const p = pages[i-1];
     workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">Wonly Acquire OS / '+p[0]+'</div><h1>'+p[0]+'</h1><p>'+p[1]+'</p></div><div class="top-actions"><span class="demo-badge">仅显示已核验数据</span><button class="primary-btn">＋ 新建</button></div></header><section class="metrics"><article><span>'+p[2]+'</span><strong>'+p[3]+'</strong><small>'+p[4]+'</small></article><article><span>数据可信度</span><strong>公开来源</strong><small>每条记录保留来源 URL 和抓取时间</small></article><article><span>地区范围</span><strong>中东 / 中亚</strong><small>可扩展到更多目标市场</small></article><article><span>合规状态</span><strong>正常</strong><small>不绕过登录、验证码或访问限制</small></article></section><section class="content-panel"><div class="empty-state"><strong>'+p[4]+'</strong><span>系统不会展示虚拟客户或未经核验的联系人。运行采集器后，结果将从公开来源进入这里。</span><button class="secondary-btn" style="margin-top:18px">查看采集记录</button></div></section>';
   };
