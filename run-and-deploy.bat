@@ -39,9 +39,11 @@ echo.
 echo   Crawl output: crawler\runs\  and  crawler\live-tenders.json
 echo.
 
-echo [5/5] Commit and push to GitHub (GitHub Pages rebuilds the domain)...
+echo [5/5] Regenerate static API, commit and push to GitHub...
+node crawler\gen-api.mjs
+if errorlevel 1 echo   API regen had an issue - continuing with push anyway.
 git add -A
-git commit -m "update: deep crawler v0.2 + frontend live tenders + country clarity"
+git commit -m "update: deep crawler + frontend + regenerated static /api"
 git push origin main
 if errorlevel 1 (
   echo   git push failed. Most likely you are not signed in to GitHub on this PC.

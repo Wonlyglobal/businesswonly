@@ -10,8 +10,18 @@ echo   folder: %CD%
 echo ============================================================
 echo.
 
+echo Regenerating static API (api\company\*.json + api\index.json)...
+where node >nul 2>nul
+if errorlevel 1 (
+  echo   Node.js not found - skipping API regen. Install Node 22+ if you need /api endpoints.
+) else (
+  node crawler\gen-api.mjs
+  if errorlevel 1 echo   API regen had an issue - continuing with push anyway.
+)
+echo.
+
 git add -A
-git commit -m "deploy: frontend update (leads library + synced analytics/contacts)"
+git commit -m "deploy: frontend + leads + regenerated static /api"
 if errorlevel 1 (
   echo   Nothing new to commit, or commit failed - will still try to push.
 )
