@@ -114,11 +114,8 @@ button{cursor:pointer;}
 /* ---------- 指标卡 ---------- */
 .metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:22px 0 16px;}
 .metrics article{background:var(--glass);border:1px solid var(--glassbrd);border-radius:var(--r-lg);padding:18px 18px 16px;box-shadow:var(--shadow);-webkit-backdrop-filter:blur(20px) saturate(1.3);backdrop-filter:blur(20px) saturate(1.3);}
-.metrics article:first-child{background:var(--featured-bg);border-color:var(--featured-bg);color:var(--featured-ink);}
-.metrics article:first-child span,.metrics article:first-child small{color:var(--featured-mute);}
 .metric-link{cursor:pointer;position:relative;transition:transform .16s,border-color .16s,box-shadow .16s;}
 .metric-link::after{content:'›';position:absolute;right:16px;top:15px;color:var(--muted);font-size:20px;line-height:1;}
-.metrics article:first-child.metric-link::after{color:var(--featured-mute);}
 .metric-link:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg);border-color:var(--accent);}
 .metric-link:focus-visible{outline:3px solid var(--blue-soft);border-color:var(--accent);}
 .metrics span,.metrics strong,.metrics small{display:block;}
