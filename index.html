@@ -103,7 +103,7 @@ button{cursor:pointer;}
 .topbar{display:flex;justify-content:space-between;align-items:flex-start;gap:22px;}
 .eyebrow{color:var(--accent);font-size:11px;font-weight:700;letter-spacing:.3px;}
 .topbar h1{margin:5px 0 4px;font-size:27px;font-weight:800;line-height:1.15;letter-spacing:-.8px;}
-.topbar p{margin:0;color:var(--muted);font-size:13px;font-weight:500;}
+.topbar p{margin:0;color:var(--muted);font-size:14px;font-weight:500;line-height:1.5;}
 .top-actions,.drawer-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;}
 .primary-btn,.secondary-btn,.filter-btn,.close-btn{border-radius:var(--r-sm);padding:9px 14px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font-size:12.5px;font-weight:700;transition:background .15s,border-color .15s;}
 .primary-btn{background:var(--featured-bg);color:var(--featured-ink);border-color:var(--featured-bg);}
@@ -121,7 +121,7 @@ button{cursor:pointer;}
 .metrics span,.metrics strong,.metrics small{display:block;}
 .metrics span{color:var(--muted);font-size:12px;font-weight:600;}
 .metrics strong{font-size:31px;font-weight:800;margin:11px 0 5px;letter-spacing:-1.1px;line-height:1;}
-.metrics small{color:var(--muted);font-size:11px;}
+.metrics small{color:var(--muted);font-size:12px;}
 
 /* ---------- 分析卡 / 图表 ---------- */
 .analytics-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:14px;}
@@ -175,7 +175,7 @@ button{cursor:pointer;}
 .country-options label:hover{background:var(--hover);}
 .country-options input{accent-color:var(--accent);}
 .country-options small{color:var(--muted);margin-left:auto;}
-.result-count{margin-left:auto;color:var(--muted);font-size:11px;font-weight:600;}
+.result-count{margin-left:auto;color:var(--muted);font-size:12.5px;font-weight:600;}
 .result-count strong{color:var(--ink);}
 
 /* ---------- 表格 ---------- */
@@ -183,12 +183,12 @@ button{cursor:pointer;}
 table{width:100%;border-collapse:separate;border-spacing:0;min-width:1260px;table-layout:fixed;}
 th{position:sticky;top:0;z-index:1;background:var(--glass2);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);color:var(--muted);font-size:10.5px;font-weight:700;padding:11px 14px;text-align:left;border-bottom:1px solid var(--line-soft);text-transform:uppercase;letter-spacing:.4px;}
 th:nth-child(1){width:230px;} th:nth-child(2){width:145px;} th:nth-child(3){width:240px;} th:nth-child(4){width:210px;} th:nth-child(5){width:190px;} th:nth-child(6){width:78px;} th:nth-child(7){width:125px;} th:nth-child(8){width:125px;}
-td{padding:14px;border-bottom:1px solid var(--line-soft);vertical-align:top;font-size:12px;color:var(--ink2);}
+td{padding:14px;border-bottom:1px solid var(--line-soft);vertical-align:top;font-size:13px;color:var(--ink2);}
 tbody tr{transition:background .14s;cursor:pointer;}
 tbody tr:hover{background:var(--hover);}
 td strong,td small{display:block;}
 td strong{font-weight:650;line-height:1.4;color:var(--ink);}
-td small{color:var(--muted);font-size:10px;line-height:1.4;margin-top:4px;}
+td small{color:var(--muted);font-size:11.5px;line-height:1.45;margin-top:4px;}
 td a{color:var(--accent);text-decoration:none;}
 td a:hover{text-decoration:underline;}
 .account-main{display:flex;gap:11px;min-width:0;}
@@ -221,8 +221,8 @@ td a:hover{text-decoration:underline;}
 .lead-open .dd-caret{transform:rotate(90deg);color:var(--accent);}
 .dd-panel{position:sticky;left:0;box-sizing:border-box;background:var(--panel2);border-left:3px solid var(--accent);border-radius:8px;padding:12px 16px;margin:2px 0 6px;display:grid;grid-template-columns:1fr 1fr;gap:6px 26px;}
 .dd-field{display:flex;flex-direction:column;gap:1px;min-width:0;}
-.dd-label{font-size:9px;font-weight:800;color:var(--accent);text-transform:uppercase;letter-spacing:.4px;}
-.dd-val{font-size:11.5px;color:var(--ink2);line-height:1.5;overflow-wrap:anywhere;word-break:break-word;}
+.dd-label{font-size:11px;font-weight:800;color:var(--accent);letter-spacing:.3px;}
+.dd-val{font-size:13.5px;color:var(--ink2);line-height:1.6;overflow-wrap:anywhere;word-break:break-word;}
 .leads-scrollhint{font-size:10.5px;color:var(--muted);padding:2px 2px 8px;}
 .leads-scrollhint b{color:var(--accent);}
 .load-more-wrap{text-align:center;padding:14px 0 4px;}
@@ -870,7 +870,7 @@ window.__ACQUIRE_DATA__.customers = [];
   const renderMarket = () => {
     workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">WONLY Acquire OS / 市场调研</div><h1>国家市场进入调研</h1><p>门锁 / 门五金出口目标市场的进入吸引力评分与深度调研：市场机会、利润空间、竞争格局、认证清关、消费人群、价格构成与毛利。点击排名中任一国家查看完整调研表。</p></div><div class="top-actions"><span class="demo-badge" id="mkt-stamp">读取中…</span></div></header>'+
       '<section class="metrics"><article><span>已调研国家</span><strong id="mkt-count">0</strong><small>持续挖掘更多目标市场</small></article><article><span>最高吸引力</span><strong id="mkt-top">—</strong><small id="mkt-top-name">评分 0-100 加权</small></article><article><span>平均毛利</span><strong id="mkt-gm">—</strong><small>到岸成本 → 零售价</small></article><article><span>数据可信度</span><strong>分级标注</strong><small>已核实 / 估算 / 假设</small></article></section>'+
-      '<section class="content-panel"><h3 style="margin:0 0 3px">市场进入吸引力排名</h3><p style="font-size:11px;color:#8a94a6;margin:0 0 12px">按加权评分排序 · 点击行查看该国完整调研（表格可左右滑动查看全部六维评分）</p><div class="table-wrap" id="mkt-rank-wrap"><table><colgroup><col style="width:52px"><col style="width:210px"><col style="width:130px"><col style="width:78px"><col style="width:96px"><col style="width:96px"><col style="width:96px"><col style="width:96px"><col style="width:96px"><col style="width:96px"><col style="width:88px"><col style="width:76px"></colgroup><thead><tr><th>#</th><th>国家</th><th>地区</th><th>评分</th><th>市场机会</th><th>利润空间</th><th>竞争空间</th><th>市场准入</th><th>财务安全</th><th>产品契合</th><th>零售价$</th><th>毛利%</th></tr></thead><tbody id="mkt-rank-rows"></tbody></table></div></section>'+
+      '<section class="content-panel"><h3 style="margin:0 0 3px">市场进入吸引力排名</h3><p style="font-size:12.5px;color:#8a94a6;margin:0 0 12px">按加权评分排序 · 点击行查看该国完整调研（表格可左右滑动查看全部六维评分）</p><div class="table-wrap" id="mkt-rank-wrap"><table><colgroup><col style="width:52px"><col style="width:210px"><col style="width:130px"><col style="width:78px"><col style="width:96px"><col style="width:96px"><col style="width:96px"><col style="width:96px"><col style="width:96px"><col style="width:96px"><col style="width:88px"><col style="width:76px"></colgroup><thead><tr><th>#</th><th>国家</th><th>地区</th><th>评分</th><th>市场机会</th><th>利润空间</th><th>竞争空间</th><th>市场准入</th><th>财务安全</th><th>产品契合</th><th>零售价$</th><th>毛利%</th></tr></thead><tbody id="mkt-rank-rows"></tbody></table></div></section>'+
       '<section class="content-panel" id="mkt-detail-panel"><div id="mkt-detail"></div></section>';
     const sc=v=>{v=parseFloat(v)||0; return v>=68?'#157347':v>=55?'#9c6500':'#8a94a6';};
     const bar=v=>{v=parseFloat(v)||0; return '<div class="mkt-bar" title="'+v+'"><span style="width:'+Math.min(100,v)+'%;background:'+sc(v)+'"></span></div>';};
@@ -944,7 +944,7 @@ window.__ACQUIRE_DATA__.customers = [];
           return {r:r,lead:lead,st:st,cls:cls};});
         const done=rows.filter(x=>x.lead).length, proc=rows.filter(x=>!x.lead&&x.st.indexOf('处理')>=0).length, wait=rows.length-done-proc;
         if(!rows.length){bd.innerHTML='<div class="empty-state"><strong>你还没有提交过背调申请</strong><span>到“② 申请背调”提交后，这里会逐条显示进度。</span></div>';return;}
-        bd.innerHTML='<div style="display:flex;gap:22px;margin:0 0 12px;flex-wrap:wrap;align-items:flex-end"><div><span style="font-size:11px;color:#8a94a6">我的申请</span><br><strong style="font-size:20px">'+rows.length+'</strong></div><div><span style="font-size:11px;color:#8a94a6">已完成</span><br><strong style="font-size:20px;color:#178a4c">'+done+'</strong></div><div><span style="font-size:11px;color:#8a94a6">处理中</span><br><strong style="font-size:20px;color:#b8860b">'+proc+'</strong></div><div><span style="font-size:11px;color:#8a94a6">待提交</span><br><strong style="font-size:20px;color:#8a94a6">'+wait+'</strong></div><div style="margin-left:auto"><button class="scroll-btn" id="dd-board-refresh">↻ 刷新进度</button></div></div>'+
+        bd.innerHTML='<div style="display:flex;gap:22px;margin:0 0 12px;flex-wrap:wrap;align-items:flex-end"><div><span style="font-size:12.5px;color:#8a94a6">我的申请</span><br><strong style="font-size:20px">'+rows.length+'</strong></div><div><span style="font-size:12.5px;color:#8a94a6">已完成</span><br><strong style="font-size:20px;color:#178a4c">'+done+'</strong></div><div><span style="font-size:12.5px;color:#8a94a6">处理中</span><br><strong style="font-size:20px;color:#b8860b">'+proc+'</strong></div><div><span style="font-size:12.5px;color:#8a94a6">待提交</span><br><strong style="font-size:20px;color:#8a94a6">'+wait+'</strong></div><div style="margin-left:auto"><button class="scroll-btn" id="dd-board-refresh">↻ 刷新进度</button></div></div>'+
           '<div class="table-wrap"><table><thead><tr><th>公司</th><th>提交日期</th><th>状态</th><th>结果 / 说明</th><th></th></tr></thead><tbody>'+
           rows.map(x=>'<tr><td><strong>'+esc(x.r.company)+'</strong>'+(x.r.country?'<br><small>'+esc(x.r.country)+'</small>':'')+'</td><td><small>'+esc(x.r.ts||'')+'</small></td><td><span class="fit-badge '+x.cls+'">'+x.st+'</span></td><td><small>'+(x.lead?('📧 '+(x.lead.email?esc(x.lead.email):'未公开')+' ｜ 📞 '+(x.lead.phone?esc(x.lead.phone):'未公开')):(x.st.indexOf('处理')>=0?'系统正在背调，完成后这里出结果':'已存本地，导出提交或等每2小时任务处理'))+'</small></td><td>'+(x.lead?'<button class="scroll-btn dd-view" data-nm="'+esc(x.r.company)+'">查看背调 →</button>':'')+'</td></tr>').join('')+
           '</tbody></table></div>';
@@ -957,9 +957,9 @@ window.__ACQUIRE_DATA__.customers = [];
       const card=l=>'<div class="content-panel" style="margin:0 0 12px;border:1px solid #e6ebf3">'+
         '<div style="display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:wrap"><div><h3 style="margin:0 0 3px">'+fitStars(l.fitScore)+' '+esc(l.company)+'</h3><small style="color:#667">'+esc(window.countryLabel(l.country))+' · '+esc(l.region||'')+(l.city?' · '+esc(l.city):'')+' · <span class="channel-pill">'+esc(l.categoryName||'')+'</span>'+(l.addedDate?' · 新增 '+esc(l.addedDate):'')+'</small></div><div style="text-align:right">'+(l.website?'<a class="scroll-btn" href="'+esc(l.website)+'" target="_blank" rel="noopener noreferrer">官网 ↗</a> ':'')+(l.sourceUrl||l.contactSource?'<a class="scroll-btn" href="'+esc(l.contactSource&&/^https?:/.test(l.contactSource)?l.contactSource:l.sourceUrl)+'" target="_blank" rel="noopener noreferrer">来源 ↗</a>':'')+'</div></div>'+
         '<div style="display:flex;gap:14px;flex-wrap:wrap;margin:10px 0;padding:10px;background:#f6f8fc;border-radius:8px">'+
-          '<div><div style="font-size:11px;color:#8a94a6">公开邮箱</div><strong>'+(l.email?'<a href="mailto:'+esc(l.email)+'">'+esc(l.email)+'</a>':'<span style="color:#b00">未公开</span>')+'</strong></div>'+
-          '<div><div style="font-size:11px;color:#8a94a6">公开电话</div><strong>'+(l.phone?'<a href="tel:'+esc(String(l.phone).replace(/[^+\\d]/g,''))+'">'+esc(l.phone)+'</a>':'<span style="color:#b00">未公开</span>')+'</strong></div>'+
-          '<div><div style="font-size:11px;color:#8a94a6">可信度</div><strong>'+(l.confidence==='high'?'高（官网核实）':'中（目录）')+'</strong></div>'+
+          '<div><div style="font-size:12.5px;color:#8a94a6">公开邮箱</div><strong>'+(l.email?'<a href="mailto:'+esc(l.email)+'">'+esc(l.email)+'</a>':'<span style="color:#b00">未公开</span>')+'</strong></div>'+
+          '<div><div style="font-size:12.5px;color:#8a94a6">公开电话</div><strong>'+(l.phone?'<a href="tel:'+esc(String(l.phone).replace(/[^+\\d]/g,''))+'">'+esc(l.phone)+'</a>':'<span style="color:#b00">未公开</span>')+'</strong></div>'+
+          '<div><div style="font-size:12.5px;color:#8a94a6">可信度</div><strong>'+(l.confidence==='high'?'高（官网核实）':'中（目录）')+'</strong></div>'+
         '</div>'+
         row('主营 / 采购重点',l.productFocus)+row('经营品牌 / 竞品',l.brandsCarried)+row('规模',l.scale)+row('项目 / 客户',l.projects)+row('进口信号',l.importSignal)+row('决策人',l.decisionContact)+row('▶ 切入角度',l.angle)+row('⚠ 风险',l.risk)+row('契合理由',l.fitReason)+
       '</div>';
