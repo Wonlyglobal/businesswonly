@@ -1,0 +1,116 @@
+{
+  "generatedAt": "2026-08-03T23:39:03.825Z",
+  "automationId": "automation-2",
+  "task": "Expand phase-1 buyer pool",
+  "market": "Middle East and Central Asia",
+  "summary": {
+    "addedTargets": 10,
+    "addedTargetSiteRows": 10,
+    "addedPublicSeedUrls": 10,
+    "manualOnlyAdded": 0
+  },
+  "addedTargets": [
+    {
+      "name": "FSA Supplier Registration",
+      "country": "OM",
+      "type": "government_buyer",
+      "officialUrl": "https://e.fsa.gov.om/Supplier/Registration",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Enterprise Azerbaijan Registration",
+      "country": "AZ",
+      "type": "government_buyer",
+      "officialUrl": "https://enterpriseazerbaijan.gov.az/en/user/register",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Intajee Supplier Portal",
+      "country": "OM",
+      "type": "supplier_portal",
+      "officialUrl": "https://intajee.om/auth/signup?type=SUPPLIER",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "NAMA Supply Vendor Registration",
+      "country": "OM",
+      "type": "utility_vendor_portal",
+      "officialUrl": "https://supply.nama.om/vendor-registration",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Amanah Government Procurement Platform",
+      "country": "OM",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://amanah.gov.om/",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Oman Ministry of Defence Supplier Notice",
+      "country": "OM",
+      "type": "government_buyer",
+      "officialUrl": "https://tabseet.gov.om/",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Qatar Ministry of Sports and Youth Supplier Registration",
+      "country": "QA",
+      "type": "government_buyer",
+      "officialUrl": "https://www.msy.gov.qa/%D8%A7%D8%B3%D8%AA%D9%85%D8%A7%D8%B1%D8%A9-%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D9%88%D8%B1%D8%AF%D9%8A%D9%86/",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Al Watanyiah Vendor Portal",
+      "country": "OM",
+      "type": "utility_vendor_portal",
+      "officialUrl": "https://www.alwatanyiah.om/vendor.php",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "NPC Vendor Management",
+      "country": "QA",
+      "type": "industrial_buyer_portal",
+      "officialUrl": "https://www.npc.qa/en/pages/vendormanagement.aspx",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "NAMA Water Services Vendor Registration",
+      "country": "OM",
+      "type": "utility_vendor_portal",
+      "officialUrl": "https://nws.nama.om/en-us/Supplier-Hub/Vendors-Management/Vendor-Registration?csrt=8043112933005160394",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    }
+  ],
+  "sourceSeedsAddedToCrawler": [
+    "https://e.fsa.gov.om/Supplier/Registration",
+    "https://enterpriseazerbaijan.gov.az/en/user/register",
+    "https://intajee.om/auth/signup?type=SUPPLIER",
+    "https://supply.nama.om/vendor-registration",
+    "https://amanah.gov.om/",
+    "https://tabseet.gov.om/",
+    "https://www.msy.gov.qa/%D8%A7%D8%B3%D8%AA%D9%85%D8%A7%D8%B1%D8%A9-%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D9%88%D8%B1%D8%AF%D9%8A%D9%86/",
+    "https://www.alwatanyiah.om/vendor.php",
+    "https://www.npc.qa/en/pages/vendormanagement.aspx",
+    "https://nws.nama.om/en-us/Supplier-Hub/Vendors-Management/Vendor-Registration?csrt=8043112933005160394"
+  ]
+}

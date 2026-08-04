@@ -1,0 +1,29 @@
+Deep crawl starting: 4 source(s), render=auto/on
+
+-> source-company-sites (Company websites)
+   pages=10 rendered=0 tenders=0
+
+-> source-events (Event and association directories)
+   pages=0 rendered=0 tenders=0
+
+-> source-projects (Public construction projects)
+   pages=11 rendered=0 tenders=0
+
+-> source-official-news (Official company news and public announcements)
+   pages=1 rendered=0 tenders=0
+
+Saved D:\ai项目\获客系统\crawler\runs\crawl-2026-07-31T08-26-59-444Z.json
+Totals: pages=22 tenders=0
+Saved D:\ai项目\获客系统\crawler\live-tenders.json (frontend feed): 0 tenders across 0 countries
+
+STDERR
+[render] Playwright unavailable, falling back to static fetch only: browserType.launch: Executable doesn't exist at C:\Users\10849\AppData\Local\ms-playwright\chromium_headless_shell-1194\chrome-win\headless_shell.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+[render] Install it with:  npm i -D playwright  &&  npx playwright install chromium

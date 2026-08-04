@@ -1,0 +1,129 @@
+{
+  "generatedAt": "2026-08-02T13:23:13.531Z",
+  "automationId": "automation-2",
+  "task": "Expand phase-1 buyer pool",
+  "market": "Middle East and Central Asia",
+  "summary": {
+    "addedTargets": 10,
+    "addedTargetSiteRows": 10,
+    "addedPublicSeedUrls": 10,
+    "manualOnlyAdded": 0,
+    "duplicateSkipped": 1
+  },
+  "addedTargets": [
+    {
+      "name": "Dubai Land Department Supplier Registration",
+      "country": "AE",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://dubailand.gov.ae/en/eservices/supplierregistration/",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Royal Commission for AlUla Supplier Portal",
+      "country": "SA",
+      "type": "government_buyer_network",
+      "officialUrl": "https://www.rcu.gov.sa/en/business-in-alula/supplier-portal",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "National Water Company Vendor Registration",
+      "country": "SA",
+      "type": "utility_buyer_portal",
+      "officialUrl": "https://www.nwc.com.sa/EN/BusinessSector/VendorsRelationships/Pages/vendorsRegistration.aspx",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Saudi Arabia Railways Vendors Portal",
+      "country": "SA",
+      "type": "public_institution_buyer",
+      "officialUrl": "https://www.sar.com.sa/ext/vendors/",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "New Murabba Vendor Portal",
+      "country": "SA",
+      "type": "mega_project_developer",
+      "officialUrl": "https://newmurabba.com/vendors",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Dubai Holding Real Estate Suppliers",
+      "country": "AE",
+      "type": "real_estate_developer",
+      "officialUrl": "https://privacy.dubaiholding.com/en/privacy-notice/suppliers---dubai-holding-real-estate-llc",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Masdar Preferred Contractors and Suppliers",
+      "country": "AE",
+      "type": "energy_major_buyer",
+      "officialUrl": "https://masdar.ae/en/news/newsroom/masdar-announces-preferred-contractors-and-suppliers",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Sharjah Electricity, Water and Gas Authority Vendors",
+      "country": "AE",
+      "type": "utility_buyer_portal",
+      "officialUrl": "https://www.sewa.gov.ae/en/vendors",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Nakheel Supplier Privacy Notice",
+      "country": "AE",
+      "type": "real_estate_developer",
+      "officialUrl": "https://www.nakheel.com/en/privacy-policy-test/",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Sharjah Airport Business Opportunities",
+      "country": "AE",
+      "type": "airport_supplier_portal",
+      "officialUrl": "https://www.sharjahairport.ae/en/business/working-with-sharjah-airport/business-opportunities/",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:22:22.088Z"
+    }
+  ],
+  "sourceSeedsAddedToCrawler": [
+    "https://dubailand.gov.ae/en/eservices/supplierregistration/",
+    "https://www.rcu.gov.sa/en/business-in-alula/supplier-portal",
+    "https://www.nwc.com.sa/EN/BusinessSector/VendorsRelationships/Pages/vendorsRegistration.aspx",
+    "https://www.sar.com.sa/ext/vendors/",
+    "https://newmurabba.com/vendors",
+    "https://privacy.dubaiholding.com/en/privacy-notice/suppliers---dubai-holding-real-estate-llc",
+    "https://masdar.ae/en/news/newsroom/masdar-announces-preferred-contractors-and-suppliers",
+    "https://www.sewa.gov.ae/en/vendors",
+    "https://www.nakheel.com/en/privacy-policy-test/",
+    "https://www.sharjahairport.ae/en/business/working-with-sharjah-airport/business-opportunities/"
+  ],
+  "validation": {
+    "jsonParse": "passed",
+    "phase1CountAfter": 71,
+    "targetSitesCountAfter": 69,
+    "sourcePublicBuyersSeedCountAfter": 34,
+    "sourceCompanySeedCountAfter": 24
+  },
+  "notes": [
+    "Added only official public supplier or procurement pages with verified public access.",
+    "No contact details, emails, or supplier relationships were inferred.",
+    "Jumeirah was skipped because the same supplier URL was already present in the working tree."
+  ]
+}

@@ -1,0 +1,556 @@
+{
+  "generatedAt": "2026-08-03T05:24:29.863Z",
+  "crawlerVersion": "0.2",
+  "userAgent": "AcquireOS-PublicResearch/0.2 (+public-source; contact-your-admin)",
+  "renderEnabled": false,
+  "summary": {
+    "sources": 5,
+    "pages": 36,
+    "tenders": 0
+  },
+  "marketConfig": {
+    "marketGroup": "Middle East and Central Asia",
+    "priorityMarkets": [
+      {
+        "country": "United Arab Emirates",
+        "code": "AE",
+        "cluster": "Gulf core",
+        "priority": "S1",
+        "languages": [
+          "English",
+          "Arabic"
+        ]
+      },
+      {
+        "country": "Saudi Arabia",
+        "code": "SA",
+        "cluster": "Gulf core",
+        "priority": "S1",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Qatar",
+        "code": "QA",
+        "cluster": "Gulf core",
+        "priority": "S2",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Kuwait",
+        "code": "KW",
+        "cluster": "Gulf core",
+        "priority": "S2",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Oman",
+        "code": "OM",
+        "cluster": "Gulf core",
+        "priority": "S2",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Bahrain",
+        "code": "BH",
+        "cluster": "Gulf core",
+        "priority": "S3",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Kazakhstan",
+        "code": "KZ",
+        "cluster": "Central Asia",
+        "priority": "S1",
+        "languages": [
+          "Russian",
+          "Kazakh",
+          "English"
+        ]
+      },
+      {
+        "country": "Uzbekistan",
+        "code": "UZ",
+        "cluster": "Central Asia",
+        "priority": "S1",
+        "languages": [
+          "Uzbek",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Azerbaijan",
+        "code": "AZ",
+        "cluster": "Central Asia adjacency",
+        "priority": "S2",
+        "languages": [
+          "Azerbaijani",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Georgia",
+        "code": "GE",
+        "cluster": "Central Asia adjacency",
+        "priority": "S2",
+        "languages": [
+          "Georgian",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Kyrgyzstan",
+        "code": "KG",
+        "cluster": "Central Asia",
+        "priority": "S3",
+        "languages": [
+          "Kyrgyz",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Tajikistan",
+        "code": "TJ",
+        "cluster": "Central Asia",
+        "priority": "S3",
+        "languages": [
+          "Tajik",
+          "Russian",
+          "English"
+        ]
+      }
+    ],
+    "holdForComplianceReview": [
+      "Iran",
+      "Syria",
+      "Yemen"
+    ],
+    "recommendedCustomerTypes": [
+      "door hardware brand",
+      "building materials chain",
+      "door manufacturer",
+      "importer wholesaler",
+      "hotel real estate project",
+      "government procurement"
+    ],
+    "recommendedProducts": [
+      "mechanical door lock",
+      "smart lock",
+      "hotel lock",
+      "mortise lock body",
+      "lever handle",
+      "door hardware set",
+      "OEM ODM product line"
+    ]
+  },
+  "results": [
+    {
+      "sourceId": "source-company-sites",
+      "sourceName": "Company websites",
+      "type": "company_website",
+      "startedAt": "2026-08-03T05:24:00.661Z",
+      "config": {
+        "maxPages": 120,
+        "maxDepth": 2,
+        "followDetail": true,
+        "paginate": true,
+        "render": "auto",
+        "useSitemap": false
+      },
+      "pageCount": 24,
+      "renderStats": {
+        "static": 0,
+        "browser": 0,
+        "skipped": 24
+      },
+      "tenderCount": 0,
+      "tenders": [],
+      "contacts": {
+        "emails": [],
+        "phones": []
+      },
+      "pages": [
+        {
+          "url": "https://www.roshn.sa/partnerships",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:09.636Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://www.aldar.com/ar/explore-aldar/about-aldar/procurement",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:11.747Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://www.emaar.com/en/about-emaar",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:13.894Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://www.redseaglobal.com/en/vendor-registration/",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:15.971Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://www.neom.com/en-us/our-business/suppliers",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:18.107Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://qiddiya.com/contact/vendor/",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:20.173Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://www.ashghal.gov.qa/en/Pages/CompanyRegisteration.aspx",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:22.477Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://www.customs.gov.qa/English/Services/Procurement/Pages/SupplierAgreement.aspx",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:24.522Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://www.qu.edu.qa/ar/Offices/procurement/Pages/suppliers.aspx",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:27.096Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://mof.gov.ae/en/public-finance/government-procurement/federal-supplier-register/",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:29.449Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://supplierhub.adnoc.ae/services/registration",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:31.293Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://dubaiairports.ae/corporate/business-opportunities/suppliers",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:33.381Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://www.qatarenergy.qa/en/SupplyManagement/Pages/Vendorregistration.aspx",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:37.069Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://www.qf.org.qa/supplier-registration",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:39.197Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://www.se.com.sa/suppliers/Home.aspx/step2.aspx",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:41.568Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://www.pdo.co.om/en/Pages/BusinessWithPDO/VendorRegistration.aspx",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:43.648Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://ebusiness.kockw.com/",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:45.936Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://wpvip.adportsgroup.com/adportsgroup/contact-us/",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:48.543Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://newmurabba.com/vendors",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:50.633Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://privacy.dubaiholding.com/en/privacy-notice/suppliers---dubai-holding-real-estate-llc",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:52.663Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://masdar.ae/en/news/newsroom/masdar-announces-preferred-contractors-and-suppliers",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:54.967Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://www.nakheel.com/en/privacy-policy-test/",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:56.795Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://www.jumeirah.com/en/jumeirah-group/contact-us",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:23:58.835Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://www.sharjahairport.ae/en/business/working-with-sharjah-airport/business-opportunities/",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:24:00.661Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        }
+      ]
+    },
+    {
+      "sourceId": "source-events",
+      "sourceName": "Event and association directories",
+      "type": "event_directory",
+      "startedAt": "2026-08-03T05:24:00.662Z",
+      "config": {
+        "maxPages": 80,
+        "maxDepth": 2,
+        "followDetail": true,
+        "paginate": true,
+        "render": "auto",
+        "useSitemap": false
+      },
+      "pageCount": 0,
+      "renderStats": {
+        "static": 0,
+        "browser": 0,
+        "skipped": 0
+      },
+      "tenderCount": 0,
+      "tenders": [],
+      "contacts": {
+        "emails": [],
+        "phones": []
+      },
+      "pages": []
+    },
+    {
+      "sourceId": "source-projects",
+      "sourceName": "Public construction projects",
+      "type": "public_project",
+      "startedAt": "2026-08-03T05:24:28.042Z",
+      "config": {
+        "maxPages": 100,
+        "maxDepth": 3,
+        "followDetail": true,
+        "paginate": true,
+        "render": "always",
+        "useSitemap": true
+      },
+      "pageCount": 11,
+      "renderStats": {
+        "static": 0,
+        "browser": 0,
+        "skipped": 11
+      },
+      "tenderCount": 0,
+      "tenders": [],
+      "contacts": {
+        "emails": [],
+        "phones": []
+      },
+      "pages": [
+        {
+          "url": "https://mof.gov.ae/en/public-finance/government-procurement/digital-procurement-platform/",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:24:09.943Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://esupply.dubai.gov.ae/web/index.html",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:24:11.748Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://adgpg.gov.ae/en",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:24:13.555Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://tenders.etimad.sa/Tender/",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:24:15.366Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://monaqasat.mof.gov.qa/TendersOnlineServices",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:24:17.178Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://capt.gov.kw/en/",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:24:18.993Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://etendering.tenderboard.gov.om/product/publicDash?CTRL_STRDIRECTION=LTR",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:24:20.802Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://etendering.tenderboard.gov.bh/Tenders/publicDash",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:24:22.613Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://www.goszakup.gov.kz/ru/",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:24:24.420Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/en/pages/davlat_xaridlari",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:24:26.235Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://procurement.gov.ge/en/",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:24:28.042Z",
+          "status": "skipped",
+          "reason": "no_content"
+        }
+      ]
+    },
+    {
+      "sourceId": "source-public-buyers",
+      "sourceName": "Large buyer public disclosures",
+      "type": "public_buyer",
+      "startedAt": "2026-08-03T05:24:28.043Z",
+      "config": {
+        "maxPages": 100,
+        "maxDepth": 2,
+        "followDetail": true,
+        "paginate": true,
+        "render": "auto",
+        "useSitemap": false
+      },
+      "pageCount": 0,
+      "renderStats": {
+        "static": 0,
+        "browser": 0,
+        "skipped": 0
+      },
+      "tenderCount": 0,
+      "tenders": [],
+      "contacts": {
+        "emails": [],
+        "phones": []
+      },
+      "pages": []
+    },
+    {
+      "sourceId": "source-official-news",
+      "sourceName": "Official company news and public announcements",
+      "type": "official_news",
+      "startedAt": "2026-08-03T05:24:29.862Z",
+      "config": {
+        "maxPages": 100,
+        "maxDepth": 2,
+        "followDetail": true,
+        "paginate": true,
+        "render": "auto",
+        "useSitemap": false
+      },
+      "pageCount": 1,
+      "renderStats": {
+        "static": 0,
+        "browser": 0,
+        "skipped": 1
+      },
+      "tenderCount": 0,
+      "tenders": [],
+      "contacts": {
+        "emails": [],
+        "phones": []
+      },
+      "pages": [
+        {
+          "url": "https://www.roshn.sa/partnerships",
+          "depth": 0,
+          "capturedAt": "2026-08-03T05:24:29.862Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        }
+      ]
+    }
+  ]
+}

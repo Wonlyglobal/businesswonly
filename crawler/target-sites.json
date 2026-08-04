@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14",
+  "generatedAt": "2026-08-02",
   "scope": "Middle East and Central Asia public buyer discovery",
   "usage": "Review and approve each seed before enabling scheduled crawling.",
   "sites": [
@@ -167,44 +167,555 @@
       "verifiedAt": "2026-07-14"
     },
     {
-      "name": "Kuwait Central Agency for Public Tenders",
+      "name": "Saudi Aramco",
+      "country": "SA",
+      "category": "large_buyer",
+      "url": "https://www.aramco.com/en/what-we-do/suppliers/become-a-supplier",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "high",
+      "notes": "Official supplier registration and qualification page."
+    },
+    {
+      "name": "SABIC",
+      "country": "SA",
+      "category": "large_buyer",
+      "url": "https://supplier.sabic.com/Landing.aspx",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "high",
+      "notes": "Official supplier portal with registration and e-business access."
+    },
+    {
+      "name": "Qatar Airways",
+      "country": "QA",
+      "category": "large_buyer",
+      "url": "https://www.qatarairways.com/en/eprocurement.html",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "high",
+      "notes": "Official supplier registration and e-procurement page."
+    },
+    {
+      "name": "Dubai Airports",
+      "country": "AE",
+      "category": "large_buyer",
+      "url": "https://dubaiairports.ae/corporate/business-opportunities/suppliers",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "high",
+      "notes": "Official supplier and tender participation page."
+    },
+    {
+      "name": "Dubai Electricity and Water Authority",
+      "country": "AE",
+      "category": "utility_buyer",
+      "url": "https://dewa.gov.ae/en/supplier/main-services/registration-supplier-services",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier enrolment for DEWA digital supplier services."
+    },
+    {
+      "name": "du",
+      "country": "AE",
+      "category": "large_buyer",
+      "url": "https://www.du.ae/partner-with-us",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier registration and procurement information."
+    },
+    {
+      "name": "Etihad Airways",
+      "country": "AE",
+      "category": "large_buyer",
+      "url": "https://www.etihad.com/en-af/about-us/procurement",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "medium",
+      "notes": "Official procurement and supplier onboarding page."
+    },
+    {
+      "name": "Mobily",
+      "country": "SA",
+      "category": "large_buyer",
+      "url": "https://mobily.com.sa/web/en/personal/about-mobily/vendors-management",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "medium",
+      "notes": "Official vendor registration and management page."
+    },
+    {
+      "name": "Omantel",
+      "country": "OM",
+      "category": "large_buyer",
+      "url": "https://www.omantel.om/Personal/Promotions/iSupplier",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier management and iSupplier entry."
+    },
+    {
+      "name": "ADNOC Supplier Hub",
+      "country": "AE",
+      "category": "large_buyer",
+      "url": "https://supplierhub.adnoc.ae/services/registration",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official ADNOC supplier registration and pre-qualification entry.",
+      "verifiedAt": "2026-08-02"
+    },
+    {
+      "name": "Dubai Airports Suppliers",
+      "country": "AE",
+      "category": "large_buyer",
+      "url": "https://dubaiairports.ae/corporate/business-opportunities/suppliers",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Public supplier registration and iSupplier access page for Dubai Airports.",
+      "verifiedAt": "2026-08-02"
+    },
+    {
+      "name": "Saudi Electricity Vendor Registration",
+      "country": "SA",
+      "category": "large_buyer",
+      "url": "https://www.se.com.sa/suppliers/Home.aspx/step2.aspx",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official vendor registration system for Saudi Electricity Company.",
+      "verifiedAt": "2026-08-02"
+    },
+    {
+      "name": "Qatar Airways e-Procurement and Supplier Registration",
+      "country": "QA",
+      "category": "large_buyer",
+      "url": "https://www.qatarairways.com/en/eprocurement.html",
+      "entryType": "eprocurement_portal",
+      "accessDifficulty": "high",
+      "notes": "Invitation-only e-procurement and supplier onboarding page.",
+      "verifiedAt": "2026-08-02"
+    },
+    {
+      "name": "Petroleum Development Oman Vendor Registration",
+      "country": "OM",
+      "category": "large_buyer",
+      "url": "https://www.pdo.co.om/en/Pages/BusinessWithPDO/VendorRegistration.aspx",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Public vendor registration entry under PDO Vendor Corner.",
+      "verifiedAt": "2026-08-02"
+    },
+    {
+      "name": "Kuwait Oil Company eBusiness Portal",
+      "country": "KW",
+      "category": "large_buyer",
+      "url": "https://ebusiness.kockw.com/",
+      "entryType": "public_portal",
+      "accessDifficulty": "medium",
+      "notes": "Current opportunities are public; registered partners get full portal access.",
+      "verifiedAt": "2026-08-02"
+    },
+    {
+      "name": "AD Ports Group Supplier Registration & Support",
+      "country": "AE",
+      "category": "large_buyer",
+      "url": "https://wpvip.adportsgroup.com/adportsgroup/contact-us/",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "high",
+      "notes": "Public contact page includes supplier registration and support entry points.",
+      "verifiedAt": "2026-08-02"
+    },
+    {
+      "name": "Emirates Working with Emirates FAQ",
+      "country": "AE",
+      "category": "large_buyer",
+      "url": "https://www.emirates.com/ae/english/help/faq-topics/about-emirates/faq/how-can-i-contact-emirates-to-discuss-supplier-opportunities/",
+      "entryType": "company_website",
+      "accessDifficulty": "high",
+      "notes": "Supplier opportunities route to a separate procurement website; review manually only.",
+      "verifiedAt": "2026-08-02"
+    },
+    {
+      "name": "Muscat Governorate Register Suppliers",
+      "country": "OM",
+      "category": "government_procurement",
+      "url": "https://gov.om/en/w/register-suppliers",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier registration for Muscat Governorate purchase requests and tenders."
+    },
+    {
+      "name": "Environment Authority eSupply Supplier Registration",
+      "country": "OM",
+      "category": "government_procurement",
+      "url": "https://www.ea.gov.om/en/authority-services/register/suppliers-registration-form",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier registration page for Authority purchases and supplier database access."
+    },
+    {
+      "name": "Royal Oman Police Tenders",
+      "country": "OM",
+      "category": "government_procurement",
+      "url": "https://www.rop.gov.om/english/OtherAnnouncement.aspx",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official Royal Oman Police announcement and tender entry point."
+    },
+    {
+      "name": "Qatar Foundation Supplier Registration",
+      "country": "QA",
+      "category": "large_buyer",
+      "url": "https://www.qf.org.qa/supplier-registration",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier onboarding page for Qatar Foundation."
+    },
+    {
+      "name": "Qatar Central Bank Vendor Registration",
+      "country": "QA",
+      "category": "large_buyer",
+      "url": "https://www.qcb.gov.qa/ar/pages/vendorregistrationform.aspx",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "medium",
+      "notes": "Official vendor registration form for Qatar Central Bank."
+    },
+    {
+      "name": "QatarEnergy Vendor Registration",
+      "country": "QA",
+      "category": "large_buyer",
+      "url": "https://www.qatarenergy.qa/en/SupplyManagement/Pages/Vendorregistration.aspx",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "medium",
+      "notes": "Official vendor registration page for QatarEnergy supply management."
+    },
+    {
+      "name": "In-Country Value Digital Portal Supplier Registration",
+      "country": "QA",
+      "category": "large_buyer",
+      "url": "https://icv.qa/en-US/supplier-registration/",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "medium",
+      "notes": "Official ICV portal registration page operated by QatarEnergy."
+    },
+    {
+      "name": "Kuwait Ministry of Public Works Supplier Registration",
       "country": "KW",
       "category": "government_procurement",
-      "url": "https://capt.gov.kw/en/",
-      "entryType": "tender_portal",
-      "accessDifficulty": "medium",
-      "notes": "Official public tender and supplier registration portal.",
-      "verifiedAt": "2026-07-14"
+      "url": "https://www.mpw.gov.kw/sites/ar/Pages/eServices/SupplierRegistration/SupplierRegistration.aspx",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "high",
+      "notes": "Official supplier registration for Ministry of Public Works tenders and contracts."
     },
     {
-      "name": "Qatar Monaqasat",
-      "country": "QA",
-      "category": "government_procurement",
-      "url": "https://monaqasat.mof.gov.qa/TendersOnlineServices",
-      "entryType": "tender_portal",
+      "name": "Public Institution for Social Security Suppliers",
+      "country": "KW",
+      "category": "large_buyer",
+      "url": "https://www.pifss.gov.kw/sites/En/pages/Suppliers.aspx",
+      "entryType": "supplier_entry",
       "accessDifficulty": "medium",
-      "notes": "Unified state procurement website; public tenders and tender services.",
-      "verifiedAt": "2026-07-14"
+      "notes": "Official suppliers registration form and purchase plan entry for PIFSS."
     },
     {
-      "name": "Azerbaijan eTender",
-      "country": "AZ",
+      "name": "Kuwait Ministry of Health Supplier Register",
+      "country": "KW",
       "category": "government_procurement",
-      "url": "https://etender.gov.az/",
-      "entryType": "tender_portal",
-      "accessDifficulty": "medium",
-      "notes": "Official eTender domain listed by the Azerbaijan government.",
-      "verifiedAt": "2026-07-14"
+      "url": "https://e.gov.kw/sites/kgoEnglish/Pages/Services/MOH/RegistrationCompaniesInSuppliersRecord.aspx",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "high",
+      "notes": "Official supplier register for non-medical materials and works at Kuwait Ministry of Health."
     },
     {
-      "name": "Georgia Procurement Agency",
-      "country": "GE",
+      "name": "Al-Futtaim",
+      "country": "AE",
+      "category": "large_buyer",
+      "url": "https://www.alfuttaim.com/en/suppliers/",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier registration and Ariba procurement entry for group entities.",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Rotana Hotels and Resorts",
+      "country": "AE",
+      "category": "large_buyer",
+      "url": "https://development.rotana.com/en/ourservices/financeprocurement",
+      "entryType": "procurement_page",
+      "accessDifficulty": "medium",
+      "notes": "Official finance and procurement page for Rotana supplier engagement.",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Jumeirah Group",
+      "country": "AE",
+      "category": "large_buyer",
+      "url": "https://www.jumeirah.com/en/jumeirah-group/contact-us",
+      "entryType": "supplier_entry",
+      "accessDifficulty": "medium",
+      "notes": "Public contact page includes supplier pre-qualification route.",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Abu Dhabi Judicial Department",
+      "country": "AE",
       "category": "government_procurement",
-      "url": "https://procurement.gov.ge/en/",
-      "entryType": "official_directory",
+      "url": "https://www.adjd.gov.ae/en/pages/businessrole.aspx",
+      "entryType": "supplier_portal",
+      "accessDifficulty": "medium",
+      "notes": "Supplier gate for tenders, contracts and vendor management.",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Abu Dhabi Customs",
+      "country": "AE",
+      "category": "government_procurement",
+      "url": "https://www.adcustoms.gov.ae/Supplier-Services",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier registration page for Abu Dhabi Government entities.",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Environment Agency - Abu Dhabi",
+      "country": "AE",
+      "category": "government_procurement",
+      "url": "https://www.ead.gov.ae/en/suppliers",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Public supplier registration and tenders entry on EAD site.",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Abu Dhabi Accountability Authority",
+      "country": "AE",
+      "category": "government_procurement",
+      "url": "https://adaa.gov.ae/vendor-regestration.html",
+      "entryType": "vendor_registration",
+      "accessDifficulty": "medium",
+      "notes": "Vendor registration page directing suppliers into Abu Dhabi procurement gate.",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Air Astana",
+      "country": "KZ",
+      "category": "large_buyer",
+      "url": "https://tender.airastana.com/en/instructions",
+      "entryType": "supplier_portal",
+      "accessDifficulty": "medium",
+      "notes": "Public supplier instructions for the Air Astana procurement portal.",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "KazMunayGas",
+      "country": "KZ",
+      "category": "large_buyer",
+      "url": "https://ar2024.kmg.kz/en/strategic-report/ensuring-sustainable-development/supplier-relations",
+      "entryType": "procurement_disclosure",
       "accessDifficulty": "low",
-      "notes": "Official agency site; links to the e-procurement portal and market research.",
-      "verifiedAt": "2026-07-14"
+      "notes": "Official supplier-relations disclosure and procurement overview in annual report.",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "AzerGold",
+      "country": "AZ",
+      "category": "large_buyer",
+      "url": "https://azergold.az/tenderler",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official open-tender and procurement listing page.",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Dubai Land Department Supplier Registration",
+      "country": "AE",
+      "category": "government_procurement",
+      "url": "https://dubailand.gov.ae/en/eservices/supplierregistration/",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "high",
+      "notes": "Official supplier registration form for Dubai Land Department.",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Royal Commission for AlUla Supplier Portal",
+      "country": "SA",
+      "category": "government_procurement",
+      "url": "https://www.rcu.gov.sa/en/business-in-alula/supplier-portal",
+      "entryType": "supplier_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier portal for AlUla tenders and registration.",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "National Water Company Vendor Registration",
+      "country": "SA",
+      "category": "utility",
+      "url": "https://www.nwc.com.sa/EN/BusinessSector/VendorsRelationships/Pages/vendorsRegistration.aspx",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official NWC vendor registration page.",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Saudi Arabia Railways Vendors Portal",
+      "country": "SA",
+      "category": "transport",
+      "url": "https://www.sar.com.sa/ext/vendors/",
+      "entryType": "supplier_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official SAR supplier portal and registration entry.",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "New Murabba Vendor Portal",
+      "country": "SA",
+      "category": "real_estate",
+      "url": "https://newmurabba.com/vendors",
+      "entryType": "supplier_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official vendor registration page for New Murabba.",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Dubai Holding Real Estate Suppliers",
+      "country": "AE",
+      "category": "real_estate",
+      "url": "https://privacy.dubaiholding.com/en/privacy-notice/suppliers---dubai-holding-real-estate-llc",
+      "entryType": "supplier_policy",
+      "accessDifficulty": "low",
+      "notes": "Official supplier privacy notice covering procurement and vendor management.",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Masdar Preferred Contractors and Suppliers",
+      "country": "AE",
+      "category": "energy",
+      "url": "https://masdar.ae/en/news/newsroom/masdar-announces-preferred-contractors-and-suppliers",
+      "entryType": "news_disclosure",
+      "accessDifficulty": "low",
+      "notes": "Official news disclosure on preferred suppliers and contractors.",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Sharjah Electricity, Water and Gas Authority Vendors",
+      "country": "AE",
+      "category": "utility",
+      "url": "https://www.sewa.gov.ae/en/vendors",
+      "entryType": "supplier_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official SEWA vendors page for supplier services and updates.",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Nakheel Supplier Privacy Notice",
+      "country": "AE",
+      "category": "real_estate",
+      "url": "https://www.nakheel.com/en/privacy-policy-test/",
+      "entryType": "supplier_policy",
+      "accessDifficulty": "low",
+      "notes": "Official privacy notice covering Nakheel procurement and vendor evaluation.",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Sharjah Airport Business Opportunities",
+      "country": "AE",
+      "category": "airport",
+      "url": "https://www.sharjahairport.ae/en/business/working-with-sharjah-airport/business-opportunities/",
+      "entryType": "supplier_portal",
+      "accessDifficulty": "medium",
+      "notes": "Public business opportunities page for supplier registration and tender participation.",
+      "verifiedAt": "2026-08-02T13:22:22.088Z"
+    },
+    {
+      "name": "FSA Supplier Registration",
+      "country": "OM",
+      "category": "government_buyer",
+      "url": "https://e.fsa.gov.om/Supplier/Registration",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier registration entry for the Financial Services Authority.",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Enterprise Azerbaijan Registration",
+      "country": "AZ",
+      "category": "government_buyer",
+      "url": "https://enterpriseazerbaijan.gov.az/en/user/register",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official registration entry for Enterprise Azerbaijan supplier and investor onboarding.",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Intajee Supplier Portal",
+      "country": "OM",
+      "category": "supplier_portal",
+      "url": "https://intajee.om/auth/signup?type=SUPPLIER",
+      "entryType": "supplier_portal",
+      "accessDifficulty": "medium",
+      "notes": "Public supplier signup path for Intajee procurement onboarding.",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "NAMA Supply Vendor Registration",
+      "country": "OM",
+      "category": "utility",
+      "url": "https://supply.nama.om/vendor-registration",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier registration page for NAMA Supply.",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Amanah Government Procurement Platform",
+      "country": "OM",
+      "category": "government_procurement",
+      "url": "https://amanah.gov.om/",
+      "entryType": "public_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official government procurement platform for supplier onboarding and tenders.",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Oman Ministry of Defence Supplier Notice",
+      "country": "OM",
+      "category": "government_buyer",
+      "url": "https://tabseet.gov.om/",
+      "entryType": "supplier_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official notice and supplier entry for Ministry of Defence procurement.",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Qatar Ministry of Sports and Youth Supplier Registration",
+      "country": "QA",
+      "category": "government_buyer",
+      "url": "https://www.msy.gov.qa/%D8%A7%D8%B3%D8%AA%D9%85%D8%A7%D8%B1%D8%A9-%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D9%88%D8%B1%D8%AF%D9%8A%D9%86/",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier registration form for the Ministry of Sports and Youth.",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Al Watanyiah Vendor Portal",
+      "country": "OM",
+      "category": "utility",
+      "url": "https://www.alwatanyiah.om/vendor.php",
+      "entryType": "supplier_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official vendor portal for Al Watanyiah Utilities.",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "NPC Vendor Management",
+      "country": "QA",
+      "category": "industrial_buyer",
+      "url": "https://www.npc.qa/en/pages/vendormanagement.aspx",
+      "entryType": "supplier_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official vendor management page for Qatar NPC.",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "NAMA Water Services Vendor Registration",
+      "country": "OM",
+      "category": "utility",
+      "url": "https://nws.nama.om/en-us/Supplier-Hub/Vendors-Management/Vendor-Registration?csrt=8043112933005160394",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official vendor registration page for NAMA Water Services.",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
     }
   ]
 }

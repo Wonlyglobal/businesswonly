@@ -1,0 +1,133 @@
+{
+  "generatedAt": "2026-08-02T21:22:22.088+08:00",
+  "automationId": "automation-2",
+  "task": "Expand phase-1 buyer pool",
+  "market": "Middle East and Central Asia",
+  "summary": {
+    "addedTargets": 10,
+    "addedTargetSiteRows": 10,
+    "addedPublicSeedUrls": 10,
+    "manualOnlyAdded": 0,
+    "historicalDuplicateRowsRemoved": {
+      "phase1": 2,
+      "targetSites": 4,
+      "sourceSeeds": 1
+    }
+  },
+  "addedTargets": [
+    {
+      "name": "Al-Futtaim",
+      "country": "AE",
+      "type": "diversified_buyer_portal",
+      "officialUrl": "https://www.alfuttaim.com/en/suppliers/",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Rotana Hotels and Resorts",
+      "country": "AE",
+      "type": "hospitality_buyer_portal",
+      "officialUrl": "https://development.rotana.com/en/ourservices/financeprocurement",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Jumeirah Group",
+      "country": "AE",
+      "type": "hospitality_buyer_portal",
+      "officialUrl": "https://www.jumeirah.com/en/jumeirah-group/contact-us",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Abu Dhabi Judicial Department",
+      "country": "AE",
+      "type": "government_buyer",
+      "officialUrl": "https://www.adjd.gov.ae/en/pages/businessrole.aspx",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Abu Dhabi Customs",
+      "country": "AE",
+      "type": "government_buyer",
+      "officialUrl": "https://www.adcustoms.gov.ae/Supplier-Services",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Environment Agency - Abu Dhabi",
+      "country": "AE",
+      "type": "government_buyer",
+      "officialUrl": "https://www.ead.gov.ae/en/suppliers",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Abu Dhabi Accountability Authority",
+      "country": "AE",
+      "type": "government_buyer",
+      "officialUrl": "https://adaa.gov.ae/vendor-regestration.html",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Air Astana",
+      "country": "KZ",
+      "type": "aviation_buyer_portal",
+      "officialUrl": "https://tender.airastana.com/en/instructions",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "KazMunayGas",
+      "country": "KZ",
+      "type": "energy_buyer",
+      "officialUrl": "https://ar2024.kmg.kz/en/strategic-report/ensuring-sustainable-development/supplier-relations",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "AzerGold",
+      "country": "AZ",
+      "type": "industrial_buyer",
+      "officialUrl": "https://azergold.az/tenderler",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    }
+  ],
+  "sourceSeedsAddedToCrawler": [
+    "https://www.alfuttaim.com/en/suppliers/",
+    "https://development.rotana.com/en/ourservices/financeprocurement",
+    "https://www.jumeirah.com/en/jumeirah-group/contact-us",
+    "https://www.adjd.gov.ae/en/pages/businessrole.aspx",
+    "https://www.adcustoms.gov.ae/Supplier-Services",
+    "https://www.ead.gov.ae/en/suppliers",
+    "https://adaa.gov.ae/vendor-regestration.html",
+    "https://tender.airastana.com/en/instructions",
+    "https://ar2024.kmg.kz/en/strategic-report/ensuring-sustainable-development/supplier-relations",
+    "https://azergold.az/tenderler"
+  ],
+  "validation": {
+    "jsonParse": "passed",
+    "phase1CountAfter": 71,
+    "targetSitesCountAfter": 65,
+    "sourcePublicBuyersSeedCountAfter": 34,
+    "remainingDuplicateKeys": 0
+  },
+  "notes": [
+    "Added 10 public, officially verified targets relevant to hospitality, government procurement, aviation, energy and industrial buying.",
+    "Historical duplicate rows were removed from phase-1 buyers and target sites so the active sets stay deduped by name plus main domain.",
+    "No contact details, emails, supplier relationships, login bypasses or captcha workarounds were inferred or added."
+  ]
+}

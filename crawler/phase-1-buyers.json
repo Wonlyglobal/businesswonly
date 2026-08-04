@@ -2,7 +2,7 @@
   "phase": 1,
   "goal": 200,
   "market": "Middle East and Central Asia",
-  "generatedAt": "2026-07-14",
+  "generatedAt": "2026-08-03",
   "rules": {
     "evidenceRequired": true,
     "publicBusinessContactsOnly": true,
@@ -230,6 +230,576 @@
       "crawlMode": "public",
       "status": "official_source_verified",
       "verifiedAt": "2026-07-14"
+    },
+    {
+      "name": "Saudi Aramco",
+      "country": "SA",
+      "type": "energy_major_buyer",
+      "officialUrl": "https://www.aramco.com/en/what-we-do/suppliers/become-a-supplier",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    },
+    {
+      "name": "SABIC",
+      "country": "SA",
+      "type": "industrial_buyer_portal",
+      "officialUrl": "https://supplier.sabic.com/Landing.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    },
+    {
+      "name": "Qatar Airways",
+      "country": "QA",
+      "type": "aviation_buyer_portal",
+      "officialUrl": "https://www.qatarairways.com/en/eprocurement.html",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    },
+    {
+      "name": "Dubai Airports",
+      "country": "AE",
+      "type": "aviation_buyer_portal",
+      "officialUrl": "https://dubaiairports.ae/corporate/business-opportunities/suppliers",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    },
+    {
+      "name": "Dubai Electricity and Water Authority",
+      "country": "AE",
+      "type": "utility_buyer_portal",
+      "officialUrl": "https://dewa.gov.ae/en/supplier/main-services/registration-supplier-services",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    },
+    {
+      "name": "du",
+      "country": "AE",
+      "type": "telecom_buyer_portal",
+      "officialUrl": "https://www.du.ae/partner-with-us",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    },
+    {
+      "name": "Etihad Airways",
+      "country": "AE",
+      "type": "aviation_buyer_portal",
+      "officialUrl": "https://www.etihad.com/en-af/about-us/procurement",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    },
+    {
+      "name": "Mobily",
+      "country": "SA",
+      "type": "telecom_buyer_portal",
+      "officialUrl": "https://mobily.com.sa/web/en/personal/about-mobily/vendors-management",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    },
+    {
+      "name": "Omantel",
+      "country": "OM",
+      "type": "telecom_buyer_portal",
+      "officialUrl": "https://www.omantel.om/Personal/Promotions/iSupplier",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    },
+    {
+      "name": "ADNOC Supplier Hub",
+      "country": "AE",
+      "type": "energy_supplier_hub",
+      "officialUrl": "https://supplierhub.adnoc.ae/services/registration",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02"
+    },
+    {
+      "name": "Dubai Airports Suppliers",
+      "country": "AE",
+      "type": "airport_supplier_portal",
+      "officialUrl": "https://dubaiairports.ae/corporate/business-opportunities/suppliers",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02"
+    },
+    {
+      "name": "Saudi Electricity Vendor Registration",
+      "country": "SA",
+      "type": "utility_vendor_portal",
+      "officialUrl": "https://www.se.com.sa/suppliers/Home.aspx/step2.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02"
+    },
+    {
+      "name": "Qatar Airways e-Procurement and Supplier Registration",
+      "country": "QA",
+      "type": "airline_supplier_portal",
+      "officialUrl": "https://www.qatarairways.com/en/eprocurement.html",
+      "priority": "S1",
+      "crawlMode": "manual_only",
+      "status": "official_terms_restrict_automated_collection",
+      "verifiedAt": "2026-08-02"
+    },
+    {
+      "name": "Petroleum Development Oman Vendor Registration",
+      "country": "OM",
+      "type": "oil_and_gas_buyer",
+      "officialUrl": "https://www.pdo.co.om/en/Pages/BusinessWithPDO/VendorRegistration.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02"
+    },
+    {
+      "name": "Kuwait Oil Company eBusiness Portal",
+      "country": "KW",
+      "type": "oil_and_gas_buyer",
+      "officialUrl": "https://ebusiness.kockw.com/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02"
+    },
+    {
+      "name": "AD Ports Group Supplier Registration & Support",
+      "country": "AE",
+      "type": "port_logistics_buyer",
+      "officialUrl": "https://wpvip.adportsgroup.com/adportsgroup/contact-us/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02"
+    },
+    {
+      "name": "Emirates Working with Emirates FAQ",
+      "country": "AE",
+      "type": "aviation_group_buyer",
+      "officialUrl": "https://www.emirates.com/ae/english/help/faq-topics/about-emirates/faq/how-can-i-contact-emirates-to-discuss-supplier-opportunities/",
+      "priority": "S1",
+      "crawlMode": "manual_only",
+      "status": "official_terms_restrict_automated_collection",
+      "verifiedAt": "2026-08-02"
+    },
+    {
+      "name": "Muscat Governorate Register Suppliers",
+      "country": "OM",
+      "type": "government_buyer_network",
+      "officialUrl": "https://gov.om/en/w/register-suppliers",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "Environment Authority eSupply Supplier Registration",
+      "country": "OM",
+      "type": "government_buyer_network",
+      "officialUrl": "https://www.ea.gov.om/en/authority-services/register/suppliers-registration-form",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "Royal Oman Police Tenders",
+      "country": "OM",
+      "type": "government_buyer",
+      "officialUrl": "https://www.rop.gov.om/english/OtherAnnouncement.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "Qatar Foundation Supplier Registration",
+      "country": "QA",
+      "type": "education_buyer",
+      "officialUrl": "https://www.qf.org.qa/supplier-registration",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "Qatar Central Bank Vendor Registration",
+      "country": "QA",
+      "type": "central_bank_buyer",
+      "officialUrl": "https://www.qcb.gov.qa/ar/pages/vendorregistrationform.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "QatarEnergy Vendor Registration",
+      "country": "QA",
+      "type": "energy_buyer",
+      "officialUrl": "https://www.qatarenergy.qa/en/SupplyManagement/Pages/Vendorregistration.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "In-Country Value Digital Portal Supplier Registration",
+      "country": "QA",
+      "type": "industrial_supplier_network",
+      "officialUrl": "https://icv.qa/en-US/supplier-registration/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "Kuwait Ministry of Public Works Supplier Registration",
+      "country": "KW",
+      "type": "public_works_buyer",
+      "officialUrl": "https://www.mpw.gov.kw/sites/ar/Pages/eServices/SupplierRegistration/SupplierRegistration.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "Public Institution for Social Security Suppliers",
+      "country": "KW",
+      "type": "public_institution_buyer",
+      "officialUrl": "https://www.pifss.gov.kw/sites/En/pages/Suppliers.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "Kuwait Ministry of Health Supplier Register",
+      "country": "KW",
+      "type": "government_buyer",
+      "officialUrl": "https://e.gov.kw/sites/kgoEnglish/Pages/Services/MOH/RegistrationCompaniesInSuppliersRecord.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "Al-Futtaim",
+      "country": "AE",
+      "type": "diversified_buyer_portal",
+      "officialUrl": "https://www.alfuttaim.com/en/suppliers/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Rotana Hotels and Resorts",
+      "country": "AE",
+      "type": "hospitality_buyer_portal",
+      "officialUrl": "https://development.rotana.com/en/ourservices/financeprocurement",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Jumeirah Group",
+      "country": "AE",
+      "type": "hospitality_buyer_portal",
+      "officialUrl": "https://www.jumeirah.com/en/jumeirah-group/contact-us",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Abu Dhabi Judicial Department",
+      "country": "AE",
+      "type": "government_buyer",
+      "officialUrl": "https://www.adjd.gov.ae/en/pages/businessrole.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Abu Dhabi Customs",
+      "country": "AE",
+      "type": "government_buyer",
+      "officialUrl": "https://www.adcustoms.gov.ae/Supplier-Services",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Environment Agency - Abu Dhabi",
+      "country": "AE",
+      "type": "government_buyer",
+      "officialUrl": "https://www.ead.gov.ae/en/suppliers",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Abu Dhabi Accountability Authority",
+      "country": "AE",
+      "type": "government_buyer",
+      "officialUrl": "https://adaa.gov.ae/vendor-regestration.html",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Air Astana",
+      "country": "KZ",
+      "type": "aviation_buyer_portal",
+      "officialUrl": "https://tender.airastana.com/en/instructions",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "KazMunayGas",
+      "country": "KZ",
+      "type": "energy_buyer",
+      "officialUrl": "https://ar2024.kmg.kz/en/strategic-report/ensuring-sustainable-development/supplier-relations",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "AzerGold",
+      "country": "AZ",
+      "type": "industrial_buyer",
+      "officialUrl": "https://azergold.az/tenderler",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:18:40.817Z"
+    },
+    {
+      "name": "Dubai Land Department Supplier Registration",
+      "country": "AE",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://dubailand.gov.ae/en/eservices/supplierregistration/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Royal Commission for AlUla Supplier Portal",
+      "country": "SA",
+      "type": "government_buyer_network",
+      "officialUrl": "https://www.rcu.gov.sa/en/business-in-alula/supplier-portal",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "National Water Company Vendor Registration",
+      "country": "SA",
+      "type": "utility_buyer_portal",
+      "officialUrl": "https://www.nwc.com.sa/EN/BusinessSector/VendorsRelationships/Pages/vendorsRegistration.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Saudi Arabia Railways Vendors Portal",
+      "country": "SA",
+      "type": "public_institution_buyer",
+      "officialUrl": "https://www.sar.com.sa/ext/vendors/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "New Murabba Vendor Portal",
+      "country": "SA",
+      "type": "mega_project_developer",
+      "officialUrl": "https://newmurabba.com/vendors",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Dubai Holding Real Estate Suppliers",
+      "country": "AE",
+      "type": "real_estate_developer",
+      "officialUrl": "https://privacy.dubaiholding.com/en/privacy-notice/suppliers---dubai-holding-real-estate-llc",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Masdar Preferred Contractors and Suppliers",
+      "country": "AE",
+      "type": "energy_major_buyer",
+      "officialUrl": "https://masdar.ae/en/news/newsroom/masdar-announces-preferred-contractors-and-suppliers",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Sharjah Electricity, Water and Gas Authority Vendors",
+      "country": "AE",
+      "type": "utility_buyer_portal",
+      "officialUrl": "https://www.sewa.gov.ae/en/vendors",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Nakheel Supplier Privacy Notice",
+      "country": "AE",
+      "type": "real_estate_developer",
+      "officialUrl": "https://www.nakheel.com/en/privacy-policy-test/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:21:24.532Z"
+    },
+    {
+      "name": "Sharjah Airport Business Opportunities",
+      "country": "AE",
+      "type": "airport_supplier_portal",
+      "officialUrl": "https://www.sharjahairport.ae/en/business/working-with-sharjah-airport/business-opportunities/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:22:22.088Z"
+    },
+    {
+      "name": "FSA Supplier Registration",
+      "country": "OM",
+      "type": "government_buyer",
+      "officialUrl": "https://e.fsa.gov.om/Supplier/Registration",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Enterprise Azerbaijan Registration",
+      "country": "AZ",
+      "type": "government_buyer",
+      "officialUrl": "https://enterpriseazerbaijan.gov.az/en/user/register",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Intajee Supplier Portal",
+      "country": "OM",
+      "type": "supplier_portal",
+      "officialUrl": "https://intajee.om/auth/signup?type=SUPPLIER",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "NAMA Supply Vendor Registration",
+      "country": "OM",
+      "type": "utility_vendor_portal",
+      "officialUrl": "https://supply.nama.om/vendor-registration",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Amanah Government Procurement Platform",
+      "country": "OM",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://amanah.gov.om/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Oman Ministry of Defence Supplier Notice",
+      "country": "OM",
+      "type": "government_buyer",
+      "officialUrl": "https://tabseet.gov.om/",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Qatar Ministry of Sports and Youth Supplier Registration",
+      "country": "QA",
+      "type": "government_buyer",
+      "officialUrl": "https://www.msy.gov.qa/%D8%A7%D8%B3%D8%AA%D9%85%D8%A7%D8%B1%D8%A9-%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D9%88%D8%B1%D8%AF%D9%8A%D9%86/",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Al Watanyiah Vendor Portal",
+      "country": "OM",
+      "type": "utility_vendor_portal",
+      "officialUrl": "https://www.alwatanyiah.om/vendor.php",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "NPC Vendor Management",
+      "country": "QA",
+      "type": "industrial_buyer_portal",
+      "officialUrl": "https://www.npc.qa/en/pages/vendormanagement.aspx",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "NAMA Water Services Vendor Registration",
+      "country": "OM",
+      "type": "utility_vendor_portal",
+      "officialUrl": "https://nws.nama.om/en-us/Supplier-Hub/Vendors-Management/Vendor-Registration?csrt=8043112933005160394",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-03T23:39:03.825Z"
     }
   ]
 }

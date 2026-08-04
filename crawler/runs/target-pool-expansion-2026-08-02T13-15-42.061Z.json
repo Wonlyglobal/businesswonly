@@ -1,0 +1,124 @@
+{
+  "generatedAt": "2026-08-02T13:15:42.061Z",
+  "automationId": "automation-2",
+  "task": "Expand phase-1 buyer pool",
+  "market": "Middle East and Central Asia",
+  "summary": {
+    "addedTargets": 10,
+    "addedTargetSiteRows": 10,
+    "addedPublicSeedUrls": 10,
+    "manualOnlyAdded": 0,
+    "dedupedDomains": [
+      "qatarenergy.qa",
+      "qf.org.qa"
+    ]
+  },
+  "addedTargets": [
+    {
+      "name": "Muscat Governorate Register Suppliers",
+      "country": "OM",
+      "type": "government_buyer_network",
+      "officialUrl": "https://gov.om/en/w/register-suppliers",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "Environment Authority eSupply Supplier Registration",
+      "country": "OM",
+      "type": "government_buyer_network",
+      "officialUrl": "https://www.ea.gov.om/en/authority-services/register/suppliers-registration-form",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "Royal Oman Police Tenders",
+      "country": "OM",
+      "type": "government_buyer",
+      "officialUrl": "https://www.rop.gov.om/english/OtherAnnouncement.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "Qatar Foundation Supplier Registration",
+      "country": "QA",
+      "type": "education_buyer",
+      "officialUrl": "https://www.qf.org.qa/supplier-registration",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "Qatar Central Bank Vendor Registration",
+      "country": "QA",
+      "type": "central_bank_buyer",
+      "officialUrl": "https://www.qcb.gov.qa/ar/pages/vendorregistrationform.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "QatarEnergy Vendor Registration",
+      "country": "QA",
+      "type": "energy_buyer",
+      "officialUrl": "https://www.qatarenergy.qa/en/SupplyManagement/Pages/Vendorregistration.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "In-Country Value Digital Portal Supplier Registration",
+      "country": "QA",
+      "type": "industrial_supplier_network",
+      "officialUrl": "https://icv.qa/en-US/supplier-registration/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "Kuwait Ministry of Public Works Supplier Registration",
+      "country": "KW",
+      "type": "public_works_buyer",
+      "officialUrl": "https://www.mpw.gov.kw/sites/ar/Pages/eServices/SupplierRegistration/SupplierRegistration.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "Public Institution for Social Security Suppliers",
+      "country": "KW",
+      "type": "public_institution_buyer",
+      "officialUrl": "https://www.pifss.gov.kw/sites/En/pages/Suppliers.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    },
+    {
+      "name": "Kuwait Ministry of Health Supplier Register",
+      "country": "KW",
+      "type": "government_buyer",
+      "officialUrl": "https://e.gov.kw/sites/kgoEnglish/Pages/Services/MOH/RegistrationCompaniesInSuppliersRecord.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-02T13:15:42.061Z"
+    }
+  ],
+  "notes": [
+    "All 10 additions are public and source-verified.",
+    "qatarenergy.qa and qf.org.qa were normalized to a single record each.",
+    "JSON validation succeeded after updates.",
+    "git commit/push blocked by read-only .git index permissions in the workspace."
+  ]
+}

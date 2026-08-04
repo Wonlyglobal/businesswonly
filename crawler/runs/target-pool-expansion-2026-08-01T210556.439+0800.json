@@ -1,0 +1,127 @@
+{
+  "generatedAt": "2026-08-01T21:05:56.439+08:00",
+  "automationId": "automation-2",
+  "task": "Expand phase-1 buyer pool",
+  "market": "Middle East and Central Asia",
+  "summary": {
+    "addedTargets": 10,
+    "addedTargetSiteRows": 10,
+    "addedPublicSeedUrls": 10,
+    "manualOnlyAdded": 0
+  },
+  "addedTargets": [
+    {
+      "name": "Saudi Aramco",
+      "country": "SA",
+      "type": "energy_major_buyer",
+      "officialUrl": "https://www.aramco.com/en/what-we-do/suppliers/become-a-supplier",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    },
+    {
+      "name": "SABIC",
+      "country": "SA",
+      "type": "industrial_buyer_portal",
+      "officialUrl": "https://supplier.sabic.com/Landing.aspx",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    },
+    {
+      "name": "QatarEnergy",
+      "country": "QA",
+      "type": "energy_buyer_portal",
+      "officialUrl": "https://www.qatarenergy.qa/en/SupplyManagement/Pages/Vendorregistration.aspx",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    },
+    {
+      "name": "Qatar Airways",
+      "country": "QA",
+      "type": "aviation_buyer_portal",
+      "officialUrl": "https://www.qatarairways.com/en/eprocurement.html",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    },
+    {
+      "name": "Dubai Airports",
+      "country": "AE",
+      "type": "aviation_buyer_portal",
+      "officialUrl": "https://dubaiairports.ae/corporate/business-opportunities/suppliers",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    },
+    {
+      "name": "Dubai Electricity and Water Authority",
+      "country": "AE",
+      "type": "utility_buyer_portal",
+      "officialUrl": "https://dewa.gov.ae/en/supplier/main-services/registration-supplier-services",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    },
+    {
+      "name": "du",
+      "country": "AE",
+      "type": "telecom_buyer_portal",
+      "officialUrl": "https://www.du.ae/partner-with-us",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    },
+    {
+      "name": "Etihad Airways",
+      "country": "AE",
+      "type": "aviation_buyer_portal",
+      "officialUrl": "https://www.etihad.com/en-af/about-us/procurement",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    },
+    {
+      "name": "Mobily",
+      "country": "SA",
+      "type": "telecom_buyer_portal",
+      "officialUrl": "https://mobily.com.sa/web/en/personal/about-mobily/vendors-management",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    },
+    {
+      "name": "Omantel",
+      "country": "OM",
+      "type": "telecom_buyer_portal",
+      "officialUrl": "https://www.omantel.om/Personal/Promotions/iSupplier",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-01T13:05:56.439Z"
+    }
+  ],
+  "sourceSeedsAddedToCrawler": [
+    "https://www.aramco.com/en/what-we-do/suppliers/become-a-supplier",
+    "https://supplier.sabic.com/Landing.aspx",
+    "https://www.qatarenergy.qa/en/SupplyManagement/Pages/Vendorregistration.aspx",
+    "https://www.qatarairways.com/en/eprocurement.html",
+    "https://dubaiairports.ae/corporate/business-opportunities/suppliers",
+    "https://dewa.gov.ae/en/supplier/main-services/registration-supplier-services",
+    "https://www.du.ae/partner-with-us",
+    "https://www.etihad.com/en-af/about-us/procurement",
+    "https://mobily.com.sa/web/en/personal/about-mobily/vendors-management",
+    "https://www.omantel.om/Personal/Promotions/iSupplier"
+  ],
+  "validation": {
+    "jsonParse": "passed",
+    "phase1CountAfter": 34,
+    "targetSitesCountAfter": 32,
+    "sourcePublicBuyersSeedCountAfter": 10
+  },
+  "notes": [
+    "Added only official public supplier or procurement pages with verified public access.",
+    "No contact details, emails, or supplier relationships were inferred.",
+    "manual_only was not used because no clear robots.txt or terms prohibition was encountered during verification."
+  ]
+}
