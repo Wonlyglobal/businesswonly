@@ -453,7 +453,7 @@ td a:hover{text-decoration:underline;}
       <div class="nav-label">常用</div>
       <button class="nav-item active" data-page="leads"><span>☷</span>客户线索库</button><button class="nav-item" data-page="dd"><span>🔍</span>客户背调</button><button class="nav-item" data-page="market"><span>▥</span>市场调研</button><button class="nav-item" data-page="analytics"><span>◫</span>分析中心</button>
       <div class="nav-label">更多</div>
-      <button class="nav-item" data-page="tenders"><span>◧</span>招标 / 项目</button><button class="nav-item" data-page="methods"><span>◈</span>获客方式</button><button class="nav-item" data-page="tasks"><span>✓</span>任务与商机</button><button class="nav-item" data-page="sources"><span>▦</span>数据源中心</button>
+      <button class="nav-item" data-page="tenders"><span>◧</span>招标 / 项目</button><button class="nav-item" data-page="methods"><span>◈</span>获客方式</button>
     </nav>
     <div class="sidebar-foot"><div class="sync-status"><span class="status-dot"></span>8个渠道正常同步</div><div class="user-row"><span class="avatar">W</span><div><strong>WONLY</strong><small>海外事业部专用</small></div></div><button class="logout-link" onclick="window.__wonlyLogout&&window.__wonlyLogout()">⎋ 退出登录</button></div>
   </aside>
@@ -590,7 +590,7 @@ window.__ACQUIRE_DATA__.customers = [];
       const count = document.getElementById('contact-result-count');
       const empty = document.getElementById('contact-empty');
       const renderRows = list => {
-        rows.innerHTML = list.map(c => '<tr><td><div class="account-main"><span class="company-logo">'+escContact(c.country)+'</span><div><strong>'+escContact(c.company)+'</strong><small>'+escContact(window.countryLabel(c.country))+' · '+escContact(c.city||c.region)+'</small></div></div></td><td><span class="channel-pill">'+escContact(c.categoryName)+'</span></td><td><small>'+escContact(c.productFocus||'')+'</small></td><td>'+(c.email?'<a href="mailto:'+escContact(c.email)+'"><strong>'+escContact(c.email)+'</strong></a>':'<small>待核验</small>')+'</td><td>'+(c.phone?'<a href="tel:'+escContact(String(c.phone).replace(/[^+\\d]/g,''))+'"><strong>'+escContact(c.phone)+'</strong></a>':'<small>待核验</small>')+'</td><td><a href="'+escContact(c.contactSource||c.website||c.sourceUrl)+'" target="_blank" rel="noopener noreferrer"><strong>查看来源 ↗</strong></a></td></tr>').join('');
+        rows.innerHTML = list.map(c => '<tr><td><div class="account-main"><span class="company-logo">'+escContact(c.country)+'</span><div><strong>'+escContact(c.company)+'</strong><small>'+escContact(window.countryLabel(c.country))+' · '+escContact(c.city||c.region)+'</small></div></div></td><td><span class="channel-pill">'+escContact(c.categoryName)+'</span></td><td><small>'+escContact(c.productFocus||'')+'</small></td><td>'+(c.email?'<a href="mailto:'+escContact(c.email)+'"><strong>'+escContact(c.email)+'</strong></a>':'<small>待核验</small>')+'</td><td>'+(c.phone?'<a href="tel:'+escContact(String(c.phone).replace(/[^+\\d]/g,''))+'"><strong>'+escContact(c.phone)+'</strong></a>':'<small>待核验</small>')+'</td><td>'+(()=>{var u=[c.contactSource,c.website,c.sourceUrl].find(x=>/^https?:\/\//.test(x||''));return u?'<a href="'+escContact(u)+'" target="_blank" rel="noopener noreferrer"><strong>查看来源 ↗</strong></a>':'<small>—</small>';})()+'</td></tr>').join('');
         count.innerHTML = '<strong>'+list.length+'</strong> / '+all.length+' 条联系人';
         empty.classList.toggle('static-hidden', list.length > 0);
       };
@@ -815,7 +815,7 @@ window.__ACQUIRE_DATA__.customers = [];
         '<td><small>'+escContact(l.productFocus||'')+'</small></td>'+
         '<td>'+(l.email?'<a href="mailto:'+escContact(l.email)+'"><strong>'+escContact(l.email)+'</strong></a>':'<small>待核验</small>')+'</td>'+
         '<td>'+(l.phone?'<a href="tel:'+escContact(String(l.phone).replace(/[^+\\d]/g,''))+'"><strong>'+escContact(l.phone)+'</strong></a>':'<small>待核验</small>')+'</td>'+
-        '<td>'+(l.contactSource||l.sourceUrl?'<a href="'+escContact(l.contactSource||l.sourceUrl)+'" target="_blank" rel="noopener noreferrer">查看来源 ↗</a>':'<small>—</small>')+'</td>'+
+        '<td>'+(()=>{var u=[l.contactSource,l.sourceUrl,l.website].find(x=>/^https?:\/\//.test(x||''));return u?'<a href="'+escContact(u)+'" target="_blank" rel="noopener noreferrer">查看来源 ↗</a>':'<small>—</small>';})()+'</td>'+
       '</tr>';
       const expBtn=document.getElementById('leads-export');
       const CSV_COLS=[['契合度','fitScore'],['公司','company'],['国家','countryName'],['地区','region'],['城市','city'],['客户类别','categoryName'],['主营/产品','productFocus'],['现有代理品牌/竞品','brandsCarried'],['规模','scale'],['项目/客户','projects'],['进口信号','importSignal'],['决策人','decisionContact'],['切入角度','angle'],['风险','risk'],['契合理由','fitReason'],['网站','website'],['公开邮箱','email'],['公开电话','phone'],['信息来源','sourceUrl'],['新增日期','addedDate']];
