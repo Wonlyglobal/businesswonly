@@ -800,6 +800,206 @@
       "crawlMode": "public",
       "status": "official_source_verified",
       "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "Bahrain Airport Company",
+      "country": "BH",
+      "type": "airport_supplier_portal",
+      "officialUrl": "https://www.bahrainairport.bh/corporate/suppliers",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-06T06:32:59.522Z"
+    },
+    {
+      "name": "Qatari Diar Real Estate Investment Company",
+      "country": "QA",
+      "type": "real_estate_developer",
+      "officialUrl": "https://qataridiar.com/e-procurement",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-06T06:32:59.522Z"
+    },
+    {
+      "name": "Power International Holding",
+      "country": "QA",
+      "type": "diversified_holding_supplier_portal",
+      "officialUrl": "https://powerholding.com/supplier/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-06T06:32:59.522Z"
+    },
+    {
+      "name": "OQ",
+      "country": "OM",
+      "type": "energy_supplier_portal",
+      "officialUrl": "https://oq.com/en/vendors",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-06T06:32:59.522Z"
+    },
+    {
+      "name": "Oman Air",
+      "country": "OM",
+      "type": "airline_supplier_portal",
+      "officialUrl": "https://e-procurement.omanair.com/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-06T06:32:59.522Z"
+    },
+    {
+      "name": "Barwa Real Estate Group",
+      "country": "QA",
+      "type": "real_estate_developer",
+      "officialUrl": "https://www.barwa.com.qa/supplierregistration",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-06T06:32:59.522Z"
+    },
+    {
+      "name": "KEGOC",
+      "country": "KZ",
+      "type": "utility_buyer_portal",
+      "officialUrl": "https://www.kegoc.kz/en/procurement/info/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-06T06:32:59.522Z"
+    },
+    {
+      "name": "Kazatomprom",
+      "country": "KZ",
+      "type": "industrial_buyer_portal",
+      "officialUrl": "https://www.kazatomprom.kz/ru/purchase",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-06T06:32:59.522Z"
+    },
+    {
+      "name": "State Oil Company of Azerbaijan Republic",
+      "country": "AZ",
+      "type": "energy_major_buyer",
+      "officialUrl": "https://www.socar.az/en/page/operations",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-06T06:32:59.522Z"
+    },
+    {
+      "name": "Emirates Procurement and Contracts",
+      "country": "AE",
+      "type": "aviation_supplier_portal",
+      "officialUrl": "https://epic.emirates.com/web/login.html",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-06T06:32:59.522Z"
+    },
+    {
+      "name": "DAMAC Construction",
+      "country": "SA",
+      "type": "construction_contractor",
+      "officialUrl": "https://damac-sa.com/en/supplier-registration/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "Umm Al Qura",
+      "country": "SA",
+      "type": "real_estate_developer",
+      "officialUrl": "https://www.ummalqura.com.sa/en/vendors-registration",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "Saudi Ministry of Investment Procurements",
+      "country": "SA",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://misa.gov.sa/resources/procurements/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "Dubai Municipality Supplier Registration",
+      "country": "AE",
+      "type": "government_buyer",
+      "officialUrl": "https://www.dm.gov.ae/municipality-business/supplier-registration/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "Georgia e-Procurement Portal",
+      "country": "GE",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://tenders.procurement.gov.ge/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "Muscat National Development and Investment Company (ASAAS)",
+      "country": "OM",
+      "type": "investment_holding_buyer",
+      "officialUrl": "https://asaas.om/en/sr-e/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "Sohar University",
+      "country": "OM",
+      "type": "institutional_buyer",
+      "officialUrl": "https://www.su.edu.om/procurement-and-contracts/",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "Vale in Oman",
+      "country": "OM",
+      "type": "industrial_buyer",
+      "officialUrl": "https://vale.com/becoming-a-supplier-for-vale-in-oman",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "DP World Jeddah",
+      "country": "SA",
+      "type": "port_logistics_buyer",
+      "officialUrl": "https://www.dpworld.sa/User/Register",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "Atlantic Construction LLC",
+      "country": "OM",
+      "type": "construction_contractor",
+      "officialUrl": "https://atlanticoman.com/vendor-supplier-registration-form/",
+      "priority": "S2",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
     }
   ]
 }

@@ -716,6 +716,96 @@
       "accessDifficulty": "medium",
       "notes": "Official vendor registration page for NAMA Water Services.",
       "verifiedAt": "2026-08-03T23:39:03.825Z"
+    },
+    {
+      "name": "DAMAC Construction",
+      "country": "SA",
+      "category": "construction",
+      "url": "https://damac-sa.com/en/supplier-registration/",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier and subcontractor registration for construction projects.",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "Umm Al Qura",
+      "country": "SA",
+      "category": "real_estate",
+      "url": "https://www.ummalqura.com.sa/en/vendors-registration",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official vendor registration page for development and construction supply opportunities.",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "Saudi Ministry of Investment Procurements",
+      "country": "SA",
+      "category": "government_procurement",
+      "url": "https://misa.gov.sa/resources/procurements/",
+      "entryType": "public_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official procurement listings and vendor registration entry for the Ministry of Investment.",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "Dubai Municipality Supplier Registration",
+      "country": "AE",
+      "category": "government_procurement",
+      "url": "https://www.dm.gov.ae/municipality-business/supplier-registration/",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier registration for building-related material compliance and approved suppliers.",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "Muscat National Development and Investment Company (ASAAS)",
+      "country": "OM",
+      "category": "investment",
+      "url": "https://asaas.om/en/sr-e/",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier registration form for ASAAS procurement and contracting needs.",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "Sohar University",
+      "country": "OM",
+      "category": "education",
+      "url": "https://www.su.edu.om/procurement-and-contracts/",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official procurement and contracts page with supplier registration and tender access.",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "Vale in Oman",
+      "country": "OM",
+      "category": "industrial",
+      "url": "https://vale.com/becoming-a-supplier-for-vale-in-oman",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier onboarding page for Vale operations in Oman.",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "DP World Jeddah",
+      "country": "SA",
+      "category": "logistics",
+      "url": "https://www.dpworld.sa/User/Register",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official registration entry for DP World Jeddah e-services and partner access.",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "Atlantic Construction LLC",
+      "country": "OM",
+      "category": "construction",
+      "url": "https://atlanticoman.com/vendor-supplier-registration-form/",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official vendor and supplier registration form for construction contracting work.",
+      "verifiedAt": "2026-08-07T05:37:07.8070103Z"
     }
   ]
 }

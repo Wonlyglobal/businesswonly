@@ -33,7 +33,14 @@
       "https://masdar.ae/en/news/newsroom/masdar-announces-preferred-contractors-and-suppliers",
       "https://www.nakheel.com/en/privacy-policy-test/",
       "https://www.jumeirah.com/en/jumeirah-group/contact-us",
-      "https://www.sharjahairport.ae/en/business/working-with-sharjah-airport/business-opportunities/"
+      "https://www.sharjahairport.ae/en/business/working-with-sharjah-airport/business-opportunities/",
+      "https://damac-sa.com/en/supplier-registration/",
+      "https://www.ummalqura.com.sa/en/vendors-registration",
+      "https://asaas.om/en/sr-e/",
+      "https://www.su.edu.om/procurement-and-contracts/",
+      "https://vale.com/becoming-a-supplier-for-vale-in-oman",
+      "https://www.dpworld.sa/User/Register",
+      "https://atlanticoman.com/vendor-supplier-registration-form/"
     ],
     "allowedPaths": [
       "/",
@@ -115,7 +122,9 @@
       "https://gov.uz/en/pages/davlat_xaridlari",
       "https://etender.gov.az/",
       "https://procurement.gov.ge/en/",
-      "https://tenders.procurement.gov.ge/"
+      "https://tenders.procurement.gov.ge/",
+      "https://misa.gov.sa/resources/procurements/",
+      "https://www.dm.gov.ae/municipality-business/supplier-registration/"
     ],
     "allowedPaths": [
       "/tenders",
@@ -193,7 +202,17 @@
       "https://www.msy.gov.qa/%D8%A7%D8%B3%D8%AA%D9%85%D8%A7%D8%B1%D8%A9-%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D9%88%D8%B1%D8%AF%D9%8A%D9%86/",
       "https://www.alwatanyiah.om/vendor.php",
       "https://www.npc.qa/en/pages/vendormanagement.aspx",
-      "https://nws.nama.om/en-us/Supplier-Hub/Vendors-Management/Vendor-Registration?csrt=8043112933005160394"
+      "https://nws.nama.om/en-us/Supplier-Hub/Vendors-Management/Vendor-Registration?csrt=8043112933005160394",
+      "https://www.bahrainairport.bh/corporate/suppliers",
+      "https://qataridiar.com/e-procurement",
+      "https://powerholding.com/supplier/",
+      "https://oq.com/en/vendors",
+      "https://e-procurement.omanair.com/",
+      "https://www.barwa.com.qa/supplierregistration",
+      "https://www.kegoc.kz/en/procurement/info/",
+      "https://www.kazatomprom.kz/ru/purchase",
+      "https://www.socar.az/en/page/operations",
+      "https://epic.emirates.com/web/login.html"
     ],
     "allowedPaths": [
       "/investors",
