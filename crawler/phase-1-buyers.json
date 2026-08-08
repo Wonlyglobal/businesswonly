@@ -1000,6 +1000,106 @@
       "crawlMode": "public",
       "status": "official_source_verified",
       "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "Abu Dhabi Airports",
+      "country": "AE",
+      "type": "airport_operator",
+      "officialUrl": "https://www.adairports.ae/en/partners/procurement",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "Bapco Energies",
+      "country": "BH",
+      "type": "energy_conglomerate",
+      "officialUrl": "https://www.bapcoenergies.com/our-responsibility/doing-business-with-us",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "Air Arabia",
+      "country": "AE",
+      "type": "airline_supplier_portal",
+      "officialUrl": "https://meta.airarabia.com/en/supplier-registration",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "QatarEnergy LNG",
+      "country": "QA",
+      "type": "lng_buyer",
+      "officialUrl": "https://www.qatarenergylng.qa/english/suppliers/new-contractors-and-suppliers",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "Georgian Railway",
+      "country": "GE",
+      "type": "rail_infrastructure_buyer",
+      "officialUrl": "https://www.railway.ge/en/tenders/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "Kuwait Ministry of Public Works",
+      "country": "KW",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://www.mpw.gov.kw/sites/ar/Pages/eServices/SupplierRegistration/SupplierRegistration.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "Uzbekistan Airways",
+      "country": "UZ",
+      "type": "airline_buyer",
+      "officialUrl": "https://corp.uzairways.com/en/press-center/tenders",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "Kazakhstan Temir Zholy",
+      "country": "KZ",
+      "type": "rail_operator",
+      "officialUrl": "https://temirzholy.kz/ru/financial/procurement/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "Oman Airports ePortal",
+      "country": "OM",
+      "type": "airport_operator",
+      "officialUrl": "https://apps.omanairports.com/ePortal",
+      "priority": "S2",
+      "crawlMode": "manual_only",
+      "status": "official_terms_restrict_automated_collection",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "Saudi Ports Authority Biddings",
+      "country": "SA",
+      "type": "government_procurement_portal",
+      "officialUrl": "https://mawani.gov.sa/en-us/EServices/Biddings/Pages/BidingsAnnouncement.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
     }
   ]
 }

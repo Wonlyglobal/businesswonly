@@ -40,7 +40,14 @@
       "https://www.su.edu.om/procurement-and-contracts/",
       "https://vale.com/becoming-a-supplier-for-vale-in-oman",
       "https://www.dpworld.sa/User/Register",
-      "https://atlanticoman.com/vendor-supplier-registration-form/"
+      "https://atlanticoman.com/vendor-supplier-registration-form/",
+      "https://www.adairports.ae/en/partners/procurement",
+      "https://www.bapcoenergies.com/our-responsibility/doing-business-with-us",
+      "https://meta.airarabia.com/en/supplier-registration",
+      "https://www.qatarenergylng.qa/english/suppliers/new-contractors-and-suppliers",
+      "https://corp.uzairways.com/en/press-center/tenders",
+      "https://temirzholy.kz/ru/financial/procurement/",
+      "https://www.railway.ge/en/tenders/"
     ],
     "allowedPaths": [
       "/",
@@ -124,7 +131,8 @@
       "https://procurement.gov.ge/en/",
       "https://tenders.procurement.gov.ge/",
       "https://misa.gov.sa/resources/procurements/",
-      "https://www.dm.gov.ae/municipality-business/supplier-registration/"
+      "https://www.dm.gov.ae/municipality-business/supplier-registration/",
+      "https://mawani.gov.sa/en-us/EServices/Biddings/Pages/BidingsAnnouncement.aspx"
     ],
     "allowedPaths": [
       "/tenders",
@@ -212,7 +220,9 @@
       "https://www.kegoc.kz/en/procurement/info/",
       "https://www.kazatomprom.kz/ru/purchase",
       "https://www.socar.az/en/page/operations",
-      "https://epic.emirates.com/web/login.html"
+      "https://epic.emirates.com/web/login.html",
+      "https://www.mpw.gov.kw/sites/ar/Pages/eServices/SupplierRegistration/SupplierRegistration.aspx",
+      "https://www.railway.ge/en/tenders/"
     ],
     "allowedPaths": [
       "/investors",

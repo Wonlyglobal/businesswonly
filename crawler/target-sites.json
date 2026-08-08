@@ -806,6 +806,106 @@
       "accessDifficulty": "medium",
       "notes": "Official vendor and supplier registration form for construction contracting work.",
       "verifiedAt": "2026-08-07T05:37:07.8070103Z"
+    },
+    {
+      "name": "Abu Dhabi Airports",
+      "country": "AE",
+      "category": "transport",
+      "url": "https://www.adairports.ae/en/partners/procurement",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official procurement page and new eSourcing portal for airport supplier registration.",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "Bapco Energies",
+      "country": "BH",
+      "category": "energy",
+      "url": "https://www.bapcoenergies.com/our-responsibility/doing-business-with-us",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official vendor and supplier registration and qualification entry.",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "Air Arabia",
+      "country": "AE",
+      "category": "transport",
+      "url": "https://meta.airarabia.com/en/supplier-registration",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier registration page for Air Arabia Group Contracts & Procurement.",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "QatarEnergy LNG",
+      "country": "QA",
+      "category": "energy",
+      "url": "https://www.qatarenergylng.qa/english/suppliers/new-contractors-and-suppliers",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official new contractors and suppliers page for QatarEnergy LNG.",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "Georgian Railway",
+      "country": "GE",
+      "category": "transport",
+      "url": "https://www.railway.ge/en/tenders/",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official tender listings for railway procurement and construction works.",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "Kuwait Ministry of Public Works",
+      "country": "KW",
+      "category": "government_procurement",
+      "url": "https://www.mpw.gov.kw/sites/ar/Pages/eServices/SupplierRegistration/SupplierRegistration.aspx",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier registration and qualification portal for public works procurement.",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "Uzbekistan Airways",
+      "country": "UZ",
+      "category": "transport",
+      "url": "https://corp.uzairways.com/en/press-center/tenders",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official corporate tenders page for airline procurement and sourcing notices.",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "Kazakhstan Temir Zholy",
+      "country": "KZ",
+      "category": "transport",
+      "url": "https://temirzholy.kz/ru/financial/procurement/",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official procurement plan and tender notices for the national railway operator.",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "Oman Airports ePortal",
+      "country": "OM",
+      "category": "transport",
+      "url": "https://apps.omanairports.com/ePortal",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "high",
+      "notes": "Portal login and registration page; site terms indicate the sub-domain is not public use, so handle manually only.",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "Saudi Ports Authority Biddings",
+      "country": "SA",
+      "category": "government_procurement",
+      "url": "https://mawani.gov.sa/en-us/EServices/Biddings/Pages/BidingsAnnouncement.aspx",
+      "entryType": "tender_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official bidding announcements page for Saudi Ports Authority.",
+      "verifiedAt": "2026-08-08T10:03:51.367Z"
     }
   ]
 }
