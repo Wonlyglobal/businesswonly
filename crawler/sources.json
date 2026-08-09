@@ -57,7 +57,13 @@
       "https://www.aus.edu/node/116636",
       "https://www.zu.ac.ae/main/en/cpd/vendor",
       "https://bids.kfupm.edu.sa/iSupplier.aspx",
-      "https://www.uob.edu.bh/dept-of-purchasing/"
+      "https://www.uob.edu.bh/dept-of-purchasing/",
+      "https://miral.ae/supplier-registration/",
+      "https://www.expocitydubai.com/en/suppliers/",
+      "https://www.flydubai.com/en/information/procurement",
+      "https://waslservices.wasl.ae/irj/go/km/docs/documents/wasl%20-%20ERP/User%20Enrollment/User%20Enrollment.html",
+      "https://www.mubadala.com/en/a-guide-for-suppliers",
+      "https://www.majidalfuttaim.com/en/what-we-do/partner-with-us"
     ],
     "allowedPaths": [
       "/",
@@ -232,7 +238,11 @@
       "https://www.socar.az/en/page/operations",
       "https://epic.emirates.com/web/login.html",
       "https://www.mpw.gov.kw/sites/ar/Pages/eServices/SupplierRegistration/SupplierRegistration.aspx",
-      "https://www.railway.ge/en/tenders/"
+      "https://www.railway.ge/en/tenders/",
+      "https://tdra.gov.ae/en/Services/tdra-supplier-registration",
+      "https://www.dubaidet.gov.ae/en/our-services/for-consumers-and-students/register-as-a-supplier",
+      "https://ssa.gov.ae/en/Supplier-Registration",
+      "https://rta.ae/wps/portal/rta/ae/home/about-rta/top-pages/e-Prequalification"
     ],
     "allowedPaths": [
       "/investors",

@@ -1200,6 +1200,106 @@
       "crawlMode": "public",
       "status": "official_source_verified",
       "verifiedAt": "2026-08-08T17:21:23.7280303Z"
+    },
+    {
+      "name": "Miral",
+      "country": "AE",
+      "type": "tourism_leisure_buyer",
+      "officialUrl": "https://miral.ae/supplier-registration/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
+    },
+    {
+      "name": "Expo City Dubai",
+      "country": "AE",
+      "type": "mixed_use_developer",
+      "officialUrl": "https://www.expocitydubai.com/en/suppliers/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
+    },
+    {
+      "name": "TDRA",
+      "country": "AE",
+      "type": "government_buyer",
+      "officialUrl": "https://tdra.gov.ae/en/Services/tdra-supplier-registration",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
+    },
+    {
+      "name": "Dubai Department of Economy and Tourism",
+      "country": "AE",
+      "type": "government_buyer",
+      "officialUrl": "https://www.dubaidet.gov.ae/en/our-services/for-consumers-and-students/register-as-a-supplier",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
+    },
+    {
+      "name": "Abu Dhabi Social Support Authority",
+      "country": "AE",
+      "type": "government_buyer",
+      "officialUrl": "https://ssa.gov.ae/en/Supplier-Registration",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
+    },
+    {
+      "name": "flydubai Procurement",
+      "country": "AE",
+      "type": "airline_supplier_portal",
+      "officialUrl": "https://www.flydubai.com/en/information/procurement",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
+    },
+    {
+      "name": "RTA e-Prequalification",
+      "country": "AE",
+      "type": "transport_authority_buyer",
+      "officialUrl": "https://rta.ae/wps/portal/rta/ae/home/about-rta/top-pages/e-Prequalification",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
+    },
+    {
+      "name": "Wasl Supplier Self Registration",
+      "country": "AE",
+      "type": "real_estate_developer",
+      "officialUrl": "https://waslservices.wasl.ae/irj/go/km/docs/documents/wasl%20-%20ERP/User%20Enrollment/User%20Enrollment.html",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
+    },
+    {
+      "name": "Mubadala A Guide for Suppliers",
+      "country": "AE",
+      "type": "investment_holding_buyer",
+      "officialUrl": "https://www.mubadala.com/en/a-guide-for-suppliers",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
+    },
+    {
+      "name": "Majid Al Futtaim Partner with Us",
+      "country": "AE",
+      "type": "diversified_buyer_portal",
+      "officialUrl": "https://www.majidalfuttaim.com/en/what-we-do/partner-with-us",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
     }
   ]
 }

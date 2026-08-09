@@ -1006,6 +1006,106 @@
       "accessDifficulty": "low",
       "notes": "Purchasing department handles tenders, contracts and facility-related purchases.",
       "verifiedAt": "2026-08-08T17:21:23.7280303Z"
+    },
+    {
+      "name": "Miral",
+      "country": "AE",
+      "category": "tourism_leisure",
+      "url": "https://miral.ae/supplier-registration/",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Public supplier registration portal and guidance documents for Miral suppliers.",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
+    },
+    {
+      "name": "Expo City Dubai",
+      "country": "AE",
+      "category": "mixed_use_developer",
+      "url": "https://www.expocitydubai.com/en/suppliers/",
+      "entryType": "supplier_information",
+      "accessDifficulty": "medium",
+      "notes": "Public supplier information and procurement guide with code of conduct and PO terms.",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
+    },
+    {
+      "name": "TDRA",
+      "country": "AE",
+      "category": "government_procurement",
+      "url": "https://tdra.gov.ae/en/Services/tdra-supplier-registration",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier registration service for qualified suppliers and public tenders.",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
+    },
+    {
+      "name": "Dubai Department of Economy and Tourism",
+      "country": "AE",
+      "category": "government_procurement",
+      "url": "https://www.dubaidet.gov.ae/en/our-services/for-consumers-and-students/register-as-a-supplier",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Official supplier registration for DET tenders via GRP system.",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
+    },
+    {
+      "name": "Abu Dhabi Social Support Authority",
+      "country": "AE",
+      "category": "government_procurement",
+      "url": "https://ssa.gov.ae/en/Supplier-Registration",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Supplier registration page routed through Abu Dhabi Department of Finance supplier services.",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
+    },
+    {
+      "name": "flydubai Procurement",
+      "country": "AE",
+      "category": "airline",
+      "url": "https://www.flydubai.com/en/information/procurement",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Public supplier registration and pre-qualification page for flydubai procurement.",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
+    },
+    {
+      "name": "RTA e-Prequalification",
+      "country": "AE",
+      "category": "transport",
+      "url": "https://rta.ae/wps/portal/rta/ae/home/about-rta/top-pages/e-Prequalification",
+      "entryType": "supplier_portal",
+      "accessDifficulty": "medium",
+      "notes": "Official vendor prequalification and purchasing system entry for RTA suppliers.",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
+    },
+    {
+      "name": "Wasl Supplier Self Registration",
+      "country": "AE",
+      "category": "real_estate",
+      "url": "https://waslservices.wasl.ae/irj/go/km/docs/documents/wasl%20-%20ERP/User%20Enrollment/User%20Enrollment.html",
+      "entryType": "supplier_registration",
+      "accessDifficulty": "medium",
+      "notes": "Wasl supplier self-registration material for bidders and vendors.",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
+    },
+    {
+      "name": "Mubadala A Guide for Suppliers",
+      "country": "AE",
+      "category": "investment",
+      "url": "https://www.mubadala.com/en/a-guide-for-suppliers",
+      "entryType": "supplier_guidance",
+      "accessDifficulty": "medium",
+      "notes": "Supplier guide covering ICV certification requirements and current supplier access paths.",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
+    },
+    {
+      "name": "Majid Al Futtaim Partner with Us",
+      "country": "AE",
+      "category": "diversified_conglomerate",
+      "url": "https://www.majidalfuttaim.com/en/what-we-do/partner-with-us",
+      "entryType": "partner_contact",
+      "accessDifficulty": "medium",
+      "notes": "Public partner entry for business development and supplier engagement across operating companies.",
+      "verifiedAt": "2026-08-09T04:03:39.9193710Z"
     }
   ]
 }
