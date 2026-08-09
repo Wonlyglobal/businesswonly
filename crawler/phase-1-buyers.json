@@ -1100,6 +1100,106 @@
       "crawlMode": "public",
       "status": "official_source_verified",
       "verifiedAt": "2026-08-08T10:03:51.367Z"
+    },
+    {
+      "name": "ENOC Group",
+      "country": "AE",
+      "type": "energy_supplier_portal",
+      "officialUrl": "https://www.enoc.com/en/Contractors-and-Suppliers",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T17:21:23.7280303Z"
+    },
+    {
+      "name": "Kuwait Integrated Petroleum Industries Company",
+      "country": "KW",
+      "type": "energy_buyer",
+      "officialUrl": "https://kipic.com.kw/kipic-resources/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T17:21:23.7280303Z"
+    },
+    {
+      "name": "Kuwait University",
+      "country": "KW",
+      "type": "institutional_buyer",
+      "officialUrl": "https://portal.ku.edu.kw/supplier/vendorua.jsp",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T17:21:23.7280303Z"
+    },
+    {
+      "name": "United Arab Emirates University",
+      "country": "AE",
+      "type": "institutional_buyer",
+      "officialUrl": "https://eprocurement.uaeu.ac.ae/p_signup.jsp",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T17:21:23.7280303Z"
+    },
+    {
+      "name": "Khalifa University",
+      "country": "AE",
+      "type": "institutional_buyer",
+      "officialUrl": "https://www.ku.ac.ae/about/procurement-and-contracts-department/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T17:21:23.7280303Z"
+    },
+    {
+      "name": "University of Sharjah",
+      "country": "AE",
+      "type": "institutional_buyer",
+      "officialUrl": "https://www.sharjah.ac.ae/Services/Supplier-Portal",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T17:21:23.7280303Z"
+    },
+    {
+      "name": "American University of Sharjah",
+      "country": "AE",
+      "type": "institutional_buyer",
+      "officialUrl": "https://www.aus.edu/node/116636",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T17:21:23.7280303Z"
+    },
+    {
+      "name": "Zayed University",
+      "country": "AE",
+      "type": "institutional_buyer",
+      "officialUrl": "https://www.zu.ac.ae/main/en/cpd/vendor",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T17:21:23.7280303Z"
+    },
+    {
+      "name": "King Fahd University of Petroleum and Minerals",
+      "country": "SA",
+      "type": "institutional_buyer",
+      "officialUrl": "https://bids.kfupm.edu.sa/iSupplier.aspx",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T17:21:23.7280303Z"
+    },
+    {
+      "name": "University of Bahrain",
+      "country": "BH",
+      "type": "institutional_buyer",
+      "officialUrl": "https://www.uob.edu.bh/dept-of-purchasing/",
+      "priority": "S1",
+      "crawlMode": "public",
+      "status": "official_source_verified",
+      "verifiedAt": "2026-08-08T17:21:23.7280303Z"
     }
   ]
 }
