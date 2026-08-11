@@ -1,0 +1,894 @@
+{
+  "generatedAt": "2026-08-09T04:15:46.518Z",
+  "crawlerVersion": "0.2",
+  "userAgent": "AcquireOS-PublicResearch/0.2 (+public-source; contact-your-admin)",
+  "renderEnabled": false,
+  "summary": {
+    "sources": 1,
+    "pages": 100,
+    "tenders": 0
+  },
+  "marketConfig": {
+    "marketGroup": "Middle East and Central Asia",
+    "priorityMarkets": [
+      {
+        "country": "United Arab Emirates",
+        "code": "AE",
+        "cluster": "Gulf core",
+        "priority": "S1",
+        "languages": [
+          "English",
+          "Arabic"
+        ]
+      },
+      {
+        "country": "Saudi Arabia",
+        "code": "SA",
+        "cluster": "Gulf core",
+        "priority": "S1",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Qatar",
+        "code": "QA",
+        "cluster": "Gulf core",
+        "priority": "S2",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Kuwait",
+        "code": "KW",
+        "cluster": "Gulf core",
+        "priority": "S2",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Oman",
+        "code": "OM",
+        "cluster": "Gulf core",
+        "priority": "S2",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Bahrain",
+        "code": "BH",
+        "cluster": "Gulf core",
+        "priority": "S3",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Kazakhstan",
+        "code": "KZ",
+        "cluster": "Central Asia",
+        "priority": "S1",
+        "languages": [
+          "Russian",
+          "Kazakh",
+          "English"
+        ]
+      },
+      {
+        "country": "Uzbekistan",
+        "code": "UZ",
+        "cluster": "Central Asia",
+        "priority": "S1",
+        "languages": [
+          "Uzbek",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Azerbaijan",
+        "code": "AZ",
+        "cluster": "Central Asia adjacency",
+        "priority": "S2",
+        "languages": [
+          "Azerbaijani",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Georgia",
+        "code": "GE",
+        "cluster": "Central Asia adjacency",
+        "priority": "S2",
+        "languages": [
+          "Georgian",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Kyrgyzstan",
+        "code": "KG",
+        "cluster": "Central Asia",
+        "priority": "S3",
+        "languages": [
+          "Kyrgyz",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Tajikistan",
+        "code": "TJ",
+        "cluster": "Central Asia",
+        "priority": "S3",
+        "languages": [
+          "Tajik",
+          "Russian",
+          "English"
+        ]
+      }
+    ],
+    "holdForComplianceReview": [
+      "Iran",
+      "Syria",
+      "Yemen"
+    ],
+    "recommendedCustomerTypes": [
+      "door hardware brand",
+      "building materials chain",
+      "door manufacturer",
+      "importer wholesaler",
+      "hotel real estate project",
+      "government procurement"
+    ],
+    "recommendedProducts": [
+      "mechanical door lock",
+      "smart lock",
+      "hotel lock",
+      "mortise lock body",
+      "lever handle",
+      "door hardware set",
+      "OEM ODM product line"
+    ]
+  },
+  "results": [
+    {
+      "sourceId": "source-projects",
+      "sourceName": "Public construction projects",
+      "type": "public_project",
+      "startedAt": "2026-08-09T04:15:46.517Z",
+      "config": {
+        "maxPages": 100,
+        "maxDepth": 3,
+        "followDetail": true,
+        "paginate": true,
+        "render": "always",
+        "useSitemap": true
+      },
+      "pageCount": 100,
+      "renderStats": {
+        "static": 0,
+        "browser": 0,
+        "skipped": 100
+      },
+      "tenderCount": 0,
+      "tenders": [],
+      "contacts": {
+        "emails": [],
+        "phones": []
+      },
+      "pages": [
+        {
+          "url": "https://mof.gov.ae/en/public-finance/government-procurement/digital-procurement-platform/",
+          "depth": 0,
+          "capturedAt": "2026-08-09T04:12:47.470Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://esupply.dubai.gov.ae/web/index.html",
+          "depth": 0,
+          "capturedAt": "2026-08-09T04:12:49.285Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://adgpg.gov.ae/en",
+          "depth": 0,
+          "capturedAt": "2026-08-09T04:12:51.099Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://tenders.etimad.sa/Tender/",
+          "depth": 0,
+          "capturedAt": "2026-08-09T04:12:52.908Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://monaqasat.mof.gov.qa/TendersOnlineServices",
+          "depth": 0,
+          "capturedAt": "2026-08-09T04:12:54.718Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://capt.gov.kw/en/",
+          "depth": 0,
+          "capturedAt": "2026-08-09T04:12:56.533Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://etendering.tenderboard.gov.om/product/publicDash?CTRL_STRDIRECTION=LTR",
+          "depth": 0,
+          "capturedAt": "2026-08-09T04:12:58.333Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://etendering.tenderboard.gov.bh/Tenders/publicDash",
+          "depth": 0,
+          "capturedAt": "2026-08-09T04:13:00.135Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/en/pages/davlat_xaridlari",
+          "depth": 0,
+          "capturedAt": "2026-08-09T04:13:01.941Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://procurement.gov.ge/en/",
+          "depth": 0,
+          "capturedAt": "2026-08-09T04:13:03.750Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/uae-participates-in-124th-gcc-financial-and-economic-cooperation-committee-meeting-in-kuwait/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:05.561Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/ministry-of-finance-intensifies-efforts-to-complete-the-customs-union-and-implement-gcc-common-market-tracks/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:07.370Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/ministry-of-finance-announces-the-issuance-of-two-ministerial-decisions-on-the-scope-of-obligations-and-the-timelines-for-implementing-the-electronic-invoicing-system-2/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:09.174Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/mof-organisesforum-on-digital-participation-in-government-decision-making-to-strengthen-government-community-partnership/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:10.987Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/al-amiri-supporting-entrepreneurship-is-a-strategic-approach-that-ensures-economic-diversification-and-sustainability/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:12.792Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/h-e-younis-haji-alkhoori-the-emirates-the-startup-capital-of-the-world-campaign-is-a-milestone-in-empowering-entrepreneurship-and-national-projects-enhancing-their-role-in-the-economy/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:14.594Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/uae-signs-multilateral-competent-authority-agreement-on-the-automatic-exchange-of-information-under-the-crypto-asset-reporting-framework/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:16.401Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/mof-discusses-latest-financial-and-economic-developments-in-the-uae-with-imf-article-iv-consultation-mission/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:18.202Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/mof-showcases-role-of-government-communication-in-promoting-financial-awareness-at-igcf-2025/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:20.010Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/ministry-of-finance-holds-second-customer-council-under-the-zero-government-bureaucracy-programme-to-strengthen-partnerships-and-institutional-development/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:21.813Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/ministry-of-finance-issues-two-ministerial-decisions-on-qualifying-activities-and-excluded-activities-in-free-zones-for-corporate-tax-purposes-and-on-recognised-price-reporting-agencies/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:23.618Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/ministry-of-finance-takes-federal-public-private-partnership-framework-to-next-level-to-drive-sustainable-economic-growth/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:25.427Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/ministry-of-finance-receives-best-industry-enabler-award-for-transforming-procurement-and-empowering-local-suppliers/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:27.229Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/uae-ranks-16th-globally-in-the-government-support-index-in-the-imd-world-competitiveness-yearbook-2025/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:29.045Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/ministry-of-finance-welcomes-executive-leadership-programme-delegation-from-the-republic-of-indonesia-to-showcase-best-government-practices/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:30.857Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/mohamed-bin-hadi-al-hussaini-youth-are-essential-partners-in-shaping-the-present-and-building-the-future/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:32.660Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/ministry-of-finance-partners-with-institute-of-management-accountants-to-launch-cma-and-fmaa-certifications/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:34.469Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/islamic-treasury-sukuk-auction-for-july-2025-attracts-bids-worth-aed-535-billion/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:36.277Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/mohamed-bin-hadi-al-hussaini-explores-ways-of-enhancing-economic-ties-with-latin-american-and-caribbean-ambassadors/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:38.077Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/ministry-of-finance-organises-first-customer-council-under-phase-two-of-the-zero-government-bureaucracy-programme/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:39.883Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/ministry-of-finance-achieves-record-service-quality-results-scoring-9657-in-the-customer-happiness-index-for-h1-2025/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:41.692Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/mohamed-bin-hadi-al-hussaini-union-pledge-inspires-a-national-vision-shaping-the-uaes-financial-future/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:43.493Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/ministry-of-finance-and-federal-tax-authority-announce-amendment-to-excise-tax-on-sugar-sweetened-beverages-through-introduction-of-a-tiered-volumetric-model/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:45.304Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/younis-haji-alkhoori-union-pledge-day-the-backbone-of-our-federation-and-a-launchpad-for-development/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:47.119Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/uae-participates-in-3rd-g20-finance-ministers-and-central-bank-governors-meeting-in-south-africa/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:48.930Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/ministry-of-finance-issues-ministerial-decision-on-depreciation-adjustments-for-investment-properties-held-at-fair-value-for-the-purposes-of-corporate-tax-law/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:50.743Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/ministry-of-finance-launches-2027-2029-budget-cycle-with-flexible-vision-focused-on-sustainability-efficiency-and-artificial-intelligence/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:52.557Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/ministry-of-finance-wins-global-award-for-ai-innovation-in-the-financial-sector/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:54.372Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/uae-and-chad-discuss-ways-to-strengthen-cooperation-in-financial-sector/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:56.186Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/mohamed-bin-hadi-al-hussaini-pakistans-minister-of-finance-discuss-ways-to-enhance-cooperation-in-financial-fields/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:57.999Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/uae-participates-in-brics-finance-ministers-and-central-bank-governors-meeting-under-brazils-presidency/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:13:59.801Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/uae-participates-in-the-10th-annual-meeting-of-the-board-of-governors-of-the-new-development-bank-in-brazil/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:01.615Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/mohammed-bin-rashid-innovation-fund-launches-a-new-chapter-to-strengthen-government-innovation/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:03.420Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/islamic-treasury-sukuk-auction-for-june-2025-attracts-bids-worth-aed-621-billion/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:05.223Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/uae-among-elite-global-economies-with-strong-stable-sovereign-ratings-from-the-top-three-international-credit-rating-agencies/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:07.031Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/the-ministry-of-finance-publishes-mutual-agreement-procedure-guidance-for-taxpayers/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:08.835Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/uae-participates-in-the-46th-ministerial-council-meeting-of-the-opec-fund-for-international-development-in-vienna/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:10.642Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/mof-organises-workshop-on-cabinet-resolutions-related-to-outsourcing-and-instalment-of-debt-collection-from-federal-entities/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:12.448Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/ministry-of-finance-graduates-emirati-cadres-specialised-programmes-in-financial-sustainability-and-accounting/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:14.249Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://mof.gov.ae/en/news/mohamed-bin-hadi-al-hussaini-removing-the-uae-from-eu-list-of-high-risk-third-countries-reflects-the-global-trust-in-the-uaes-financial-system/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:16.054Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/pages/state_authority",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:17.869Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/pages/president",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:19.674Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/pages/symbols",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:21.485Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/pages/2026",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:23.294Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/pages/2030_strategy",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:25.108Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/pages/davlat_xaridlari",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:26.921Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/pages/geolocation",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:28.725Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/pages/territory",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:30.540Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/population",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:32.351Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/weather",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:34.155Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/pages/e-participation",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:35.959Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/pages/kochmas_mulklarga_bolgan_huquqlar_reyestri",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:37.767Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/pages/ekomunnal",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:39.577Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/pages/Elektron_litsenziyalash_tizimi",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:41.384Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/pages/Davlat_xususiy_sheriklik_loyihalari",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:43.199Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/pages/main_info",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:45.014Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/lists/guidance",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:46.823Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/pages/CM_Presidium",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:48.632Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/lists/complex/11",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:50.434Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/lists/complex/12",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:52.248Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/lists/complex/3",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:54.057Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/lists/complex/10",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:55.860Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/lists/complex/9",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:57.666Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/activity_page/economy",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:14:59.477Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/activity_page/education",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:01.288Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/activity_page/health",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:03.094Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/activity_page/youth_sport",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:04.895Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/activity_page/environment",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:06.699Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/activity_page/foreign_policy",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:08.502Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/activity_page/digital_technology",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:10.312Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/activity_page/construction",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:12.128Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/activity_page/social_protection",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:13.943Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/activity_page/agriculture",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:15.757Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/activity_page/investment",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:17.562Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/activity_page/regional_development",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:19.375Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/activity_page/tourism",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:21.183Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/activity_page/energy",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:22.995Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/activity_page/legacy",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:24.811Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/advice/58",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:26.616Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://gov.uz/ru/advice/554",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:28.426Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://www.dm.gov.ae/projects/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:30.230Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://www.dm.gov.ae/projects/al-eyas-masjid/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:32.043Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://www.dm.gov.ae/projects/al-khazzan-park/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:33.854Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://www.dm.gov.ae/projects/al-muraqabat-housing-complex/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:35.667Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://www.dm.gov.ae/projects/althuraya-astronomy-center/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:37.480Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://www.dm.gov.ae/projects/campus-expansion-at-zayed-university/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:39.282Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://www.dm.gov.ae/projects/civil-defence-buildings-emirates-martyrs-station-al-manara-marsa-dubai-and-al-barsha/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:41.088Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://www.dm.gov.ae/projects/civil-defence-centers/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:42.903Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://www.dm.gov.ae/projects/community-center-in-al-barsha/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:44.712Z",
+          "status": "skipped",
+          "reason": "no_content"
+        },
+        {
+          "url": "https://www.dm.gov.ae/projects/community-facilities/",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:15:46.517Z",
+          "status": "skipped",
+          "reason": "no_content"
+        }
+      ]
+    }
+  ]
+}

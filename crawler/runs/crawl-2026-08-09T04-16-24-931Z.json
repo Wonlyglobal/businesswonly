@@ -1,0 +1,562 @@
+{
+  "generatedAt": "2026-08-09T04:16:24.932Z",
+  "crawlerVersion": "0.2",
+  "userAgent": "AcquireOS-PublicResearch/0.2 (+public-source; contact-your-admin)",
+  "renderEnabled": false,
+  "summary": {
+    "sources": 1,
+    "pages": 12,
+    "tenders": 0
+  },
+  "marketConfig": {
+    "marketGroup": "Middle East and Central Asia",
+    "priorityMarkets": [
+      {
+        "country": "United Arab Emirates",
+        "code": "AE",
+        "cluster": "Gulf core",
+        "priority": "S1",
+        "languages": [
+          "English",
+          "Arabic"
+        ]
+      },
+      {
+        "country": "Saudi Arabia",
+        "code": "SA",
+        "cluster": "Gulf core",
+        "priority": "S1",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Qatar",
+        "code": "QA",
+        "cluster": "Gulf core",
+        "priority": "S2",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Kuwait",
+        "code": "KW",
+        "cluster": "Gulf core",
+        "priority": "S2",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Oman",
+        "code": "OM",
+        "cluster": "Gulf core",
+        "priority": "S2",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Bahrain",
+        "code": "BH",
+        "cluster": "Gulf core",
+        "priority": "S3",
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      {
+        "country": "Kazakhstan",
+        "code": "KZ",
+        "cluster": "Central Asia",
+        "priority": "S1",
+        "languages": [
+          "Russian",
+          "Kazakh",
+          "English"
+        ]
+      },
+      {
+        "country": "Uzbekistan",
+        "code": "UZ",
+        "cluster": "Central Asia",
+        "priority": "S1",
+        "languages": [
+          "Uzbek",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Azerbaijan",
+        "code": "AZ",
+        "cluster": "Central Asia adjacency",
+        "priority": "S2",
+        "languages": [
+          "Azerbaijani",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Georgia",
+        "code": "GE",
+        "cluster": "Central Asia adjacency",
+        "priority": "S2",
+        "languages": [
+          "Georgian",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Kyrgyzstan",
+        "code": "KG",
+        "cluster": "Central Asia",
+        "priority": "S3",
+        "languages": [
+          "Kyrgyz",
+          "Russian",
+          "English"
+        ]
+      },
+      {
+        "country": "Tajikistan",
+        "code": "TJ",
+        "cluster": "Central Asia",
+        "priority": "S3",
+        "languages": [
+          "Tajik",
+          "Russian",
+          "English"
+        ]
+      }
+    ],
+    "holdForComplianceReview": [
+      "Iran",
+      "Syria",
+      "Yemen"
+    ],
+    "recommendedCustomerTypes": [
+      "door hardware brand",
+      "building materials chain",
+      "door manufacturer",
+      "importer wholesaler",
+      "hotel real estate project",
+      "government procurement"
+    ],
+    "recommendedProducts": [
+      "mechanical door lock",
+      "smart lock",
+      "hotel lock",
+      "mortise lock body",
+      "lever handle",
+      "door hardware set",
+      "OEM ODM product line"
+    ]
+  },
+  "results": [
+    {
+      "sourceId": "source-public-buyers",
+      "sourceName": "Large buyer public disclosures",
+      "type": "public_buyer",
+      "startedAt": "2026-08-09T04:16:24.931Z",
+      "config": {
+        "maxPages": 100,
+        "maxDepth": 2,
+        "followDetail": true,
+        "paginate": true,
+        "render": "auto",
+        "useSitemap": false
+      },
+      "pageCount": 12,
+      "renderStats": {
+        "static": 8,
+        "browser": 0,
+        "skipped": 4
+      },
+      "tenderCount": 0,
+      "tenders": [],
+      "contacts": {
+        "emails": [
+          "info@powerholding-intl.com"
+        ],
+        "phones": [
+          "+974 4429 2220",
+          "+974 4429 2221"
+        ]
+      },
+      "pages": [
+        {
+          "url": "https://e.fsa.gov.om/Supplier/Registration",
+          "depth": 0,
+          "capturedAt": "2026-08-09T04:15:58.299Z",
+          "status": "skipped",
+          "reason": "fetch_error_fetch failed"
+        },
+        {
+          "url": "https://powerholding.com/supplier/",
+          "depth": 0,
+          "capturedAt": "2026-08-09T04:16:01.724Z",
+          "status": "ok",
+          "statusCode": 200,
+          "renderedWith": "static",
+          "title": "Power International Holding - Supplier portal",
+          "description": "",
+          "tenderLike": false,
+          "emails": [
+            "info@powerholding-intl.com"
+          ],
+          "phones": [
+            "+974 4429 2220",
+            "+974 4429 2221"
+          ],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "public_buyer",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "Group of Companies Download Our Profile Sectors General Contracting Agriculture and Food Industry Real Estate Lifestyle (Hospitality, Entertainment &Catering) News Sustainability Procurement Careers Contact Contact Us Addresses We are one of the largest and most trusted group in Qatar. A convergence of diverse businesses locally and across the globe. Power International Holding Tower Marina District 2, Building 2 Zone 69, Street 325 Lusail City, Qatar Tel: +974 4429 2220 | +974 4429 2221 Email:"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "Power International Holding - Supplier portal Home About Us About Us Vision and Mission Values &Guiding Principles Board Of Directors Top Management Our Group of Companies Download Our Profile Sectors General Contracting Agriculture and Food Industry Real Estate Lifestyle (Hospitality, Entertainment &Catering) News Sustainability Procurement Careers Contact Contact Us Addresses We are one of the largest and most trusted group in Qatar. A convergence of diverse businesses locally and across the globe. Power International Holding Tower Marina District 2, Building 2 Zone 69, Street 325 Lusail City, Qatar Tel: +974 4429 2220 | +974 4429 2221 Email: info@powerholding-intl.com P.O. Box: 24590, Lusail City, State of Qatar Home About Us About Us Vision and Mission Values &Guiding Principles Board ",
+          "evidence": {
+            "field": "page",
+            "url": "https://powerholding.com/supplier/",
+            "capturedAt": "2026-08-09T04:16:01.724Z",
+            "renderedWith": "static"
+          }
+        },
+        {
+          "url": "https://powerholding.com/supplier/index.html",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:16:03.806Z",
+          "status": "ok",
+          "statusCode": 200,
+          "renderedWith": "static",
+          "title": "Power International Holding - Supplier portal",
+          "description": "",
+          "tenderLike": false,
+          "emails": [
+            "info@powerholding-intl.com"
+          ],
+          "phones": [
+            "+974 4429 2220",
+            "+974 4429 2221"
+          ],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "public_buyer",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "Group of Companies Download Our Profile Sectors General Contracting Agriculture and Food Industry Real Estate Lifestyle (Hospitality, Entertainment &Catering) News Sustainability Procurement Careers Contact Contact Us Addresses We are one of the largest and most trusted group in Qatar. A convergence of diverse businesses locally and across the globe. Power International Holding Tower Marina District 2, Building 2 Zone 69, Street 325 Lusail City, Qatar Tel: +974 4429 2220 | +974 4429 2221 Email:"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "Power International Holding - Supplier portal Home About Us About Us Vision and Mission Values &Guiding Principles Board Of Directors Top Management Our Group of Companies Download Our Profile Sectors General Contracting Agriculture and Food Industry Real Estate Lifestyle (Hospitality, Entertainment &Catering) News Sustainability Procurement Careers Contact Contact Us Addresses We are one of the largest and most trusted group in Qatar. A convergence of diverse businesses locally and across the globe. Power International Holding Tower Marina District 2, Building 2 Zone 69, Street 325 Lusail City, Qatar Tel: +974 4429 2220 | +974 4429 2221 Email: info@powerholding-intl.com P.O. Box: 24590, Lusail City, State of Qatar Home About Us About Us Vision and Mission Values &Guiding Principles Board ",
+          "evidence": {
+            "field": "page",
+            "url": "https://powerholding.com/supplier/index.html",
+            "capturedAt": "2026-08-09T04:16:03.806Z",
+            "renderedWith": "static"
+          }
+        },
+        {
+          "url": "https://powerholding.com/supplier/about.html",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:16:06.144Z",
+          "status": "skipped",
+          "reason": "http_404"
+        },
+        {
+          "url": "https://powerholding.com/supplier/about2.html",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:16:08.451Z",
+          "status": "skipped",
+          "reason": "http_404"
+        },
+        {
+          "url": "https://powerholding.com/supplier/assets/video/intro.mp4",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:16:10.508Z",
+          "status": "skipped",
+          "reason": "content_type_video/mp4"
+        },
+        {
+          "url": "https://powerholding.com/supplier/code-of-conduct.html",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:16:14.608Z",
+          "status": "ok",
+          "statusCode": 200,
+          "renderedWith": "static",
+          "title": "Power International Holding - Supplier portal",
+          "description": "",
+          "tenderLike": false,
+          "emails": [
+            "info@powerholding-intl.com"
+          ],
+          "phones": [
+            "+974 4429 2220",
+            "+974 4429 2221"
+          ],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "门锁/建筑五金",
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "public_buyer",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "Group of Companies Download Our Profile Sectors General Contracting Agriculture and Food Industry Real Estate Lifestyle (Hospitality, Entertainment &Catering) News Sustainability Procurement Careers Contact Contact Us Addresses We are one of the largest and most trusted group in Qatar. A convergence of diverse businesses locally and across the globe. Power International Holding Tower Marina District 2, Building 2 Zone 69, Street 325 Lusail City, Qatar Tel: +974 4429 2220 | +974 4429 2221 Email:",
+            "ies of Power International Holding. 5- Compliance It is the third party’s responsibility to communicate, educate and exercise diligence in verifying compliance of this Code to its employees, sub-contractors and suppliers. Third party shall maintain records of all relevant documentation necessary to demonstrate compliance with the Code and related Laws and Regulations. PIH reserves the right to verify compliance to this Code by continuously monitoring third party compliance the Code by asking Thi",
+            "ness contact at PIH immediately upon discovery. 6.7- Diversity and Inclusion Based on our principles of respect and collaboration, PIH is committed to diversity and to equal opportunity in the workplace. We seek to provide a work environment where all persons can reach their full potential and contribute to PIH success. As part of our commitment to fair inclusion of all persons, as well as our commitment to diversity, third party shall prohibit discrimination based on race, color, age, religion,",
+            "in compliance with all laws and regulations ap¬plicable to their business. Third party shall comply with all flow down terms, conditions, and other provisions as specified in the Purchase Order. When performing international business, or if the primary place of business is outside of the Qatar, third party shall comply with local laws. 6.2- Anti Bribery and Corruption PIH is committed to abiding by all laws and regulations and if necessary, exceeding them to prevent bribery and corruption where"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "Power International Holding - Supplier portal Home About Us About Us Vision and Mission Values &Guiding Principles Board Of Directors Top Management Our Group of Companies Download Our Profile Sectors General Contracting Agriculture and Food Industry Real Estate Lifestyle (Hospitality, Entertainment &Catering) News Sustainability Procurement Careers Contact Contact Us Addresses We are one of the largest and most trusted group in Qatar. A convergence of diverse businesses locally and across the globe. Power International Holding Tower Marina District 2, Building 2 Zone 69, Street 325 Lusail City, Qatar Tel: +974 4429 2220 | +974 4429 2221 Email: info@powerholding-intl.com P.O. Box: 24590, Lusail City, State of Qatar Home About Us About Us Vision and Mission Values &Guiding Principles Board ",
+          "evidence": {
+            "field": "page",
+            "url": "https://powerholding.com/supplier/code-of-conduct.html",
+            "capturedAt": "2026-08-09T04:16:14.609Z",
+            "renderedWith": "static"
+          }
+        },
+        {
+          "url": "https://powerholding.com/supplier/anti-bribery.html",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:16:16.677Z",
+          "status": "ok",
+          "statusCode": 200,
+          "renderedWith": "static",
+          "title": "Power International Holding - Supplier portal",
+          "description": "",
+          "tenderLike": false,
+          "emails": [
+            "info@powerholding-intl.com"
+          ],
+          "phones": [
+            "+974 4429 2220",
+            "+974 4429 2221"
+          ],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "OEM/ODM",
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "public_buyer",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "nies Download Our Profile Sectors General Contracting Agriculture and Food Industry Real Estate Lifestyle (Hospitality, Entertainment &Catering) News Sustainability Sustainability Procurement Contact Contact Us Addresses We are one of the largest and most trusted group in Qatar. A convergence of diverse businesses locally and across the globe. Power International Holding Tower Marina District 2, Building 2 Zone 69, Street 325 Lusail City, Qatar Tel: +974 4429 2220 | +974 4429 2221 Email: info@po",
+            "inducement or reward for obtaining business or any other benefit. Bribery can take place in the public sector (e.g. bribing a public official) or private sector (e.g. bribing the employee of a customer). Bribery can also take place where an improper payment is made by or through a third party. Bribes and kickbacks can therefore include, but are not limited to: a. gifts and excessive or inappropriate entertainment, hospitality, travel and accommodation expenses; b. payments, whether by Employees"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "Power International Holding - Supplier portal Home About Us About Us Vision and Mission Values &Guiding Principles Board Of Directors Top Management Our Group of Companies Download Our Profile Sectors General Contracting Agriculture and Food Industry Real Estate Lifestyle (Hospitality, Entertainment &Catering) News Sustainability Sustainability Procurement Contact Contact Us Addresses We are one of the largest and most trusted group in Qatar. A convergence of diverse businesses locally and across the globe. Power International Holding Tower Marina District 2, Building 2 Zone 69, Street 325 Lusail City, Qatar Tel: +974 4429 2220 | +974 4429 2221 Email: info@powerholding-intl.com P.O. Box: 24590, Lusail City, State of Qatar Home About Us About Us Vision and Mission Values &Guiding Principles",
+          "evidence": {
+            "field": "page",
+            "url": "https://powerholding.com/supplier/anti-bribery.html",
+            "capturedAt": "2026-08-09T04:16:16.677Z",
+            "renderedWith": "static"
+          }
+        },
+        {
+          "url": "https://powerholding.com/supplier/terms.html",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:16:18.742Z",
+          "status": "ok",
+          "statusCode": 200,
+          "renderedWith": "static",
+          "title": "Power International Holding - Supplier portal",
+          "description": "",
+          "tenderLike": false,
+          "emails": [
+            "info@powerholding-intl.com"
+          ],
+          "phones": [
+            "+974 4429 2220",
+            "+974 4429 2221"
+          ],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "OEM/ODM",
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "public_buyer",
+          "supplierMentions": [
+            "performed in accordance with this Agreement. 2.2. Without limiting any other provision of this Agreement, (including this clause 2):(a) the Supplier agrees to provide Capital the manufacturer's warranty applicable to the Goods;(b) the Supplier must produce written evidence of the assignment to Capital of the manufacturer's warranty in respect of the Goods, or such other evidence sufficient to satisfy Capital that it is legally entitled to the benefit of that manufacturer's warranty. 2.3. The Su"
+          ],
+          "buyerScaleSignals": [
+            "Group of Companies Download Our Profile Sectors General Contracting Agriculture and Food Industry Real Estate Lifestyle (Hospitality, Entertainment &Catering) News Sustainability Procurement Careers Contact Contact Us Addresses We are one of the largest and most trusted group in Qatar. A convergence of diverse businesses locally and across the globe. Power International Holding Tower Marina District 2, Building 2 Zone 69, Street 325 Lusail City, Qatar Tel: +974 4429 2220 | +974 4429 2221 Email:",
+            "e is given to the Supplier of their rejection. If the rejected Goods are not removed within that time, Capital may either return them to the Supplier at the Supplier's expense, or store them at the Supplier's expense. Capital will not be liable for any damage to or loss of the Goods whilst they are in transit to the Supplier, or whilst they are in storage. (b) Capital will generate a further purchase order when replacement Goods and or Services are required to replace Goods and or Services rejec",
+            "upply of Goods and or Services Power International Holdings and or its subsidiaries (PIH) requests the Supplier to supply Capital with Goods and or Services specified in Capital’s Purchase Order and the Supplier agrees to provide the Goods and or Services on the following terms and conditions. 1- Issue and Acceptance of Purchase Order 1.1. The Purchase Order is Capital’s offer to the Supplier for the Supplier to supply the goods and or services described in the Purchase Order to Capital on the t"
+          ],
+          "supplierStatus": "publicly_mentioned_needs_verification",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "Power International Holding - Supplier portal Home About Us About Us Vision and Mission Values &Guiding Principles Board Of Directors Top Management Our Group of Companies Download Our Profile Sectors General Contracting Agriculture and Food Industry Real Estate Lifestyle (Hospitality, Entertainment &Catering) News Sustainability Procurement Careers Contact Contact Us Addresses We are one of the largest and most trusted group in Qatar. A convergence of diverse businesses locally and across the globe. Power International Holding Tower Marina District 2, Building 2 Zone 69, Street 325 Lusail City, Qatar Tel: +974 4429 2220 | +974 4429 2221 Email: info@powerholding-intl.com P.O. Box: 24590, Lusail City, State of Qatar Home About Us About Us Vision and Mission Values &Guiding Principles Board ",
+          "evidence": {
+            "field": "page",
+            "url": "https://powerholding.com/supplier/terms.html",
+            "capturedAt": "2026-08-09T04:16:18.742Z",
+            "renderedWith": "static"
+          }
+        },
+        {
+          "url": "https://powerholding.com/supplier/procurement-policies.html",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:16:20.809Z",
+          "status": "ok",
+          "statusCode": 200,
+          "renderedWith": "static",
+          "title": "Power International Holding - Supplier portal",
+          "description": "",
+          "tenderLike": true,
+          "emails": [
+            "info@powerholding-intl.com"
+          ],
+          "phones": [
+            "+974 4429 2220",
+            "+974 4429 2221"
+          ],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "public_buyer",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "Group of Companies Download Our Profile Sectors General Contracting Agriculture and Food Industry Real Estate Lifestyle (Hospitality, Entertainment &Catering) News Sustainability Procurement Careers Contact Contact Us Addresses We are one of the largest and most trusted group in Qatar. A convergence of diverse businesses locally and across the globe. Power International Holding Tower Marina District 2, Building 2 Zone 69, Street 325 Lusail City, Qatar Tel: +974 4429 2220 | +974 4429 2221 Email:",
+            "t procurement practices. 1- Procurement Policies Your procurement policy outlines the overarching principles and standards used to set direction and influence decisions. It guides employee decision-making under a given set of circumstances within the framework of objectives and goals established by senior management. One example would be a Competitive Bidding Policy that states any procurement over a certain dollar amount must be competitively bid through either a price quote or a request for pr"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "Power International Holding - Supplier portal Home About Us About Us Vision and Mission Values &Guiding Principles Board Of Directors Top Management Our Group of Companies Download Our Profile Sectors General Contracting Agriculture and Food Industry Real Estate Lifestyle (Hospitality, Entertainment &Catering) News Sustainability Procurement Careers Contact Contact Us Addresses We are one of the largest and most trusted group in Qatar. A convergence of diverse businesses locally and across the globe. Power International Holding Tower Marina District 2, Building 2 Zone 69, Street 325 Lusail City, Qatar Tel: +974 4429 2220 | +974 4429 2221 Email: info@powerholding-intl.com P.O. Box: 24590, Lusail City, State of Qatar Home About Us About Us Vision and Mission Values &Guiding Principles Board ",
+          "evidence": {
+            "field": "page",
+            "url": "https://powerholding.com/supplier/procurement-policies.html",
+            "capturedAt": "2026-08-09T04:16:20.809Z",
+            "renderedWith": "static"
+          }
+        },
+        {
+          "url": "https://powerholding.com/supplier/manual.html",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:16:22.860Z",
+          "status": "ok",
+          "statusCode": 200,
+          "renderedWith": "static",
+          "title": "Power International Holding - Supplier portal",
+          "description": "",
+          "tenderLike": false,
+          "emails": [
+            "info@powerholding-intl.com"
+          ],
+          "phones": [
+            "+974 4429 2220",
+            "+974 4429 2221"
+          ],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "public_buyer",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "Group of Companies Download Our Profile Sectors General Contracting Agriculture and Food Industry Real Estate Lifestyle (Hospitality, Entertainment &Catering) News Sustainability Procurement Careers Contact Contact Us Addresses We are one of the largest and most trusted group in Qatar. A convergence of diverse businesses locally and across the globe. Power International Holding Tower Marina District 2, Building 2 Zone 69, Street 325 Lusail City, Qatar Tel: +974 4429 2220 | +974 4429 2221 Email:",
+            "rough our PIH Supplier Manual. 1- How to Register in supplier Portal 2- How to respond to the Pre-Qualification Questionnaire --> 3- How to Submit Quotations 4- How to Acknowledge Purchase Orders 5- How to Submit Invoices Power International Holding THE e18hteen Tower, Zone 69, Street 303 Lusail City Qatar Tel: +974 4429 2220 | +974 4429 2221 P.O. Box: 24590, Lusail City, State of Qatar Home Company Profile Sustainability News Careers Contact CALL US +974 4429 2220 / 1 E-mail info@powerholding-i"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "Power International Holding - Supplier portal Home About Us About Us Vision and Mission Values &Guiding Principles Board Of Directors Top Management Our Group of Companies Download Our Profile Sectors General Contracting Agriculture and Food Industry Real Estate Lifestyle (Hospitality, Entertainment &Catering) News Sustainability Procurement Careers Contact Contact Us Addresses We are one of the largest and most trusted group in Qatar. A convergence of diverse businesses locally and across the globe. Power International Holding Tower Marina District 2, Building 2 Zone 69, Street 325 Lusail City, Qatar Tel: +974 4429 2220 | +974 4429 2221 Email: info@powerholding-intl.com P.O. Box: 24590, Lusail City, State of Qatar Home About Us About Us Vision and Mission Values &Guiding Principles Board ",
+          "evidence": {
+            "field": "page",
+            "url": "https://powerholding.com/supplier/manual.html",
+            "capturedAt": "2026-08-09T04:16:22.860Z",
+            "renderedWith": "static"
+          }
+        },
+        {
+          "url": "https://powerholding.com/supplier/faq.html",
+          "depth": 1,
+          "capturedAt": "2026-08-09T04:16:24.930Z",
+          "status": "ok",
+          "statusCode": 200,
+          "renderedWith": "static",
+          "title": "Power International Holding - Supplier portal",
+          "description": "",
+          "tenderLike": false,
+          "emails": [
+            "info@powerholding-intl.com"
+          ],
+          "phones": [
+            "+974 4429 2220",
+            "+974 4429 2221"
+          ],
+          "publicPeople": {
+            "roleMentions": [],
+            "roleSnippets": []
+          },
+          "tags": [
+            "门锁/建筑五金",
+            "采购/项目",
+            "招聘信号"
+          ],
+          "evidenceType": "public_buyer",
+          "supplierMentions": [],
+          "buyerScaleSignals": [
+            "Group of Companies Download Our Profile Sectors General Contracting Agriculture and Food Industry Real Estate Lifestyle (Hospitality, Entertainment &Catering) News Sustainability Procurement Careers Contact Contact Us Addresses We are one of the largest and most trusted group in Qatar. A convergence of diverse businesses locally and across the globe. Power International Holding Tower Marina District 2, Building 2 Zone 69, Street 325 Lusail City, Qatar Tel: +974 4429 2220 | +974 4429 2221 Email:",
+            "bilities are not available in the portal as of now 14- What languages are supported on the supplier portal? Supported language in only English as of now 15- How do I acknowledge a purchase order on the supplier Portal? Log in to your account, navigate to the \"Post PO processing\" section, and follow the prompts to acknowledge the specific purchase order. 16- Can I reject a purchase order through the Acknowledgement process? Yes, in some cases, suppliers may have the option to reject a purchase or"
+          ],
+          "supplierStatus": "not_found",
+          "buyerScaleStatus": "public_signal_found",
+          "textSample": "Power International Holding - Supplier portal Home About Us About Us Vision and Mission Values &Guiding Principles Board Of Directors Top Management Our Group of Companies Download Our Profile Sectors General Contracting Agriculture and Food Industry Real Estate Lifestyle (Hospitality, Entertainment &Catering) News Sustainability Procurement Careers Contact Contact Us Addresses We are one of the largest and most trusted group in Qatar. A convergence of diverse businesses locally and across the globe. Power International Holding Tower Marina District 2, Building 2 Zone 69, Street 325 Lusail City, Qatar Tel: +974 4429 2220 | +974 4429 2221 Email: info@powerholding-intl.com P.O. Box: 24590, Lusail City, State of Qatar Home About Us About Us Vision and Mission Values &Guiding Principles Board ",
+          "evidence": {
+            "field": "page",
+            "url": "https://powerholding.com/supplier/faq.html",
+            "capturedAt": "2026-08-09T04:16:24.930Z",
+            "renderedWith": "static"
+          }
+        }
+      ]
+    }
+  ]
+}

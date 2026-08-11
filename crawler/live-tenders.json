@@ -1,14 +1,862 @@
 {
-  "generatedAt": "2026-08-03T05:25:15.284Z",
+  "generatedAt": "2026-08-09T06:37:07.792Z",
   "crawlerVersion": "0.2",
   "renderEnabled": false,
   "summary": {
-    "countries": 0,
-    "tenders": 0,
-    "pages": 36,
-    "contacts": 0
+    "countries": 10,
+    "tenders": 4,
+    "pages": 234,
+    "contacts": 99
   },
-  "countryStats": [],
-  "tenders": [],
-  "contacts": []
+  "countryStats": [
+    {
+      "code": "QA",
+      "name": "卡塔尔",
+      "region": "中东",
+      "tenders": 2,
+      "pages": 13,
+      "contacts": 6
+    },
+    {
+      "code": "AE",
+      "name": "阿联酋",
+      "region": "中东",
+      "tenders": 1,
+      "pages": 44,
+      "contacts": 6
+    },
+    {
+      "code": "KW",
+      "name": "科威特",
+      "region": "中东",
+      "tenders": 1,
+      "pages": 2,
+      "contacts": 0
+    },
+    {
+      "code": "SA",
+      "name": "沙特阿拉伯",
+      "region": "中东",
+      "tenders": 0,
+      "pages": 51,
+      "contacts": 0
+    },
+    {
+      "code": "OM",
+      "name": "阿曼",
+      "region": "中东",
+      "tenders": 0,
+      "pages": 4,
+      "contacts": 11
+    },
+    {
+      "code": "BH",
+      "name": "巴林",
+      "region": "中东",
+      "tenders": 0,
+      "pages": 2,
+      "contacts": 0
+    },
+    {
+      "code": "UZ",
+      "name": "乌兹别克斯坦",
+      "region": "中亚",
+      "tenders": 0,
+      "pages": 1,
+      "contacts": 0
+    },
+    {
+      "code": "KZ",
+      "name": "哈萨克斯坦",
+      "region": "中亚",
+      "tenders": 0,
+      "pages": 1,
+      "contacts": 0
+    },
+    {
+      "code": "GE",
+      "name": "格鲁吉亚",
+      "region": "高加索/中亚",
+      "tenders": 0,
+      "pages": 1,
+      "contacts": 0
+    },
+    {
+      "code": "XX",
+      "name": "XX",
+      "region": "待归类",
+      "tenders": 0,
+      "pages": 0,
+      "contacts": 28
+    }
+  ],
+  "tenders": [
+    {
+      "title": "Supplier Registration | Qatar Foundation",
+      "reference": null,
+      "publishDate": null,
+      "closingDate": null,
+      "estimatedValue": null,
+      "buyerEntity": "to navigate",
+      "category": "section during registration",
+      "fieldsFound": 2,
+      "sourceUrl": "https://www.qf.org.qa/supplier-registration",
+      "capturedAt": "2026-08-09T06:23:50.848Z",
+      "verificationStatus": "unreviewed",
+      "country": "QA",
+      "countryName": "卡塔尔",
+      "region": "中东",
+      "sourceName": "Company websites",
+      "sourceType": "company_website"
+    },
+    {
+      "title": "Company Registration",
+      "reference": null,
+      "publishDate": null,
+      "closingDate": null,
+      "estimatedValue": null,
+      "buyerEntity": null,
+      "category": "=Auditing&backtype=item&ID={ItemId}&List={ListId}')",
+      "fieldsFound": 1,
+      "sourceUrl": "https://www.ashghal.gov.qa/en/Pages/CompanyRegisteration.aspx",
+      "capturedAt": "2026-08-09T06:23:17.704Z",
+      "verificationStatus": "unreviewed",
+      "country": "QA",
+      "countryName": "卡塔尔",
+      "region": "中东",
+      "sourceName": "Company websites",
+      "sourceType": "company_website"
+    },
+    {
+      "title": "Home",
+      "reference": null,
+      "publishDate": null,
+      "closingDate": null,
+      "estimatedValue": null,
+      "buyerEntity": null,
+      "category": "Qualified Local Manufactures Introductory Exhibition -INVITATION (ARABIC) Oil",
+      "fieldsFound": 1,
+      "sourceUrl": "https://ebusiness.kockw.com/",
+      "capturedAt": "2026-08-09T06:24:17.124Z",
+      "verificationStatus": "unreviewed",
+      "country": "KW",
+      "countryName": "科威特",
+      "region": "中东",
+      "sourceName": "Company websites",
+      "sourceType": "company_website"
+    },
+    {
+      "title": "Procurement - flydubai",
+      "reference": null,
+      "publishDate": null,
+      "closingDate": null,
+      "estimatedValue": null,
+      "buyerEntity": "s, negotiators or approvers of purchase requests and payment",
+      "category": null,
+      "fieldsFound": 1,
+      "sourceUrl": "https://www.flydubai.com/en/information/procurement",
+      "capturedAt": "2026-08-09T06:27:16.936Z",
+      "verificationStatus": "unreviewed",
+      "country": "AE",
+      "countryName": "阿联酋",
+      "region": "中东",
+      "sourceName": "Company websites",
+      "sourceType": "company_website"
+    }
+  ],
+  "contacts": [
+    {
+      "value": "procurement@aldar.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "example_email@example.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "procurement@qu.edu.qa",
+      "kind": "email",
+      "country": "QA",
+      "countryName": "卡塔尔",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "t@qu.edu.qa",
+      "kind": "email",
+      "country": "QA",
+      "countryName": "卡塔尔",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "email@company.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "newsuppliers@jaggaer.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "suppliersupport@dubaiairports.ae",
+      "kind": "email",
+      "country": "AE",
+      "countryName": "阿联酋",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "procurementrelations@qf.org.qa",
+      "kind": "email",
+      "country": "QA",
+      "countryName": "卡塔尔",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "qftenderfee@qf.org.qa",
+      "kind": "email",
+      "country": "QA",
+      "countryName": "卡塔尔",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "pressoffice@qf.org.qa",
+      "kind": "email",
+      "country": "QA",
+      "countryName": "卡塔尔",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "info@qf.org.qa",
+      "kind": "email",
+      "country": "QA",
+      "countryName": "卡塔尔",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "customerservice@adports.ae",
+      "kind": "email",
+      "country": "AE",
+      "countryName": "阿联酋",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "media@adports.ae",
+      "kind": "email",
+      "country": "AE",
+      "countryName": "阿联酋",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "email@domain.ae",
+      "kind": "email",
+      "country": "AE",
+      "countryName": "阿联酋",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "registration@adports.ae",
+      "kind": "email",
+      "country": "AE",
+      "countryName": "阿联酋",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "privacyoffice@dhre.ae",
+      "kind": "email",
+      "country": "AE",
+      "countryName": "阿联酋",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "privacyoffice@nakheel.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "ruztique.toscano@jumeirah.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "uksales@jumeirah.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "germanysales@jumeirah.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "moscowsales@jumeirah.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "mesales@jumeirah.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "chinasales@jumeirah.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "teree.george@jumeirah.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "pr@jumeirah.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "info@emiratesacademy.edu",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "info@wildwadi.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "website-feedback@jumeirah.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "development@jumeirah.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "scljumeirah@jumeirah.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "jumeirahone@jumeirah.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "contact@jumeirah.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "reservations.jmh@jumeirah.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "partner@agency.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "reservations@jumeirah.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "xxxxxx@gmail.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "sirius@jumeirah.sirius.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "logo-loader@2x.png",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "example@mail.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "info@asaas.om",
+      "kind": "email",
+      "country": "OM",
+      "countryName": "阿曼",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "bzaabi@su.edu.om",
+      "kind": "email",
+      "country": "OM",
+      "countryName": "阿曼",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "suinfo@su.edu.om",
+      "kind": "email",
+      "country": "OM",
+      "countryName": "阿曼",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "fathiyaal-balushi@su.edu.om",
+      "kind": "email",
+      "country": "OM",
+      "countryName": "阿曼",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "ahmamari@su.edu.om",
+      "kind": "email",
+      "country": "OM",
+      "countryName": "阿曼",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "ijahwari@su.edu.om",
+      "kind": "email",
+      "country": "OM",
+      "countryName": "阿曼",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "ticketing@su.edu.om",
+      "kind": "email",
+      "country": "OM",
+      "countryName": "阿曼",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "tdhabari@su.edu.om",
+      "kind": "email",
+      "country": "OM",
+      "countryName": "阿曼",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "smuqbali@su.edu.om",
+      "kind": "email",
+      "country": "OM",
+      "countryName": "阿曼",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "mfarsi@su.edu.om",
+      "kind": "email",
+      "country": "OM",
+      "countryName": "阿曼",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "ahshibli@su.edu.om",
+      "kind": "email",
+      "country": "OM",
+      "countryName": "阿曼",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "00255053900003",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+971 269 52 177",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+971 269 52 000",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+1 888 387 8357",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+1 800 925 0323",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+1 877 854 8051",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+1 800 269388",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "000 800 440 2144",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+1 800 812577",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "00800 90 971011",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+971 4 364 7555",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+1 917 755 1400",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+44 207 858 7555",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+44 20 7858 7575",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+49 69 297 237 610",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+49 69 297 237 650",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+7 495 6411836",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+7 495 6411837",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+971 4 366 5761",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+971 4 3647701",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+86 21 6062 7213",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+86 21 6062 7288",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+61 409616046",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+968 2439 9800",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+968 2439 9888",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+96826850100",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+968)26850121",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+968 2481 8754",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+968 2481 8990",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+968 2411 2003",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+91 80 41106172",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+91 80 30723485",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+91 2249672372",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+91 9892954621",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+998 78 140 02 00",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+7 (7172) 57-57-57",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+7 (7172) 55-50-00 8-800-080-08-80",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+971-3-7134343",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+971-3-7673333",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+971 (2) 312 3333",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+971 2 312 3888",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+971 6 5585000",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+971 6 515 4040",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+966 3 860 0000",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+971 2 406 8888",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "+971 2413 0000",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Company websites"
+    },
+    {
+      "value": "info@powerholding-intl.com",
+      "kind": "email",
+      "country": "XX",
+      "countryName": "XX",
+      "sourceName": "Large buyer public disclosures"
+    },
+    {
+      "value": "+974 4429 2220",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Large buyer public disclosures"
+    },
+    {
+      "value": "+974 4429 2221",
+      "kind": "phone",
+      "country": "XX",
+      "countryName": "待核验",
+      "sourceName": "Large buyer public disclosures"
+    }
+  ]
 }

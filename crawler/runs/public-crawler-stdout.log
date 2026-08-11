@@ -1,0 +1,22 @@
+Deep crawl starting: 5 source(s), render=auto/on
+
+-> source-company-sites (Company websites)
+   pages=120 rendered=8 tenders=5
+
+-> source-events (Event and association directories)
+   pages=0 rendered=0 tenders=0
+
+-> source-projects (Public construction projects)
+[sitemap] https://mof.gov.ae -> +40 urls
+[sitemap] https://gov.uz -> +40 urls
+   pages=100 rendered=99 tenders=3
+
+-> source-public-buyers (Large buyer public disclosures)
+   pages=12 rendered=4 tenders=0
+
+-> source-official-news (Official company news and public announcements)
+   pages=2 rendered=0 tenders=0
+
+Saved D:\ai项目\获客系统\crawler\runs\crawl-2026-08-07T05-52-17-498Z.json
+Totals: pages=234 tenders=8
+Saved D:\ai项目\获客系统\crawler\live-tenders.json (frontend feed): 8 tenders across 9 countries
