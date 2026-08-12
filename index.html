@@ -453,7 +453,7 @@ td a:hover{text-decoration:underline;}
       <div class="nav-label">常用</div>
       <button class="nav-item active" data-page="leads"><span>☷</span>客户线索库</button><button class="nav-item" data-page="dd"><span>🔍</span>客户背调</button><button class="nav-item" data-page="market"><span>▥</span>市场调研</button><button class="nav-item" data-page="analytics"><span>◫</span>分析中心</button>
       <div class="nav-label">更多</div>
-      <button class="nav-item" data-page="tenders"><span>◧</span>招标 / 项目</button><button class="nav-item" data-page="methods"><span>◈</span>获客方式</button>
+      <button class="nav-item" data-page="customs"><span>▤</span>海关数据</button><button class="nav-item" data-page="tenders"><span>◧</span>招标 / 项目</button><button class="nav-item" data-page="methods"><span>◈</span>获客方式</button>
     </nav>
     <div class="sidebar-foot"><div class="sync-status"><span class="status-dot"></span>8个渠道正常同步</div><div class="user-row"><span class="avatar">W</span><div><strong>WONLY</strong><small>海外事业部专用</small></div></div><button class="logout-link" onclick="window.__wonlyLogout&&window.__wonlyLogout()">⎋ 退出登录</button></div>
   </aside>
@@ -867,6 +867,20 @@ window.__ACQUIRE_DATA__.customers = [];
     if(window.__LEADS_CACHE__){ boot(window.__LEADS_CACHE__); }
     else { fetch('./crawler/leads.json').then(r=>r.ok?r.json():Promise.reject(new Error('no_leads'))).then(data=>{ window.__LEADS_CACHE__=data; boot(data); }).catch(fail); }
   };
+
+  const renderCustoms = () => {
+    workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">WONLY Acquire OS / 海关数据</div><h1>海关数据 · 客户交易验证</h1><p>将海关买家/供应商/交易信号与客户线索库交叉匹配。商业主体命中不等于真实进口成交，交易证据单独评级。</p></div><div class="top-actions"><span class="demo-badge" id="customs-stamp">读取中…</span></div></header>'+
+      '<section class="metric-grid"><article class="metric-card"><span>已核查客户</span><strong id="cu-checked">—</strong><small>逐家公司匹配</small></article><article class="metric-card"><span>真实交易命中</span><strong id="cu-tx">—</strong><small>具有交易明细</small></article><article class="metric-card"><span>买家索引</span><strong id="cu-buyer">—</strong><small>仍需交易复核</small></article><article class="metric-card"><span>主体命中</span><strong id="cu-entity">—</strong><small>工商/商业数据</small></article></section>'+
+      '<section class="content-panel"><div class="panel-head"><div><span class="eyebrow">CUSTOMS MATCHING</span><h2>海关核验记录</h2></div><div class="filter-row"><input id="cu-query" class="search-input" placeholder="搜索公司、国家、证据…"><select id="cu-status"><option value="">全部状态</option><option>商业主体命中</option><option>买家索引命中</option><option>未命中可确认交易</option></select></div></div><div class="table-wrap"><table><thead><tr><th>公司</th><th>匹配等级</th><th>海关状态</th><th>交易证据</th><th>背调解释</th><th>下一步</th><th>来源</th></tr></thead><tbody id="cu-rows"></tbody></table></div><div class="empty-state static-hidden" id="cu-empty"><strong>没有匹配记录</strong><span>调整筛选条件后重试。</span></div></section>'+
+      '<section class="content-panel"><div class="panel-head"><div><span class="eyebrow">METHOD</span><h2>判定规则</h2></div></div><div class="dd-field"><span class="dd-label">真实交易命中</span><span class="dd-val">必须出现可核验的提单/报关记录、交易日期、产品或HS编码、贸易伙伴等明细。</span></div><div class="dd-field"><span class="dd-label">买家索引命中</span><span class="dd-val">只证明系统收录过该名称，不能单独证明当前仍进口或进口目标产品。</span></div><div class="dd-field"><span class="dd-label">商业主体命中</span><span class="dd-val">用于确认公司身份、规模、行业、官网和联系方式，不等同海关成交。</span></div></section>';
+    fetch('./crawler/customs-data.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(data=>{
+      const escCu=v=>escContact(String(v||'')); const all=Array.isArray(data.records)?data.records:[]; const s=data.summary||{};
+      document.getElementById('customs-stamp').textContent='更新 '+String(data.generatedAt||'').slice(0,10); document.getElementById('cu-checked').textContent=s.checked??all.length; document.getElementById('cu-tx').textContent=s.transactionHits??0; document.getElementById('cu-buyer').textContent=s.buyerIndexHits??0; document.getElementById('cu-entity').textContent=s.entityMatches??0;
+      const draw=()=>{const q=document.getElementById('cu-query').value.trim().toLowerCase(), st=document.getElementById('cu-status').value; const rows=all.filter(x=>(!st||x.customsStatus===st)&&(!q||[x.company,x.countryName,x.evidence,x.interpretation,x.nextAction].join(' ').toLowerCase().includes(q))); document.getElementById('cu-rows').innerHTML=rows.map(x=>'<tr><td><strong>'+escCu(x.company)+'</strong><small>'+escCu(x.countryName)+' · '+escCu(x.country)+'</small></td><td><span class="channel-pill">'+escCu(x.matchLevel)+'</span></td><td><strong>'+escCu(x.customsStatus)+'</strong><small>'+escCu(x.transactionStatus)+'</small></td><td><small>'+escCu(x.evidence)+'</small></td><td><small>'+escCu(x.interpretation)+'</small></td><td><small>'+escCu(x.nextAction)+'</small></td><td><a href="'+escCu(x.sourceUrl)+'" target="_blank" rel="noopener noreferrer">Topease ↗</a><small>'+escCu(x.checkedAt)+'</small></td></tr>').join(''); document.getElementById('cu-empty').classList.toggle('static-hidden',rows.length>0);};
+      document.getElementById('cu-query').addEventListener('input',draw); document.getElementById('cu-status').addEventListener('change',draw); draw();
+    }).catch(()=>{document.getElementById('customs-stamp').textContent='数据未生成'; document.getElementById('cu-empty').classList.remove('static-hidden');});
+  };
+
   const renderMarket = () => {
     workspace.innerHTML = '<header class="topbar"><div><div class="eyebrow">WONLY Acquire OS / 市场调研</div><h1>国家市场进入调研</h1><p>门锁 / 门五金出口目标市场的进入吸引力评分与深度调研：市场机会、利润空间、竞争格局、认证清关、消费人群、价格构成与毛利。点击排名中任一国家查看完整调研表。</p></div><div class="top-actions"><span class="demo-badge" id="mkt-stamp">读取中…</span></div></header>'+
       '<section class="metrics"><article><span>已调研国家</span><strong id="mkt-count">0</strong><small>持续挖掘更多目标市场</small></article><article><span>最高吸引力</span><strong id="mkt-top">—</strong><small id="mkt-top-name">评分 0-100 加权</small></article><article><span>平均毛利</span><strong id="mkt-gm">—</strong><small>到岸成本 → 零售价</small></article><article><span>数据可信度</span><strong>分级标注</strong><small>已核实 / 估算 / 假设</small></article></section>'+
@@ -990,7 +1004,7 @@ window.__ACQUIRE_DATA__.customers = [];
     else { fetch('./crawler/leads.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(d=>{window.__LEADS_CACHE__=d; boot(d);}).catch(()=>{ const st=document.getElementById('dd-stamp'); if(st) st.textContent='尚未生成'; }); }
   };
   const routes = {
-    leads: renderLeads, dd: renderDD, market: renderMarket, analytics: renderAnalytics,
+    leads: renderLeads, dd: renderDD, customs: renderCustoms, market: renderMarket, analytics: renderAnalytics,
     tenders: renderRadar, methods: renderMethods, tasks: renderTasks, sources: renderSources,
     contacts: renderContacts, live: renderLiveTenders
   };
