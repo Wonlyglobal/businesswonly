@@ -8682,7 +8682,109 @@
       "nextAction": "核查关联主体与锁具名称变体。",
       "leadKey": "MINDHOLA FOODS LLP|IN",
       "checkedAt": "2026-08-12",
-      "sourceUrl": "https://et.topease.net/gt8/company/result?wlf=CompanyIndex"
+      "sourceUrl": "https://et.topease.net/gt8/company/result?wlf=CompanyIndex",
+      "website": "",
+      "companyPhone": "+91 99138 18000; +91 77383 66234",
+      "companyEmail": "contact@krunal.in",
+      "address": "Registered: C-110, 1st Floor, Western Business Park, Vesu, Surat 395007; Processing plant: Block 187/A, Makhinga, Taluka Palsana, Surat 394315, Gujarat, India",
+      "registration": "India LLPIN AAK-8296; GSTIN 24ABHFM1005H1ZS; active since 2017-10-11",
+      "entityNameVerified": "MINDHOLA FOODS LLP",
+      "entityTypeVerified": "Indian shrimp/seafood processor and exporter with cold-chain production facilities",
+      "contactResearchStatus": "已完成印度LLPIN/GST、指定合伙人、维护负责人、运营销售负责人、海产行业名录、海关注册及Topease历史门锁信号核验",
+      "keyContactStatus": "已确认2名指定合伙人、维护负责人、运营销售负责人、登记邮箱和公开公司电话；无采购人员直邮",
+      "contactVerificationStatus": "严格核验完成：主体和联系人多源一致；过去三年无门锁采购，历史信号按冷库/设备维护可能场景降级。",
+      "contactCheckedAt": "2026-08-12",
+      "contactAuditDate": "2026-08-12",
+      "contactAuditSummary": "Mindhola Foods是Surat大型虾类加工出口商，拥有冷冻加工厂、冷链与制冷设备。Topease有7596笔全品类交易但近三年无door lock采购，历史锁具更可能用于冷库门、加工设备或厂房维护；不应作为建筑门锁近期买家。",
+      "contactCandidates": [
+        {
+          "name": "Hetal Shantilal Patel",
+          "title": "Designated Partner / CEO",
+          "decisionRole": "最高经营、工厂投资、重大设备及供应商审批",
+          "email": "contact@krunal.in",
+          "phone": "+91 99138 18000",
+          "linkedin": "",
+          "location": "Surat, Gujarat, India",
+          "source": "Indian MCA profile + CARE Ratings + seafood industry publication",
+          "sourceUrl": "https://www.zaubacorp.com/MINDHOLA-FOODS-LLP-AAK-8296",
+          "secondarySourceUrl": "https://www.careratings.com/upload/CompanyFiles/PR/04012022071106_Mindhola_Foods_LLP.pdf",
+          "confidence": "高",
+          "entityMatch": "MCA指定合伙人、评级报告食品行业经历及行业报道CEO身份相互印证",
+          "verificationStatus": "负责人身份确认；邮箱为MCA公司登记入口、电话为公司公开号码，均不标为个人直线。"
+        },
+        {
+          "name": "Shoryata Hetal Patel",
+          "title": "Designated Partner",
+          "decisionRole": "合伙人治理、重大资本支出和供应商审批",
+          "email": "contact@krunal.in",
+          "phone": "",
+          "linkedin": "",
+          "location": "Surat, Gujarat, India",
+          "source": "Indian MCA company records",
+          "sourceUrl": "https://www.zaubacorp.com/MINDHOLA-FOODS-LLP-AAK-8296",
+          "confidence": "高",
+          "entityMatch": "LLPIN精确主体指定合伙人",
+          "verificationStatus": "指定合伙人身份确认；未发现个人电话、邮箱或LinkedIn。"
+        },
+        {
+          "name": "Anand Patel",
+          "title": "Maintenance Incharge / Assistant Manager",
+          "decisionRole": "冷库、氨制冷、加工设备、厂房门体和维修备件技术选型/请购",
+          "email": "",
+          "phone": "",
+          "linkedin": "https://in.linkedin.com/in/anand-patel-15a7ba249",
+          "location": "Surat, Gujarat, India",
+          "source": "TradeIndia company profile + LinkedIn public profile",
+          "sourceUrl": "https://www.tradeindia.com/mindhola-foods-llp-37086887/",
+          "secondarySourceUrl": "https://in.linkedin.com/in/anand-patel-15a7ba249",
+          "confidence": "高",
+          "entityMatch": "公司、地址、维护职责及制冷系统专业背景一致",
+          "verificationStatus": "在职与维护/机械工程职责确认；SignalHire仅显示掩码号码和邮箱，未录入。"
+        },
+        {
+          "name": "Zubin Mehta",
+          "title": "Head of Operations & Sales",
+          "decisionRole": "工厂运营、客户交付、产能及相关设备投资影响人",
+          "email": "",
+          "phone": "",
+          "linkedin": "",
+          "location": "Surat, Gujarat, India",
+          "source": "Seafood Expo Global 2026 public event coverage",
+          "sourceUrl": "https://www.linkedin.com/search/results/content/?keywords=%22Zubin%20Mehta%22%20%22Mindhola%20Foods%22",
+          "confidence": "中高",
+          "entityMatch": "2026海产行业活动明确公司和职务",
+          "verificationStatus": "姓名与现任职务有公开活动证据；未取得可稳定引用的个人档案或联系方式。"
+        }
+      ],
+      "contactSources": [
+        {
+          "label": "Indian MCA company profile",
+          "url": "https://www.zaubacorp.com/MINDHOLA-FOODS-LLP-AAK-8296",
+          "evidence": "LLPIN、状态、地址、指定合伙人和登记邮箱。"
+        },
+        {
+          "label": "TradeIndia company profile",
+          "url": "https://www.tradeindia.com/mindhola-foods-llp-37086887/",
+          "evidence": "GST、精确地址、维护负责人Anand Patel、海产业务与规模。"
+        },
+        {
+          "label": "SeafoodSource directory",
+          "url": "https://www.seafoodsource.com/supplier-directory/mindhola-foods-llp",
+          "evidence": "加工厂地址、海产展会参与和公司电话+91-991-381-8000。"
+        },
+        {
+          "label": "US shrimp producer filing",
+          "url": "https://www.akingump.com/a/web/oZJHjVN4KkqRS1PCCxBMGP/8nrKXN/145973245_attachment-2-frozen-warmwater-shrimp-foreign-producers.pdf",
+          "evidence": "加工厂地址及公司电话+91 77383 66234。"
+        },
+        {
+          "label": "Topease customs record",
+          "url": "https://et.topease.net/gt8/company/result?wlf=CompanyIndex",
+          "evidence": "7596笔全品类交易、最近2026-06-10、过去三年无door lock采购。"
+        }
+      ],
+      "rejectedContactNote": "Volza页面的Michael Robinson为明显泛化/错误联系人，未采用；SignalHire只显示Anand Patel掩码邮箱和电话，未猜测解锁值；未将contact@krunal.in标为任何个人直邮；公司未发现可验证官网。",
+      "contactsEnriched": true
     },
     {
       "company": "REAL ESTATE DEVELOPMENT (RED) , INC.",
@@ -8704,7 +8806,81 @@
       "nextAction": "提取供应商、来源国、近12个月频次、金额/重量和采购联系人。",
       "leadKey": "REAL ESTATE DEVELOPMENT (RED) , INC.|LR",
       "checkedAt": "2026-08-12",
-      "sourceUrl": "https://et.topease.net/gt8/company/result?wlf=CompanyIndex"
+      "sourceUrl": "https://et.topease.net/gt8/company/result?wlf=CompanyIndex",
+      "website": "http://www.wavesliberia.com/",
+      "companyPhone": "+231 77 002 2222",
+      "companyEmail": "",
+      "address": "Randall Street, Monrovia; project/property: Waves Luxury Apartments, 3rd Street, Sinkor Beach Side, Monrovia, Liberia",
+      "registration": "Liberian real-estate/construction company; public registration number and officers not found in indexed sources",
+      "entityNameVerified": "REAL ESTATE DEVELOPMENT (RED), INC. — associated operating/property brand: Waves Liberia",
+      "entityTypeVerified": "Liberian real-estate developer/property operator and construction-project owner",
+      "contactResearchStatus": "已完成利比里亚贸易地址、Waves关联品牌、项目承建记录、物业电话及Topease 7票普通门锁采购核验；未发现可信具名高管或采购人员",
+      "keyContactStatus": "已取得物业/公司电话和采购职能入口；负责人、采购人员、邮箱和LinkedIn均未在可靠公开来源中取得",
+      "contactVerificationStatus": "严格核验完成：房地产项目与门锁需求匹配；同名美国RED Development官网已排除，缺失个人联系人明确标注。",
+      "contactCheckedAt": "2026-08-12",
+      "contactAuditDate": "2026-08-12",
+      "contactAuditSummary": "RED, Inc.是Monrovia房地产/建设主体，并以Waves Liberia/Waves Luxury Apartments关联出现；Sigma Group记录其3rd Street九层建筑项目。Topease近三年7票HS830140普通双门锁HAS 307，与住宅/公寓工程直接匹配，是利比里亚建筑门锁精准客户。",
+      "contactCandidates": [
+        {
+          "name": "Waves Liberia Property / Development Office",
+          "title": "Property Operations / Development Office",
+          "decisionRole": "公寓运营、项目维护和采购内部转介入口",
+          "email": "",
+          "phone": "+231 77 002 2222",
+          "linkedin": "",
+          "location": "3rd Street, Sinkor, Monrovia, Liberia",
+          "source": "TrueLiberia business directory + ENAG client profile",
+          "sourceUrl": "https://www.trueliberia.com/business/waves-luxury-apartments",
+          "secondarySourceUrl": "https://enagconsultinglr.com/wp-content/uploads/2026/02/ENAG-Profile.pdf",
+          "confidence": "中高",
+          "entityMatch": "ENAG明确把REAL ESTATE DEVELOPMENT (RED), INC.与WAVES LIBERIA并列，物业地址又与RED项目3rd Street一致",
+          "verificationStatus": "公司/物业联系入口可信；不是具名个人，拨打时请求转开发项目采购或设施经理。"
+        },
+        {
+          "name": "Construction & Door Hardware Procurement Lead",
+          "title": "Procurement / Project Materials",
+          "decisionRole": "住宅工程门锁、建筑五金、项目材料供应商和补货决策",
+          "email": "",
+          "phone": "+231 77 002 2222",
+          "linkedin": "",
+          "location": "Monrovia, Liberia",
+          "source": "Topease customs record + Sigma Group construction project",
+          "sourceUrl": "https://et.topease.net/gt8/company/result?wlf=CompanyIndex",
+          "secondarySourceUrl": "https://sigmagroupinc.co/projects/nine-story-building/",
+          "confidence": "高（职能）/低（个人身份）",
+          "entityMatch": "7票普通门锁与九层住宅/物业开发业务直接对应",
+          "verificationStatus": "采购职能存在有强证据，但具名负责人未公开；应通过物业电话或承建商Sigma Group反向转介。"
+        }
+      ],
+      "contactSources": [
+        {
+          "label": "Topease customs record",
+          "url": "https://et.topease.net/gt8/company/result?wlf=CompanyIndex",
+          "evidence": "715笔总交易；近三年7票HS830140 Lock for normal door, HAS 307 double；最近2026-05-23。"
+        },
+        {
+          "label": "ENAG Consulting 2026 profile",
+          "url": "https://enagconsultinglr.com/wp-content/uploads/2026/02/ENAG-Profile.pdf",
+          "evidence": "将REAL ESTATE DEVELOPMENT (RED), INC.明确标注为WAVES LIBERIA并列入房地产建设客户。"
+        },
+        {
+          "label": "Sigma Group project",
+          "url": "https://sigmagroupinc.co/projects/nine-story-building/",
+          "evidence": "RED Inc在Monrovia 3rd Street的九层建筑项目。"
+        },
+        {
+          "label": "Waves Luxury Apartments directory",
+          "url": "https://www.trueliberia.com/business/waves-luxury-apartments",
+          "evidence": "3rd Street Sinkor地址、Waves网站及+231 77 002 2222电话。"
+        },
+        {
+          "label": "TradeAtlas importer profile",
+          "url": "https://www.tradeatlas.com/en/firms/real-estate-development-red-inc/84a6eb9c2094eb4a",
+          "evidence": "精确进口主体名及Randall Street, Monrovia地址。"
+        }
+      ],
+      "rejectedContactNote": "TradeAtlas所列reddevelopment.com属于美国商业地产公司，不是利比里亚主体，已排除；未找到可验证管理层姓名、公司邮箱或LinkedIn，未使用同名海外人员，也未猜测@wavesliberia.com邮箱。",
+      "contactsEnriched": true
     },
     {
       "company": "NIKKEI SANGYO CO.LTD.",
