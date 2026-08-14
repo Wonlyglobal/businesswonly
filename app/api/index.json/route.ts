@@ -33,6 +33,6 @@ export async function GET(request: Request) {
       linkedin: String(row.linkedin || ""), verificationStatus: String(row.email_verification_status || "unknown"),
       syncStatus: String(row.sync_status || "synced"), updatedAt: String(row.updated_at || ""),
     },
-  })).filter((row) => row.domain);
+  }));
   return Response.json({ total: companies.length, companies });
 }
