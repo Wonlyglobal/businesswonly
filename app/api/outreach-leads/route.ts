@@ -9,7 +9,7 @@ type LeadInput = {
   phone?: string; whatsapp?: string; linkedin?: string; emailVerificationStatus?: string;
   recentProducts?: string[]; importFrequency?: string; importAmount?: string;
   suppliers?: string[]; lastPurchaseAt?: string; source?: string; sourceUrl?: string;
-  syncStatus?: string;
+  syncStatus?: string; background?: Record<string, unknown>;
 };
 
 const createTableSql = `CREATE TABLE IF NOT EXISTS outreach_leads (
@@ -25,6 +25,7 @@ const createTableSql = `CREATE TABLE IF NOT EXISTS outreach_leads (
   import_amount TEXT NOT NULL DEFAULT '', suppliers TEXT NOT NULL DEFAULT '[]',
   last_purchase_at TEXT NOT NULL DEFAULT '', source TEXT NOT NULL DEFAULT 'TopEase CRM',
   source_url TEXT NOT NULL DEFAULT '', sync_status TEXT NOT NULL DEFAULT 'synced',
+  background_json TEXT NOT NULL DEFAULT '{}',
   synced_by TEXT NOT NULL DEFAULT '', created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
 )`;
@@ -36,6 +37,10 @@ async function ensureSchema() {
     env.DB.prepare("CREATE INDEX IF NOT EXISTS idx_outreach_leads_company_name ON outreach_leads (company_name)"),
     env.DB.prepare("CREATE INDEX IF NOT EXISTS idx_outreach_leads_sync_status ON outreach_leads (sync_status)"),
   ]);
+  const columns = await env.DB.prepare("PRAGMA table_info(outreach_leads)").all<{ name: string }>();
+  if (!columns.results.some((column) => column.name === "background_json")) {
+    await env.DB.prepare("ALTER TABLE outreach_leads ADD COLUMN background_json TEXT NOT NULL DEFAULT '{}'").run();
+  }
 }
 
 function clean(value: unknown) { return typeof value === "string" ? value.trim() : ""; }
@@ -51,17 +56,21 @@ async function fingerprintFor(lead: LeadInput) {
 function validateLead(value: unknown): LeadInput | null {
   if (!value || typeof value !== "object") return null;
   const lead = value as Partial<LeadInput>;
-  if (!clean(lead.companyName) || !clean(lead.contactName)) return null;
-  if (![lead.email, lead.phone, lead.whatsapp, lead.linkedin].some((item) => clean(item))) return null;
+  if (!clean(lead.companyName)) return null;
+  const hasContact = [lead.contactName, lead.email, lead.phone, lead.whatsapp, lead.linkedin].some((item) => clean(item));
+  const hasBackground = Boolean(lead.background && typeof lead.background === "object");
+  if (!hasContact && !hasBackground && !clean(lead.website)) return null;
   return lead as LeadInput;
 }
 
 export async function GET(request: Request) {
+  const supplied = request.headers.get("x-leads-sync-secret") || "";
+  const expected = process.env.LEADS_SYNC_SECRET || "";
   const user = await getChatGPTUser();
-  if (!user) return Response.json({ error: "Authentication required" }, { status: 401 });
+  if (!(expected && supplied === expected) && !user) return Response.json({ error: "Authentication required" }, { status: 401 });
   await ensureSchema();
   const url = new URL(request.url);
-  const limit = Math.min(Math.max(Number(url.searchParams.get("limit")) || 100, 1), 500);
+  const limit = Math.min(Math.max(Number(url.searchParams.get("limit")) || 100, 1), 5000);
   const status = clean(url.searchParams.get("status"));
   const result = status
     ? await env.DB.prepare("SELECT * FROM outreach_leads WHERE sync_status = ? ORDER BY updated_at DESC LIMIT ?").bind(status, limit).all()
@@ -70,8 +79,10 @@ export async function GET(request: Request) {
 }
 
 export async function POST(request: Request) {
+  const supplied = request.headers.get("x-leads-sync-secret") || "";
+  const expected = process.env.LEADS_SYNC_SECRET || "";
   const user = await getChatGPTUser();
-  if (!user) return Response.json({ error: "Authentication required" }, { status: 401 });
+  if (!(expected && supplied === expected) && !user) return Response.json({ error: "Authentication required" }, { status: 401 });
   await ensureSchema();
   const body = await request.json().catch(() => null);
   const candidates = Array.isArray(body) ? body : Array.isArray(body?.leads) ? body.leads : [body];
@@ -85,8 +96,8 @@ export async function POST(request: Request) {
       fingerprint, customs_customer_id, company_name, country, website, contact_name,
       contact_title, contact_role, email, phone, whatsapp, linkedin,
       email_verification_status, recent_products, import_frequency, import_amount,
-      suppliers, last_purchase_at, source, source_url, sync_status, synced_by, updated_at
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+      suppliers, last_purchase_at, source, source_url, sync_status, background_json, synced_by, updated_at
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
     ON CONFLICT(fingerprint) DO UPDATE SET
       customs_customer_id=excluded.customs_customer_id, country=excluded.country,
       website=excluded.website, contact_title=excluded.contact_title,
@@ -97,6 +108,7 @@ export async function POST(request: Request) {
       import_amount=excluded.import_amount, suppliers=excluded.suppliers,
       last_purchase_at=excluded.last_purchase_at, source=excluded.source,
       source_url=excluded.source_url, sync_status=excluded.sync_status,
+      background_json=excluded.background_json,
       synced_by=excluded.synced_by, updated_at=CURRENT_TIMESTAMP`).bind(
       fingerprint, clean(lead.customsCustomerId), clean(lead.companyName), clean(lead.country),
       clean(lead.website), clean(lead.contactName), clean(lead.contactTitle), clean(lead.contactRole),
@@ -104,7 +116,7 @@ export async function POST(request: Request) {
       clean(lead.emailVerificationStatus) || "unknown", JSON.stringify(normalizedArray(lead.recentProducts)),
       clean(lead.importFrequency), clean(lead.importAmount), JSON.stringify(normalizedArray(lead.suppliers)),
       clean(lead.lastPurchaseAt), clean(lead.source) || "TopEase CRM", clean(lead.sourceUrl),
-      clean(lead.syncStatus) || "synced", user.email,
+      clean(lead.syncStatus) || "synced", JSON.stringify(lead.background || {}), user?.email || "api-sync",
     ));
   }
   await env.DB.batch(statements);
