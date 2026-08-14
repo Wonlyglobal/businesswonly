@@ -26,6 +26,7 @@ export async function GET(request: Request, context: { params: Promise<{ domain:
   if (!result.results.length) return Response.json({ error: "Company not found", domain }, { status: 404 });
 
   const primary = result.results[0] as Record<string, string>;
+  const backgroundRow = result.results.find((row) => String(row.background_json || "") !== "{}") || primary;
   const contacts = result.results.map((row) => ({
     name: row.contact_name || "", title: row.contact_title || "", role: row.contact_role || "",
     email: row.email || "", phone: row.phone || "", whatsapp: row.whatsapp || "",
@@ -41,5 +42,6 @@ export async function GET(request: Request, context: { params: Promise<{ domain:
     importFrequency: primary.import_frequency, importAmount: primary.import_amount,
     suppliers: JSON.parse(primary.suppliers || "[]"), lastPurchaseAt: primary.last_purchase_at,
     source: primary.source, sourceUrl: primary.source_url, contacts,
+    background: JSON.parse(String(backgroundRow.background_json || "{}")),
   });
 }

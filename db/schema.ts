@@ -26,6 +26,7 @@ export const outreachLeads = sqliteTable(
     source: text("source").notNull().default("TopEase CRM"),
     sourceUrl: text("source_url").notNull().default(""),
     syncStatus: text("sync_status").notNull().default("synced"),
+    backgroundJson: text("background_json").notNull().default("{}"),
     syncedBy: text("synced_by").notNull().default(""),
     createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
     updatedAt: text("updated_at").notNull().default(sql`CURRENT_TIMESTAMP`),

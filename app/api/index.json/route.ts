@@ -17,14 +17,22 @@ function domainFromWebsite(value: unknown) {
 
 export async function GET(request: Request) {
   if (!(await authorized(request))) return Response.json({ error: "Authentication required" }, { status: 401 });
-  const result = await env.DB.prepare(`SELECT company_name, website, country, MAX(updated_at) AS updated_at
-    FROM outreach_leads WHERE website != '' AND email != ''
-    GROUP BY lower(website), company_name, country ORDER BY updated_at DESC LIMIT 5000`).all();
+  const result = await env.DB.prepare(`SELECT id, company_name, website, country, contact_name, contact_title,
+    contact_role, email, phone, whatsapp, linkedin, email_verification_status, sync_status, updated_at
+    FROM outreach_leads ORDER BY updated_at DESC LIMIT 5000`).all();
   const companies = result.results.map((row) => ({
     normName: String(row.company_name || ""),
     name: String(row.company_name || ""),
     domain: domainFromWebsite(row.website),
+    file: `company/id/${String(row.id)}.json`,
     country: String(row.country || ""),
+    contact: {
+      name: String(row.contact_name || ""), title: String(row.contact_title || ""),
+      role: String(row.contact_role || ""), email: String(row.email || ""),
+      phone: String(row.phone || ""), whatsapp: String(row.whatsapp || ""),
+      linkedin: String(row.linkedin || ""), verificationStatus: String(row.email_verification_status || "unknown"),
+      syncStatus: String(row.sync_status || "synced"), updatedAt: String(row.updated_at || ""),
+    },
   })).filter((row) => row.domain);
   return Response.json({ total: companies.length, companies });
 }
