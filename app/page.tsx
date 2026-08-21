@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import buyerPool from "../crawler/phase-1-buyers.json";
 import leadPool from "../crawler/leads.json";
+import CustomsContactsPanel from "./components/customs-contacts-panel";
 
 type ChannelId =
   | "all"
@@ -1131,22 +1132,6 @@ export default function Home() {
 
   const activeLabel = channelMap[activeChannel];
 
-  useEffect(() => {
-    const items = Array.from(document.querySelectorAll<HTMLButtonElement>(".primary-nav .nav-item"));
-    const workspace = document.querySelector<HTMLElement>(".workspace");
-    const ids = ["acquire", "accounts", "contacts", "tasks", "sources", "analytics"];
-    items.forEach((item, index) => item.classList.toggle("active", ids[index] === activeNav));
-    workspace?.querySelectorAll<HTMLElement>(":scope > :not(.module-panel)").forEach((node) => {
-      node.style.display = activeNav === "acquire" ? "" : "none";
-    });
-    items.forEach((item, index) => {
-      item.onclick = () => {
-        setActiveNav(ids[index] ?? "acquire");
-      };
-    });
-    return () => items.forEach((item) => { item.onclick = null; });
-  }, [activeNav]);
-
   return (
     <main className="app-shell">
       <aside className="sidebar">
@@ -1159,12 +1144,12 @@ export default function Home() {
         </div>
 
         <nav className="primary-nav" aria-label="主导航">
-          <button className="nav-item active"><span>⌂</span>获客中心</button>
-          <button className="nav-item"><span>◎</span>账户雷达</button>
-          <button className="nav-item"><span>◇</span>联系人</button>
-          <button className="nav-item"><span>✓</span>任务与商机</button>
-          <button className="nav-item"><span>▦</span>数据源中心</button>
-          <button className="nav-item"><span>◫</span>分析中心</button>
+          <button className={`nav-item ${activeNav === "acquire" ? "active" : ""}`} onClick={() => setActiveNav("acquire")}><span>⌂</span>获客中心</button>
+          <button className={`nav-item ${activeNav === "accounts" ? "active" : ""}`} onClick={() => setActiveNav("accounts")}><span>◎</span>账户雷达</button>
+          <button className={`nav-item ${activeNav === "contacts" ? "active" : ""}`} onClick={() => setActiveNav("contacts")}><span>◇</span>海关关键联系人</button>
+          <button className={`nav-item ${activeNav === "tasks" ? "active" : ""}`} onClick={() => setActiveNav("tasks")}><span>✓</span>任务与商机</button>
+          <button className={`nav-item ${activeNav === "sources" ? "active" : ""}`} onClick={() => setActiveNav("sources")}><span>▦</span>数据源中心</button>
+          <button className={`nav-item ${activeNav === "analytics" ? "active" : ""}`} onClick={() => setActiveNav("analytics")}><span>◫</span>分析中心</button>
         </nav>
 
         <div className="sidebar-foot">
@@ -1174,7 +1159,9 @@ export default function Home() {
       </aside>
 
       <section className="workspace" data-active-nav={activeNav}>
-        {activeNav !== "acquire" && <div className="module-panel"><div className="eyebrow">Acquire OS / 模块</div><h1>{activeNav === "accounts" ? "账户雷达" : activeNav === "contacts" ? "联系人" : activeNav === "tasks" ? "任务与商机" : activeNav === "sources" ? "数据源中心" : "分析中心"}</h1><p>该模块只展示带来源 URL、抓取时间和证据片段的已验证公开数据。</p><div className="module-empty"><strong>等待真实数据</strong><span>当前没有可展示的已核验记录，不生成虚拟信息。</span></div><button className="primary-btn" onClick={() => setActiveNav("acquire")}>返回获客中心</button></div>}
+        {activeNav === "contacts" && <CustomsContactsPanel />}
+        {activeNav !== "acquire" && activeNav !== "contacts" && <div className="module-panel"><div className="eyebrow">Acquire OS / 模块</div><h1>{activeNav === "accounts" ? "账户雷达" : activeNav === "tasks" ? "任务与商机" : activeNav === "sources" ? "数据源中心" : "分析中心"}</h1><p>该模块只展示带来源 URL、抓取时间和证据片段的已验证公开数据。</p><div className="module-empty"><strong>等待真实数据</strong><span>当前没有可展示的已核验记录，不生成虚拟信息。</span></div><button className="primary-btn" onClick={() => setActiveNav("acquire")}>返回获客中心</button></div>}
+        {activeNav === "acquire" && <>
         <header className="topbar">
           <div>
             <div className="eyebrow">获客中心 / 全渠道客户池</div>
@@ -1280,6 +1267,7 @@ export default function Home() {
             {filtered.length === 0 && <div className="empty-state"><strong>没有符合条件的客户</strong><span>尝试清除关键词或调整地区、等级筛选。</span></div>}
           </div>
         </section>
+        </>}
       </section>
 
       {detailOpen && selected && (
