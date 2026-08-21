@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import buyerPool from "../crawler/phase-1-buyers.json";
+import leadPool from "../crawler/leads.json";
 
 type ChannelId =
   | "all"
@@ -931,7 +932,7 @@ function targetId(country: string, name: string) {
 }
 
 // Only official, user-configured targets are converted into product records.
-const customers: Customer[] = buyerPool.targets
+const verifiedCustomers: Customer[] = buyerPool.targets
   .filter((target) => target.status.startsWith("official_"))
   .map((target) => {
     const score = target.priority === "S1" ? 90 : target.priority === "S2" ? 80 : 70;
@@ -995,9 +996,88 @@ const customers: Customer[] = buyerPool.targets
     } satisfies Customer;
   });
 
+function normalizeCompanyName(value: string) {
+  return value.toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff]+/g, "").trim();
+}
+
+function broadRegion(region: string) {
+  if (region.includes("非洲")) return "非洲";
+  if (["东南亚", "南亚", "东亚"].includes(region)) return "亚太";
+  if (["东欧/CIS", "中东欧", "高加索", "土耳其"].includes(region)) return "欧洲";
+  return region;
+}
+
+const verifiedCompanyNames = new Set(verifiedCustomers.map((customer) => normalizeCompanyName(customer.company)));
+
+const researchedCustomers: Customer[] = leadPool.leads
+  .filter((lead) => !verifiedCompanyNames.has(normalizeCompanyName(lead.company)))
+  .map((lead, index) => {
+    const fitScore = Number(lead.fitScore) || 3;
+    const score = Math.max(50, Math.min(95, 40 + fitScore * 10));
+    const contactName = lead.decisionContact || lead.keyContacts || "待补全";
+    const hasContact = Boolean(lead.decisionContact || lead.keyContacts);
+    return {
+      id: `LEAD-${lead.country || "XX"}-${String(index + 1).padStart(5, "0")}`,
+      channel: "registry",
+      company: lead.company,
+      legalName: `${lead.company} · ${lead.researchStatus || "公开线索待核验"}`,
+      country: lead.countryName || lead.country || "待确认",
+      region: broadRegion(lead.region || lead.continent || "亚太"),
+      city: lead.city || "待确认",
+      type: lead.categoryName || lead.category || "潜在采购客户",
+      scale: lead.scale || "待补充",
+      website: lead.website || "待补充",
+      founded: "待公开来源补充",
+      revenue: "待公开来源补充",
+      employees: "待公开来源补充",
+      products: [lead.productFocus || "门锁及建筑五金需求待确认"],
+      certifications: ["待公开来源核验"],
+      score,
+      grade: score >= 85 ? "A" : score >= 75 ? "B" : "C",
+      stage: lead.researchStatus || "待核验",
+      owner: "待销售分配",
+      updated: lead.addedDate || leadPool.generatedAt,
+      freshness: lead.researchConfidence ? `背调置信度：${lead.researchConfidence}` : "待复核",
+      confidence: lead.confidence === "high" ? "高" : lead.confidence === "medium" ? "中" : "待核验",
+      source: lead.sourceUrl ? "公开官网 / 背调线索" : "公开客户线索库",
+      sourceId: `PUBLIC-${lead.country || "XX"}-${index + 1}`,
+      sourceUrl: lead.sourceUrl || lead.website || "",
+      keySignal: lead.importSignal || lead.fitReason || "客户适配度待进一步核验",
+      channelEvidence: lead.fitReason || "已进入公开客户线索池，等待补充企业与采购证据。",
+      buyingEvidence: lead.importSignal || "近期采购行为待核验",
+      currentSuppliers: lead.brandsCarried ? [lead.brandsCarried] : ["待公开来源补充"],
+      purchaseTrend: lead.importSignal || "待采购证据确认",
+      estimatedValue: "待采购证据确认",
+      lastPurchase: "待采购证据确认",
+      hsCodes: ["待海关数据匹配"],
+      contactName,
+      contactTitle: hasContact ? "关键联系人 / 决策链" : "采购 / 供应链 / Owner / Director",
+      contactRole: hasContact ? "公开背调已发现" : "待官方来源核验",
+      contactEmail: lead.email || "邮箱：待补充",
+      contactPhone: lead.phone || "电话：待补充",
+      contactLinkedIn: lead.keyContactMethods || "职业主页：待补充",
+      contactVerified: hasContact ? (lead.researchConfidence ? `背调置信度：${lead.researchConfidence}` : "待验证联系方式") : "未发现可确认的公开联系人",
+      language: "待核验",
+      nextAction: lead.nextAction || lead.angle || "补充采购证据与关键联系人",
+      nextActionDate: "待安排",
+      lastActivity: lead.researchStatus || `线索入库：${lead.addedDate || leadPool.generatedAt}`,
+      tags: [`契合度${fitScore}`, lead.region || "目标市场", lead.researchStatus || "待核验"],
+      compliance: "仅使用公开或已授权数据；联系方式进入触达前必须完成验证、去重与退订检查。",
+      channelFields: [
+        ["契合度", `${fitScore}/5`],
+        ["研究状态", lead.researchStatus || "待核验"],
+        ["研究置信度", lead.researchConfidence || lead.confidence || "待核验"],
+        ["所在国家", lead.countryName || lead.country || "待确认"],
+        ["产品方向", lead.productFocus || "待确认"],
+        ["切入角度", lead.angle || "待制定"],
+      ],
+    } satisfies Customer;
+  });
+
+const customers: Customer[] = [...verifiedCustomers, ...researchedCustomers];
 const verifiedContactCount = customers.filter((customer) => customer.contactName !== "待补全").length;
-const automaticTargetCount = buyerPool.targets.filter((target) => target.status.startsWith("official_") && target.crawlMode === "public").length;
-const manualTargetCount = buyerPool.targets.filter((target) => target.status.startsWith("official_") && target.crawlMode === "manual_only").length;
+const verifiedAccountCount = verifiedCustomers.length;
+const pendingAccountCount = customers.length - verifiedAccountCount;
 
 const channelMap = Object.fromEntries(channels.map((channel) => [channel.id, channel]));
 
@@ -1096,17 +1176,17 @@ export default function Home() {
             <p>从采购证据、决策人、项目与主动意向中识别最值得跟进的账户。</p>
           </div>
           <div className="top-actions">
-            <span className="demo-badge">仅显示已核验数据</span>
+            <span className="demo-badge">已核验 + 待核验统一客户池</span>
             <button className="secondary-btn">导入数据</button>
             <button className="primary-btn">＋ 新建名单</button>
           </div>
         </header>
 
         <section className="metrics" aria-label="客户池概览">
-          <article><span>已核验账户</span><strong>{customers.length}</strong><small>均保留官方来源</small></article>
+          <article><span>统一账户总数</span><strong>{customers.length}</strong><small>已去重合并全部线索</small></article>
           <article><span>已核验联系人</span><strong>{verifiedContactCount}</strong><small>不展示虚拟联系人</small></article>
-          <article><span>自动采集目标</span><strong>{automaticTargetCount}</strong><small>持续监测公开页面</small></article>
-          <article><span>人工核验目标</span><strong>{manualTargetCount}</strong><small>遵守网站访问条款</small></article>
+          <article><span>已核验账户</span><strong>{verifiedAccountCount}</strong><small>保留官方采购来源</small></article>
+          <article><span>待核验账户</span><strong>{pendingAccountCount}</strong><small>持续补充采购与联系人证据</small></article>
         </section>
 
         <section className="channel-panel">
