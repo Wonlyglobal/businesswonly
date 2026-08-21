@@ -1008,9 +1008,15 @@ function broadRegion(region: string) {
 }
 
 const verifiedCompanyNames = new Set(verifiedCustomers.map((customer) => normalizeCompanyName(customer.company)));
+const researchedCompanyNames = new Set<string>();
 
 const researchedCustomers: Customer[] = leadPool.leads
-  .filter((lead) => !verifiedCompanyNames.has(normalizeCompanyName(lead.company)))
+  .filter((lead) => {
+    const companyName = normalizeCompanyName(lead.company);
+    if (!companyName || verifiedCompanyNames.has(companyName) || researchedCompanyNames.has(companyName)) return false;
+    researchedCompanyNames.add(companyName);
+    return true;
+  })
   .map((lead, index) => {
     const fitScore = Number(lead.fitScore) || 3;
     const score = Math.max(50, Math.min(95, 40 + fitScore * 10));
