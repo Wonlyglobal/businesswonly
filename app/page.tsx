@@ -1085,6 +1085,8 @@ const customers: Customer[] = [...verifiedCustomers, ...researchedCustomers];
 const verifiedContactCount = customers.filter((customer) => customer.contactName !== "待补全").length;
 const verifiedAccountCount = verifiedCustomers.length;
 const pendingAccountCount = customers.length - verifiedAccountCount;
+const researchedAccountCount = researchedCustomers.filter((customer) => customer.stage !== "待核验").length;
+const evidenceBackedAccountCount = customers.filter((customer) => Boolean(customer.sourceUrl)).length;
 
 const channelMap = Object.fromEntries(channels.map((channel) => [channel.id, channel]));
 
@@ -1102,6 +1104,8 @@ export default function Home() {
   const [grade, setGrade] = useState("全部等级");
   const [selected, setSelected] = useState<Customer | null>(customers[0]);
   const [detailOpen, setDetailOpen] = useState(false);
+  const [radarQuery, setRadarQuery] = useState("");
+  const [radarStatus, setRadarStatus] = useState("全部状态");
 
   const filtered = useMemo(() => {
     const normalized = query.trim().toLowerCase();
@@ -1124,6 +1128,20 @@ export default function Home() {
 
   const channelCount = (channel: ChannelId) =>
     channel === "all" ? customers.length : customers.filter((item) => item.channel === channel).length;
+
+  const radarCustomers = useMemo(() => {
+    const normalized = radarQuery.trim().toLowerCase();
+    return customers.filter((customer) => {
+      const hasContact = customer.contactName !== "待补全";
+      const isResearched = customer.channel === "projects" || customer.stage !== "待核验";
+      const inStatus = radarStatus === "全部状态"
+        || (radarStatus === "已完成背调" && isResearched)
+        || (radarStatus === "待补全" && !isResearched)
+        || (radarStatus === "已找到关键人" && hasContact);
+      const haystack = [customer.company, customer.country, customer.type, customer.keySignal, customer.contactName, customer.products.join(" ")].join(" ").toLowerCase();
+      return inStatus && (!normalized || haystack.includes(normalized));
+    });
+  }, [radarQuery, radarStatus]);
 
   const openCustomer = (customer: Customer) => {
     setSelected(customer);
@@ -1160,7 +1178,43 @@ export default function Home() {
 
       <section className="workspace" data-active-nav={activeNav}>
         {activeNav === "contacts" && <CustomsContactsPanel />}
-        {activeNav !== "acquire" && activeNav !== "contacts" && <div className="module-panel"><div className="eyebrow">Acquire OS / 模块</div><h1>{activeNav === "accounts" ? "账户雷达" : activeNav === "tasks" ? "任务与商机" : activeNav === "sources" ? "数据源中心" : "分析中心"}</h1><p>该模块只展示带来源 URL、抓取时间和证据片段的已验证公开数据。</p><div className="module-empty"><strong>等待真实数据</strong><span>当前没有可展示的已核验记录，不生成虚拟信息。</span></div><button className="primary-btn" onClick={() => setActiveNav("acquire")}>返回获客中心</button></div>}
+        {activeNav === "accounts" && <>
+          <header className="topbar">
+            <div><div className="eyebrow">账户雷达 / 公司背调</div><h1>公司背调账户库</h1><p>统一展示全部客户的主体、需求信号、决策链、风险与可追溯来源；缺失字段明确标记待补全。</p></div>
+            <div className="top-actions"><span className="demo-badge">真实数据 · 不生成虚拟信息</span><button className="secondary-btn" onClick={() => setActiveNav("acquire")}>查看统一客户池</button></div>
+          </header>
+          <section className="metrics" aria-label="公司背调概览">
+            <article><span>背调账户总数</span><strong>{customers.length}</strong><small>与统一客户池去重对齐</small></article>
+            <article><span>已形成背调结论</span><strong>{researchedAccountCount + verifiedAccountCount}</strong><small>含人工研究与官方采购入口</small></article>
+            <article><span>已有关键联系人</span><strong>{verifiedContactCount}</strong><small>姓名或公开决策链已发现</small></article>
+            <article><span>可追溯来源</span><strong>{evidenceBackedAccountCount}</strong><small>保留官网或公开来源链接</small></article>
+          </section>
+          <section className="radar-guide" aria-label="公司背调逻辑">
+            <div><span>01 主体核验</span><strong>公司、国家、官网、业务类型</strong></div><div><span>02 需求判断</span><strong>产品方向、项目与进口信号</strong></div><div><span>03 决策链</span><strong>采购、Owner、CEO、Director</strong></div><div><span>04 开发动作</span><strong>切入角度、风险与下一步</strong></div>
+          </section>
+          <section className="content-panel">
+            <div className="filterbar">
+              <label className="search-box"><span>⌕</span><input aria-label="搜索公司背调" value={radarQuery} onChange={(event) => setRadarQuery(event.target.value)} placeholder="搜索公司、国家、品类、需求信号或关键人" /></label>
+              <select aria-label="背调状态" value={radarStatus} onChange={(event) => setRadarStatus(event.target.value)}><option>全部状态</option><option>已完成背调</option><option>待补全</option><option>已找到关键人</option></select>
+              <div className="result-count"><strong>{radarCustomers.length}</strong> 家公司 · 实时使用统一账户数据</div>
+            </div>
+            <div className="table-wrap"><table className="radar-table"><thead><tr><th>公司主体</th><th>背调状态</th><th>重点需求 / 信号</th><th>关键决策链</th><th>风险与开发动作</th><th>评分</th><th>证据来源</th></tr></thead><tbody>
+              {radarCustomers.map((customer) => {
+                const researched = customer.channel === "projects" || customer.stage !== "待核验";
+                return <tr key={`radar-${customer.id}`} role="button" tabIndex={0} aria-label={`查看 ${customer.company} 公司背调`} onClick={() => openCustomer(customer)} onKeyDown={(event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openCustomer(customer); } }}>
+                  <td><div className="account-main"><span className="company-logo">{customer.company.slice(0, 2).toUpperCase()}</span><div><strong>{customer.company}</strong><small>{customer.country} · {customer.city}</small><small>{customer.type}</small></div></div></td>
+                  <td><span className={`research-state ${researched ? "done" : "pending"}`}>{researched ? "已形成结论" : "待补全"}</span><strong>{customer.stage}</strong><small>{customer.confidence} · {customer.freshness}</small></td>
+                  <td><strong className="signal-text">{customer.keySignal}</strong><small>{customer.products.join("、")}</small><small>{customer.buyingEvidence}</small></td>
+                  <td><strong>{customer.contactName}</strong><small>{customer.contactTitle}</small><small>{customer.contactVerified}</small></td>
+                  <td><strong>{customer.nextAction}</strong><small>{customer.channelFields.find(([label]) => label === "切入角度")?.[1] || customer.channelEvidence}</small></td>
+                  <td><div className={`score score-${scoreTone(customer.score)}`}>{customer.score}</div><small>{customer.grade}级</small></td>
+                  <td><a className="source-link" href={customer.sourceUrl || undefined} target="_blank" rel="noreferrer" onClick={(event) => event.stopPropagation()}>{customer.sourceUrl ? "查看来源" : "待补来源"}</a><small>{customer.source}</small><small>{customer.updated}</small></td>
+                </tr>;
+              })}
+            </tbody></table>{radarCustomers.length === 0 && <div className="empty-state"><strong>没有符合当前条件的账户</strong><span>调整关键词或背调状态后重试。</span></div>}</div>
+          </section>
+        </>}
+        {activeNav !== "acquire" && activeNav !== "contacts" && activeNav !== "accounts" && <div className="module-panel"><div className="eyebrow">Acquire OS / 模块</div><h1>{activeNav === "tasks" ? "任务与商机" : activeNav === "sources" ? "数据源中心" : "分析中心"}</h1><p>该模块只展示带来源 URL、抓取时间和证据片段的已验证公开数据。</p><div className="module-empty"><strong>等待真实数据</strong><span>当前没有可展示的已核验记录，不生成虚拟信息。</span></div><button className="primary-btn" onClick={() => setActiveNav("acquire")}>返回获客中心</button></div>}
         {activeNav === "acquire" && <>
         <header className="topbar">
           <div>

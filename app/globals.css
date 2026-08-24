@@ -65,6 +65,16 @@ button { cursor: pointer; }
 .metrics small { color: var(--muted); font-size: 10px; }
 
 .channel-panel, .content-panel { background: #fff; border: 1px solid var(--line); border-radius: 12px; }
+.radar-guide { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 1px; margin: 0 0 14px; overflow: hidden; border: 1px solid var(--line); border-radius: 12px; background: var(--line); }
+.radar-guide div { background: #fff; padding: 14px 16px; }
+.radar-guide span, .radar-guide strong { display: block; }
+.radar-guide span { color: var(--blue); font-size: 9px; font-weight: 800; letter-spacing: .4px; }
+.radar-guide strong { margin-top: 5px; font-size: 11px; line-height: 1.45; }
+.radar-table { min-width: 1280px; }
+.radar-table th:nth-child(1) { width: 220px; } .radar-table th:nth-child(2) { width: 175px; } .radar-table th:nth-child(3) { width: 260px; } .radar-table th:nth-child(4) { width: 210px; } .radar-table th:nth-child(5) { width: 260px; } .radar-table th:nth-child(6) { width: 76px; } .radar-table th:nth-child(7) { width: 145px; }
+.research-state { display: inline-block; margin-bottom: 6px; border-radius: 999px; padding: 4px 7px; font-size: 8.5px; font-weight: 800; }
+.research-state.done { background: var(--green-soft); color: var(--green); }
+.research-state.pending { background: var(--amber-soft); color: var(--amber); }
 .channel-panel { margin-bottom: 12px; padding: 8px; }
 .channel-tabs { display: grid; grid-template-columns: repeat(9, minmax(0,1fr)); gap: 5px; }
 .channel-tab { position: relative; min-width: 0; border: 1px solid transparent; background: transparent; border-radius: 9px; padding: 9px 8px; text-align: left; display: grid; grid-template-columns: 27px minmax(0,1fr); gap: 7px; align-items: center; color: var(--ink); }
@@ -211,6 +221,7 @@ td small { color: var(--muted); font-size: 9.5px; line-height: 1.4; margin-top: 
   .metrics { grid-template-columns: repeat(2, minmax(0,1fr)); }
   .contact-metrics { grid-template-columns: repeat(2, minmax(0,1fr)); }
   .channel-tabs { grid-template-columns: repeat(3, minmax(0,1fr)); }
+  .radar-guide { grid-template-columns: repeat(2, minmax(0,1fr)); }
 }
 @media (max-width: 620px) {
   .topbar { flex-direction: column; }
@@ -220,6 +231,7 @@ td small { color: var(--muted); font-size: 9.5px; line-height: 1.4; margin-top: 
   .contact-metrics { grid-template-columns: 1fr 1fr; }
   .metrics strong { font-size: 20px; }
   .channel-tabs { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .radar-guide { grid-template-columns: 1fr; }
   .filterbar select { flex: 1; width: auto; }
   .result-count { width: 100%; margin-left: 0; }
   .detail-drawer { width: 100%; }
