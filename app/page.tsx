@@ -64,6 +64,14 @@ type Customer = {
   tags: string[];
   compliance: string;
   channelFields: Array<[string, string]>;
+  researchStatus?: string;
+  researchConfidence?: string;
+  fitReason?: string;
+  angle?: string;
+  risk?: string;
+  projects?: string;
+  researchSources?: Array<{ label: string; url: string }>;
+  checkedSources?: string[];
 };
 
 const channels: Array<{ id: ChannelId; label: string; short: string; note: string }> = [
@@ -994,6 +1002,14 @@ const verifiedCustomers: Customer[] = buyerPool.targets
         ["采购入口", target.officialUrl],
         ["档案状态", "待采购证据与联系人补充"],
       ],
+      researchStatus: automatic ? "官方采购入口已核验" : "官方入口已核验，待人工深挖",
+      researchConfidence: "官方来源",
+      fitReason: `已确认 ${target.name} 的官方采购或供应商入口，可作为项目采购与供应商准入的持续监测对象。`,
+      angle: automatic ? "跟踪采购公告、供应商注册和具体项目窗口" : "按网站条款人工确认采购及供应商管理负责人",
+      risk: "具体门锁品类、预算与采购时间尚待公告或采购人员确认。",
+      projects: "具体采购项目待公开公告补充",
+      researchSources: [{ label: "官方采购 / 供应商入口", url: target.officialUrl }],
+      checkedSources: ["官方采购入口", "供应商注册页面"],
     } satisfies Customer;
   });
 
@@ -1078,6 +1094,14 @@ const researchedCustomers: Customer[] = leadPool.leads
         ["产品方向", lead.productFocus || "待确认"],
         ["切入角度", lead.angle || "待制定"],
       ],
+      researchStatus: lead.researchStatus || "待补全背调结论",
+      researchConfidence: lead.researchConfidence || lead.confidence || "待核验",
+      fitReason: lead.fitReason || "客户适配度待进一步核验",
+      angle: lead.angle || "补充采购证据后制定切入角度",
+      risk: lead.risk || "公开证据不足，触达前需复核主体和真实需求。",
+      projects: lead.projects || "未发现可确认的公开项目",
+      researchSources: Array.isArray(lead.researchSources) ? lead.researchSources : [],
+      checkedSources: Array.isArray(lead.checkedSources) ? lead.checkedSources : [],
     } satisfies Customer;
   });
 
@@ -1104,6 +1128,7 @@ export default function Home() {
   const [grade, setGrade] = useState("全部等级");
   const [selected, setSelected] = useState<Customer | null>(customers[0]);
   const [detailOpen, setDetailOpen] = useState(false);
+  const [fullResearchOpen, setFullResearchOpen] = useState(false);
   const [radarQuery, setRadarQuery] = useState("");
   const [radarStatus, setRadarStatus] = useState("全部状态");
 
@@ -1145,6 +1170,7 @@ export default function Home() {
 
   const openCustomer = (customer: Customer) => {
     setSelected(customer);
+    setFullResearchOpen(activeNav === "accounts");
     setDetailOpen(true);
   };
 
@@ -1325,12 +1351,43 @@ export default function Home() {
       </section>
 
       {detailOpen && selected && (
-        <div className="drawer-layer" role="presentation" onMouseDown={() => setDetailOpen(false)}>
-          <aside className="detail-drawer" role="dialog" aria-modal="true" aria-label={`${selected.company}客户详情`} onMouseDown={(event) => event.stopPropagation()}>
+        <div className={`drawer-layer ${fullResearchOpen ? "research-layer" : ""}`} role="presentation" onMouseDown={() => setDetailOpen(false)}>
+          <aside className={`detail-drawer ${fullResearchOpen ? "research-detail" : ""}`} role="dialog" aria-modal="true" aria-label={`${selected.company}客户详情`} onMouseDown={(event) => event.stopPropagation()}>
             <div className="drawer-head">
-              <div className="detail-identity"><span className="detail-logo">{selected.company.slice(0, 2).toUpperCase()}</span><div><div className="detail-title-row"><h2>{selected.company}</h2><span className={`grade grade-${selected.grade}`}>{selected.grade}级账户</span></div><p>{selected.legalName}</p><div className="detail-meta"><span>{selected.country} · {selected.city}</span><span>{selected.type}</span><span>{selected.employees}人</span></div></div></div>
+              <div className="detail-identity"><span className="detail-logo">{selected.company.slice(0, 2).toUpperCase()}</span><div>{fullResearchOpen && <div className="eyebrow">账户雷达 / 完整公司背调</div>}<div className="detail-title-row"><h2>{selected.company}</h2><span className={`grade grade-${selected.grade}`}>{selected.grade}级账户</span></div><p>{selected.legalName}</p><div className="detail-meta"><span>{selected.country} · {selected.city}</span><span>{selected.type}</span><span>{selected.employees}人</span></div></div></div>
               <button className="close-btn" aria-label="关闭详情" onClick={() => setDetailOpen(false)}>×</button>
             </div>
+
+            {fullResearchOpen && <>
+              <section className="research-hero">
+                <div><span>背调结论</span><h3>{selected.researchStatus || selected.stage}</h3><p>{selected.fitReason || selected.channelEvidence}</p></div>
+                <div className="research-score"><span>背调置信度</span><strong>{selected.researchConfidence || selected.confidence}</strong><small>{selected.score} 分 · {selected.grade}级</small></div>
+              </section>
+
+              <section className="detail-section research-grid-section">
+                <div className="section-title"><h3>真实需求与采购判断</h3><span>从公开证据推导，不把假设当事实</span></div>
+                <div className="research-insight-grid">
+                  <article><span>重点产品 / 类目</span><strong>{selected.products.join("、")}</strong></article>
+                  <article><span>进口 / 采购信号</span><strong>{selected.keySignal}</strong></article>
+                  <article><span>项目与应用场景</span><strong>{selected.projects || "未发现可确认的公开项目"}</strong></article>
+                  <article><span>现有品牌 / 供应关系</span><strong>{selected.currentSuppliers.join("；")}</strong></article>
+                </div>
+              </section>
+
+              <section className="detail-section research-grid-section">
+                <div className="section-title"><h3>怎么开发这家公司</h3><span>背调结果转成销售动作</span></div>
+                <div className="research-action-grid"><article className="positive"><span>建议切入角度</span><strong>{selected.angle || selected.nextAction}</strong></article><article className="warning"><span>风险与避坑</span><strong>{selected.risk || "公开证据不足，触达前需复核主体和真实需求。"}</strong></article></div>
+                <div className="next-action"><span>下一步动作</span><strong>{selected.nextAction}</strong><small>当前阶段：{selected.stage} · 负责人：{selected.owner}</small></div>
+              </section>
+
+              <section className="detail-section">
+                <div className="section-title"><h3>证据链与已核查渠道</h3><span>{selected.researchSources?.length || (selected.sourceUrl ? 1 : 0)} 条可点击来源</span></div>
+                <div className="source-cards">
+                  {(selected.researchSources?.length ? selected.researchSources : [{ label: selected.source, url: selected.sourceUrl }]).map((source, index) => source.url ? <a key={`${source.url}-${index}`} href={source.url} target="_blank" rel="noreferrer"><span>{String(index + 1).padStart(2, "0")}</span><strong>{source.label}</strong><em>打开来源 ↗</em></a> : null)}
+                </div>
+                <div className="checked-source-list"><span>已核查：</span>{(selected.checkedSources?.length ? selected.checkedSources : [selected.source]).map((source) => <em key={source}>{source}</em>)}</div>
+              </section>
+            </>}
 
             <div className="decision-card">
               <div><span>账户评分</span><strong>{selected.score}</strong></div>
