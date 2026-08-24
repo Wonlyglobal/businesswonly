@@ -130,6 +130,35 @@ td small { color: var(--muted); font-size: 9.5px; line-height: 1.4; margin-top: 
 
 .drawer-layer { position: fixed; inset: 0; background: rgba(12, 19, 31, .48); z-index: 20; display: flex; justify-content: flex-end; }
 .detail-drawer { width: min(760px, 94vw); height: 100vh; background: #fff; overflow-y: auto; box-shadow: var(--shadow); animation: slideIn .22s ease-out; }
+.research-layer { background: rgba(9, 16, 28, .62); padding: 18px; }
+.research-detail { width: min(1180px, 96vw); height: calc(100vh - 36px); margin: auto; border-radius: 16px; }
+.research-hero { margin: 18px 24px 0; padding: 20px; border: 1px solid #cfe0fa; border-radius: 13px; background: linear-gradient(120deg, #edf5ff, #f8fbff); display: grid; grid-template-columns: minmax(0,1fr) 160px; gap: 22px; }
+.research-hero span, .research-hero strong, .research-hero small { display: block; }
+.research-hero span { color: var(--blue); font-size: 9px; font-weight: 800; }
+.research-hero h3 { margin: 7px 0 6px; font-size: 18px; line-height: 1.45; }
+.research-hero p { margin: 0; color: #47566d; font-size: 11px; line-height: 1.65; }
+.research-score { border-left: 1px solid #c9dcf7; padding-left: 20px; display: flex; flex-direction: column; justify-content: center; }
+.research-score strong { margin: 8px 0 4px; font-size: 22px; color: var(--blue-dark); }
+.research-score small { color: var(--muted); font-size: 9px; }
+.research-insight-grid, .research-action-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; }
+.research-insight-grid article, .research-action-grid article { border: 1px solid var(--line); border-radius: 10px; padding: 13px; background: #f8f9fb; }
+.research-insight-grid span, .research-insight-grid strong, .research-action-grid span, .research-action-grid strong { display: block; }
+.research-insight-grid span, .research-action-grid span { color: var(--muted); font-size: 9px; margin-bottom: 6px; }
+.research-insight-grid strong, .research-action-grid strong { font-size: 11px; line-height: 1.6; }
+.research-action-grid { margin-bottom: 10px; }
+.research-action-grid .positive { background: var(--green-soft); border-color: #cde9dc; }
+.research-action-grid .positive span { color: var(--green); }
+.research-action-grid .warning { background: var(--amber-soft); border-color: #f0dbb8; }
+.research-action-grid .warning span { color: var(--amber); }
+.source-cards { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 8px; }
+.source-cards a { border: 1px solid var(--line); border-radius: 9px; padding: 10px 12px; display: grid; grid-template-columns: 26px minmax(0,1fr) auto; gap: 8px; align-items: center; text-decoration: none; color: var(--ink); }
+.source-cards a:hover { border-color: #b8d1f7; background: var(--blue-soft); }
+.source-cards span { color: var(--blue); font-size: 9px; font-weight: 800; }
+.source-cards strong { font-size: 10px; line-height: 1.45; }
+.source-cards em { color: var(--blue); font-size: 9px; font-style: normal; }
+.checked-source-list { margin-top: 11px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.checked-source-list span { color: var(--muted); font-size: 9px; }
+.checked-source-list em { background: var(--soft); border-radius: 999px; padding: 4px 7px; color: #536075; font-size: 8.5px; font-style: normal; }
 @keyframes slideIn { from { transform: translateX(30px); opacity: .7; } to { transform: translateX(0); opacity: 1; } }
 .drawer-head { padding: 22px 24px 18px; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; }
 .detail-identity { display: flex; gap: 12px; align-items: flex-start; }
@@ -235,6 +264,11 @@ td small { color: var(--muted); font-size: 9.5px; line-height: 1.4; margin-top: 
   .filterbar select { flex: 1; width: auto; }
   .result-count { width: 100%; margin-left: 0; }
   .detail-drawer { width: 100%; }
+  .research-layer { padding: 0; }
+  .research-detail { width: 100%; height: 100vh; border-radius: 0; }
+  .research-hero { grid-template-columns: 1fr; margin-left: 14px; margin-right: 14px; }
+  .research-score { border-left: 0; border-top: 1px solid #c9dcf7; padding: 12px 0 0; }
+  .research-insight-grid, .research-action-grid, .source-cards { grid-template-columns: 1fr; }
   .decision-card { grid-template-columns: 62px minmax(0,1fr); margin-left: 14px; margin-right: 14px; }
   .drawer-head, .detail-section { padding-left: 14px; padding-right: 14px; }
   .drawer-actions { padding-left: 14px; padding-right: 14px; }
