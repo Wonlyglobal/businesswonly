@@ -209,6 +209,7 @@ td small { color: var(--muted); font-size: 9.5px; line-height: 1.4; margin-top: 
 .source-link:hover { text-decoration: underline; }
 .research-entry { display: block; width: 100%; margin: 0 0 6px; border: 0; border-radius: 6px; padding: 6px 8px; background: var(--blue); color: #fff; font-size: 9px; font-weight: 800; }
 .research-entry:hover { background: var(--blue-dark); }
+.research-entry-inline { width: auto; margin: 7px 0 0; padding: 5px 9px; }
 
 .contacts-panel h1 { margin: 5px 0 4px; font-size: 28px; }
 .contacts-panel > p, .contacts-heading p { margin: 0; color: var(--muted); font-size: 13px; }

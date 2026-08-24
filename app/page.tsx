@@ -1331,7 +1331,7 @@ export default function Home() {
                     }}
                   >
                     <td>
-                      <div className="account-main"><span className="company-logo">{customer.company.slice(0, 2).toUpperCase()}</span><div><strong>{customer.company}</strong><small>{customer.legalName}</small><div className="tag-line">{customer.tags.slice(0, 2).map((tag) => <span key={tag}>{tag}</span>)}</div></div></div>
+                      <div className="account-main"><span className="company-logo">{customer.company.slice(0, 2).toUpperCase()}</span><div><strong>{customer.company}</strong><small>{customer.legalName}</small><button className="research-entry research-entry-inline" onClick={(event) => { event.stopPropagation(); openCustomer(customer); }}>查看完整背调</button><div className="tag-line">{customer.tags.slice(0, 2).map((tag) => <span key={tag}>{tag}</span>)}</div></div></div>
                     </td>
                     <td><strong>{customer.type}</strong><small>{customer.country} · {customer.city}</small><small>{customer.employees}人</small></td>
                     <td><span className="channel-pill">{channelMap[customer.channel].label}</span><strong className="signal-text">{customer.keySignal}</strong><small>{customer.source}</small></td>
@@ -1339,7 +1339,7 @@ export default function Home() {
                     <td><strong>{customer.contactName}</strong><small>{customer.contactTitle}</small><small>{customer.contactVerified}</small></td>
                     <td><div className={`score score-${scoreTone(customer.score)}`}>{customer.score}</div><small>{customer.confidence}</small></td>
                     <td><span className={`grade grade-${customer.grade}`}>{customer.grade}级</span><strong>{customer.stage}</strong><small>{customer.owner}</small></td>
-                    <td><button className="research-entry" onClick={(event) => { event.stopPropagation(); openCustomer(customer); }}>完整背调</button><a className="source-link" href={customer.sourceUrl} target="_blank" rel="noreferrer" onClick={(event) => event.stopPropagation()}>查看来源</a><small>{customer.updated}</small></td>
+                    <td><a className="source-link" href={customer.sourceUrl} target="_blank" rel="noreferrer" onClick={(event) => event.stopPropagation()}>查看来源</a><small>{customer.updated}</small></td>
                   </tr>
                 ))}
               </tbody>
