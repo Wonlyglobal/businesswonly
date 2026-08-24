@@ -1170,7 +1170,7 @@ export default function Home() {
 
   const openCustomer = (customer: Customer) => {
     setSelected(customer);
-    setFullResearchOpen(activeNav === "accounts");
+    setFullResearchOpen(true);
     setDetailOpen(true);
   };
 
@@ -1339,7 +1339,7 @@ export default function Home() {
                     <td><strong>{customer.contactName}</strong><small>{customer.contactTitle}</small><small>{customer.contactVerified}</small></td>
                     <td><div className={`score score-${scoreTone(customer.score)}`}>{customer.score}</div><small>{customer.confidence}</small></td>
                     <td><span className={`grade grade-${customer.grade}`}>{customer.grade}级</span><strong>{customer.stage}</strong><small>{customer.owner}</small></td>
-                    <td><a className="source-link" href={customer.sourceUrl} target="_blank" rel="noreferrer" onClick={(event) => event.stopPropagation()}>查看来源</a><small>{customer.updated}</small><small>{customer.sourceId}</small></td>
+                    <td><button className="research-entry" onClick={(event) => { event.stopPropagation(); openCustomer(customer); }}>完整背调</button><a className="source-link" href={customer.sourceUrl} target="_blank" rel="noreferrer" onClick={(event) => event.stopPropagation()}>查看来源</a><small>{customer.updated}</small></td>
                   </tr>
                 ))}
               </tbody>
