@@ -36,6 +36,15 @@ export async function GET(request: Request, context: { params: Promise<{ domain:
   const recentProducts = JSON.parse(primary.recent_products || "[]");
   const evidence = [] as Array<{ signal: string; source: string; date: string; confidence: number }>;
   if (recentProducts.length && primary.last_purchase_at) evidence.push({ signal: `${recentProducts.slice(0, 5).join(", ")}${primary.import_frequency ? ` · ${primary.import_frequency}` : ""}`, source: "Business customs records", date: primary.last_purchase_at, confidence: 88 });
+  if (recentProducts.length && !primary.last_purchase_at && primary.updated_at) {
+    const suppliers = JSON.parse(primary.suppliers || "[]") as string[];
+    const tradeSignal = [
+      `Trade/channel profile: ${recentProducts.slice(0, 5).join(", ")}`,
+      primary.import_frequency || "",
+      suppliers.length ? `supplier/channel context: ${suppliers.slice(0, 3).join(", ")}` : "",
+    ].filter(Boolean).join(" · ");
+    evidence.push({ signal: `${tradeSignal} (demand hypothesis; not a confirmed current purchase)`, source: primary.source || "WONLY country research + TopEase CRM", date: primary.updated_at, confidence: 70 });
+  }
   const websiteSignal = [background.productFocus || background.mainBusiness || background.industry || "", background.projects || background.expansion || "", background.fitReason || background.demandHypothesis || ""].filter(Boolean).join(" · ");
   const websiteSource = background.sourceUrl || background.officialWebsite || background.website || primary.source_url || primary.website;
   const websiteDate = background.evidenceDate || background.addedDate || background.updatedAt || primary.updated_at;
