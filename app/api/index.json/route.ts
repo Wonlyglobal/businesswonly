@@ -21,6 +21,7 @@ export async function GET(request: Request) {
     contact_role, email, phone, whatsapp, linkedin, email_verification_status, sync_status, updated_at
     FROM outreach_leads ORDER BY updated_at DESC LIMIT 5000`).all();
   const companies = result.results.map((row) => ({
+    businessCompanyId: String(row.id),
     normName: String(row.company_name || ""),
     name: String(row.company_name || ""),
     domain: domainFromWebsite(row.website),

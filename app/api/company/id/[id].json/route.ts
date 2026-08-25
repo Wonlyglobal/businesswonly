@@ -17,7 +17,7 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
   const row = await env.DB.prepare("SELECT * FROM outreach_leads WHERE id = ?").bind(id).first<Record<string, string>>();
   if (!row) return Response.json({ error: "Company not found" }, { status: 404 });
   return Response.json({
-    id, name: row.company_name, companyName: row.company_name, country: row.country,
+    id, businessCompanyId: String(id), name: row.company_name, companyName: row.company_name, country: row.country,
     website: row.website, contactName: row.contact_name, contactTitle: row.contact_title,
     contactRole: row.contact_role, contactEmail: row.email, contactPhone: row.phone,
     contactWhatsApp: row.whatsapp, contactLinkedIn: row.linkedin,
