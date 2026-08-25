@@ -25,7 +25,7 @@ export async function GET(request: Request) {
     normName: String(row.company_name || ""),
     name: String(row.company_name || ""),
     domain: domainFromWebsite(row.website),
-    file: `company/id/${String(row.id)}.json`,
+    file: `company/id/${String(row.id)}`,
     country: String(row.country || ""),
     contact: {
       name: String(row.contact_name || ""), title: String(row.contact_title || ""),
