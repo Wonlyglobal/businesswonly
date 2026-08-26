@@ -19,15 +19,16 @@ export async function GET(request: Request, context: { params: Promise<{ domain:
   const domain = normalizeDomain(decodeURIComponent((await context.params).domain));
   if (!domain) return Response.json({ error: "Missing domain" }, { status: 400 });
 
-  const result = await env.DB.prepare(`SELECT * FROM outreach_leads
-    WHERE lower(website) = ? OR lower(website) = ? OR lower(website) LIKE ? OR lower(website) LIKE ?
+  const candidates = await env.DB.prepare(`SELECT * FROM outreach_leads
+    WHERE lower(website) LIKE ?
     ORDER BY CASE WHEN email != '' THEN 0 ELSE 1 END, updated_at DESC
-    LIMIT 25`).bind(domain, `www.${domain}`, `%://${domain}%`, `%www.${domain}%`).all<Record<string, unknown>>();
-  if (!result.results.length) return Response.json({ error: "Company not found", domain }, { status: 404 });
+    LIMIT 100`).bind(`%${domain}%`).all<Record<string, unknown>>();
+  const rows = candidates.results.filter((row) => normalizeDomain(String(row.website || "")) === domain);
+  if (!rows.length) return Response.json({ error: "Company not found", domain }, { status: 404 });
 
-  const primary = result.results[0] as Record<string, string>;
-  const backgroundRow = result.results.find((row) => String(row.background_json || "") !== "{}") || primary;
-  const contacts = result.results.map((row) => ({
+  const primary = rows[0] as Record<string, string>;
+  const backgroundRow = rows.find((row) => String(row.background_json || "") !== "{}") || primary;
+  const contacts = rows.map((row) => ({
     name: row.contact_name || "", title: row.contact_title || "", role: row.contact_role || "",
     email: row.email || "", phone: row.phone || "", whatsapp: row.whatsapp || "",
     linkedin: row.linkedin || "", verificationStatus: row.email_verification_status || "unknown",
