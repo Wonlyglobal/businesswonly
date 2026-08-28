@@ -28,6 +28,20 @@
   "researchConfidence": "高",
   "keyContacts": "Abdul Bari｜Procurement Incharge｜abdul.bari@ohielec.com｜采购负责人；Mohammad Shareef｜Division Manager｜shareef@ohielec.com｜部门决策人；Elan T｜Head Of project Implementation team｜elan@ohielec.com｜项目实施技术影响人；Pankaj Borah｜Assistant Manager｜pankaj@ohielec.com｜管理岗位（部门待核实）",
   "nextAction": "优先由 Abdul Bari 验证酒店锁与门禁系统的采购计划，再由 Mohammad Shareef 确认商业导入，由 Elan T 评估 RFID/BLE 酒店锁、GRMS/门禁兼容与项目实施支持；Pankaj Borah 仅作为辅助管理联系人。",
+  "evidence": [
+    {
+      "signal": "OHI Electronics 官网将公司定位为阿曼 ELV 系统集成商，酒店解决方案明确列出客房门锁系统、客房管理系统与安防解决方案，证明酒店电子锁与门禁是其已有业务范围。",
+      "source": "https://ohielec.com/hospitality-solutions/",
+      "date": "2026-08-28",
+      "confidence": 90
+    },
+    {
+      "signal": "Oman Product Finder 的独立行业目录将 OHI Electronics 列为 VINGCARD 酒店电子门锁解决方案供应商，并公开与官网域名一致的企业联系入口。",
+      "source": "https://omanproductfinder.com/details/1142/Loay_International_LLC",
+      "date": "2026-08-28",
+      "confidence": 85
+    }
+  ],
   "researchSources": [
     {
       "label": "官方LinkedIn公司页",
