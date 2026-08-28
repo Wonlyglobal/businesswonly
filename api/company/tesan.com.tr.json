@@ -23,5 +23,19 @@
   "fitReason": "ZKTeco brand distributor in Turkey",
   "angle": "Add OEM smart/electronic door locks to Turkish distribution",
   "risk": "Large distributor, strict onboarding",
-  "addedDate": "2026-07-28"
+  "addedDate": "2026-07-28",
+  "updatedAt": "2026-08-28",
+  "contacts": [
+    {"name":"Bekir Erdoğan","title":"Owner","role":"owner","email":"bekir.erdogan@tesan.com.tr","verificationStatus":"unverified"}
+  ],
+  "evidence": [
+    {"signal":"Bekir Erdoğan 在联系人数据中标注为 Owner，邮箱使用 tesan.com.tr 官方域名。","source":"TopEase CRM / 易搜邮","sourceUrl":"https://www.tesan.com.tr/","date":"2026-08-18","confidence":82},
+    {"signal":"Tesan 官方品牌页展示 ZKTeco 安防与考勤产品合作，说明其具备相关渠道和供应商导入场景。","source":"Tesan 官方 ZKTeco 品牌页","sourceUrl":"https://www.tesan.com.tr/brands/18/zkteco","date":"2026-08-28","confidence":85}
+  ],
+  "background": {
+    "researchStatus":"ready",
+    "demandHypothesis":"作为全国技术分销商，可能存在补充智能锁与电子门锁产品线的机会；是否采购需由联系人确认。",
+    "recommendedAngle":"以现有 ZKTeco 门禁渠道为切入点，询问是否计划增加锁端执行硬件或 OEM 智能锁。",
+    "sources":["TopEase CRM / 易搜邮","Tesan 官方网站"]
+  }
 }
