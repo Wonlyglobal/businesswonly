@@ -2256,8 +2256,8 @@
     {
       "company": "Oman International Electronics & Trading Co. LLC",
       "normName": "omaninternationalelectronicstradingcollc",
-      "domain": null,
-      "file": null,
+      "domain": "ohielec.com",
+      "file": "company/ohielec.com.json",
       "country": "OM",
       "countryName": "阿曼",
       "city": "Muscat",

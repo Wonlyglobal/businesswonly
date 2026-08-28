@@ -8990,34 +8990,37 @@
    "category": "importer_distributor",
    "categoryName": "进口商/经销商",
    "productFocus": "Electronic hotel door-lock solutions (VINGCARD)",
-   "website": "",
-   "email": "sales@ohielec.com",
+   "website": "https://ohielec.com",
+   "email": "abdul.bari@ohielec.com",
    "phone": "+968 24930001",
    "sourceUrl": "https://www.omanproductfinder.com/Companies/listing/0/0/door%20lock",
-   "contactSource": "",
+   "contactSource": "https://ohielec.com",
    "confidence": "medium",
    "brandsCarried": "VingCard (electronic hotel locks)",
    "scale": "Muscat; hotel locking systems",
    "projects": "Hotel/hospitality locking installations",
    "importSignal": "Supplier of electronic hotel door-lock systems (VingCard)",
-   "decisionContact": "Shakeel Hussain (Techno Commercial Manager, Oman); Shiyas Ali (Project Engineer；酒店、政府、门禁与GRMS项目经验)",
+   "decisionContact": "Abdul Bari (Procurement Incharge); Mohammad Shareef (Division Manager); Elan T (Head Of project Implementation team); Pankaj Borah (Assistant Manager)",
    "fitScore": 5,
    "fitReason": "Specialist hotel electronic-lock integrator (VingCard) — direct segment match for RFID/mobile hotel locks.",
    "angle": "OEM RFID/BLE hotel locks & card systems as cost-competitive alternative/second line to VingCard.",
    "risk": "Strong VingCard/Assa Abloy Hospitality loyalty.",
    "addedDate": "2026-07-14",
-   "researchStatus": "已锁定技术商业与项目影响人",
+   "researchStatus": "已通过 TopEase 精确匹配 OHI Electronics 与官网域名 ohielec.com；系统已有 30 个官方域名邮箱。已核验采购负责人、部门经理、项目实施负责人和助理经理；未使用积分挖掘。",
    "researchConfidence": "高",
-   "keyContacts": "Shakeel Hussain｜Techno Commercial Manager, Oman｜技术商业决策人；Shiyas Ali｜Project Engineer；酒店、政府、门禁与GRMS项目经验｜项目技术影响人",
-   "nextAction": "Shakeel 负责商业导入，Shiyas 验证项目集成；以酒店锁与 GRMS/门禁兼容、项目支持和售后切入。",
+   "keyContacts": "Abdul Bari｜Procurement Incharge｜abdul.bari@ohielec.com｜采购负责人；Mohammad Shareef｜Division Manager｜shareef@ohielec.com｜部门决策人；Elan T｜Head Of project Implementation team｜elan@ohielec.com｜项目实施技术影响人；Pankaj Borah｜Assistant Manager｜pankaj@ohielec.com｜管理岗位（部门待核实）",
+   "nextAction": "优先由 Abdul Bari 验证酒店锁与门禁系统的采购计划，再由 Mohammad Shareef 确认商业导入，由 Elan T 评估 RFID/BLE 酒店锁、GRMS/门禁兼容与项目实施支持；Pankaj Borah 仅作为辅助管理联系人。",
    "researchSources": [
     {
      "label": "官方LinkedIn公司页",
      "url": "https://www.linkedin.com/company/oman-international-electronics-%26-trading-co-llc"
     }
    ],
-   "checkedSources": [],
-   "keyContactMethods": "公开身份来源：https://om.linkedin.com/in/shiyas-ali-97650a95；公开身份来源：https://om.linkedin.com/in/shiyas-ali-97650a95"
+   "checkedSources": [
+    "TopEase CRM 精确公司匹配：OHI Electronics / ohielec.com / Oman",
+    "TopEase 联系人发现：系统已有官方域名邮箱，未使用积分挖掘"
+   ],
+   "keyContactMethods": "Abdul Bari｜abdul.bari@ohielec.com；Mohammad Shareef｜shareef@ohielec.com；Elan T｜elan@ohielec.com；Pankaj Borah｜pankaj@ohielec.com"
   },
   {
    "company": "Soor A'Seeb Enterprises LLC",
