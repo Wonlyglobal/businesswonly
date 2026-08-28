@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-07-28",
   "total": 2382,
-  "withDomain": 1518,
+  "withDomain": 1519,
   "note": "按 domain 精确匹配 company/<domain>.json；无 domain 或按公司名匹配时，用本索引 normName 做模糊匹配。email/phone 查不到即为空，不编造。",
   "companies": [
     {
@@ -1970,15 +1970,15 @@
     {
       "company": "Heavy Engineering Industries & Shipbuilding Company (HEISCO)",
       "normName": "heavyengineeringindustriesshipbuildingcompanyheisco",
-      "domain": null,
-      "file": null,
+      "domain": "heisco.com",
+      "file": "company/heisco.com.json",
       "country": "KW",
       "countryName": "科威特",
       "city": "",
       "categoryName": "建筑总包",
       "fitScore": 2,
       "email": false,
-      "phone": false
+      "phone": true
     },
     {
       "company": "Alghanim Engineering Group",

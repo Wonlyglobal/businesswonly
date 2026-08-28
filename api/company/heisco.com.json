@@ -1,0 +1,130 @@
+{
+  "company": "Heavy Engineering Industries & Shipbuilding Company (HEISCO)",
+  "country": "KW",
+  "countryName": "科威特",
+  "region": "中东",
+  "continent": "中东",
+  "city": "",
+  "category": "contractor",
+  "categoryName": "建筑总包",
+  "productFocus": "Heavy industry construction, offshore structures, buildings",
+  "website": "https://heisco.com",
+  "email": "",
+  "phone": "+96524624000",
+  "sourceUrl": "https://www.blackridgeresearch.com/blog/list-best-top-biggest-largest-contracting-building-construction-companies-kuwait",
+  "contactSource": "TopEase CRM / 联系人发现（系统已有联系方式）",
+  "confidence": "medium",
+  "brandsCarried": "",
+  "scale": "Founded 1980; heavy-industry/offshore/buildings",
+  "projects": "Heavy industry, offshore, building construction",
+  "importSignal": "Limited/indirect door-hardware demand",
+  "decisionContact": "Salem Abdulhadi Marafi (Deputy CEO – Shipyard Operations); Ahmed El Sherif (Chief Operating Officer – Construction); Senthil Kumar Ganesan (Chief Operating Officer – Industrial Maintenance & Fabrication Services); Stephen Raj Anand (Corporate Director – Business Development, Oil & Gas); C. Kannan (Operations Manager – Trading Operations & Galvanizing Plant); Nasser Al Shawa (Corporate QA & QC Manager)",
+  "fitScore": 2,
+  "fitReason": "Primarily heavy-industry/offshore contractor; limited building-door-hardware demand.",
+  "angle": "Pursue only occasional building/facility projects.",
+  "risk": "Core is heavy/offshore; weak door-lock demand.",
+  "addedDate": "2026-07-14",
+  "researchStatus": "HEISCO 官网直接披露多名当前业务负责人：Salem Abdulhadi Marafi 负责船厂、Ahmed El Sherif 负责施工、Senthil Kumar Ganesan 负责工业维护及制造、Stephen Raj Anand 负责商务开发，并有贸易及镀锌工厂负责人 C. Kannan。该公司是油气、工业维护、制造和船厂型客户，工业安全锁与 LOTO 的适配度高于建筑门锁。",
+  "researchConfidence": "高",
+  "keyContacts": "Salem Abdulhadi Marafi｜Deputy CEO – Shipyard Operations｜船厂运营、资本设备与重大供应商 Sponsor；Ahmed El Sherif｜Chief Operating Officer – Construction｜施工项目、现场设施及材料需求决策人；Senthil Kumar Ganesan｜Chief Operating Officer – Industrial Maintenance & Fabrication Services｜MRO、工业维护、制造及安全锁具核心决策人；Stephen Raj Anand｜Corporate Director – Business Development, Oil & Gas｜油气项目机会、客户要求和内部引荐入口；C. Kannan｜Operations Manager – Trading Operations & Galvanizing Plant｜贸易、工厂运营及库存型采购入口；Nasser Al Shawa｜Corporate QA & QC Manager｜产品认证、检验及技术预审把关人",
+  "nextAction": "主攻 Senthil Kumar Ganesan，Stephen Raj Anand 辅助打开油气项目，Salem Marafi 覆盖船厂，C. Kannan 覆盖库存贸易；再索取 Head of Procurement、HSE Manager、Maintenance Stores 和 Vendor Registration。以阀门/断路器 LOTO、控制柜锁、海洋级挂锁、钥匙管理和耐盐雾报告切入，向 Nasser Al Shawa 提交材料、盐雾、循环与追溯文件；先取得一份 KOC/船厂 MRO 清单做现场试用。",
+  "researchSources": [
+    {
+      "label": "HEISCO 官方 Contact：各业务线负责人、电话与部门入口",
+      "url": "https://heisco.com/contact-us.html"
+    }
+  ],
+  "checkedSources": [
+    "HEISCO 全称与上市主体",
+    "官方业务联系人名录",
+    "船厂、油气、维护、制造、贸易与 QA/QC",
+    "采购与 tendering 岗位",
+    "项目新闻及公司联系方式",
+    "同名海外企业排除"
+  ],
+  "keyContactMethods": "公开身份来源：https://heisco.com/contact-us.html；TopEase CRM 联系人发现：9 个采购岗位官方域名邮箱（2026-08-28 核验，未使用积分挖掘）",
+  "updatedAt": "2026-08-28",
+  "contacts": [
+    {
+      "name": "Khawlah Al-Farhan",
+      "title": "Procurement Supervisor",
+      "role": "procurement_supervisor",
+      "email": "ak@heisco.com",
+      "emailVerificationStatus": "unverified",
+      "source": "TopEase CRM / 联系人发现（系统已有联系方式）",
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "name": "Mohammed Ibrahim",
+      "title": "Senior Procurement Engineer",
+      "role": "senior_procurement_engineer",
+      "email": "ibrahim@heisco.com",
+      "emailVerificationStatus": "unverified",
+      "source": "TopEase CRM / 联系人发现（系统已有联系方式）",
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "name": "Rajendran Alwar",
+      "title": "Supervisor - Procurement & Logistics",
+      "role": "procurement_logistics_supervisor",
+      "email": "alwar.rajendran@heisco.com",
+      "emailVerificationStatus": "unverified",
+      "source": "TopEase CRM / 联系人发现（系统已有联系方式）",
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "name": "Firos Meethal",
+      "title": "Assistant Procurement Supervisor",
+      "role": "assistant_procurement_supervisor",
+      "email": "firosm@heisco.com",
+      "emailVerificationStatus": "unverified",
+      "source": "TopEase CRM / 联系人发现（系统已有联系方式）",
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "name": "Joselito Lorempo",
+      "title": "Procurement Engineer",
+      "role": "procurement_engineer",
+      "email": "joselito.lorempo@heisco.com",
+      "emailVerificationStatus": "unverified",
+      "source": "TopEase CRM / 联系人发现（系统已有联系方式）",
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "name": "Navaneetha Krishnan",
+      "title": "Unit Head - International Procurement",
+      "role": "international_procurement_head",
+      "email": "navaneetha.krishnan@heisco.com",
+      "emailVerificationStatus": "unverified",
+      "source": "TopEase CRM / 联系人发现（系统已有联系方式）",
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "name": "Ali AlSalhi",
+      "title": "Unit Head - Procurement and Logistics",
+      "role": "procurement_logistics_head",
+      "email": "ali.alsalhi@heisco.com",
+      "emailVerificationStatus": "unverified",
+      "source": "TopEase CRM / 联系人发现（系统已有联系方式）",
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "name": "Ahmad Bassam",
+      "title": "Senior Procurement Engineer",
+      "role": "senior_procurement_engineer",
+      "email": "ahmad.bassam@heisco.com",
+      "emailVerificationStatus": "unverified",
+      "source": "TopEase CRM / 联系人发现（系统已有联系方式）",
+      "verifiedAt": "2026-08-28"
+    },
+    {
+      "name": "Ahmed Fathalla",
+      "title": "Senior Procurement Engineer",
+      "role": "senior_procurement_engineer",
+      "email": "fathallaa@heisco.com",
+      "emailVerificationStatus": "unverified",
+      "source": "TopEase CRM / 联系人发现（系统已有联系方式）",
+      "verifiedAt": "2026-08-28"
+    }
+  ]
+}

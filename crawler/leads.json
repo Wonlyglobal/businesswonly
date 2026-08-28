@@ -7947,11 +7947,11 @@
    "category": "contractor",
    "categoryName": "建筑总包",
    "productFocus": "Heavy industry construction, offshore structures, buildings",
-   "website": "",
+   "website": "https://heisco.com",
    "email": "",
-   "phone": "",
+   "phone": "+96524624000",
    "sourceUrl": "https://www.blackridgeresearch.com/blog/list-best-top-biggest-largest-contracting-building-construction-companies-kuwait",
-   "contactSource": "",
+   "contactSource": "TopEase CRM / 联系人发现（系统已有联系方式）",
    "confidence": "medium",
    "brandsCarried": "",
    "scale": "Founded 1980; heavy-industry/offshore/buildings",
@@ -7981,7 +7981,19 @@
     "项目新闻及公司联系方式",
     "同名海外企业排除"
    ],
-   "keyContactMethods": "公开身份来源：https://heisco.com/contact-us.html；公开身份来源：https://heisco.com/contact-us.html；公开身份来源：https://heisco.com/contact-us.html；公开身份来源：https://heisco.com/contact-us.html；公开身份来源：https://heisco.com/contact-us.html；公开身份来源：https://heisco.com/contact-us.html"
+   "keyContactMethods": "公开身份来源：https://heisco.com/contact-us.html；TopEase CRM 联系人发现：9 个采购岗位官方域名邮箱（2026-08-28 核验，未使用积分挖掘）",
+   "updatedAt": "2026-08-28",
+   "contacts": [
+    {"name":"Khawlah Al-Farhan","title":"Procurement Supervisor","role":"procurement_supervisor","email":"ak@heisco.com","emailVerificationStatus":"unverified","source":"TopEase CRM / 联系人发现（系统已有联系方式）","verifiedAt":"2026-08-28"},
+    {"name":"Mohammed Ibrahim","title":"Senior Procurement Engineer","role":"senior_procurement_engineer","email":"ibrahim@heisco.com","emailVerificationStatus":"unverified","source":"TopEase CRM / 联系人发现（系统已有联系方式）","verifiedAt":"2026-08-28"},
+    {"name":"Rajendran Alwar","title":"Supervisor - Procurement & Logistics","role":"procurement_logistics_supervisor","email":"alwar.rajendran@heisco.com","emailVerificationStatus":"unverified","source":"TopEase CRM / 联系人发现（系统已有联系方式）","verifiedAt":"2026-08-28"},
+    {"name":"Firos Meethal","title":"Assistant Procurement Supervisor","role":"assistant_procurement_supervisor","email":"firosm@heisco.com","emailVerificationStatus":"unverified","source":"TopEase CRM / 联系人发现（系统已有联系方式）","verifiedAt":"2026-08-28"},
+    {"name":"Joselito Lorempo","title":"Procurement Engineer","role":"procurement_engineer","email":"joselito.lorempo@heisco.com","emailVerificationStatus":"unverified","source":"TopEase CRM / 联系人发现（系统已有联系方式）","verifiedAt":"2026-08-28"},
+    {"name":"Navaneetha Krishnan","title":"Unit Head - International Procurement","role":"international_procurement_head","email":"navaneetha.krishnan@heisco.com","emailVerificationStatus":"unverified","source":"TopEase CRM / 联系人发现（系统已有联系方式）","verifiedAt":"2026-08-28"},
+    {"name":"Ali AlSalhi","title":"Unit Head - Procurement and Logistics","role":"procurement_logistics_head","email":"ali.alsalhi@heisco.com","emailVerificationStatus":"unverified","source":"TopEase CRM / 联系人发现（系统已有联系方式）","verifiedAt":"2026-08-28"},
+    {"name":"Ahmad Bassam","title":"Senior Procurement Engineer","role":"senior_procurement_engineer","email":"ahmad.bassam@heisco.com","emailVerificationStatus":"unverified","source":"TopEase CRM / 联系人发现（系统已有联系方式）","verifiedAt":"2026-08-28"},
+    {"name":"Ahmed Fathalla","title":"Senior Procurement Engineer","role":"senior_procurement_engineer","email":"fathallaa@heisco.com","emailVerificationStatus":"unverified","source":"TopEase CRM / 联系人发现（系统已有联系方式）","verifiedAt":"2026-08-28"}
+   ]
   },
   {
    "company": "Alghanim Engineering Group",
