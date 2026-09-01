@@ -23,5 +23,32 @@
   "fitReason": "Hardware retailer already selling China-made smart door locks and access devices online in Tashkent.",
   "angle": "Offer OEM/white-label smart locks (fingerprint/password/RFID/Wi-Fi) to broaden their catalog beyond Xiaomi with better margins and localized firmware; propose a distributor/reseller arrangement with China-direct pricing.",
   "risk": "Heavily tied to the Xiaomi brand identity; may resist non-Xiaomi lines unless margins and after-sales support are clearly superior.",
-  "addedDate": "2026-07-14"
+  "addedDate": "2026-07-14",
+  "researchConfidence": "中",
+  "researchStatus": "已核实为塔什干 Xiaomi 生态电子与智能家居零售商，Labzak 78 有实体店并覆盖全乌兹别克斯坦配送；官网称“Xiaomi 品牌店”，但没有法律主体、INN 或可复核的官方授权证书，也未披露老板、总经理、进口采购或智能锁负责人实名。",
+  "researchSources": [
+    {
+      "label": "MiOnline 官方联系页：品牌店定位、地址、电话和邮箱",
+      "url": "https://mionline.uz/en-contact-us"
+    },
+    {
+      "label": "官方公开协议：销售模式但未披露法人主体",
+      "url": "https://mionline.uz/oferta"
+    },
+    {
+      "label": "关联商城页：实体地址、全国配送及替代电话",
+      "url": "https://mionline.gl.uz/uz/"
+    },
+    {
+      "label": "官方智能门锁与门铃品类",
+      "url": "https://mionline.uz/tovary-dlya-doma/umnyj-dom/dvernye-zamki-i-zvonki/"
+    }
+  ],
+  "checkedSources": [
+    "官网协议、商品和联系页",
+    "两个公开电话与邮箱反查",
+    "Xiaomi 官方授权身份检索",
+    "俄文/乌兹别克文负责人检索",
+    "LinkedIn、地图和企业目录"
+  ]
 }

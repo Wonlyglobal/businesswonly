@@ -26,16 +26,62 @@
   "addedDate": "2026-07-28",
   "updatedAt": "2026-08-28",
   "contacts": [
-    {"name":"Bekir Erdoğan","title":"Owner","role":"owner","email":"bekir.erdogan@tesan.com.tr","verificationStatus":"unverified"}
+    {
+      "name": "Bekir Erdoğan",
+      "title": "Owner",
+      "role": "owner",
+      "email": "bekir.erdogan@tesan.com.tr",
+      "verificationStatus": "unverified"
+    }
   ],
   "evidence": [
-    {"signal":"Bekir Erdoğan 在联系人数据中标注为 Owner，邮箱使用 tesan.com.tr 官方域名。","source":"TopEase CRM / 易搜邮","sourceUrl":"https://www.tesan.com.tr/","date":"2026-08-18","confidence":82},
-    {"signal":"Tesan 官方品牌页展示 ZKTeco 安防与考勤产品合作，说明其具备相关渠道和供应商导入场景。","source":"Tesan 官方 ZKTeco 品牌页","sourceUrl":"https://www.tesan.com.tr/brands/18/zkteco","date":"2026-08-28","confidence":85}
+    {
+      "signal": "Bekir Erdoğan 在联系人数据中标注为 Owner，邮箱使用 tesan.com.tr 官方域名。",
+      "source": "TopEase CRM / 易搜邮",
+      "sourceUrl": "https://www.tesan.com.tr/",
+      "date": "2026-08-18",
+      "confidence": 82
+    },
+    {
+      "signal": "Tesan 官方品牌页展示 ZKTeco 安防与考勤产品合作，说明其具备相关渠道和供应商导入场景。",
+      "source": "Tesan 官方 ZKTeco 品牌页",
+      "sourceUrl": "https://www.tesan.com.tr/brands/18/zkteco",
+      "date": "2026-08-28",
+      "confidence": 85
+    }
   ],
   "background": {
-    "researchStatus":"ready",
-    "demandHypothesis":"作为全国技术分销商，可能存在补充智能锁与电子门锁产品线的机会；是否采购需由联系人确认。",
-    "recommendedAngle":"以现有 ZKTeco 门禁渠道为切入点，询问是否计划增加锁端执行硬件或 OEM 智能锁。",
-    "sources":["TopEase CRM / 易搜邮","Tesan 官方网站"]
-  }
+    "researchStatus": "ready",
+    "demandHypothesis": "作为全国技术分销商，可能存在补充智能锁与电子门锁产品线的机会；是否采购需由联系人确认。",
+    "recommendedAngle": "以现有 ZKTeco 门禁渠道为切入点，询问是否计划增加锁端执行硬件或 OEM 智能锁。",
+    "sources": [
+      "TopEase CRM / 易搜邮",
+      "Tesan 官方网站"
+    ]
+  },
+  "researchConfidence": "高",
+  "researchStatus": "已核实全国级技术分销商；Bekir Erdoğan 已由公开机构帖文确认担任董事长，可作为供应商合作与新品类决策 Sponsor。具体采购执行人仍待其内部转接。",
+  "researchSources": [
+    {
+      "label": "官网：1983 年成立、300 人、5,000+ 渠道伙伴、40,000+ 销售点",
+      "url": "https://www.tesan.com.tr/about/1/hakkimizda"
+    },
+    {
+      "label": "ZKTeco 品牌页",
+      "url": "https://www.tesan.com.tr/brands/18/zkteco"
+    },
+    {
+      "label": "AKUT 公开帖文：确认 Bekir Erdoğan 为 Tesan 董事长",
+      "url": "https://tr.linkedin.com/posts/akutdernegi_ttec-tesan-activity-7010934455947157505-QzSX",
+      "date": "2023-01-01",
+      "confidence": "high"
+    }
+  ],
+  "checkedSources": [
+    "Tesan 官网",
+    "LinkedIn",
+    "行业报道",
+    "贸易注册索引",
+    "品牌合作新闻"
+  ]
 }

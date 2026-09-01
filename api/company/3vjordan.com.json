@@ -23,5 +23,17 @@
   "fitReason": "Automation integrator installing smart locks; fit for the exporter's smart-lock line",
   "angle": "Supply WiFi/fingerprint smart locks and access hardware for their automation projects",
   "risk": "Smaller integrator; modest volumes",
-  "addedDate": "2026-07-28"
+  "addedDate": "2026-07-28",
+  "researchConfidence": "中高",
+  "researchStatus": "已确认是约旦 Control4、Futronix 和 Somfy 授权智能家居/商业楼宇集成商，涵盖灯光、窗帘、HVAC、安防、酒店与商业自动化。找到 Ibrahem Alhaj 的招聘/公司邮箱线索，以及 Raed Alnabulsi、Mohammed Deeb Alwadi 的公司关联；官网未明确创始人或管理职级。",
+  "researchSources": [
+    {
+      "label": "3V 官方站：授权品牌、项目、酒店/商业自动化和联系方式",
+      "url": "https://www.3vjordan.com/"
+    },
+    {
+      "label": "LinkedIn 公司页：团队关联与公司主体",
+      "url": "https://jo.linkedin.com/company/3v-home-automation-company"
+    }
+  ]
 }

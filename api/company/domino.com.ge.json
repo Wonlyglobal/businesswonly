@@ -23,5 +23,32 @@
   "fitReason": "大型建材零售连锁,已设门把手与门锁品类",
   "angle": "为其门五金品类做中国OEM门锁/执手/合页供货或自有品牌贴牌",
   "risk": "门五金仅为庞大品类之一,集中采购,进店门槛高",
-  "addedDate": "2026-07-14"
+  "addedDate": "2026-07-14",
+  "researchConfidence": "高",
+  "researchStatus": "已确认该线索对应格鲁吉亚 Domino DIY Hypermarket（法律运营线索指向 Terminal West Trading），并锁定现任企业销售负责人。官网商品与招聘页面证明其为多品类建材家居连锁，门锁合作应进入中央品类/采购体系，而非只联系门店公开邮箱。",
+  "researchSources": [
+    {
+      "label": "Domino 官网：在售品类、门店及公司招聘信息",
+      "url": "https://www.domino.com.ge/"
+    },
+    {
+      "label": "Irakli Lomsadze 公开职业页：现任企业销售负责人及建材品类管理履历",
+      "url": "https://ge.linkedin.com/in/irakli-lomsadze-196aaa179"
+    },
+    {
+      "label": "第三方职业资料：Head of Corporate Sales 任期与公司域名邮箱线索",
+      "url": "https://www.signalhire.com/profiles/irakli-lomsadze/211201119"
+    },
+    {
+      "label": "格鲁吉亚公开财务报告：Terminal West Trading 运营 Domino Market",
+      "url": "https://reportal.ge/ka/Reports/GetFile/27060"
+    }
+  ],
+  "checkedSources": [
+    "Domino 官网及招聘页",
+    "LinkedIn 公司与员工页",
+    "格鲁吉亚公开财务报告",
+    "电话号码及域名反查",
+    "品牌授权与零售市场报告"
+  ]
 }

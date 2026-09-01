@@ -23,5 +23,38 @@
   "fitReason": "General construction contractor requiring door hardware.",
   "angle": "Offer door hardware packages as recurring vendor.",
   "risk": "Per-project, price-led; consultant-fixed specs.",
-  "addedDate": "2026-07-14"
+  "addedDate": "2026-07-14",
+  "researchConfidence": "中",
+  "researchStatus": "已核实为 1980 年成立的巴林土木工程与污水处理/道路承包商，电话 +973 17877277、邮箱 zohalcc@batelco.com.bh。2024 Tender Board 预审名单仍接受其参与，2024 招聘公告也显示主体仍在运营；但 Ministry of Works 道路 Grade B 记录中的许可证已于 2019 年过期，需确认其它资质或续证。未找到可可靠验证的董事长、GM、采购或项目负责人实名。",
+  "researchSources": [
+    {
+      "label": "Bahrain Tender Board：2024 本地承包商预审接受记录",
+      "url": "https://www.tenderboard.gov.bh/OpenedTenderDetails/?envelope=TQ%2FPB%2FPQ&id=895%2F2024%2FBTB+%28PQ-CES%2F03%2F2024%29&source=New&type=1"
+    },
+    {
+      "label": "Ministry of Works：CR、电话、邮箱及道路 Grade B 旧证过期提示",
+      "url": "https://www.works.gov.bh/Arabic/Services/cost/Pages/CedApps2/DownloadReport.aspx?catId=2&glId=18"
+    },
+    {
+      "label": "商业数据库：Salmabad 地址、电话、官网和主体信息",
+      "url": "https://bhr.bizdirlib.com/tr/construction-company/guid/3150"
+    },
+    {
+      "label": "2024 招聘公告：主体仍有施工人员招聘活动",
+      "url": "https://media.akhbar-alkhaleej.com/source/17067/pdf/3-MAIN/16.pdf?fixed09924="
+    },
+    {
+      "label": "Crunchbase：成立年份、污水处理设计施工定位与公司规模线索",
+      "url": "https://www.crunchbase.com/organization/zohal-construction-co"
+    }
+  ],
+  "checkedSources": [
+    "Zohal Construction Co WLL/Zohal Construction Ltd 名称变体",
+    "官网与电话邮箱",
+    "Tender Board 预审",
+    "Ministry of Works 资质",
+    "招聘与在营信号",
+    "董事长、GM、采购、项目和工程人员",
+    "Jeevan Kiran Martis 仅确认关联但无公开头衔"
+  ]
 }

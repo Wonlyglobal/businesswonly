@@ -23,5 +23,32 @@
   "fitReason": "A large, long-established furniture- and door-hardware/fittings importer-distributor with a store network and interior-door business, a strong fit for door hardware and accessories.",
   "angle": "Approach as a distributor: offer Chinese OEM furniture fittings, interior-door hardware, hinges, handles and smart/mechanical locks to broaden their range and improve margins versus their higher-cost European supply base.",
   "risk": "Entrenched relationships with 24 European/Turkish brands and premium positioning; may view Chinese goods as down-market — need to protect their brand image and offer clear margin/quality case. (Official site blocked automated access; profile verified via third-party directory.)",
-  "addedDate": "2026-07-14"
+  "addedDate": "2026-07-14",
+  "researchConfidence": "中高",
+  "researchStatus": "已核实主体为 ARSENAL GROUP LTD MMC（纳税人编号 8100050711），长期经营家具及门配件、原材料和 ALTO 家具业务；官网和招聘资料证明其有门店及企业销售团队。未找到老板、总经理、采购、进口或门五金产品负责人的可靠实名。",
+  "researchSources": [
+    {
+      "label": "Arsenal Group 官方网站",
+      "url": "https://arsenalgroup.az/"
+    },
+    {
+      "label": "LinkedIn 公司页：企业销售招聘及业务定位",
+      "url": "https://az.linkedin.com/company/arsenal-group-ltd"
+    },
+    {
+      "label": "阿塞拜疆税务文件：ARSENAL GROUP LTD MMC 与 8100050711",
+      "url": "https://www.taxes.gov.az/files/2/covid19/MS.pdf"
+    },
+    {
+      "label": "行业新闻：家具配件超市与扩张计划",
+      "url": "https://marja.az/108928/bakida-mebel-aksesuarlari-supermarketi-acildi-tezlikle-sumqayit-ve-gencede"
+    }
+  ],
+  "checkedSources": [
+    "新旧官网及公司简介",
+    "ARSENAL GROUP LTD MMC/8100050711 反查",
+    "阿塞拜疆语管理层和采购检索",
+    "LinkedIn 员工与招聘",
+    "新闻、税务和企业目录"
+  ]
 }

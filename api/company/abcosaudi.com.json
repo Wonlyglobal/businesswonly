@@ -23,5 +23,21 @@
   "fitReason": "Riyadh hardware wholesaler with a dedicated door-locks category, though no brands/contacts public.",
   "angle": "Bulk wholesale supply of mechanical & smart locks at competitive landed cost.",
   "risk": "No public contact/brand info; hard to reach decision-maker.",
-  "addedDate": "2026-07-14"
+  "addedDate": "2026-07-14",
+  "researchConfidence": "高",
+  "researchStatus": "已核实 2008 年成立的利雅得多店批发五金渠道，拥有 SBT/NEST/VICTORY 自有品牌及全球采购能力｜实名管理层未找到",
+  "researchSources": [
+    {
+      "label": "LinkedIn 公司页：2008 年、11–50 人、门锁/执手及员工线索",
+      "url": "https://www.linkedin.com/company/abcosaudi/"
+    },
+    {
+      "label": "ABCO 公司动态：多店供应链、全球采购及 SBT/NEST/VICTORY 自有品牌",
+      "url": "https://www.linkedin.com/posts/abco-saudi_abco-for-building-materials-formerly-known-activity-7268659819941675008-BV6J"
+    },
+    {
+      "label": "产品价目表：YUNI/ICSA/VG/VICTORY 锁体、锁芯及批发价格",
+      "url": "https://device.report/m/6e72af41528b54c86f3a431fb61abcf518a019a4295f4ba022dd44c0e78a26fc.pdf"
+    }
+  ]
 }

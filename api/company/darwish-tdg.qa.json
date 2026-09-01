@@ -23,5 +23,21 @@
   "fitReason": "Major diversified group whose building-materials arm deals lock/ironmongery brands (Union, Mandelli, allgood).",
   "angle": "Engage building-materials division for new/second lock line; leverage group scale for volume.",
   "risk": "Site under redevelopment; large bureaucratic group, slow procurement.",
-  "addedDate": "2026-07-14"
+  "addedDate": "2026-07-14",
+  "researchConfidence": "高",
+  "researchStatus": "已锁定集团董事长和副董事长/执行董事，核实 1934 年起、201–500 人及 70+ 国际品牌的多事业部集团｜需下钻建材/安防事业部采购",
+  "researchSources": [
+    {
+      "label": "LinkedIn 公司页：集团高层、规模、70+ 国际品牌及事业部结构",
+      "url": "https://www.linkedin.com/company/darwish-trading-co-wll"
+    },
+    {
+      "label": "Darwish 官方网站：Mandelli、Somany 等独家代理及建材/安防业务",
+      "url": "https://darwish-tdg.qa/"
+    },
+    {
+      "label": "QNB 2024 治理资料：Bader Abdulla Darwish Fakhroo 任 Darwish Holding Chairman & MD（集团层面参考）",
+      "url": "https://bebasata.qnb.com.eg/sites/qnb/qnbqatar/document/en/enCG2024"
+    }
+  ]
 }

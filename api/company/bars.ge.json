@@ -23,5 +23,29 @@
   "fitReason": "专营门锁与门五金(锁/合页/执手)的零售商,品类对口",
   "angle": "OEM门锁/合页/执手/闭门器整线供货或贴牌",
   "risk": "robots限制无法抓官网,现有品牌/城市未确认",
-  "addedDate": "2026-07-14"
+  "addedDate": "2026-07-14",
+  "researchConfidence": "中高",
+  "researchStatus": "已纠正原始画像：BARS 不是以门锁零售为主，而是格鲁吉亚本地五金制品、栏杆/幕墙/玻璃配件及不锈钢铝制品的制造与供应企业，设有第比利斯工厂/总部和巴统销售点。公开资料发现具名邮箱 hakan@bars.ge，但无法可靠确认完整姓名和职务，因此不虚构联系人。",
+  "researchSources": [
+    {
+      "label": "BARS 官方联系页：第比利斯工厂/总部、巴统销售点、电话及 office@bars.ge",
+      "url": "https://bars.ge/en/contact/"
+    },
+    {
+      "label": "BARS 官网：栏杆、幕墙、玻璃及推拉把手等五金产品线",
+      "url": "https://bars.ge/en/"
+    },
+    {
+      "label": "格鲁吉亚环境信息文件：公开出现 hakan@bars.ge 的公司域名具名邮箱线索",
+      "url": "https://ei.gov.ge/download/files/?accompany=false&file=dfebbc8c-db3c-4d6f-8b14-e48a4bb92135&type=true"
+    }
+  ],
+  "checkedSources": [
+    "BARS 官网产品与联系页",
+    "公司域名邮箱反查",
+    "格鲁吉亚语/英语负责人检索",
+    "LinkedIn",
+    "政府及环境文件",
+    "同名公司排除"
+  ]
 }

@@ -26,17 +26,66 @@
   "addedDate": "2026-07-28",
   "updatedAt": "2026-08-28",
   "contacts": [
-    {"name":"André Knup","title":"Comprador","role":"buyer","email":"andre.knup@coferatacadista.com.br","verificationStatus":"unverified"},
-    {"name":"Samuel Duarte","title":"Assistente de compras","role":"purchasing_assistant","email":"samuel.duarte@coferatacadista.com.br","verificationStatus":"unverified"}
+    {
+      "name": "André Knup",
+      "title": "Comprador",
+      "role": "buyer",
+      "email": "andre.knup@coferatacadista.com.br",
+      "verificationStatus": "unverified"
+    },
+    {
+      "name": "Samuel Duarte",
+      "title": "Assistente de compras",
+      "role": "purchasing_assistant",
+      "email": "samuel.duarte@coferatacadista.com.br",
+      "verificationStatus": "unverified"
+    }
   ],
   "evidence": [
-    {"signal":"联系人属于采购岗位，邮箱使用公司官方域名。","source":"TopEase CRM / 易搜邮","sourceUrl":"https://www.coferatacadista.com.br/","date":"2026-08-17","confidence":82},
-    {"signal":"官网设有 ferragens 建筑五金品类，支持其作为门锁及门五金渠道客户的需求假设。","source":"Cofer Atacadista 官方网站","sourceUrl":"https://www.coferatacadista.com.br/construcao/ferragens","date":"2026-08-28","confidence":72}
+    {
+      "signal": "联系人属于采购岗位，邮箱使用公司官方域名。",
+      "source": "TopEase CRM / 易搜邮",
+      "sourceUrl": "https://www.coferatacadista.com.br/",
+      "date": "2026-08-17",
+      "confidence": 82
+    },
+    {
+      "signal": "官网设有 ferragens 建筑五金品类，支持其作为门锁及门五金渠道客户的需求假设。",
+      "source": "Cofer Atacadista 官方网站",
+      "sourceUrl": "https://www.coferatacadista.com.br/construcao/ferragens",
+      "date": "2026-08-28",
+      "confidence": 72
+    }
   ],
   "background": {
-    "researchStatus":"ready",
-    "demandHypothesis":"可能需要补充锁具和门五金 SKU；首次沟通应先确认现有品牌、采购频次和负责采购人。",
-    "recommendedAngle":"围绕批发目录补充、混装采购和渠道毛利展开验证，不把需求假设表述为既成采购计划。",
-    "sources":["TopEase CRM / 易搜邮","Cofer Atacadista 官方网站"]
-  }
+    "researchStatus": "ready",
+    "demandHypothesis": "可能需要补充锁具和门五金 SKU；首次沟通应先确认现有品牌、采购频次和负责采购人。",
+    "recommendedAngle": "围绕批发目录补充、混装采购和渠道毛利展开验证，不把需求假设表述为既成采购计划。",
+    "sources": [
+      "TopEase CRM / 易搜邮",
+      "Cofer Atacadista 官方网站"
+    ]
+  },
+  "researchConfidence": "中",
+  "researchStatus": "公司与五金批发业务已核验；André Knup、Samuel Duarte 的公司关联可确认，但公开职位与锁具采购决策权限均不足，暂不可按 A 级联系人发送。",
+  "researchSources": [
+    {
+      "label": "Cofer 官网五金/建筑材料品类页",
+      "url": "https://www.coferatacadista.com.br/construcao/ferragens",
+      "date": "2026-08-28",
+      "confidence": "medium"
+    },
+    {
+      "label": "Samuel Duarte 公开任职关联",
+      "url": "https://br.linkedin.com/in/samuel-duarte-604222250",
+      "date": "2026-08-28",
+      "confidence": "medium"
+    },
+    {
+      "label": "公开帖子提及 André Knup 与 Cofer Atacadista 的工作关联",
+      "url": "https://br.linkedin.com/in/paula-poliana-790223226",
+      "date": "2026-08-28",
+      "confidence": "low"
+    }
+  ]
 }

@@ -23,5 +23,24 @@
   "fitReason": "门禁/安防集成商,智能门禁方案含门禁锁执行机构需求",
   "angle": "供中国门禁电锁/智能锁/访客通道硬件配套其All-in-One方案,做门禁锁具OEM供应",
   "risk": "偏IT/网络与监控,机械门五金需求弱;采购集中于系统品牌",
-  "addedDate": "2026-07-14"
+  "addedDate": "2026-07-14",
+  "researchConfidence": "中",
+  "researchStatus": "已核验坦桑尼亚站点提供门禁、监控、电梯控制、访客管理和多种门锁执行方案，但公开人员线索主要指向 Zimbabwe/南非的 Unified Africa Technologies 总部体系。Mambo Chapendama、Cyril Muhwati 等未能证明属于坦桑尼亚分支，未写成当地决策人。",
+  "researchSources": [
+    {
+      "label": "坦桑尼亚官网：门禁、门锁、访客及电梯控制业务",
+      "url": "https://www.unifiedafrica.co.tz/surveillance-and-access-control.html"
+    },
+    {
+      "label": "Zimbabwe 法院记录：集团历史法律主体交叉核验",
+      "url": "https://zimlii.org/akn/zw/judgment/zwhhc/2016/118/eng%402016-01-20/source.pdf"
+    }
+  ],
+  "checkedSources": [
+    "Unified Africa Technologies Tanzania/Dar es Salaam 精确组合",
+    "unifiedafrica.co.tz 域名和邮箱",
+    "LinkedIn 公司及人员",
+    "Zimbabwe/南非总部主体和人员归属",
+    "项目、招标与合作品牌"
+  ]
 }

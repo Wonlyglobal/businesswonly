@@ -23,5 +23,29 @@
   "fitReason": "An established security-systems distributor with wholesale reach and access-control lines, a strong candidate to add electronic/door-lock hardware to its catalog.",
   "angle": "Pitch a wholesale distribution partnership for smart locks, electronic strikes/electromagnetic locks and access-control hardware, leveraging their existing installer network and China-brand purchasing experience.",
   "risk": "Focused on CCTV/IT rather than mechanical door hardware; may treat locks as a secondary line and negotiate on volume pricing and after-sales/warranty support.",
-  "addedDate": "2026-07-14"
+  "addedDate": "2026-07-14",
+  "researchConfidence": "高",
+  "researchStatus": "已核实法律主体为 AEM ELEKTRON MMC（VÖEN 2003715341），并找到联合创始人 Ağarza Jahangirov；公开采购询盘显示他本人曾代表 AEM 寻购 Cat5/Cat6 网络产品，证明其直接参与国际采购。公司经营门禁、电锁、监控并有批零和安装网络。",
+  "researchSources": [
+    {
+      "label": "阿塞拜疆税务文件：AEM ELEKTRON MMC 与 VÖEN 2003715341",
+      "url": "https://www.taxes.gov.az/files/2/covid19/M14042020.pdf"
+    },
+    {
+      "label": "Ağarza LinkedIn：AEM 任职交叉核验",
+      "url": "https://az.linkedin.com/in/agharza-jahangirov-528300105"
+    },
+    {
+      "label": "国际采购询盘：Ağarza 代表 AEM 采购网络产品",
+      "url": "https://www.tradewheel.com/buyers/lan-patch-cord-cat5-cat6/266572/"
+    },
+    {
+      "label": "AEM 官方电子锁品类",
+      "url": "https://aem-elektron.az/ru/surveillance-system/access-control/elektronnyye-zamki/"
+    },
+    {
+      "label": "阿塞拜疆知识产权公报：AEM ELEKTRON MMC 主体",
+      "url": "https://patent.copat.gov.az/files/20769260192375321953%C6%8Fmt%C9%99%C9%99%2012.2025.pdf"
+    }
+  ]
 }

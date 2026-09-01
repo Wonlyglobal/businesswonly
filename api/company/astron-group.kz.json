@@ -23,5 +23,25 @@
   "fitReason": "阿斯塔纳安防集成商，产品线含电子锁与门禁，对门锁/智能锁有直接采购需求",
   "angle": "以OEM门禁一体锁、电控锁、酒店锁切入，为其SKUD项目提供高性价比中国供应链配套，可做贴牌补充其现有欧美品牌线",
   "risk": "现有以Bolid/PERCo/Bosch等品牌为主，对中国品牌需先送样验证质量与认证(CE/EAC)，价格敏感但看重稳定供货",
-  "addedDate": "2026-07-14"
+  "addedDate": "2026-07-14",
+  "researchConfidence": "高",
+  "researchStatus": "已从公司员工页锁定董事、技术董事、销售及仓储关键人。公司是阿斯塔纳安防与门禁系统供应/集成商，公开页面显示直接与制造商合作，并有真实机构采购成交记录。",
+  "researchSources": [
+    {
+      "label": "官方员工页：管理层、销售与仓库实名",
+      "url": "https://astron-group.kz/company/staff/"
+    },
+    {
+      "label": "官方门禁安装与集成服务",
+      "url": "https://astron-group.kz/services/"
+    },
+    {
+      "label": "官方首页：制造商直供与公司定位",
+      "url": "https://astron-group.kz/"
+    },
+    {
+      "label": "机构采购结果：Astron Group 真实成交记录",
+      "url": "https://nnmc.kz/storage/app/uploads/public/67b/d47/955/67bd47955567f153633651.pdf"
+    }
+  ]
 }

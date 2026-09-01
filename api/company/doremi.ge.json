@@ -23,5 +23,28 @@
   "fitReason": "门类零售商,自设锁/执手/闭门器等门五金配件品类",
   "angle": "为其门配套OEM锁芯/执手/合页/闭门器,一站式门五金供货",
   "risk": "规模中等,未显示现有供应商,需比价打样",
-  "addedDate": "2026-07-14"
+  "addedDate": "2026-07-14",
+  "researchConfidence": "中高",
+  "researchStatus": "已确认 Doremi 自2015年经营门、门配、家具及企业项目，兼有展厅、仓库和本地门类生产能力。已找到在职员工入口，但公开资料尚未确认创始人、总经理或采购负责人实名；官网文章作者仅能证明内容归属，不能当作决策人。",
+  "researchSources": [
+    {
+      "label": "Doremi 官网公司文章：2015年起经营、多品牌、零售与企业项目、展厅和仓库",
+      "url": "https://www.doremi.ge/post/doremi-doors"
+    },
+    {
+      "label": "Doremi LinkedIn 公司动态：本地生产门及项目案例",
+      "url": "https://www.linkedin.com/posts/doremi-%E1%83%93%E1%83%9D%E1%83%A0%E1%83%94%E1%83%9B%E1%83%98_%E1%83%A8%E1%83%94%E1%83%A3%E1%83%99%E1%83%95%E1%83%94%E1%83%97%E1%83%94-%E1%83%93%E1%83%9D%E1%83%A0%E1%83%94%E1%83%9B%E1%83%98%E1%83%A8%E1%83%98-%E1%83%A8%E1%83%94%E1%83%A6%E1%83%94%E1%83%91%E1%83%98%E1%83%9A%E1%83%98-%E1%83%99%E1%83%90%E1%83%A0%E1%83%98-%E1%83%9C%E1%83%94%E1%83%91%E1%83%98%E1%83%A1%E1%83%9B%E1%83%98%E1%83%94%E1%83%A0%E1%83%98-activity-7120397648892674048-bqpu"
+    },
+    {
+      "label": "土耳其贸易部格鲁吉亚家具市场报告：公司电话与 info@doremi.ge 交叉核验",
+      "url": "https://ticaret.gov.tr/data/5f64983613b876541c767d2a/M%C3%BC%C5%9Favirlik%20Raporlar%C4%B1/Mobilya%20Sekt%C3%B6r%C3%BC%20Pazar%20Ara%C5%9Ft%C4%B1rmas%C4%B1%20Raporu.pdf"
+    }
+  ],
+  "checkedSources": [
+    "Doremi 官网及作者页",
+    "LinkedIn 公司/员工/项目动态",
+    "格鲁吉亚语和英语管理层检索",
+    "土耳其政府市场报告",
+    "电话、邮箱和地址反查"
+  ]
 }

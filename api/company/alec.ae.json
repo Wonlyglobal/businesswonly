@@ -23,5 +23,21 @@
   "fitReason": "Major main contractor delivering hotels/high-rise/airports with in-house procurement and fit-out arm.",
   "angle": "Engage ALEC procurement + ALEC FITOUT to quote lock packages for hotel/high-rise/retail projects.",
   "risk": "Buys to client/consultant specs & approved-vendor lists; premium brands nominated.",
-  "addedDate": "2026-07-14"
+  "addedDate": "2026-07-14",
+  "researchConfidence": "高",
+  "researchStatus": "已锁定集团 CEO 与 Construction MD；ALEC 是 ICD 旗下大型总包集团，2026 年初在手订单约 AED 302 亿，覆盖 UAE/KSA 的酒店、机场、超高层、数据中心和大型复杂项目，并具备设计管理、估算、成本计划及采购能力。",
+  "researchSources": [
+    {
+      "label": "ALEC 官网 About：管理层、业务范围、采购及总包能力",
+      "url": "https://www.alec.ae/about"
+    },
+    {
+      "label": "2025 年报：最新规模、业绩与项目储备",
+      "url": "https://ir.alec.ae/media/v2jpiqjp/alec-holdings-integrated-annual-report-2025-english.pdf"
+    },
+    {
+      "label": "供应链页面：分包与供应商准入条款入口",
+      "url": "https://www.alec.ae/subcontractors-and-supply-chain"
+    }
+  ]
 }

@@ -23,5 +23,27 @@
   "fitReason": "E-commerce reseller of smart door locks; fit for an exporter's smart-lock range",
   "angle": "Supply OEM smart locks (fingerprint/WiFi/Bluetooth) at wholesale to widen their catalog and margins",
   "risk": "Smaller online reseller; order volumes may be modest",
-  "addedDate": "2026-07-28"
+  "addedDate": "2026-07-28",
+  "researchConfidence": "高",
+  "researchStatus": "已确认是安曼电子产品与智能家居电商，经营 Amazon Alexa、Google Nest、Philips Hue、Tuya 及多款指纹/Wi-Fi 智能锁，提供约旦同日/48 小时配送和一年质保。公开官网与 LinkedIn 均未披露创始人、GM、采购或智能家居产品负责人实名。",
+  "researchSources": [
+    {
+      "label": "Teqane 官网：当前联系方式、智能家居品牌和智能锁 SKU",
+      "url": "https://teqane.com/"
+    },
+    {
+      "label": "智能门锁产品页：功能、售价、质保和 Airbnb 场景",
+      "url": "https://teqane.com/ar/collections/smart-home-jordan/products/wifi-smart-door-lock-jordan"
+    },
+    {
+      "label": "LinkedIn 公司页：约旦智能家居电商定位和服务承诺",
+      "url": "https://www.linkedin.com/company/teqane"
+    }
+  ],
+  "checkedSources": [
+    "Teqane 官网与全站产品",
+    "电话 +962777400925 与 info@teqane.com",
+    "LinkedIn 公司及人员",
+    "创始人、GM、采购、Smart Home category roles"
+  ]
 }

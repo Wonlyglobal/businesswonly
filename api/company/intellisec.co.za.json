@@ -26,18 +26,88 @@
   "addedDate": "2026-07-14",
   "updatedAt": "2026-08-28",
   "contacts": [
-    {"name":"Johna Pillay","title":"National Procurement Manager","role":"procurement_manager","email":"johna@intellisec.co.za","verificationStatus":"unverified"},
-    {"name":"Denzil Steyn","title":"Managing Director","role":"managing_director","email":"denzil@intellisec.co.za","verificationStatus":"unverified"}
+    {
+      "name": "Johna Pillay",
+      "title": "National Procurement Manager",
+      "role": "procurement_manager",
+      "email": "johna@intellisec.co.za",
+      "verificationStatus": "unverified"
+    },
+    {
+      "name": "Denzil Steyn",
+      "title": "Managing Director",
+      "role": "managing_director",
+      "email": "denzil@intellisec.co.za",
+      "verificationStatus": "unverified"
+    }
   ],
   "evidence": [
-    {"signal":"Johna Pillay 为 National Procurement Manager；Denzil Steyn 为 Managing Director，邮箱均使用官方域名。","source":"TopEase CRM / 易搜邮","sourceUrl":"https://intellisec.co.za/","date":"2026-08-18","confidence":84},
-    {"signal":"官方 Access Control 页面展示 RFID、生物识别、闸机和车辆门禁方案，项目交付通常需要锁端执行硬件配套。","source":"Intellisec 官方 Access Control 页面","sourceUrl":"https://intellisec.co.za/access-control/","date":"2026-08-28","confidence":86},
-    {"signal":"官方 About 页面确认 Denzil Steyn 为 Managing Director，并披露全国项目与资质能力。","source":"Intellisec 官方 About 页面","sourceUrl":"https://intellisec.co.za/about-intellisec/","date":"2026-08-28","confidence":88}
+    {
+      "signal": "Johna Pillay 为 National Procurement Manager；Denzil Steyn 为 Managing Director，邮箱均使用官方域名。",
+      "source": "TopEase CRM / 易搜邮",
+      "sourceUrl": "https://intellisec.co.za/",
+      "date": "2026-08-18",
+      "confidence": 84
+    },
+    {
+      "signal": "官方 Access Control 页面展示 RFID、生物识别、闸机和车辆门禁方案，项目交付通常需要锁端执行硬件配套。",
+      "source": "Intellisec 官方 Access Control 页面",
+      "sourceUrl": "https://intellisec.co.za/access-control/",
+      "date": "2026-08-28",
+      "confidence": 86
+    },
+    {
+      "signal": "官方 About 页面确认 Denzil Steyn 为 Managing Director，并披露全国项目与资质能力。",
+      "source": "Intellisec 官方 About 页面",
+      "sourceUrl": "https://intellisec.co.za/about-intellisec/",
+      "date": "2026-08-28",
+      "confidence": 88
+    }
   ],
   "background": {
-    "researchStatus":"ready",
-    "demandHypothesis":"门禁集成项目可能需要电锁、磁力锁、电插锁、门状态监测和闭门器；具体规格与采购周期尚待确认。",
-    "recommendedAngle":"先索取门表、既有门禁平台和失效安全规范，再提出样品与认证测试。",
-    "sources":["TopEase CRM / 易搜邮","Intellisec 官方 Access Control 页面","Intellisec 官方 About 页面"]
-  }
+    "researchStatus": "ready",
+    "demandHypothesis": "门禁集成项目可能需要电锁、磁力锁、电插锁、门状态监测和闭门器；具体规格与采购周期尚待确认。",
+    "recommendedAngle": "先索取门表、既有门禁平台和失效安全规范，再提出样品与认证测试。",
+    "sources": [
+      "TopEase CRM / 易搜邮",
+      "Intellisec 官方 Access Control 页面",
+      "Intellisec 官方 About 页面"
+    ]
+  },
+  "researchConfidence": "高",
+  "researchStatus": "已由官方 About 页确认 Denzil Steyn 为 Managing Director。Intellisec 具全国六处分支和 Level 1 B-BBEE/Central Supplier Database 资质，案例包括医院 700+ 门 Impro 门禁、物流中心、汽车厂、矿业、酒店和大型地产项目，是具项目规格与全国交付能力的集成商。",
+  "researchSources": [
+    {
+      "label": "Intellisec 官方 About：Denzil Steyn、资质和全国能力",
+      "url": "https://intellisec.co.za/about-intellisec/"
+    },
+    {
+      "label": "官方 Access Control：SALTO、Impro、Gallagher 等伙伴及门禁场景",
+      "url": "https://staging.intellisec.co.za/access-control/"
+    },
+    {
+      "label": "官方案例：医院、物流、工业、矿业、地产等项目与门数",
+      "url": "https://intellisec.co.za/industries-we-serve/"
+    },
+    {
+      "label": "Engineering News：Denzil Steyn 为 Intellisec South Africa MD，并披露公司智能场地系统业务",
+      "url": "https://www.engineeringnews.co.za/article/denzil-steyn-2024-05-10",
+      "date": "2024-05-10",
+      "confidence": "high"
+    },
+    {
+      "label": "Sunday Times：Denzil Steyn 以 Intellisec MD 身份介绍 IoT、CCTV、门禁与场地系统业务",
+      "url": "https://www.sundaytimes.timeslive.co.za/sunday-times/business/careers/2024-06-02-one-business-defeat-led-to-success-in-another/",
+      "date": "2024-06-02",
+      "confidence": "high"
+    }
+  ],
+  "checkedSources": [
+    "Denzil Steyn",
+    "Intellisec South Africa",
+    "LinkedIn 员工",
+    "访问控制伙伴",
+    "大型项目案例",
+    "采购和技术岗位"
+  ]
 }
