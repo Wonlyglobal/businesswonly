@@ -18,10 +18,59 @@
   "scale": "20+ yrs; UAE/Oman/Qatar/Bahrain; Dorfit sold in 30+ countries",
   "projects": "None named",
   "importSignal": "Strong: importer + owner of Dorfit private-label exported to 30+ countries",
-  "decisionContact": "",
+  "decisionContact": "Juzer Disawala (Owner); Azhar Alam (Sales & Marketing，10+年经验); Zabiya Manpurwala (公司员工，职位待核实); Ali Mehdi (公司员工，职位待核实)",
   "fitScore": 5,
   "fitReason": "20+ yr importer that carries major lock brands AND owns Dorfit private-label sold in 30+ countries — established OEM-sourcing behavior.",
   "angle": "OEM/private-label manufacturing partner for their Dorfit brand (locks, cylinders, exit devices).",
   "risk": "As existing Dorfit OEM buyer likely already has Asian factories; compete on price/quality.",
-  "addedDate": "2026-07-14"
+  "addedDate": "2026-07-14",
+  "researchStatus": "公司、官网域名和阿联酋主体已核对；已通过 TopEase 精确匹配找到 Owner Juzer Disawala 的官方域名具名邮箱。两条独立来源证明 La Decor/Dorfit 当前经营门锁、闭门器、锁芯、智能门锁及建筑五金，但这些属于当前业务范围证据，不等同于已确认的近期采购计划。",
+  "researchConfidence": "高",
+  "keyContacts": "Juzer Disawala｜Owner｜juzer@ladecorllc.com｜最高经营决策人，邮箱待 Instantly 最终 valid/非 catch-all 验证；Azhar Alam｜Sales & Marketing，10+年经验｜内部转介绍人；Zabiya Manpurwala｜公司员工，职位待核实｜候选；Ali Mehdi｜公司员工，职位待核实｜候选",
+  "nextAction": "先完成 juzer@ladecorllc.com 的 Instantly 最终 valid/非 catch-all 验证与抑制名单终检；通过后仅生成待人工审核草稿，以 Dorfit 自有品牌的 OEM 扩品、独家型号和稳定供货为切入点，不声称其正在采购。",
+  "contacts": [
+    {
+      "name": "Juzer Disawala",
+      "title": "Owner",
+      "role": "owner",
+      "email": "juzer@ladecorllc.com",
+      "verificationStatus": "unverified",
+      "source": "TopEase exact company-domain match",
+      "sourceUrl": "https://et.topease.net/sou6/search/detail/ladecorllc.com"
+    }
+  ],
+  "evidence": [
+    {
+      "signal": "La Decor 官方目录当前将 architectural hardware、cylindrical locks and latches、door closers、door cylinders、glass-door locks 与 digital door locks 列为主营品类，并同时列出 Dorfit、Union、Yale、ISEO、Dorma、Geze 等品牌，证明其是具备多品牌门锁与门控五金渠道的进口经销商。",
+      "source": "https://ladecorllc.com/catalog/",
+      "date": "2026-09-02",
+      "confidence": 92
+    },
+    {
+      "signal": "独立行业目录 Yellow Pages UAE 将 La Decor LLC 列为 Dorfit 门控五金供应商，产品与服务覆盖 hardware、ironmongery、building material，并列出 Dorfit locks/security products、door closers 与 aluminium door locks，且公司地址与官网记录一致。",
+      "source": "https://www.yellowpages-uae.com/uae/dorfit-door-hardware-and-controls",
+      "date": "2026-09-02",
+      "confidence": 84
+    }
+  ],
+  "researchSources": [
+    {
+      "label": "La Decor 官方产品目录：门锁、闭门器、锁芯、玻璃门锁与数字门锁",
+      "url": "https://ladecorllc.com/catalog/",
+      "date": "2026-09-02",
+      "confidence": "high"
+    },
+    {
+      "label": "Yellow Pages UAE 独立行业目录：La Decor/Dorfit 门控五金供应商与地址核验",
+      "url": "https://www.yellowpages-uae.com/uae/dorfit-door-hardware-and-controls",
+      "date": "2026-09-02",
+      "confidence": "medium-high"
+    }
+  ],
+  "checkedSources": [
+    "La Decor 官方目录（2026-09-02核验）",
+    "Yellow Pages UAE 独立行业目录（2026-09-02核验）",
+    "TopEase 精确公司域名匹配：ladecorllc.com / Dubai / UAE；未点击消耗积分的联系方式挖掘"
+  ],
+  "keyContactMethods": "Juzer Disawala｜Owner｜juzer@ladecorllc.com｜TopEase 精确匹配；Azhar Alam 身份来源：https://ae.linkedin.com/in/azhar-alam-unicorn3919"
 }
