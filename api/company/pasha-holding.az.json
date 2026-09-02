@@ -7,18 +7,62 @@
   "city": "Baku",
   "category": "developer",
   "categoryName": "地产开发商",
-  "productFocus": "Real estate development",
+  "productFocus": "Commercial and residential real-estate development, including premium residences and hotels",
   "website": "https://pasha-holding.az",
   "email": "",
   "phone": "",
   "sourceUrl": "https://pasha-holding.az/en/construction/pasha-construction/",
-  "contactSource": "",
-  "confidence": "medium",
+  "contactSource": "TopEase company-domain contact result",
+  "confidence": "high",
   "brandsCarried": "",
   "scale": "Subsidiary of PASHA Holding; described as a foremost real-estate developer in Azerbaijan for international-standard commercial and residential property (founding year not stated on page)",
   "projects": "Port Baku Residence, Four Seasons Hotel Baku, JW Marriott Absheron Hotel, Ganjlik Mall, National Gymnastics Arena",
-  "importSignal": "",
-  "decisionContact": "",
+  "importSignal": "No verified customs purchase claim is used; current opportunity is based on independently corroborated active real-estate development signals.",
+  "decisionContact": "Azer Aliyev (Group Purchasing Head)",
+  "keyContacts": "Azer Aliyev｜Group Purchasing Head｜aaliyev@pasha-holding.az",
+  "contacts": [
+    {
+      "name": "Azer Aliyev",
+      "title": "Group Purchasing Head",
+      "role": "purchasing",
+      "email": "aaliyev@pasha-holding.az",
+      "emailVerificationStatus": "unverified",
+      "source": "TopEase company-domain contact result",
+      "riskStatus": "email_final_verification_required"
+    }
+  ],
+  "researchStatus": "ready_for_email_verification",
+  "evidence": [
+    {
+      "signal": "PASHA Construction develops international-standard commercial and residential property and lists delivered hotel, residential and commercial projects in Baku.",
+      "source": "PASHA Holding official PASHA Construction profile",
+      "sourceUrl": "https://pasha-holding.az/en/construction/pasha-construction/",
+      "date": "2026-09-02",
+      "confidence": 92,
+      "type": "official_company_profile"
+    },
+    {
+      "signal": "Construction was progressing on PASHA Real Estate Group's Liman Estate in Baku, comprising 209 residences and 12 waterfront villas.",
+      "source": "Chapman Taylor project update",
+      "sourceUrl": "https://www.chapmantaylor.com/news/luxury-waterfront-residential-development-takes-shape-at-the-liman-estate-in-baku",
+      "date": "2026-07-15",
+      "confidence": 88,
+      "type": "independent_project_update"
+    }
+  ],
+  "researchSources": [
+    {
+      "label": "PASHA Construction official company profile",
+      "url": "https://pasha-holding.az/en/construction/pasha-construction/",
+      "checkedAt": "2026-09-02"
+    },
+    {
+      "label": "Chapman Taylor Liman Estate construction update",
+      "url": "https://www.chapmantaylor.com/news/luxury-waterfront-residential-development-takes-shape-at-the-liman-estate-in-baku",
+      "publishedAt": "2026-07-15"
+    }
+  ],
+  "evidenceDate": "2026-09-02",
   "fitScore": 3,
   "fitReason": "A premium developer of luxury residences and hotels, a segment with strong demand for hotel locks and high-end architectural door hardware.",
   "angle": "Target as an end-buyer/spec-in opportunity: propose hotel RFID/smart lock systems and premium architectural hardware for their hotel and luxury residential projects; work to get specified via their design/procurement teams and offer high-end finishes and reliability.",
