@@ -23,5 +23,20 @@
   "fitReason": "10+ yr Riyadh/Jeddah integrator distributing hotel RFID locks & Salto access.",
   "angle": "OEM their hotel/RFID lock range + add mortise/cabinet locks to their mix.",
   "risk": "Also carries premium Salto; needs strong margin & after-sales to switch.",
-  "addedDate": "2026-07-14"
+  "addedDate": "2026-07-14",
+  "researchStatus": "已核验为利雅得的安防和身份识别解决方案供应商。官网当前列出酒店 RFID 锁、智能门锁、生物识别门禁、通道闸机及多个国际品牌；LinkedIn 近一周持续推广 SALTO 智能锁、Virdi/Suprema 门禁和停车场入口解决方案，并确认 Talal Al Otaibi 为公司员工。可测试与其现有酒店和门禁渠道相补充的 WONLY 产品组合，但不得声称已有采购计划、系统兼容或替代现有品牌。",
+  "researchSources": [
+    {
+      "label": "Smart Finger 官网：酒店 RFID 锁、智能锁、生物识别门禁与渠道品牌",
+      "url": "https://smart-finger.com/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "smartfinger_official_site"
+    },
+    {
+      "label": "Smart Finger LinkedIn：利雅得安防供应商主体、Talal Al Otaibi 任职及近期智能入口产品动态",
+      "url": "https://www.linkedin.com/company/smart-finger-trading-llc",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "linkedin_company_profile"
+    }
+  ]
 }
