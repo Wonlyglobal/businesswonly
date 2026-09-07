@@ -5,11 +5,11 @@
   "region": "北美",
   "continent": "美洲",
   "city": "Tampa, FL",
-  "category": "hotel_group",
-  "categoryName": "酒店集团",
+  "category": "importer_distributor",
+  "categoryName": "酒店 RFID 凭证供应商/渠道商",
   "productFocus": "RFID/MIFARE hotel key cards, key card holders, RFID wristbands, key fobs; hospitality access credentials",
   "website": "https://rfidhotel.com/",
-  "email": "Sales@rfidhotel.com",
+  "email": "",
   "phone": "888-249-3068",
   "sourceUrl": "https://rfidhotel.com/",
   "contactSource": "",
@@ -18,14 +18,32 @@
   "scale": "Described as largest US provider of RFID hotel key cards; serves Hilton, Marriott, Hyatt, IHG, Wyndham, Choice",
   "projects": "Hilton, Marriott, Hyatt, IHG, Wyndham, Choice, Radisson properties",
   "importSignal": "Hospitality credential supplier tied to hotel lock ecosystems - adjacent buyer for hotel lock hardware",
-  "decisionContact": "Sales@rfidhotel.com",
+  "decisionContact": "",
   "fitScore": 4,
-  "fitReason": "Major hospitality access-credential supplier with hotel-chain reach and public sales email",
+  "fitReason": "Major hospitality access-credential supplier with hotel-chain reach and active 2026 product/channel signals",
   "angle": "",
   "risk": "Focus is key cards more than lock hardware; adjacent rather than direct lock buyer",
   "addedDate": "2026-07-28",
   "researchConfidence": "高",
-  "researchStatus": "已核验为美国酒店 RFID 凭证供应商，官网持续销售酒店钥匙卡、腕带和门禁凭证，并明确通过既有渠道供货；Avery 官方帮助页独立指向 RFID Hotel 作为其 RFID 解决方案业务。可探索酒店锁与凭证产品组合合作，但不得声称与其现有锁具系统兼容。",
+  "researchStatus": "research_ready_contact_private",
+  "evidence": [
+    {
+      "signal": "RFID Hotel 当前官网展示 2026 年限量酒店 RFID 卡、2000 万件现货、当日发货，并持续覆盖酒店门锁凭证场景，说明其酒店门禁凭证渠道仍在活跃运营。",
+      "source": "RFID Hotel 官方网站与 2026 产品页",
+      "sourceUrl": "https://rfidhotel.com/hotel-key-cards/marriott-bonvoy-fifa-world-cup-2026-limited-edition-key-cards-nxp-mifare-ultralight-aes-vingcard/",
+      "date": "2026-09-07",
+      "confidence": 95,
+      "type": "official_recent_product_and_inventory_activity"
+    },
+    {
+      "signal": "Avery 官方帮助中心独立确认 RFID Hotel 是其提供 RFID 解决方案的关联公司，并列出相同官网、电话与销售渠道。",
+      "source": "Avery 官方帮助中心",
+      "sourceUrl": "https://www.avery.com/help/article/does-avery-make-rfid-labels",
+      "date": "2026-09-07",
+      "confidence": 94,
+      "type": "independent_parent_company_confirmation"
+    }
+  ],
   "researchSources": [
     {
       "label": "RFID Hotel 官网与销售条款：酒店 RFID 凭证产品及渠道供货模式",
@@ -39,5 +57,6 @@
       "checkedAt": "2026-09-07",
       "independenceGroup": "avery_official_site"
     }
-  ]
+  ],
+  "evidenceDate": "2026-09-07"
 }
