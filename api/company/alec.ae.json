@@ -25,7 +25,29 @@
   "risk": "Buys to client/consultant specs & approved-vendor lists; premium brands nominated.",
   "addedDate": "2026-07-14",
   "researchConfidence": "高",
-  "researchStatus": "已锁定集团 CEO 与 Construction MD；ALEC 是 ICD 旗下大型总包集团，2026 年初在手订单约 AED 302 亿，覆盖 UAE/KSA 的酒店、机场、超高层、数据中心和大型复杂项目，并具备设计管理、估算、成本计划及采购能力。",
+  "researchStatus": "research_ready",
+  "evidenceDate": "2026-09-07",
+  "updatedAt": "2026-09-07",
+  "evidence": [
+    {
+      "signal": "ALEC reported on 12 August 2026 that H1 revenue rose 67.6% to nearly AED 9.0 billion, supported by sustained project execution and a closing backlog of AED 32.5 billion; this is a current project-volume signal for its construction procurement function.",
+      "source": "ALEC official H1 2026 performance update",
+      "sourceUrl": "https://www.alec.ae/journal-post/alec-holdings-delivers-strong-h1-2026-performance-with-revenue-up-67-6",
+      "date": "2026-08-12",
+      "confidence": 96,
+      "independenceGroup": "alec_official",
+      "type": "official_recent_project_pipeline_signal"
+    },
+    {
+      "signal": "Reuters independently reported on 13 August 2026 that ALEC's secured-project backlog reached AED 32.5 billion as of 30 June 2026, confirming a large active delivery pipeline; this supports a door-hardware package hypothesis but not a confirmed purchase order.",
+      "source": "Reuters report carried by TradingView",
+      "sourceUrl": "https://www.tradingview.com/news/reuters.com%2C2026-08-13%3Anewsml_Zaw51XQ7Y%3A0-uae-s-alec-holdings-says-project-backlog-at-nearly-9bln/",
+      "date": "2026-08-13",
+      "confidence": 92,
+      "independenceGroup": "reuters",
+      "type": "independent_recent_project_pipeline_confirmation"
+    }
+  ],
   "researchSources": [
     {
       "label": "ALEC 官网 About：管理层、业务范围、采购及总包能力",
@@ -50,6 +72,12 @@
       "url": "https://financialfilings.com/filings/alec-holdings-pjsc/earnings-release/2026/55968464/",
       "publishedAt": "2026-08-13",
       "independenceGroup": "market_filing_aggregator"
+    },
+    {
+      "label": "Reuters 对 ALEC 2026 H1 项目储备的独立报道",
+      "url": "https://www.tradingview.com/news/reuters.com%2C2026-08-13%3Anewsml_Zaw51XQ7Y%3A0-uae-s-alec-holdings-says-project-backlog-at-nearly-9bln/",
+      "publishedAt": "2026-08-13",
+      "independenceGroup": "reuters"
     },
     {
       "label": "ALEC 官方 2025 ESG 更新：扩建异地建造设施并推进项目执行能力",
