@@ -23,5 +23,20 @@
   "fitReason": "Крупный застройщик премиум/бизнес ЖК — спрос на смарт-замки квартир и СКУД подъездов",
   "angle": "Поставка смарт-замков для квартир премиум-ЖК и систем доступа МОП",
   "risk": "Закупки через генподряд, высокие требования к бренду",
-  "addedDate": "2026-07-28"
+  "addedDate": "2026-07-28",
+  "researchStatus": "已核验为哈萨克斯坦跨阿斯塔纳与阿拉木图的大型住宅开发商。官网当前列出多个在建的高端、商务及舒适类住宅项目，交付时间集中在 2026–2028 年；LinkedIn 主体确认其为 201–500 人的开发、建筑与投资集团。可假设其在住宅交付和公共区域中对入户智能锁、机械锁与门禁配套存在适配需求，但未发现其公开宣布的锁具采购计划，邮件必须使用假设性语气。",
+  "researchSources": [
+    {
+      "label": "Sensata 官网：当前高端、商务及舒适类住宅项目与 2026–2028 交付节点",
+      "url": "https://www.sensata.kz/projects",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "sensata_official_site"
+    },
+    {
+      "label": "Sensata Group LinkedIn：哈萨克斯坦开发、建筑与投资集团主体及规模",
+      "url": "https://www.linkedin.com/company/sensatagroup",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "linkedin_company_profile"
+    }
+  ]
 }
