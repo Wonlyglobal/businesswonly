@@ -1,0 +1,64 @@
+{
+  "company": "ALHANI Construction & Trading Co.",
+  "country": "KW",
+  "countryName": "科威特",
+  "region": "中东",
+  "continent": "亚洲",
+  "city": "Kuwait City",
+  "category": "contractor",
+  "categoryName": "大型建筑承包商",
+  "productFocus": "Civil construction, infrastructure, major buildings, MEP, renovation and project delivery",
+  "website": "https://www.alhani.com/",
+  "email": "",
+  "phone": "",
+  "sourceUrl": "https://www.alhani.com/",
+  "contactSource": "建筑项目渠道反查",
+  "confidence": "high",
+  "brandsCarried": "",
+  "scale": "Regional contractor founded in 1963 with 501–1,000 employees and operations across Kuwait and neighboring markets",
+  "projects": "Active Kuwait construction work and Shaheed Park Phase 3 completion activity",
+  "importSignal": "Project-based contractor with recurring building-material and MEP procurement requirements",
+  "decisionContact": "",
+  "researchStatus": "research_ready_contact_private",
+  "researchConfidence": "high",
+  "evidence": [
+    {
+      "signal": "ALHANI's current official website presents active construction delivery in Kuwait, including progress toward completion of Shaheed Park Phase 3 and continued large-project operations.",
+      "source": "ALHANI official website",
+      "sourceUrl": "https://www.alhani.com/",
+      "date": "2026-09-07",
+      "confidence": 95,
+      "independenceGroup": "alhani_official",
+      "type": "official_current_project_activity"
+    },
+    {
+      "signal": "RAK Steel independently reported during the past week that a major 2026 structural package is progressing in Kuwait together with ALHANI, corroborating current project execution and active supplier coordination.",
+      "source": "RAK Steel current project update",
+      "sourceUrl": "https://kw.linkedin.com/company/al-rakeb-oil-electricity-construction-services-k-s-c-c",
+      "date": "2026-08-31",
+      "confidence": 92,
+      "independenceGroup": "rak_steel_supplier",
+      "type": "independent_recent_project_supplier_signal"
+    }
+  ],
+  "researchSources": [
+    {
+      "label": "ALHANI official current project website",
+      "url": "https://www.alhani.com/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "alhani_official"
+    },
+    {
+      "label": "RAK Steel current ALHANI project update",
+      "url": "https://kw.linkedin.com/company/al-rakeb-oil-electricity-construction-services-k-s-c-c",
+      "publishedAt": "2026-08-31",
+      "independenceGroup": "rak_steel_supplier"
+    }
+  ],
+  "evidenceDate": "2026-09-07",
+  "fitScore": 4,
+  "fitReason": "Large active contractor with project procurement and building/MEP delivery needs relevant to door, lock and access-control packages",
+  "angle": "Offer a compact project-oriented door-lock and access-hardware comparison for current Kuwait building packages without claiming an announced lock tender",
+  "risk": "No public evidence confirms a current lock purchase or tender; procurement may be specification-led or subcontracted, so outreach must use conditional language and avoid compatibility claims",
+  "addedDate": "2026-09-07"
+}

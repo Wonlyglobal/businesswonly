@@ -19,9 +19,46 @@
   "projects": "Apartamentos y proyectos residenciales; próximos lanzamientos",
   "importSignal": "Desarrollador residencial con lanzamientos recurrentes; demanda de cerraduras por unidad",
   "decisionContact": "",
+  "researchStatus": "research_ready_contact_private",
+  "researchConfidence": "high",
+  "evidence": [
+    {
+      "signal": "Constructora Capital's current official website continues presenting active residential development operations across Bogotá, Medellín and surrounding markets after more than 33 years in housing construction.",
+      "source": "Constructora Capital official website",
+      "sourceUrl": "https://www.constructoracapital.com/",
+      "date": "2026-09-07",
+      "confidence": 94,
+      "independenceGroup": "constructora_capital_official",
+      "type": "official_current_project_channel"
+    },
+    {
+      "signal": "Zonario's current developer directory independently lists 45 Constructora Capital housing projects for sale across ten Colombian cities, including projects under construction with 2026 delivery.",
+      "source": "Zonario current housing-project directory",
+      "sourceUrl": "https://www.zonario.co/constructora/capital",
+      "date": "2026-08-31",
+      "confidence": 91,
+      "independenceGroup": "zonario_property_marketplace",
+      "type": "independent_recent_project_pipeline"
+    }
+  ],
+  "researchSources": [
+    {
+      "label": "Constructora Capital official current website",
+      "url": "https://www.constructoracapital.com/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "constructora_capital_official"
+    },
+    {
+      "label": "Zonario Constructora Capital project directory",
+      "url": "https://www.zonario.co/constructora/capital",
+      "publishedAt": "2026-08-31",
+      "independenceGroup": "zonario_property_marketplace"
+    }
+  ],
+  "evidenceDate": "2026-09-07",
   "fitScore": 3,
   "fitReason": "Desarrollador residencial, comprador indirecto de cerraduras/herrajes",
   "angle": "Ofrecer paquete de cerraduras y herrajes para dotación de nuevos proyectos",
-  "risk": "Compra vía contratistas; ciclo por proyecto",
+  "risk": "Procurement may be routed through contractors and no public source confirms an active lock tender; outreach must frame door-lock supply as a project-fit hypothesis rather than a stated purchase plan",
   "addedDate": "2026-07-28"
 }
