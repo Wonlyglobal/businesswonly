@@ -18,7 +18,7 @@
   "scale": "Online commercial door hardware supplier",
   "projects": "",
   "importSignal": "Online commercial door hardware reseller - possible import/value line buyer",
-  "decisionContact": "support@doorhub.com",
+  "decisionContact": "具名联合创始人/CEO 身份已由 LinkedIn 与 Stripe 客户案例交叉核验；姓名与候选邮箱仅保留在私有验证清单，邮箱仍须专业验证",
   "researchStatus": "research_ready_contact_private",
   "researchConfidence": "high",
   "evidence": [
@@ -37,17 +37,35 @@
       "date": "2026-09-07",
       "confidence": 91,
       "type": "independent_current_channel_confirmation"
+    },
+    {
+      "signal": "DoorHub's 2026 blog continues publishing on electric locks, smart locks, access control, panic hardware and commercial-door maintenance, showing active category development rather than a static legacy catalog.",
+      "source": "DoorHub official 2026 blog",
+      "sourceUrl": "https://doorhub.com/blog",
+      "date": "2026-09-07",
+      "confidence": 94,
+      "type": "official_recent_category_signal"
+    },
+    {
+      "signal": "Stripe's independent customer case confirms DoorHub's ecommerce platform and identifies its co-founder and CEO, corroborating the operating model and decision-maker identity.",
+      "source": "Stripe DoorHub customer case",
+      "sourceUrl": "https://stripe.com/customers/doorhub",
+      "date": "2026-09-07",
+      "confidence": 92,
+      "type": "independent_operating_model_and_contact_confirmation"
     }
   ],
   "researchSources": [
     {"label": "DoorHub official current commercial door-hardware catalog", "url": "https://doorhub.com/", "checkedAt": "2026-09-07"},
-    {"label": "DoorHub LinkedIn company profile", "url": "https://www.linkedin.com/company/doorhub-llc", "checkedAt": "2026-09-07"}
+    {"label": "DoorHub LinkedIn company profile", "url": "https://www.linkedin.com/company/doorhub-llc", "checkedAt": "2026-09-07"},
+    {"label": "DoorHub official 2026 category blog", "url": "https://doorhub.com/blog", "checkedAt": "2026-09-07"},
+    {"label": "Stripe DoorHub ecommerce customer case", "url": "https://stripe.com/customers/doorhub", "checkedAt": "2026-09-07"}
   ],
-  "checkedSources": ["https://doorhub.com/", "https://www.linkedin.com/company/doorhub-llc"],
+  "checkedSources": ["https://doorhub.com/", "https://www.linkedin.com/company/doorhub-llc", "https://doorhub.com/blog", "https://stripe.com/customers/doorhub"],
   "evidenceDate": "2026-09-07",
   "fitScore": 4,
   "fitReason": "Commercial door hardware supplier of locks/exit devices",
-  "angle": "",
-  "risk": "Scale and brands not stated on page; verify size before outreach",
+  "angle": "围绕其商业门五金电商目录，提供电锁/电锁扣、智能门锁和门禁配套的三款分层组合，突出库存补充、应用场景与渠道毛利；首封只询问是否愿意查看当地市场组合",
+  "risk": "规模较小且现有品牌未完全披露；不得编造进口计划、项目或兼容性。候选 CEO 邮箱必须先通过 valid 且非 catch-all 验证",
   "addedDate": "2026-07-28"
 }
