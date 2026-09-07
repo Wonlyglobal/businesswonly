@@ -1,0 +1,64 @@
+{
+  "company": "ACICO Group",
+  "country": "KW",
+  "countryName": "科威特",
+  "region": "中东",
+  "continent": "中东",
+  "city": "Kuwait City",
+  "category": "contractor",
+  "categoryName": "建材制造与建筑总包",
+  "productFocus": "Building materials manufacturing, EPC construction, homes, logistics, real estate and facility operations",
+  "website": "https://acicogroup.com/",
+  "email": "",
+  "phone": "+965 1888811",
+  "sourceUrl": "https://acicogroup.com/about-us/overview/",
+  "contactSource": "TopEase CRM / 联系人发现（系统已有联系方式）",
+  "confidence": "high",
+  "scale": "Kuwait-listed vertically integrated construction and building-materials group with industrial, construction, cement, homes, logistics and real-estate operations",
+  "projects": "Residential, industrial, commercial and institutional construction and operations",
+  "importSignal": "Project and facility procurement creates a plausible door-lock and architectural-hardware requirement; no specific current purchase is confirmed",
+  "decisionContact": "Ali (Procurement Manager); Ahmed Ali Demyati (Group Director – Supply Chain & Procurement)",
+  "fitScore": 3,
+  "fitReason": "Vertically integrated Grade-A contractor and building-materials group with active procurement and project/facility operations.",
+  "angle": "Ask whether current residential or facility projects need a three-model mechanical/smart lock package; do not claim a known purchase plan.",
+  "risk": "ACICO's core manufactured products are concrete and cement; door locks are a project-package hypothesis and must be validated in the first reply.",
+  "addedDate": "2026-07-14",
+  "updatedAt": "2026-09-07",
+  "researchStatus": "research_ready",
+  "researchConfidence": "high",
+  "evidenceDate": "2026-09-07",
+  "evidence": [
+    {
+      "signal": "ACICO's current official site confirms an operating Grade-A EPC and construction business serving residential, commercial and institutional projects, alongside homes, logistics and facility operations; this supports a project door-hardware requirement hypothesis.",
+      "source": "ACICO official construction and group overview",
+      "sourceUrl": "https://acicogroup.com/services/contracting-construction/",
+      "date": "2026-09-07",
+      "confidence": 94,
+      "independenceGroup": "acico_official",
+      "type": "official_current_project_activity_signal"
+    },
+    {
+      "signal": "An independent 12 August 2026 report states that ACICO's Q2 operating revenue increased 14% and that manufacturing, contracting and construction operations continued during the quarter, confirming current operating activity but not a specific lock purchase.",
+      "source": "MENAFN report on ACICO H1 2026 results",
+      "sourceUrl": "https://menafn.com/1111531880/ACICO-Announces-Financial-Results-for-the-Second-Quarter-and-First-Half-of-2026",
+      "date": "2026-08-12",
+      "confidence": 86,
+      "independenceGroup": "menafn",
+      "type": "independent_recent_operating_confirmation"
+    }
+  ],
+  "researchSources": [
+    {
+      "label": "ACICO official construction and operations overview",
+      "url": "https://acicogroup.com/services/contracting-construction/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "acico_official"
+    },
+    {
+      "label": "MENAFN ACICO H1 2026 operating results",
+      "url": "https://menafn.com/1111531880/ACICO-Announces-Financial-Results-for-the-Second-Quarter-and-First-Half-of-2026",
+      "publishedAt": "2026-08-12",
+      "independenceGroup": "menafn"
+    }
+  ]
+}
