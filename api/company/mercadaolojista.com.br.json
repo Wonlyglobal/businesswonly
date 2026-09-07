@@ -18,10 +18,25 @@
   "scale": "Regional construction-materials distributor (area code 16, SP interior)",
   "projects": "",
   "importSignal": "Carries multiple lock brands; open to new supplier lines",
-  "decisionContact": "",
+  "decisionContact": "具名 Buyer 候选由 TopEase 提供，LinkedIn 当前公司页确认其为该公司员工；姓名与候选邮箱仅保留在私有验证清单，邮箱仍须完成 valid 且非 catch-all 验证",
   "fitScore": 4,
   "fitReason": "Construction-materials distributor actively stocking and reselling locks and door hardware",
   "angle": "Offer competitive OEM lock/handle range to broaden their fechaduras assortment",
-  "risk": "Focus mostly on domestic brands; import willingness unconfirmed",
-  "addedDate": "2026-07-28"
+  "risk": "锁具品类目前主要为巴西本土品牌 STAM 与 ALIANÇA，进口意愿未确认；不得声称已有采购或进口计划。候选 Buyer 邮箱仍须专业验证",
+  "addedDate": "2026-07-28",
+  "researchStatus": "公司名称、mercadaolojista.com.br 官网、Brazil/Santa Rosa de Viterbo 主体匹配准确。官网当前锁具页面在售 STAM 与 ALIANÇA 的机械锁、电锁、锁芯和执手等多个 SKU；LinkedIn 当前公司页确认其为建材批发商、11–50 人、2013 年成立，并展示物流运营及候选员工在职信息。公司、品类和渠道证据完整，可测试以机械锁+执手+门五金三款组合补充现有品牌带；不得写成确定进口需求。候选 Buyer 邮箱验证前不得生成、审核、入列或发送。",
+  "researchSources": [
+    {
+      "label": "Mercadão Lojista 官网：当前 STAM/ALIANÇA 锁具、执手、电锁和锁芯在售目录",
+      "url": "https://www.mercadaolojista.com.br/ferragens/fechadura",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "mercadao_lojista_official_catalog"
+    },
+    {
+      "label": "Mercadão Lojista LinkedIn：建材批发主体、规模、地址、物流运营及候选员工在职",
+      "url": "https://www.linkedin.com/company/mercadao-lojista",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "linkedin_company_profile"
+    }
+  ]
 }
