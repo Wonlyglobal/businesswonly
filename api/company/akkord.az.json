@@ -19,9 +19,47 @@
   "projects": "Abseron Youth City residential development; residential complexes Kosmos, Tusi 1, Ugur 2, Sever; Qelebe (Victory) Square junction; TANAP gas pipeline; Sveneti-Ruisi road (Georgia)",
   "importSignal": "",
   "decisionContact": "Vuqar Suleymanov, Chief Executive Officer",
+  "researchStatus": "research_ready",
+  "researchConfidence": "medium",
+  "evidenceDate": "2026-09-07",
+  "updatedAt": "2026-09-07",
+  "evidence": [
+    {
+      "signal": "Akkord General Construction's current official page states that it is working on a new Binagadi District Court office building and residential buildings for 300 families in Gazakh, while listing further residential projects in preparation. These are current project-stage signals where door and lock packages may be relevant.",
+      "source": "Akkord General Construction official company page",
+      "sourceUrl": "https://www.akkord.az/en/group-companies/akkord-general-construction/",
+      "date": "2026-09-07",
+      "confidence": 92,
+      "independenceGroup": "akkord_official",
+      "type": "official_current_building_project_signal"
+    },
+    {
+      "signal": "An independent 23 July 2026 financial report confirms Akkord remained an operating industrial construction investment corporation while reporting a 2025 loss; this supports current corporate activity but introduces budget and credit risk rather than proving a lock purchase.",
+      "source": "ABC.AZ independent financial report",
+      "sourceUrl": "https://abc.az/index.php/en/news/209340/akkord-finishes-2025-with-large-losses",
+      "date": "2026-07-23",
+      "confidence": 82,
+      "independenceGroup": "abc_az",
+      "type": "independent_recent_company_activity_and_risk_signal"
+    }
+  ],
+  "researchSources": [
+    {
+      "label": "Akkord official current construction projects",
+      "url": "https://www.akkord.az/en/group-companies/akkord-general-construction/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "akkord_official"
+    },
+    {
+      "label": "ABC.AZ Akkord 2025 financial-result report",
+      "url": "https://abc.az/index.php/en/news/209340/akkord-finishes-2025-with-large-losses",
+      "publishedAt": "2026-07-23",
+      "independenceGroup": "abc_az"
+    }
+  ],
   "fitScore": 3,
   "fitReason": "A large developer/contractor building residential complexes, so it has recurring door-hardware and lock demand across many apartments and public buildings.",
   "angle": "Approach the procurement/purchasing department for project-scale supply of door hinges, handles/levers, closers, mechanical and smart locks for their residential complexes; emphasize bulk pricing, project delivery timelines and certification.",
-  "risk": "Buys via project procurement/tenders, likely requiring references, samples, certificates and possibly a local partner; long sales cycles and price-driven bidding.",
+  "risk": "项目采购周期长，通常要求案例、样品、认证及本地配合；2025 年亏损增加预算与信用风险，首轮仅提供成本可控的三款组合并先确认项目窗口。",
   "addedDate": "2026-07-14"
 }
