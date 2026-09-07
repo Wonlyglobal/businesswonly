@@ -18,10 +18,31 @@
   "scale": "Self-described largest US stocking distributor in its categories; fast shipping",
   "projects": "",
   "importSignal": "Stocking wholesale distributor of electromechanical locking - candidate for electronic lock imports",
-  "decisionContact": "",
+  "decisionContact": "官网当前团队页确认有具名 Inventory Control Manager/Purchasing 和 President & CEO，但未公开可核验的具名专业邮箱；TopEase 的 Head Buyer 候选未被当前官网或独立来源确认，暂不使用",
   "fitScore": 5,
   "fitReason": "Stocking wholesale distributor of electronic/access door hardware",
-  "angle": "",
-  "risk": "Narrow to electromechanical brands; no public email",
-  "addedDate": "2026-07-28"
+  "angle": "以电控锁、电锁扣、门禁配套和柜锁的差异化三款组合，测试其扩充创新且高性价比库存的兴趣；不得宣称兼容其现有品牌或已有采购计划",
+  "risk": "现有品牌组合集中于成熟北美电控五金品牌；未找到当前采购负责人的可核验具名专业邮箱。TopEase 的 Head Buyer 候选可能已过期或错配，必须先完成身份与邮箱双重验证",
+  "addedDate": "2026-07-28",
+  "researchStatus": "公司名称、ussecuritysupply.com 官网、United States/Sacramento 地址三要素匹配准确。官网当前确认其为电控门五金、门禁系统和配件的库存批发商，并强调扩充库存、创新产品和项目利润；官网团队页显示当前采购与管理职能。2026 年更新的 California 企业登记派生资料确认同一地址、活跃状态、批发商性质和 CEO；LinkedIn 当前资料也确认同一 Sacramento 主体与 2026 年行业活动。公司背调证据完整，但没有可安全使用的具名 valid 非 catch-all 采购邮箱，状态为 contact_required，不得生成草稿。",
+  "researchSources": [
+    {
+      "label": "U.S. Security Supply 官网：库存批发商定位、扩充库存及电控锁/门禁产品线",
+      "url": "https://ussecuritysupply.com/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "us_security_supply_official_site"
+    },
+    {
+      "label": "California 企业登记派生资料：活跃批发商主体、Sacramento 地址及管理层",
+      "url": "https://www.bizprofile.net/ca/sacramento/u-s-security-supply",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "california_company_registry_derived"
+    },
+    {
+      "label": "LinkedIn 当前资料：Sacramento 主体与 2026 年安防行业活动",
+      "url": "https://www.linkedin.com/in/patrick-marsengill-ba44124a",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "linkedin_executive_profile"
+    }
+  ]
 }
