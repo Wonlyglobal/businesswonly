@@ -18,10 +18,37 @@
   "scale": "Since 1994; nationwide shipping all 50 states; serves contractors, builders, facility managers AND distributors",
   "projects": "",
   "importSignal": "Sells own-labeled hardware series and doors nationwide - strong OEM/import sourcing profile",
-  "decisionContact": "sales@impusa.com",
+  "decisionContact": "企业资料确认具名 President，但公开来源未找到当前采购负责人的可核验具名专业邮箱；TopEase 的 Purchasing Manager 候选未被当前官网、LinkedIn 或企业资料确认，暂不使用",
   "fitScore": 5,
   "fitReason": "Wholesale door + hardware distributor selling own-branded series - prime OEM/private-label buyer",
-  "angle": "",
-  "risk": "",
-  "addedDate": "2026-07-28"
+  "angle": "围绕其全美商业门五金批发与自有品牌组合，提供机械锁、执手、闭门器/门控五金的三款 OEM/私牌补充方案，突出不同价位、项目应用和渠道毛利；不得声称已有采购计划",
+  "risk": "现有自有品牌及成熟供应链可能提高替换门槛。TopEase 的采购联系人身份未获当前独立来源确认，必须重新寻找并验证实际采购/供应链决策人",
+  "addedDate": "2026-07-28",
+  "researchStatus": "公司名称、impusa.com 官网、United States/Charlotte 地址匹配准确。官网当前确认其经营30年以上、库存1,000+ SKU、服务全美50州，并覆盖商用锁具、闭门器、逃生装置、合页及门框；2026年官网产品归档持续更新锁具与逃生五金系列，LinkedIn近月招聘门和五金销售岗位。Florida 2026 annual report、BBB、D&B/Buzzfile 资料相互印证同一活跃主体、批发/制造业务与进出口活动。公司背调和近期渠道信号完整，但没有可安全使用的具名 valid 非 catch-all 采购邮箱，状态为 contact_required，不得生成草稿。",
+  "researchSources": [
+    {
+      "label": "Imperial USA 官网：1,000+ SKU、全美50州及商用门锁/门五金库存能力",
+      "url": "https://impusa.com/about-us/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "imperial_usa_official_site"
+    },
+    {
+      "label": "Imperial USA 2026 产品归档：持续更新商业锁具、逃生装置和闭门器系列",
+      "url": "https://impusa.com/series/page/8/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "imperial_usa_official_product_updates"
+    },
+    {
+      "label": "Florida 官方企业记录：2026 annual report、Charlotte 地址及活跃主体",
+      "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?aggregateId=forp-f25000004238-0269fde7-9932-4bbc-8f8f-9ed9b5b3add8",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "florida_official_company_registry"
+    },
+    {
+      "label": "Buzzfile 企业资料：同一 Charlotte 主体、约30名员工及进出口活动",
+      "url": "https://www.buzzfile.com/business/Global-Door-Controls-704-596-2444",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "buzzfile_company_profile"
+    }
+  ]
 }
