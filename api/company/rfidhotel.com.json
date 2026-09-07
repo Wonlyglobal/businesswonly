@@ -33,6 +33,7 @@
       "sourceUrl": "https://rfidhotel.com/hotel-key-cards/marriott-bonvoy-fifa-world-cup-2026-limited-edition-key-cards-nxp-mifare-ultralight-aes-vingcard/",
       "date": "2026-09-07",
       "confidence": 95,
+      "independenceGroup": "rfidhotel_official_site",
       "type": "official_recent_product_and_inventory_activity"
     },
     {
@@ -41,6 +42,7 @@
       "sourceUrl": "https://www.avery.com/help/article/does-avery-make-rfid-labels",
       "date": "2026-09-07",
       "confidence": 94,
+      "independenceGroup": "avery_official_site",
       "type": "independent_parent_company_confirmation"
     }
   ],
