@@ -1,0 +1,76 @@
+{
+  "company": "AVISEC LLC",
+  "country": "AZ",
+  "countryName": "阿塞拜疆",
+  "region": "中亚",
+  "continent": "亚洲",
+  "city": "Baku",
+  "category": "security_distributor",
+  "categoryName": "安防产品分销商",
+  "productFocus": "Video surveillance, physical security, low-voltage infrastructure and related technology solutions",
+  "website": "https://avisec.az/",
+  "email": "",
+  "phone": "",
+  "sourceUrl": "https://avisec.az/en/",
+  "contactSource": "安防渠道反查",
+  "confidence": "high",
+  "brandsCarried": "Dahua, Hikvision",
+  "scale": "Azerbaijan distributor with a team of more than 30 IT specialists",
+  "projects": "Participated in the 7th Local Companies Promotion Exhibition in Baku in June 2026",
+  "importSignal": "Official distributor positioning for major security technology brands",
+  "decisionContact": "",
+  "researchStatus": "research_required",
+  "researchConfidence": "medium",
+  "evidence": [
+    {
+      "signal": "AVISEC 官网在 2026 年仍将公司定位为 Dahua Technology 在阿塞拜疆的授权分销商，并展示 30 人以上技术团队及安防解决方案能力。",
+      "source": "AVISEC 官方网站",
+      "sourceUrl": "https://avisec.az/en/",
+      "date": "2026-09-07",
+      "confidence": 95,
+      "type": "official_current_channel_identity"
+    },
+    {
+      "signal": "AVISEC 公司公开动态显示其于 2026 年 6 月参加第七届本地公司推广展，并持续发布 Dahua 安防产品与渠道内容，说明公司仍在进行渠道推广。",
+      "source": "AVISEC LinkedIn 公司主页",
+      "sourceUrl": "https://az.linkedin.com/company/avisec-llc",
+      "date": "2026-09-07",
+      "confidence": 90,
+      "type": "official_recent_channel_activity"
+    },
+    {
+      "signal": "阿塞拜疆中小企业发展局确认第七届本地公司推广展于 2026 年 6 月 17 至 20 日举行，但其公开页面未单独列出 AVISEC，故只能独立确认活动真实性，不能独立确认 AVISEC 参展。",
+      "source": "Azerbaijan Small and Medium Business Development Agency",
+      "sourceUrl": "https://smb.gov.az/en/all-news/the-7th-local-companies-promotion-exhibition-is-being-held",
+      "date": "2026-06-17",
+      "confidence": 85,
+      "type": "independent_event_confirmation_only"
+    }
+  ],
+  "researchSources": [
+    {
+      "label": "AVISEC official website",
+      "url": "https://avisec.az/en/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "avisec_official"
+    },
+    {
+      "label": "AVISEC current company updates",
+      "url": "https://az.linkedin.com/company/avisec-llc",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "avisec_official"
+    },
+    {
+      "label": "SMBDA exhibition confirmation",
+      "url": "https://smb.gov.az/en/all-news/the-7th-local-companies-promotion-exhibition-is-being-held",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "azerbaijan_smbda"
+    }
+  ],
+  "evidenceDate": "2026-09-07",
+  "fitScore": 4,
+  "fitReason": "Established Azerbaijani physical-security distributor with active channel promotion and technical delivery capacity",
+  "angle": "After independent demand evidence is found, offer three electronic-lock or access-control hardware options suited to its distributor and integrator channel",
+  "risk": "Current independent evidence confirms the exhibition but not AVISEC's participation or a door-lock purchasing initiative; do not draft or verify a contact until a second independent recent demand signal is available",
+  "addedDate": "2026-09-07"
+}
