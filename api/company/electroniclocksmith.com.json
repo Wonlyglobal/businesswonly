@@ -22,9 +22,9 @@
   "fitScore": 5,
   "fitReason": "Hotel-lock integrator/reseller selling and installing electronic locks across US hospitality — prime channel for hotel-lock exporter",
   "angle": "以酒店 RFID/BLE 锁、门卡和替换配件的三款补充组合测试其新增产品兴趣；不得宣称与 Onity、Saflok、SALTO 或 VingCard 兼容，除非有逐型号技术证明",
-  "risk": "与 Onity、Saflok、SALTO、VingCard 等生态绑定较深；任何兼容性、固件或 PMS 接口表述均须技术证明。近90天动态主要来自 CEO LinkedIn，尚缺第二条独立近期需求信号",
+  "risk": "与 Onity、Saflok、SALTO、VingCard 等生态绑定较深；任何兼容性、固件或 PMS 接口表述均须技术证明。首封应定位为差异化补充组合，不应直接挑战其核心品牌关系",
   "addedDate": "2026-07-28",
-  "researchStatus": "公司名称、electroniclocksmith.com 官网、United States/Apopka 地址匹配准确。LinkedIn 当前公司页确认其为酒店电子锁库存供应商，提供零件、维修、快速交付和技术支持；BBB 与行业目录确认相同地址、电话、经营年限和具名 President/CEO。CEO 在近约3个月公开提及连续获得 SALTO WECOSYSTEM 奖并继续投入合作，构成渠道活跃信号，但近期需求只有单一来源，未达到双独立近期证据门槛。状态保持 research_required；可先验证候选邮箱，但不得生成、审核、入列或发送草稿。",
+  "researchStatus": "公司名称、electroniclocksmith.com 官网、United States/Apopka 地址匹配准确。LinkedIn 当前公司页确认其为酒店电子锁库存供应商，提供零件、维修、快速交付和技术支持；BBB 与行业目录确认相同地址、电话、经营年限和具名 President/CEO。近约3个月 CEO 公开确认连续第二年获得 SALTO WECOSYSTEM Eagle Award；SALTO 官方 Partner Summit 页面独立确认该公司运营负责人参加 2025 峰会、了解研发路线并测试新方案，行业人员也独立确认奖项。公司和近期渠道信号达到双来源门槛；候选邮箱验证前仍不得生成、审核、入列或发送。",
   "researchSources": [
     {
       "label": "Electronic Locksmith LinkedIn 公司页：酒店电子锁库存供应、零件维修和技术支持",
@@ -43,6 +43,18 @@
       "url": "https://www.linkedin.com/in/ken-croston-jr-21b56514",
       "checkedAt": "2026-09-07",
       "independenceGroup": "linkedin_executive_profile"
+    },
+    {
+      "label": "SALTO Partner Summit 官方页面：Electronic Locksmith 运营负责人参与 2025 峰会、研发路线和新方案测试",
+      "url": "https://saltopartnersummit.com/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "salto_official_partner_program"
+    },
+    {
+      "label": "独立行业人员 LinkedIn：确认 2025 SALTO Eagle Award 授予 Electronic Locksmith",
+      "url": "https://www.linkedin.com/in/andrew-campbell-30141a18a",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "independent_industry_profile"
     }
   ]
 }
