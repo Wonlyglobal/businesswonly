@@ -25,8 +25,8 @@
     {"signal":"DETEX independently lists Accredited Lock Supply as the venue for its August 11-12, 2026 weatherized exit-device, automatic-operator and electrified-function training.","source":"DETEX 2026 training calendar","sourceUrl":"https://www.detex.com/upcoming-training/","date":"2026-08-11","confidence":93,"type":"independent_recent_supplier_activity"}
   ],
   "researchSources": [
-    {"label":"Accredited Lock Supply current training calendar","url":"https://acclock.com/resources/","checkedAt":"2026-09-03"},
-    {"label":"DETEX 2026 training calendar","url":"https://www.detex.com/upcoming-training/","publishedAt":"2026-08-11"}
+    {"label":"Accredited Lock Supply current training calendar","url":"https://acclock.com/resources/","checkedAt":"2026-09-03","independenceGroup":"acclock_official"},
+    {"label":"DETEX 2026 training calendar","url":"https://www.detex.com/upcoming-training/","publishedAt":"2026-08-11","independenceGroup":"detex_manufacturer_training"}
   ],
   "evidenceDate": "2026-09-03",
   "fitScore": 5,

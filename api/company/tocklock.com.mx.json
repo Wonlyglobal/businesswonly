@@ -25,8 +25,8 @@
     {"signal":"Walmart Mexico independently carries a Tock Lock smart-lock SKU with app, fingerprint, code, card and physical-key access, corroborating active third-party retail distribution.","source":"Walmart Mexico current product listing","sourceUrl":"https://www.walmart.com.mx/ip/cerraduras/00750302999017","date":"2026-09-03","confidence":90,"type":"independent_current_channel_signal"}
   ],
   "researchSources": [
-    {"label":"Tock Lock official current catalog","url":"https://tocklock.com.mx/collections/all","checkedAt":"2026-09-03"},
-    {"label":"Walmart Mexico Tock Lock smart-lock listing","url":"https://www.walmart.com.mx/ip/cerraduras/00750302999017","checkedAt":"2026-09-03"}
+    {"label":"Tock Lock official current catalog","url":"https://tocklock.com.mx/collections/all","checkedAt":"2026-09-03","independenceGroup":"tock_lock_official"},
+    {"label":"Walmart Mexico Tock Lock smart-lock listing","url":"https://www.walmart.com.mx/ip/cerraduras/00750302999017","checkedAt":"2026-09-03","independenceGroup":"walmart_mexico_marketplace"}
   ],
   "evidenceDate": "2026-09-03",
   "fitScore": 4,

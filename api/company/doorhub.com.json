@@ -56,10 +56,10 @@
     }
   ],
   "researchSources": [
-    {"label": "DoorHub official current commercial door-hardware catalog", "url": "https://doorhub.com/", "checkedAt": "2026-09-07"},
-    {"label": "DoorHub LinkedIn company profile", "url": "https://www.linkedin.com/company/doorhub-llc", "checkedAt": "2026-09-07"},
-    {"label": "DoorHub official 2026 category blog", "url": "https://doorhub.com/blog", "checkedAt": "2026-09-07"},
-    {"label": "Stripe DoorHub ecommerce customer case", "url": "https://stripe.com/customers/doorhub", "checkedAt": "2026-09-07"}
+    {"label": "DoorHub official current commercial door-hardware catalog", "url": "https://doorhub.com/", "checkedAt": "2026-09-07", "independenceGroup": "doorhub_official"},
+    {"label": "DoorHub LinkedIn company profile", "url": "https://www.linkedin.com/company/doorhub-llc", "checkedAt": "2026-09-07", "independenceGroup": "doorhub_official"},
+    {"label": "DoorHub official 2026 category blog", "url": "https://doorhub.com/blog", "checkedAt": "2026-09-07", "independenceGroup": "doorhub_official"},
+    {"label": "Stripe DoorHub ecommerce customer case", "url": "https://stripe.com/customers/doorhub", "checkedAt": "2026-09-07", "independenceGroup": "stripe_customer_case"}
   ],
   "checkedSources": ["https://doorhub.com/", "https://www.linkedin.com/company/doorhub-llc", "https://doorhub.com/blog", "https://stripe.com/customers/doorhub"],
   "evidenceDate": "2026-09-07",

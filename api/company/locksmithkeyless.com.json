@@ -25,8 +25,8 @@
     {"signal":"Keyline's official worldwide distribution network independently lists Locksmith Keyless in Florida, corroborating its active distributor role.","source":"Keyline official worldwide distribution network","sourceUrl":"https://keyline-usa.com/en_US/worldwide-distribution-network","date":"2026-09-03","confidence":92,"type":"independent_manufacturer_channel_confirmation"}
   ],
   "researchSources": [
-    {"label":"Locksmith Keyless June 2026 commercial access-control article","url":"https://www.locksmithkeyless.com/blogs/news/why-commercial-locksmiths-are-choosing-offline-access-control-systems","publishedAt":"2026-06-19"},
-    {"label":"Keyline official distributor listing","url":"https://keyline-usa.com/en_US/worldwide-distribution-network","checkedAt":"2026-09-03"}
+    {"label":"Locksmith Keyless June 2026 commercial access-control article","url":"https://www.locksmithkeyless.com/blogs/news/why-commercial-locksmiths-are-choosing-offline-access-control-systems","publishedAt":"2026-06-19","independenceGroup":"locksmith_keyless_official"},
+    {"label":"Keyline official distributor listing","url":"https://keyline-usa.com/en_US/worldwide-distribution-network","checkedAt":"2026-09-03","independenceGroup":"keyline_manufacturer_network"}
   ],
   "evidenceDate": "2026-09-03",
   "fitScore": 4,

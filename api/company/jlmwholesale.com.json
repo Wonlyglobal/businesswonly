@@ -40,8 +40,8 @@
     }
   ],
   "researchSources": [
-    {"label": "JLM Wholesale official current distributor page", "url": "https://www.jlmwholesale.com/", "checkedAt": "2026-09-07"},
-    {"label": "Keedex Michigan distributor directory", "url": "https://www.keedex.com/distributors-2/michigan/", "checkedAt": "2026-09-07"}
+    {"label": "JLM Wholesale official current distributor page", "url": "https://www.jlmwholesale.com/", "checkedAt": "2026-09-07", "independenceGroup": "jlm_official"},
+    {"label": "Keedex Michigan distributor directory", "url": "https://www.keedex.com/distributors-2/michigan/", "checkedAt": "2026-09-07", "independenceGroup": "keedex_manufacturer_network"}
   ],
   "checkedSources": ["https://www.jlmwholesale.com/", "https://www.keedex.com/distributors-2/michigan/"],
   "evidenceDate": "2026-09-07",
