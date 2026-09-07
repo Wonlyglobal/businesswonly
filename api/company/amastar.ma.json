@@ -18,10 +18,31 @@
   "scale": "卡萨布兰卡；进口分销商，官网自述经营约10年、家族五金背景50余年；主营五金/工具/窗帘杆/紧固件的进口与分销，覆盖摩洛哥全国",
   "projects": "",
   "importSignal": "官网明确自述从事进口与分销(importation et distribution)五金/工具/紧固件，进口商属性明确",
-  "decisionContact": "未见具名决策人；公开总机 contact@amastar.ma / +212 661 87 92 63",
+  "decisionContact": "具名 Gérant/CEO 身份已由企业信息源与 LinkedIn 交叉核验；姓名与候选邮箱仅保留在私有验证清单，邮箱仍须完成专业 valid 且非 catch-all 验证后方可使用",
   "fitScore": 5,
   "fitReason": "门锁与建筑五金进口分销商，产品线(门锁/五金/紧固件)与我方高度重合，具备再分销网络与采购职能",
   "angle": "以中国门锁/执手/合页/闭门器OEM补充其五金SKU，提供有竞争力的进口价与私牌贴牌，替换或补充现有杂牌货源",
-  "risk": "官网未披露现有代理品牌与规模，需核实其锁具品类深度与年进口量；家族小微企业采购弹性可能有限",
-  "addedDate": "2026-07-14"
+  "risk": "官网未披露现有代理品牌与规模，且未发现近90天明确采购、扩品、项目或招聘动作；当前只能确认持续经营与品类匹配，不能写成近期采购意向。候选邮箱尚未完成 valid/非 catch-all 验证",
+  "addedDate": "2026-07-14",
+  "researchStatus": "公司名称、amastar.ma 官网与 Morocco/Casablanca 主体匹配准确。官网确认其从事五金、工具、紧固件的进口分销，并经营门锁、锁芯、执手、合页、闭门器及电锁扣；摩洛哥企业信息源与 LinkedIn 当前目录共同确认同一 Casablanca 主体及具名经理身份。现有来源足以确认公司身份、渠道类型、产品契合度与决策人身份，但未形成近90天具体采购/扩品动作的双独立证据，因此保持 research_required，不得生成个性化草稿。",
+  "researchSources": [
+    {
+      "label": "AMASTAR 官网：Casablanca 五金进口分销主体、全国客户覆盖及门锁/门五金产品线",
+      "url": "https://www.amastar.ma/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "amastar_official_site"
+    },
+    {
+      "label": "Charika 摩洛哥企业信息：AMASTAR 经营范围、域名、联系方式及具名经理身份",
+      "url": "https://www.charika.ma/societe-amastar-880811",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "morocco_company_registry_aggregator"
+    },
+    {
+      "label": "LinkedIn 当前目录：具名经理位于 Casablanca 并关联 AMASTAR SARL",
+      "url": "https://www.linkedin.com/pub/dir/%2B/Amarir/ma-0-Morocco",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "linkedin_people_directory"
+    }
+  ]
 }
