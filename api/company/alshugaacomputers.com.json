@@ -23,5 +23,20 @@
   "fitReason": "Authorized ZKTeco distributor selling hotel/fingerprint/magnetic locks across five Saudi cities.",
   "angle": "Offer our smart/hotel locks as a second brand or better-margin alternative to ZKTeco.",
   "risk": "Committed to ZKTeco; needs price/feature/support advantage to supplement.",
-  "addedDate": "2026-07-14"
+  "addedDate": "2026-07-14",
+  "researchStatus": "已核验为利雅得安防、门禁与 IT 产品分销商。官网当前展示 ZKTeco 智能锁、指纹和门禁产品，并声明覆盖利雅得、达曼、吉达等沙特市场；LinkedIn 确认其为 ZKTeco、D-Link 和 Dahua 在沙特的授权分销商及 51–200 人的渠道规模。可测试补充智能锁或 OEM/ODM 产品组合，但候选联系人 Albert GD 的 Product Manager 身份尚未由第二来源核验，不得生成或发送草稿。",
+  "researchSources": [
+    {
+      "label": "Adwaa Al Shugaa 官网：安防分销、智能锁、门禁品类及沙特市场覆盖",
+      "url": "https://alshugaacomputers.com/Company.html",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "alshugaa_official_site"
+    },
+    {
+      "label": "Adwaa Al Shugaa LinkedIn：授权分销品牌、利雅得主体与公司规模",
+      "url": "https://www.linkedin.com/company/adwaa-al-shugaa/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "linkedin_company_profile"
+    }
+  ]
 }
