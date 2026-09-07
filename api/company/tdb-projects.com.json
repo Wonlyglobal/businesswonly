@@ -12,16 +12,61 @@
   "email": "info@tdb-projects.com",
   "phone": "+855 78 796 896",
   "sourceUrl": "https://www.tdb-projects.com/about",
-  "contactSource": "",
+  "contactSource": "TopEase company-domain contact result",
   "confidence": "high",
   "brandsCarried": "",
   "scale": "Established 2014; Phnom Penh & Siem Reap, in-house workshops",
-  "projects": "Commercial fit-out and design-build projects",
-  "importSignal": "Fit-out projects require door hardware, locks and closers as spec items",
-  "decisionContact": "info@tdb-projects.com",
+  "projects": "Current portfolio includes office, café, bank, school, lounge, warehouse and retail fit-out/design-build work across Cambodia",
+  "importSignal": "No confirmed lock purchase is claimed. Current end-to-end design, procurement, construction and fit-out activity creates a relevant specification and project-supply opportunity for door hardware.",
+  "decisionContact": "Daniel Jury (Project Director)",
+  "keyContacts": "Daniel Jury｜Project Director｜daniel@tdb-projects.com",
+  "contacts": [
+    {
+      "name": "Daniel Jury",
+      "title": "Project Director",
+      "role": "project_decision_maker",
+      "email": "daniel@tdb-projects.com",
+      "emailVerificationStatus": "unverified",
+      "source": "TopEase company-domain contact result",
+      "riskStatus": "email_final_verification_required"
+    }
+  ],
+  "researchStatus": "ready_for_email_verification",
+  "evidence": [
+    {
+      "signal": "TDB's current project portfolio shows active end-to-end fit-out and construction delivery across offices, cafés, banks, schools, retail and hospitality-style venues in Cambodia.",
+      "source": "TDB Projects official project portfolio",
+      "sourceUrl": "https://www.tdb-projects.com/projects",
+      "date": "2026-09-07",
+      "confidence": 93,
+      "type": "official_current_project_portfolio"
+    },
+    {
+      "signal": "The International Business Chamber of Cambodia currently lists Time Deal Builder (TDB Projects) as a Phnom Penh commercial construction and interior fit-out company operating across Cambodia.",
+      "source": "International Business Chamber of Cambodia",
+      "sourceUrl": "https://ibccambodia.com/member/time-deal-builder-co-ltd/",
+      "date": "2026-09-07",
+      "confidence": 88,
+      "type": "independent_current_company_listing"
+    }
+  ],
+  "researchSources": [
+    {
+      "label": "TDB Projects current project portfolio",
+      "url": "https://www.tdb-projects.com/projects",
+      "checkedAt": "2026-09-07"
+    },
+    {
+      "label": "International Business Chamber of Cambodia member profile",
+      "url": "https://ibccambodia.com/member/time-deal-builder-co-ltd/",
+      "checkedAt": "2026-09-07"
+    }
+  ],
+  "evidenceDate": "2026-09-07",
+  "updatedAt": "2026-09-07",
   "fitScore": 3,
   "fitReason": "Fit-out contractor specifying and installing door hardware across commercial projects",
-  "angle": "Become a specified hardware supplier for doors, locks and closers on their fit-out jobs",
-  "risk": "Purchases per project spec; demand is intermittent",
+  "angle": "Reference its end-to-end design/procurement/fit-out model and offer a three-item project door-hardware package—mortise locks, closers and access-control-ready options—for specification review on upcoming commercial interiors.",
+  "risk": "Current activity is verified, but no live lock tender is known and buying may be intermittent or specification-led. Ask whether a project package review is useful; do not imply an announced purchase.",
   "addedDate": "2026-07-28"
 }
