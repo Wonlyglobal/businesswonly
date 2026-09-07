@@ -19,9 +19,47 @@
   "projects": "Awei Metta, Awei Pila, The Governor's Residence",
   "importSignal": "Hotel operator requiring hotel RFID locks and door hardware for properties",
   "decisionContact": "",
+  "researchStatus": "research_ready",
+  "researchConfidence": "high",
+  "evidenceDate": "2026-09-07",
+  "updatedAt": "2026-09-07",
+  "evidence": [
+    {
+      "signal": "Memories Group's current official site presents an operating hotel portfolio including Awei Metta, Awei Pila and Governor's Residence; Awei Metta's official contact route uses the memoriesgroup.com domain. This supports a multi-property hotel lock-maintenance and replacement hypothesis.",
+      "source": "Memories Group and Awei Metta official sites",
+      "sourceUrl": "https://memoriesgroup.com/",
+      "date": "2026-09-07",
+      "confidence": 94,
+      "independenceGroup": "memories_group_official",
+      "type": "official_current_hotel_portfolio_signal"
+    },
+    {
+      "signal": "Expedia independently records a verified Awei Metta guest stay dated 25 July 2026 and current property-condition ratings, confirming recent operation of a Memories Group hotel; it does not prove a specific lock replacement project.",
+      "source": "Expedia Awei Metta verified guest listing",
+      "sourceUrl": "https://www.expedia.com/Yangon-Hotels-Awei-Metta-Yangon.h26671044.Hotel-Information",
+      "date": "2026-07-25",
+      "confidence": 86,
+      "independenceGroup": "expedia",
+      "type": "independent_recent_property_operation_signal"
+    }
+  ],
+  "researchSources": [
+    {
+      "label": "Memories Group current hotel portfolio",
+      "url": "https://memoriesgroup.com/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "memories_group_official"
+    },
+    {
+      "label": "Expedia verified recent Awei Metta stay",
+      "url": "https://www.expedia.com/Yangon-Hotels-Awei-Metta-Yangon.h26671044.Hotel-Information",
+      "publishedAt": "2026-07-25",
+      "independenceGroup": "expedia"
+    }
+  ],
   "fitScore": 3,
   "fitReason": "Hotel group — buyer of hotel RFID locks, safes and door hardware for room refurbishments",
   "angle": "Supply hotel RFID card locks, in-room safes and door hardware for renovations/new builds",
-  "risk": "Small property count; premium spec expectations",
+  "risk": "近期证据证明集团酒店持续运营，但没有证明已启动锁具采购；首封只能询问房锁维护或翻新窗口，并考虑高端项目规格要求。",
   "addedDate": "2026-07-28"
 }
