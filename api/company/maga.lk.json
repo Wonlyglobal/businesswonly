@@ -12,16 +12,61 @@
   "email": "",
   "phone": "",
   "sourceUrl": "https://www.maga.lk/",
-  "contactSource": "",
+  "contactSource": "TopEase company-domain contact result",
   "confidence": "high",
   "brandsCarried": "",
   "scale": "One of Sri Lanka's leading construction companies",
-  "projects": "Grand Hyatt Colombo, Fairway SkyGardens, Kandy City Centre",
-  "importSignal": "Builds hotels/high-rises requiring large door-hardware & lock packages",
-  "decisionContact": "",
+  "projects": "Grand Hyatt Colombo, Fairway SkyGardens, Kandy City Centre; July 2026 BIA departure-terminal expansion award; August 2026 Sethsiripaya Phase III completion agreement",
+  "importSignal": "No customs claim is used. Two independently reported 2026 public-building awards indicate active procurement demand for architectural door and hardware packages.",
+  "decisionContact": "Nihal Dias (Assistant General Manager (Construction) - Head of the Procurement Department)",
+  "keyContacts": "Nihal Dias｜Assistant General Manager (Construction) - Head of the Procurement Department｜nihal@maga.lk",
+  "contacts": [
+    {
+      "name": "Nihal Dias",
+      "title": "Assistant General Manager (Construction) - Head of the Procurement Department",
+      "role": "purchasing",
+      "email": "nihal@maga.lk",
+      "emailVerificationStatus": "unverified",
+      "source": "TopEase company-domain contact result",
+      "riskStatus": "email_final_verification_required"
+    }
+  ],
+  "researchStatus": "ready_for_email_verification",
+  "evidence": [
+    {
+      "signal": "Sri Lanka awarded Maga Engineering the July 2026 contract to expand the Bandaranaike International Airport departure terminal, including a new facility with 36 check-in counters and six boarding gates.",
+      "source": "Daily FT",
+      "sourceUrl": "https://www.ft.lk/front-page/Maga-Engineering-gets-Rs-5-b-road-contract-and-Rs-2-4-b-BIA-terminal-expansion-project/44-794637",
+      "date": "2026-07-15",
+      "confidence": 90,
+      "type": "independent_project_award"
+    },
+    {
+      "signal": "Sri Lanka's cabinet approved an August 2026 revised agreement with Maga Engineering to complete the Sethsiripaya Phase III office complex.",
+      "source": "EconomyNext",
+      "sourceUrl": "https://economynext.com/sri-lanka-approves-rs25-6bn-deal-with-maga-engineering-for-sethsiripaya-iii-281216/",
+      "date": "2026-08-20",
+      "confidence": 92,
+      "type": "independent_project_award"
+    }
+  ],
+  "researchSources": [
+    {
+      "label": "Daily FT BIA terminal expansion award",
+      "url": "https://www.ft.lk/front-page/Maga-Engineering-gets-Rs-5-b-road-contract-and-Rs-2-4-b-BIA-terminal-expansion-project/44-794637",
+      "publishedAt": "2026-07-15"
+    },
+    {
+      "label": "EconomyNext Sethsiripaya Phase III agreement",
+      "url": "https://economynext.com/sri-lanka-approves-rs25-6bn-deal-with-maga-engineering-for-sethsiripaya-iii-281216/",
+      "publishedAt": "2026-08-20"
+    }
+  ],
+  "evidenceDate": "2026-09-07",
+  "updatedAt": "2026-09-07",
   "fitScore": 3,
   "fitReason": "Top contractor delivering hotels and towers with heavy door-hardware demand",
-  "angle": "Supply mortise locks, closers and hotel locks for their building packages",
-  "risk": "Procurement via subcontractors/consultants",
+  "angle": "Reference the newly awarded airport-terminal and government-office work, then offer a three-product architectural door-hardware package covering commercial mortise locks, door closers and project-grade access-control-ready options.",
+  "risk": "The public awards prove active projects, not a confirmed lock purchase. Procurement may be routed through subcontractors or consultants, so the email must frame the offer as a project-package fit check rather than claim an active lock tender.",
   "addedDate": "2026-07-28"
 }
