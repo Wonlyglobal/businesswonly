@@ -39,8 +39,8 @@
     }
   ],
   "researchSources": [
-    {"label": "American Doors official Houston operations page", "url": "https://americandoors.com/about/locations/houston/", "checkedAt": "2026-09-07"},
-    {"label": "ABC Greater Houston supplier member directory", "url": "https://web.abchouston.org/SUPPLIER-Supplier/American-Door-Products-1446", "publishedAt": "2026-07-28"}
+    {"label": "American Doors official Houston operations page", "url": "https://americandoors.com/about/locations/houston/", "checkedAt": "2026-09-07", "independenceGroup": "american_doors_official"},
+    {"label": "ABC Greater Houston supplier member directory", "url": "https://web.abchouston.org/SUPPLIER-Supplier/American-Door-Products-1446", "publishedAt": "2026-07-28", "independenceGroup": "abc_greater_houston"}
   ],
   "evidenceDate": "2026-09-07",
   "fitScore": 5,

@@ -19,7 +19,7 @@
   "projects": "",
   "importSignal": "Sells + integrates electronic hotel/multifamily locks, RFID cards and controllers nationwide",
   "decisionContact": "",
-  "researchStatus": "research_ready_contact_private",
+  "researchStatus": "research_required",
   "researchConfidence": "high",
   "evidence": [
     {
@@ -40,14 +40,14 @@
     }
   ],
   "researchSources": [
-    {"label": "GoKeyless official current product and channel page", "url": "https://www.gokeyless.com/", "checkedAt": "2026-09-07"},
-    {"label": "GoKeyless LinkedIn company profile", "url": "https://www.linkedin.com/company/gokeyless", "checkedAt": "2026-09-07"}
+    {"label": "GoKeyless official current product and channel page", "url": "https://www.gokeyless.com/", "checkedAt": "2026-09-07", "independenceGroup": "gokeyless_official"},
+    {"label": "GoKeyless LinkedIn company profile", "url": "https://www.linkedin.com/company/gokeyless", "checkedAt": "2026-09-07", "independenceGroup": "gokeyless_official"}
   ],
   "checkedSources": ["https://www.gokeyless.com/", "https://www.linkedin.com/company/gokeyless"],
   "evidenceDate": "2026-09-07",
   "fitScore": 5,
   "fitReason": "Hotel/multifamily electronic-lock integrator and reseller — direct channel for an electronic-lock exporter",
   "angle": "Supply compatible RFID/BLE hotel & apartment locks, credentials and controllers to expand their offering",
-  "risk": "Tied to Saflok/dormakaba ecosystem; interoperability constraints",
+  "risk": "官网与公司 LinkedIn 属同一控制来源，尚缺第二个独立近期渠道或需求证据；不得生成、审核、入列或发送，也不得声称与现有品牌或系统兼容",
   "addedDate": "2026-07-28"
 }

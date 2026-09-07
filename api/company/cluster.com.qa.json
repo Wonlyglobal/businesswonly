@@ -25,8 +25,8 @@
     {"signal":"Qatar's Ministry of Communications and Information Technology digital business directory independently lists Cluster Company at the same domain and Doha location and identifies Security & Monitoring Solutions among its active services.","source":"Qatar MCIT Tasmu Digital Valley business directory","sourceUrl":"https://tdv.motc.gov.qa/business-directory","date":"2026-09-07","confidence":93,"type":"independent_government_channel_identity"}
   ],
   "researchSources": [
-    {"label":"Cluster official electronic-lock and project pages","url":"https://www.cluster.com.qa/index.php/business-divisions-cluster/security/electronic-locks.html","checkedAt":"2026-09-07"},
-    {"label":"Qatar MCIT Tasmu Digital Valley business directory","url":"https://tdv.motc.gov.qa/business-directory","checkedAt":"2026-09-07"}
+    {"label":"Cluster official electronic-lock and project pages","url":"https://www.cluster.com.qa/index.php/business-divisions-cluster/security/electronic-locks.html","checkedAt":"2026-09-07","independenceGroup":"cluster_official"},
+    {"label":"Qatar MCIT Tasmu Digital Valley business directory","url":"https://tdv.motc.gov.qa/business-directory","checkedAt":"2026-09-07","independenceGroup":"qatar_mcit"}
   ],
   "evidenceDate": "2026-09-07",
   "fitScore": 5,

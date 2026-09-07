@@ -19,7 +19,7 @@
   "projects": "",
   "importSignal": "代理Frascio、Linea Cali等意大利品牌并设Eurobrass进口分部,进口经销特征明显,但官网未明文说明进口自哪国",
   "decisionContact": "Jonathan Werner(股东)、Nevan Lucas、Lucy de Villiers;JHB +27 11 444 8677 / CT +27 21 001 2458",
-  "researchStatus": "research_ready_contact_private",
+  "researchStatus": "research_required",
   "researchConfidence": "high",
   "evidence": [
     {
@@ -40,14 +40,14 @@
     }
   ],
   "researchSources": [
-    {"label": "Ironmongery Warehouse Africa official locations and catalogues", "url": "https://www.ironmongerywarehouse.co.za/contact/", "checkedAt": "2026-09-07"},
-    {"label": "Ironmongery Warehouse Africa LinkedIn company and recent updates", "url": "https://za.linkedin.com/company/ironmongery-warehouse-africa-pty-ltd", "checkedAt": "2026-09-07"}
+    {"label": "Ironmongery Warehouse Africa official locations and catalogues", "url": "https://www.ironmongerywarehouse.co.za/contact/", "checkedAt": "2026-09-07", "independenceGroup": "ironmongery_warehouse_official"},
+    {"label": "Ironmongery Warehouse Africa LinkedIn company and recent updates", "url": "https://za.linkedin.com/company/ironmongery-warehouse-africa-pty-ltd", "checkedAt": "2026-09-07", "independenceGroup": "ironmongery_warehouse_official"}
   ],
   "checkedSources": ["https://www.ironmongerywarehouse.co.za/contact/", "https://za.linkedin.com/company/ironmongery-warehouse-africa-pty-ltd"],
   "evidenceDate": "2026-09-07",
   "fitScore": 5,
   "fitReason": "定位为建筑门五金规范化进口经销商,产品线覆盖执手/锁/合页/闭门器/逃生,与我方品类高度重合",
   "angle": "以中国门锁/合页/闭门器OEM为其自有品牌(Ironmongery/Eurobrass)做贴牌供货,主打欧标认证+成本优势填补中端价位",
-  "risk": "现有代理偏欧洲品牌,可能以品牌调性/质量定位抵触中国货,需提供认证与样品背书",
+  "risk": "官网与公司 LinkedIn 属同一控制来源，尚缺第二个独立近期渠道或需求证据；不得生成、审核、入列或发送",
   "addedDate": "2026-07-14"
 }

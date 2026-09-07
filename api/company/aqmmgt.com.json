@@ -40,8 +40,8 @@
     }
   ],
   "researchSources": [
-    {"label": "AQMM official hardware and brand-distribution page", "url": "https://www.aqmmgt.com/hardware-products/uae/", "checkedAt": "2026-09-07"},
-    {"label": "Yellow Pages UAE 2026 ISEO distributor directory", "url": "https://www.yellowpages-uae.com/uae/iseo", "checkedAt": "2026-09-07"}
+    {"label": "AQMM official hardware and brand-distribution page", "url": "https://www.aqmmgt.com/hardware-products/uae/", "checkedAt": "2026-09-07", "independenceGroup": "aqmm_official"},
+    {"label": "Yellow Pages UAE 2026 ISEO distributor directory", "url": "https://www.yellowpages-uae.com/uae/iseo", "checkedAt": "2026-09-07", "independenceGroup": "yellow_pages_uae"}
   ],
   "checkedSources": ["https://www.aqmmgt.com/hardware-products/uae/", "https://www.yellowpages-uae.com/uae/iseo"],
   "evidenceDate": "2026-09-07",
