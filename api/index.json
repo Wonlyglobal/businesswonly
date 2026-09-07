@@ -1,9 +1,22 @@
 {
   "generatedAt": "2026-09-07",
-  "total": 2383,
-  "withDomain": 1539,
+  "total": 2384,
+  "withDomain": 1540,
   "note": "按 domain 精确匹配 company/<domain>.json；无 domain 或按公司名匹配时，用本索引 normName 做模糊匹配。email/phone 查不到即为空，不编造。",
   "companies": [
+    {
+      "company": "Buraq Star Trading Co. LLC",
+      "normName": "buraqstartradingco",
+      "domain": "buraqstar.com",
+      "file": "company/buraqstar.com.json",
+      "country": "AE",
+      "countryName": "阿联酋",
+      "city": "Dubai / Sharjah",
+      "categoryName": "进口商/经销商",
+      "fitScore": 5,
+      "email": false,
+      "phone": true
+    },
     {
       "company": "Metallic Equipment Group (Megroup)",
       "normName": "metallicequipmentgroupmegroup",
@@ -10334,7 +10347,7 @@
       "country": "KH",
       "countryName": "柬埔寨",
       "city": "Phnom Penh",
-      "categoryName": "建筑总包",
+      "categoryName": "进口商/经销商",
       "fitScore": 3,
       "email": false,
       "phone": true

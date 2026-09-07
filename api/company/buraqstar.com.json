@@ -1,0 +1,72 @@
+{
+  "company": "Buraq Star Trading Co. LLC",
+  "country": "AE",
+  "countryName": "阿联酋",
+  "region": "中东",
+  "continent": "亚洲",
+  "city": "Dubai / Sharjah",
+  "category": "importer_distributor",
+  "categoryName": "进口商/经销商",
+  "productFocus": "Building materials, electrical and sanitary products, hardware, door locks and door handles under owned and distributed brands",
+  "website": "https://buraqstar.com/",
+  "email": "",
+  "phone": "+971 56 547 1232 / +971 6 561 6976",
+  "sourceUrl": "https://buraqstar.com/about",
+  "contactSource": "TopEase company-domain contact result",
+  "confidence": "high",
+  "brandsCarried": "NOVEX, ZILCO, BURAQ, CAVIL",
+  "scale": "Showrooms and warehouses in Dubai and Sharjah; UAE delivery network and stated GCC reach",
+  "projects": "Supplies residential and commercial projects through professional, retail and e-commerce channels",
+  "importSignal": "Current company and independent directory records describe an international supply chain, owned-brand portfolio and active UAE distribution of project essentials including door locks and handles.",
+  "decisionContact": "Mubin Dhanse (Procurement Assistant)",
+  "keyContacts": "Mubin Dhanse｜Procurement Assistant｜md@buraqstar.com",
+  "contacts": [
+    {
+      "name": "Mubin Dhanse",
+      "title": "Procurement Assistant",
+      "role": "purchasing",
+      "email": "md@buraqstar.com",
+      "emailVerificationStatus": "unverified",
+      "source": "TopEase company-domain contact result",
+      "riskStatus": "email_final_verification_required"
+    }
+  ],
+  "researchStatus": "ready_for_email_verification",
+  "evidence": [
+    {
+      "signal": "Buraq Star's current company profile identifies an operating UAE building-materials and hardware distributor with Dubai and Sharjah locations, owned brands, warehouses and an international supply chain.",
+      "source": "Buraq Star official company profile",
+      "sourceUrl": "https://buraqstar.com/about",
+      "date": "2026-09-07",
+      "confidence": 94,
+      "type": "official_current_distribution_profile"
+    },
+    {
+      "signal": "A current UAE business-directory listing independently identifies Buraq Star as a NOVEX supplier serving residential and commercial projects; the directory category set includes NOVEX door locks and door handles.",
+      "source": "Yellow Pages UAE",
+      "sourceUrl": "https://www.yellowpages-uae.com/uae/dubai/novex",
+      "date": "2026-09-07",
+      "confidence": 84,
+      "type": "independent_current_channel_listing"
+    }
+  ],
+  "researchSources": [
+    {
+      "label": "Buraq Star official current company profile",
+      "url": "https://buraqstar.com/about",
+      "checkedAt": "2026-09-07"
+    },
+    {
+      "label": "Yellow Pages UAE current NOVEX distributor listing",
+      "url": "https://www.yellowpages-uae.com/uae/dubai/novex",
+      "checkedAt": "2026-09-07"
+    }
+  ],
+  "evidenceDate": "2026-09-07",
+  "updatedAt": "2026-09-07",
+  "fitScore": 5,
+  "fitReason": "High-fit UAE/GCC hardware distributor with owned brands, import capability, warehouses, project customers and an independently corroborated door-lock/handle category presence.",
+  "angle": "Offer an OEM/private-label mechanical lock, smart lock and matching handle package that can extend its NOVEX/Buraq project assortment across UAE and GCC channels.",
+  "risk": "The evidence confirms current channel capability and lock-category adjacency, not an announced sourcing program. Procurement Assistant may need to route the proposal to a category decision-maker; do not claim an active tender.",
+  "addedDate": "2026-09-07"
+}
