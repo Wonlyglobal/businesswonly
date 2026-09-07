@@ -5,23 +5,68 @@
   "region": "东南亚",
   "continent": "亚洲",
   "city": "Phnom Penh",
-  "category": "contractor",
-  "categoryName": "建筑总包",
-  "productFocus": "uPVC windows & doors fabricator/installer (tilt & turn, double glazing systems)",
+  "category": "importer_distributor",
+  "categoryName": "进口商/经销商",
+  "productFocus": "National electronics and home-solutions distribution, MEP projects, elevators/parking systems, and a dedicated uPVC window-and-door division",
   "website": "https://www.ggear.com.kh/",
   "email": "",
   "phone": "+855 23 888 299 / +855 12 345 971",
   "sourceUrl": "https://www.ggear.com.kh/business/upvc-window-door/windows/",
-  "contactSource": "",
+  "contactSource": "TopEase company-domain contact result",
   "confidence": "high",
-  "brandsCarried": "",
-  "scale": "Group with dedicated uPVC window/door division; office in Khan Sensok",
-  "projects": "",
-  "importSignal": "Fabricates and installs uPVC doors/windows requiring locking hardware and handles",
-  "decisionContact": "",
+  "brandsCarried": "LG Electronics, Panasonic home appliances, Hyundai Elevator and Auto Parking Systems, MODENA kitchen appliances",
+  "scale": "Cambodian distributor with retail, trading, commercial/MEP, elevator, service and window divisions and an established local retail/service network",
+  "projects": "Commercial MEP and extra-low-voltage projects; June 2026 national distribution launch for MODENA home appliances",
+  "importSignal": "A new international-brand distribution partnership launched in June 2026 demonstrates active onboarding of overseas home-solution brands and an operating nationwide channel.",
+  "decisionContact": "Kaing Sokkheng (Purchasing Executive)",
+  "keyContacts": "Kaing Sokkheng｜Purchasing Executive｜kaingsokkheng@ggear.com.kh",
+  "contacts": [
+    {
+      "name": "Kaing Sokkheng",
+      "title": "Purchasing Executive",
+      "role": "purchasing",
+      "email": "kaingsokkheng@ggear.com.kh",
+      "emailVerificationStatus": "unverified",
+      "source": "TopEase company-domain contact result",
+      "riskStatus": "email_final_verification_required"
+    }
+  ],
+  "researchStatus": "ready_for_email_verification",
+  "evidence": [
+    {
+      "signal": "GGEAR announced a June 2026 strategic distribution partnership that introduced MODENA's international home-appliance range to Cambodia through GGEAR's established local channel.",
+      "source": "GGEAR Group official press release",
+      "sourceUrl": "https://pilot.ggear.com.kh/en/article/news-press-release-ggear-officially-launches-modena-modern-italian-design",
+      "date": "2026-06-16",
+      "confidence": 93,
+      "type": "official_distribution_partnership"
+    },
+    {
+      "signal": "An independent Cambodian business publication reported the same June 2026 launch and described GGEAR as a leading electronics distributor bringing MODENA to the Cambodian market.",
+      "source": "Business Cambodia",
+      "sourceUrl": "https://business-cambodia.com/articles/ggear-kh-bring-modena-to-cambodia",
+      "date": "2026-06-16",
+      "confidence": 86,
+      "type": "independent_distribution_report"
+    }
+  ],
+  "researchSources": [
+    {
+      "label": "GGEAR official MODENA distribution launch",
+      "url": "https://pilot.ggear.com.kh/en/article/news-press-release-ggear-officially-launches-modena-modern-italian-design",
+      "publishedAt": "2026-06-16"
+    },
+    {
+      "label": "Business Cambodia MODENA launch report",
+      "url": "https://business-cambodia.com/articles/ggear-kh-bring-modena-to-cambodia",
+      "publishedAt": "2026-06-16"
+    }
+  ],
+  "evidenceDate": "2026-09-07",
+  "updatedAt": "2026-09-07",
   "fitScore": 3,
-  "fitReason": "uPVC door/window fabricator with demand for multipoint locks, handles and hardware",
-  "angle": "Offer uPVC multipoint locks, espagnolettes and handles compatible with their systems",
-  "risk": "Hardware often specified by the profile system supplier",
+  "fitReason": "A proven importer/distributor of international home and building-system brands with retail, project and after-sales capacity; suitable for testing a smart-lock or door-hardware distribution partnership.",
+  "angle": "Reference its recent onboarding of another international home-solutions brand and offer three Cambodia-oriented smart-lock/door-hardware SKUs with positioning, channel use cases and service requirements.",
+  "risk": "The recent partnership proves channel capability, not current lock demand. The email must present a low-risk category-fit proposal and must not imply that GGEAR is already sourcing locks.",
   "addedDate": "2026-07-28"
 }
