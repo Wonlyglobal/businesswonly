@@ -7,7 +7,7 @@
   "city": "Dubai",
   "category": "security_integrator",
   "categoryName": "安防/门禁集成商",
-  "productFocus": "ASSA ABLOY/Yale access control, electronic locks, security hardware",
+  "productFocus": "Access control, entrance automation, electronic locking and physical-security hardware",
   "website": "https://stebilex.com/",
   "email": "",
   "phone": "",
@@ -19,9 +19,44 @@
   "projects": "",
   "importSignal": "Authorized ASSA ABLOY/Yale/Union/Mul-T-Lock/CISA distributor",
   "decisionContact": "",
+  "researchStatus": "research_ready_contact_private",
+  "researchConfidence": "high",
+  "evidence": [
+    {
+      "signal": "Stebilex 的 2026 年公开动态持续展示阿联酋边境及关键基础设施的车辆门禁、入口自动化和周界安防项目，表明其项目交付与门禁产品组合仍在活跃运行。",
+      "source": "Stebilex Systems UAE LinkedIn 公司主页",
+      "sourceUrl": "https://www.linkedin.com/company/stebilexsystems",
+      "date": "2026-09-07",
+      "confidence": 95,
+      "type": "official_recent_project_and_channel_activity"
+    },
+    {
+      "signal": "Paxton 官方渠道页独立列出 Stebilex Systems LLC 的迪拜地址、官网及其门禁控制器、无线门把手和门口管理产品范围，确认其正式渠道身份。",
+      "source": "Paxton 官方合作伙伴页面",
+      "sourceUrl": "https://www.paxton-access.com/ae/stebilex/",
+      "date": "2026-09-07",
+      "confidence": 94,
+      "type": "independent_manufacturer_channel_confirmation"
+    }
+  ],
+  "researchSources": [
+    {
+      "label": "Stebilex Systems UAE current company updates",
+      "url": "https://www.linkedin.com/company/stebilexsystems",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "stebilex_official_linkedin"
+    },
+    {
+      "label": "Paxton official Stebilex partner listing",
+      "url": "https://www.paxton-access.com/ae/stebilex/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "paxton_official_partner_network"
+    }
+  ],
+  "evidenceDate": "2026-09-07",
   "fitScore": 5,
   "fitReason": "Regional Gulf integrator/supplier already importing ASSA ABLOY door security products",
-  "angle": "Offer OEM electronic and mechanical locks for their multi-country project delivery",
-  "risk": "Integrator focus; may require certification/compatibility",
+  "angle": "Present a compact electronic-lock and door-hardware selection for regional project/channel evaluation without claiming interoperability with installed ecosystems",
+  "risk": "Integrator focus and established brand partnerships; do not claim compatibility or displacement without technical validation",
   "addedDate": "2026-07-28"
 }
