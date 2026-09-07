@@ -12,16 +12,61 @@
   "email": "enquiries@sokhahotels.com",
   "phone": "+855 23 919 191",
   "sourceUrl": "https://www.sokhahotels.com.kh/corporate-office/about-us",
-  "contactSource": "",
+  "contactSource": "TopEase company-domain contact result",
   "confidence": "high",
   "brandsCarried": "",
-  "scale": "Six properties across Phnom Penh, Siem Reap, Sihanoukville, Kampot; thousands of rooms",
+  "scale": "Seven hotel properties across four Cambodian cities and provinces",
   "projects": "Sokha Beach Resort (391 rooms), Sokha Phnom Penh, Sokha Siem Reap",
-  "importSignal": "Large room inventory implies recurring hotel-lock replacement/upgrade demand",
-  "decisionContact": "enquiries@sokhahotels.com",
+  "importSignal": "No customs or confirmed lock-purchase claim is used. Current operation of a seven-property portfolio and hosting of major 2026 events make hotel-lock standardization or phased replacement a relevant hypothesis for procurement qualification.",
+  "decisionContact": "Choun Hen (Purchasing Manager)",
+  "keyContacts": "Choun Hen｜Purchasing Manager｜choun.hen@sokhahotels.com.kh",
+  "contacts": [
+    {
+      "name": "Choun Hen",
+      "title": "Purchasing Manager",
+      "role": "purchasing",
+      "email": "choun.hen@sokhahotels.com.kh",
+      "emailVerificationStatus": "unverified",
+      "source": "TopEase company-domain contact result",
+      "riskStatus": "email_final_verification_required"
+    }
+  ],
+  "researchStatus": "ready_for_email_verification",
+  "evidence": [
+    {
+      "signal": "Sokha's current official portfolio lists seven operating hotel and resort properties across four Cambodian cities and provinces.",
+      "source": "Sokha Hotels & Resorts official site",
+      "sourceUrl": "https://www.sokhahotels.com.kh/",
+      "date": "2026-09-07",
+      "confidence": 94,
+      "type": "official_current_portfolio"
+    },
+    {
+      "signal": "Cambodia's official news agency reported that Sokha Beach Resort hosted the 2026 Tourism Business Forum on 29 July 2026, confirming active operation and business-event use of the portfolio.",
+      "source": "Agence Kampuchea Presse",
+      "sourceUrl": "https://www.vps.akp.gov.kh/post/detail/376995",
+      "date": "2026-07-29",
+      "confidence": 90,
+      "type": "independent_current_operation"
+    }
+  ],
+  "researchSources": [
+    {
+      "label": "Sokha official current hotel portfolio",
+      "url": "https://www.sokhahotels.com.kh/",
+      "checkedAt": "2026-09-07"
+    },
+    {
+      "label": "AKP 2026 Tourism Business Forum at Sokha Beach Resort",
+      "url": "https://www.vps.akp.gov.kh/post/detail/376995",
+      "publishedAt": "2026-07-29"
+    }
+  ],
+  "evidenceDate": "2026-09-07",
+  "updatedAt": "2026-09-07",
   "fitScore": 4,
   "fitReason": "Large hotel group is a prime buyer of RFID/smart hotel door locks at scale",
-  "angle": "Pitch RFID/mobile hotel-lock systems for room upgrades and new-property fit-outs",
-  "risk": "May purchase locks through international hospitality specifiers",
+  "angle": "Reference the actively operated multi-property portfolio and offer a three-model RFID/BLE hotel-lock package for procurement to assess across renovation, replacement and premium-room use cases.",
+  "risk": "The evidence confirms current portfolio operation, not an announced lock project. The email must ask whether access-control standardization or phased replacement is relevant and must not claim a live tender. Purchasing may also run through hospitality specifiers.",
   "addedDate": "2026-07-28"
 }
