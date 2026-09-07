@@ -18,10 +18,31 @@
   "scale": "Atacadista/distribuidor/fornecedor selling to retail shop owners",
   "projects": "",
   "importSignal": "Explicitly wholesales ferragens incl. fechaduras and macanetas for resale",
-  "decisionContact": "",
+  "decisionContact": "具名 Sócio-Administrador（合伙人/公司管理人）身份及官方域名邮箱已由2026年巴西 CNPJ 数据核验；姓名和邮箱仅保留在私有验证清单，仍须完成 valid 且非 catch-all 专业验证",
   "fitScore": 5,
   "fitReason": "Dedicated hardware wholesaler stocking locks and door handles for resellers",
   "angle": "Offer OEM lock/handle assortment for their 'compre para vender' shop-owner base",
-  "risk": "Contact details/city not shown on fetched page",
-  "addedDate": "2026-07-28"
+  "risk": "产品线较宽，必须以其2026锁具/门五金目录为切入点，避免泛泛介绍。不得把合伙人管理身份误写成具体门锁采购职责，也不得声称已有进口计划",
+  "addedDate": "2026-07-28",
+  "researchStatus": "公司名称、pjatacadista.com.br 官网、Brazil/Limeira 主体匹配准确。官网 2026 新目录显示5,000+ SKU、15类产品、覆盖全巴西零售商，并明确包含锁具、五金、合页和执手；LinkedIn 当前公司页确认其25年以上建材/五金批发业务、51–200人，并在近1个月持续展示品牌合作。2026年巴西 CNPJ 数据确认主体活跃、同一地址、主营五金工具批发，并核验具名 Sócio-Administrador 与官方域名邮箱。公司和决策人证据完整；邮箱验证前不得生成、审核、入列或发送。",
+  "researchSources": [
+    {
+      "label": "P&J Atacadista 2026 官网目录：5,000+ SKU、锁具/五金/合页/执手及全国配送",
+      "url": "https://catalogo.pjatacadista.com.br/catalogo2026",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "pj_atacadista_official_2026_catalog"
+    },
+    {
+      "label": "P&J Atacadista LinkedIn：批发规模、Limeira 地址与近1个月品牌合作动态",
+      "url": "https://br.linkedin.com/company/pjatacadista",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "linkedin_company_profile"
+    },
+    {
+      "label": "巴西 CNPJ 数据：2026活跃主体、五金工具批发、合伙人管理身份与官方域名邮箱",
+      "url": "https://casadosdados.com.br/solucao/cnpj/p-and-j-industria-e-comercio-atacadista-de-ferragens-e-utilidades-ltda-05320354000137",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "brazil_federal_company_registry_derived"
+    }
+  ]
 }
