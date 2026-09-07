@@ -38,5 +38,25 @@
       "checkedAt": "2026-09-07",
       "independenceGroup": "linkedin_company_profile"
     }
+  ],
+  "evidence": [
+    {
+      "signal": "Mercadão Lojista 当前官网锁具目录持续销售 STAM 与 ALIANÇA 的机械锁、电锁、锁芯和执手，证明其门锁与门五金品类仍在活跃经营。",
+      "source": "Mercadão Lojista 官方当前锁具目录",
+      "sourceUrl": "https://www.mercadaolojista.com.br/ferragens/fechadura",
+      "date": "2026-09-07",
+      "confidence": 96,
+      "independenceGroup": "mercadao_lojista_official_catalog",
+      "type": "official_current_assortment_signal"
+    },
+    {
+      "signal": "LinkedIn 当前公司页独立确认 Mercadão Lojista 为建材批发商、拥有持续运营的物流与销售团队，印证其区域分销渠道仍在运作。",
+      "source": "Mercadão Lojista LinkedIn 公司页",
+      "sourceUrl": "https://www.linkedin.com/company/mercadao-lojista",
+      "date": "2026-09-07",
+      "confidence": 89,
+      "independenceGroup": "linkedin_company_profile",
+      "type": "independent_current_channel_confirmation"
+    }
   ]
 }

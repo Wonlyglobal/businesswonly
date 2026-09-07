@@ -44,5 +44,25 @@
       "checkedAt": "2026-09-07",
       "independenceGroup": "brazil_federal_company_registry_derived"
     }
+  ],
+  "evidence": [
+    {
+      "signal": "P&J Atacadista 的 2026 官方目录展示 5,000+ SKU、15 类产品并覆盖锁具、五金、合页和执手，表明其正在为全国零售客户维护大规模门五金组合。",
+      "source": "P&J Atacadista 2026 官方目录",
+      "sourceUrl": "https://catalogo.pjatacadista.com.br/catalogo2026",
+      "date": "2026-09-07",
+      "confidence": 96,
+      "independenceGroup": "pj_atacadista_official_2026_catalog",
+      "type": "official_current_assortment_signal"
+    },
+    {
+      "signal": "LinkedIn 当前公司页独立确认 P&J Atacadista 在 Limeira 持续经营建材与五金批发业务，并在近一个月继续展示品牌合作和渠道活动。",
+      "source": "P&J Atacadista LinkedIn 公司页",
+      "sourceUrl": "https://br.linkedin.com/company/pjatacadista",
+      "date": "2026-09-07",
+      "confidence": 90,
+      "independenceGroup": "linkedin_company_profile",
+      "type": "independent_recent_channel_confirmation"
+    }
   ]
 }
