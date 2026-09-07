@@ -19,9 +19,47 @@
   "projects": "",
   "importSignal": "Hotel — recurring need for RFID/smart room locks and hardware upgrades",
   "decisionContact": "",
+  "researchStatus": "research_ready",
+  "researchConfidence": "high",
+  "evidenceDate": "2026-09-07",
+  "updatedAt": "2026-09-07",
+  "evidence": [
+    {
+      "signal": "Southern Sun Maputo currently operates 269 rooms and suites and displays a 2026 Travellers' Choice award, supporting an active full-service hotel operation where room-lock lifecycle and maintenance can be explored.",
+      "source": "Southern Sun Maputo official hotel and awards pages",
+      "sourceUrl": "https://www.southernsun.com/southern-sun-maputo/news-and-awards",
+      "date": "2026-06-11",
+      "confidence": 94,
+      "independenceGroup": "southern_sun_official",
+      "type": "official_recent_operating_signal"
+    },
+    {
+      "signal": "Tripadvisor's 2026 listing independently shows the property operating with recent June 2026 guest stays and a Travellers' Choice designation; this confirms current hotel activity but not a confirmed lock-replacement project.",
+      "source": "Tripadvisor Southern Sun Maputo listing",
+      "sourceUrl": "https://www.tripadvisor.com/Hotel_Review-g293819-d299162-Reviews-Southern_Sun_Maputo-Maputo_Maputo_Province.html",
+      "date": "2026-06-30",
+      "confidence": 84,
+      "independenceGroup": "tripadvisor",
+      "type": "independent_recent_property_activity_signal"
+    }
+  ],
+  "researchSources": [
+    {
+      "label": "Southern Sun Maputo official 2026 award page",
+      "url": "https://www.southernsun.com/southern-sun-maputo/news-and-awards",
+      "publishedAt": "2026-06-11",
+      "independenceGroup": "southern_sun_official"
+    },
+    {
+      "label": "Tripadvisor current Southern Sun Maputo listing",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g293819-d299162-Reviews-Southern_Sun_Maputo-Maputo_Maputo_Province.html",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "tripadvisor"
+    }
+  ],
   "fitScore": 3,
   "fitReason": "Hotel property is a prime buyer of RFID hotel locks and door hardware",
   "angle": "Pitch RFID/mobile-key hotel lock retrofit and maintenance supply",
-  "risk": "Group procurement may be centralized outside Mozambique",
+  "risk": "现有证据仅证明酒店持续运营与规模，不证明存在锁具改造项目；首封应验证维护/翻新窗口，且集团采购可能集中在莫桑比克以外。",
   "addedDate": "2026-07-28"
 }
