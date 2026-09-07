@@ -23,5 +23,20 @@
   "fitReason": "Премиум-отель — конечный покупатель гостиничных RFID/смарт-замков и номерных сейфов",
   "angle": "Поставка премиальных RFID-замков и сейфов при модернизации",
   "risk": "Высокие требования к бренду, редкие закупки",
-  "addedDate": "2026-07-28"
+  "addedDate": "2026-07-28",
+  "researchStatus": "已核验为哈萨克斯坦阿拉木图的大型全服务酒店。官网当前展示多种客房、餐饮、SPA、商务中心与会议设施；LinkedIn 酒店主体及其资产管理公司资料交叉证明酒店由 Almaly 资产体系运营。可假设其对酒店客房门锁、RFID/BLE 酒店锁及替换项目具有适配可能，但没有公开证据表明已启动采购或改造计划，邮件不得将需求写成确定事实。",
+  "researchSources": [
+    {
+      "label": "Rahat Palace 官网：阿拉木图酒店主体、客房、餐饮、SPA 及会议设施",
+      "url": "https://rahatpalace.com/",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "rahatpalace_official_site"
+    },
+    {
+      "label": "LinkedIn：Rahat Palace 酒店主体、员工与 Almaly 资产管理关系交叉核验",
+      "url": "https://www.linkedin.com/company/rahat-palace-hotel",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "linkedin_company_profile"
+    }
+  ]
 }
