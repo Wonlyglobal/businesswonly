@@ -18,10 +18,31 @@
   "scale": "Ships nationwide; serves boutique resorts to national chains; also multifamily locks",
   "projects": "",
   "importSignal": "Sells parts/components and full access-control upgrades for hotels nationwide; retrofit + new-install channel",
-  "decisionContact": "",
+  "decisionContact": "具名 President/CEO 身份已由 LinkedIn、BBB 与行业目录交叉核验；姓名与候选邮箱仅保留在私有验证清单，邮箱仍须专业验证",
   "fitScore": 5,
   "fitReason": "Hotel-lock integrator/reseller selling and installing electronic locks across US hospitality — prime channel for hotel-lock exporter",
-  "angle": "Offer compatible RFID/BLE hotel locks, cards and components to broaden their catalog and margin vs OEM brands",
-  "risk": "Deep ties to Onity/Saflok/Salto ecosystems; interoperability and firmware lock-in concerns",
-  "addedDate": "2026-07-28"
+  "angle": "以酒店 RFID/BLE 锁、门卡和替换配件的三款补充组合测试其新增产品兴趣；不得宣称与 Onity、Saflok、SALTO 或 VingCard 兼容，除非有逐型号技术证明",
+  "risk": "与 Onity、Saflok、SALTO、VingCard 等生态绑定较深；任何兼容性、固件或 PMS 接口表述均须技术证明。近90天动态主要来自 CEO LinkedIn，尚缺第二条独立近期需求信号",
+  "addedDate": "2026-07-28",
+  "researchStatus": "公司名称、electroniclocksmith.com 官网、United States/Apopka 地址匹配准确。LinkedIn 当前公司页确认其为酒店电子锁库存供应商，提供零件、维修、快速交付和技术支持；BBB 与行业目录确认相同地址、电话、经营年限和具名 President/CEO。CEO 在近约3个月公开提及连续获得 SALTO WECOSYSTEM 奖并继续投入合作，构成渠道活跃信号，但近期需求只有单一来源，未达到双独立近期证据门槛。状态保持 research_required；可先验证候选邮箱，但不得生成、审核、入列或发送草稿。",
+  "researchSources": [
+    {
+      "label": "Electronic Locksmith LinkedIn 公司页：酒店电子锁库存供应、零件维修和技术支持",
+      "url": "https://www.linkedin.com/company/electroniclocksmith",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "linkedin_company_profile"
+    },
+    {
+      "label": "BBB 企业资料：Apopka 主体、酒店电子锁业务及具名 President",
+      "url": "https://www.bbb.org/us/fl/apopka/profile/locksmith/electronic-locksmith-inc-0733-90137048",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "bbb_business_profile"
+    },
+    {
+      "label": "LinkedIn CEO 当前资料：Electronic Locksmith 任职与近约3个月 SALTO 渠道动态",
+      "url": "https://www.linkedin.com/in/ken-croston-jr-21b56514",
+      "checkedAt": "2026-09-07",
+      "independenceGroup": "linkedin_executive_profile"
+    }
+  ]
 }
