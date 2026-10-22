@@ -559,7 +559,7 @@ window.__ACQUIRE_DATA__.customers = [];
 </script>
 <script>
 (() => {
-  const nav = [...document.querySelectorAll('.nav-item')];
+  const nav = [...document.querySelectorAll('.nav-item[data-page]')];
   const workspace = document.querySelector('.workspace');
   const home = workspace.innerHTML;
   const pages = [
